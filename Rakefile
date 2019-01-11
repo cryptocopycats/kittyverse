@@ -1,0 +1,30 @@
+require 'hoe'
+require './lib/kittyverse/version.rb'
+
+Hoe.spec 'kittyverse' do
+
+  self.version = Kittyverse::VERSION
+
+  self.summary = "kittyverse - helper classes for cattributes, trait types, traits, genes, genomes and more for cryptokitties and copycats"
+  self.description = summary
+
+  self.urls    = ['https://github.com/cryptocopycats/kittyverse']
+
+  self.author  = 'Gerald Bauer'
+  self.email   = 'wwwmake@googlegroups.com'
+
+  # switch extension to .markdown for gihub formatting
+  self.readme_file  = 'README.md'
+  self.history_file = 'CHANGELOG.md'
+
+  self.extra_deps = [
+    ['base32-alphabets', '>= 1.0.0']
+  ]
+
+  self.licenses = ['Public Domain']
+
+  self.spec_extras = {
+    required_ruby_version: '>= 2.2.2'
+  }
+
+end
