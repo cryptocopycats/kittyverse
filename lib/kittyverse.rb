@@ -6,7 +6,12 @@ require 'base32-alphabets'
 ## our own code
 require 'kittyverse/version'    # note: let version always go first
 require 'kittyverse/traits'
+require 'kittyverse/traits_timeline'
+require 'kittyverse/fancies'
+require 'kittyverse/catalog'
 
+require 'kittyverse/links'
+require 'kittyverse/pages/genes'
 
 
 class Trait
