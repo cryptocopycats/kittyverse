@@ -34,11 +34,11 @@ t = Trait.find_by( name: 'Savannah' )
 t = Traits[ :body ][ '1' ]
 t = Traits[ :body ][ '00' ]
 t = Traits[ :body ][ 0 ]
-t = Traits['FU']['00']
-t = Traits['FU'][0]
-t = Traits[:FU][0]
-t = Traits[:FU00]
-t = Traits['Fur'][0]
+t = Traits[ 'FU' ][ '00' ]
+t = Traits[ 'FU' ][0]
+t = Traits[ :FU ][0]
+t = Traits[ :FU00 ]
+t = Traits[ 'Fur' ][0]
 # ...
 ```
 
@@ -54,10 +54,17 @@ p t.genes    #=> "0-3"
 
 # -or-
 
-t =  TraitType.find_by_key( :body )
-t =  TraitType.find_by( key: 'body' )
+t = TraitType.find_by_key( :body )
+t = TraitType.find_by( key: 'body' )
+t = Traits[ 'Fur' ]
+t = TraitType.find_by_name( 'Fur' )
+t = TraitType.find_by( name: 'Fur' )
+t = Traits[ 'FU' ]
+t = Traits[ :FU ]
+t = TraitType.find_by_code( 'FU' )
+t = TraitType.find_by( code: 'FU' )
+# ...
 ```
-
 
 
 
