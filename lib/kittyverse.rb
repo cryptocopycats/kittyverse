@@ -7,6 +7,7 @@ require 'base32-alphabets'
 require 'kittyverse/version'    # note: let version always go first
 require 'kittyverse/traits'
 require 'kittyverse/traits_timeline'
+require 'kittyverse/mewtations'
 require 'kittyverse/fancies'
 require 'kittyverse/catalog'
 

@@ -5,8 +5,8 @@
 #  $ ruby -I ./lib script/genes.rb
 
 
-require 'copycats'
+require 'kittyverse'
 
 
-report = GenesReport.new
-report.save( "./GENES.md" )
+page = GenesPage.new
+page.save( "./GENES.md" )

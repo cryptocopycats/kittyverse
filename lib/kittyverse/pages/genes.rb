@@ -18,12 +18,17 @@ def build
 
   TRAITS.values.each do |trait|
 
-    puts "Kai	 Cattribute"
+    puts "Kai	 Name"
     items = []
-    Kai::ALPHABET.each_char do |kai|
+    Kai::ALPHABET.each do |kai|
       value = trait[:kai][kai]
       code  = "#{trait[:code]}%02d" % Kai::NUMBER[kai]   ## e.g. FU00, FU01, FU02, etc.
-      value = '?'  if value.nil? || value.empty?
+      if value =~ /_[0-9a-z]$/
+        if value.start_with?( "totesbasic" )  ## note: special case for three totesbasic traits
+        else
+          value = '?'
+        end
+      end
       items << [kai, code, value]
     end
 
@@ -48,7 +53,7 @@ def make_table( items )
   pp rows
 
   buf = ""
-  buf << "|Kai|Code|Cattribute   |Kai|Code|Cattribute  |\n"
+  buf << "|Kai|Code|Name         |Kai|Code|Name        |\n"
   buf << "|--:|---:|-------------|--:|---:|------------|\n"
 
   rows.each do |row|
@@ -61,7 +66,12 @@ def make_table( items )
       if name == '?'
         cattribute = "?"
       else
-        cattribute = "**[#{name}](#{kitties_search_url(name)})** #{MEWTATION_LEVEL[kai]}"
+        if name.start_with?( "totesbasic" )  ## note: special case for three totesbasic traits
+          q = "totesbasic"
+        else
+          q = name
+        end
+        cattribute = "**[#{name}](#{kitties_search_url(q)})** #{MEWTATION_LEVEL[kai]}"
       end
 
       "#{item[0]} | #{item[1]} | #{cattribute}"
