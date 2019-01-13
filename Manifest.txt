@@ -4,4 +4,7 @@ Manifest.txt
 README.md
 Rakefile
 lib/kittyverse.rb
+lib/kittyverse/traits.rb
 lib/kittyverse/version.rb
+test/helper.rb
+test/test_traits.rb

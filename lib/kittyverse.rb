@@ -5,7 +5,7 @@ require 'base32-alphabets'
 
 ## our own code
 require 'kittyverse/version'    # note: let version always go first
-require 'kittyverse/traits' 
+require 'kittyverse/traits'
 
 
 
@@ -67,10 +67,20 @@ class TraitType
   def self.trait_types_by_code() @@trait_types_by_code ||= {}; end
   def self.trait_types_by_name() @@trait_types_by_name ||= {}; end
 
+  # quick hack - map copycats keys to (internal) cryptokitties trait type keys
+  #  note: all keys are the same except:
+  ALT_TRAIT_TYPE_KEYS =
+  {
+    :colorprimary   => :color1,
+    :colorsecondary => :color2,
+    :colortertiary  => :color3
+  }
 
   def self.find_by_key( key )
     ## note: allow string AND symbols (thus, use .to_sym !!!)
-    ## todo/fix: add known alternative mappings here
+    ## note: allow  known alternative mappings/key (e.g. "internal" cryptokitties keys if different)
+    key = ALT_TRAIT_TYPE_KEYS[ key.to_sym ]  if ALT_TRAIT_TYPE_KEYS[ key.to_sym ]
+
     @@trait_types_by_key[ key.to_sym ]
   end
 
@@ -80,9 +90,29 @@ class TraitType
     @@trait_types_by_code[ code.upcase.to_s ]
   end
 
+  ALT_TRAIT_TYPE_NAMES =
+  {
+    'body'             => 'fur',
+    'eyes'             => 'eye shape',
+    'eye type'         => 'eye shape',
+    'body color'       => 'base color',
+    'primary color'    => 'base color',
+    'base colour'      => 'base color',       # british (canadian) spelling
+    'secondary color'  => 'highlight color',
+    'sec color'        => 'highlight color',
+    'pattern color'    => 'highlight color',
+    'highlight colour' => 'highlight color',  # british (canadian) spelling
+    'tertiary color'   => 'accent color',
+    'accent colour'    => 'accent color',     # british (canadian) spelling
+    'wild'             => 'wild element',
+    'secrect'          => 'secret y gene'
+  }
+
   def self.find_by_name( name )
-    ## todo/fix: add known alternative mappings here
     ## note: downcase name e.g. allow fur too (not just Fur)
+    ## note: allow  known alternative mappings/key (e.g. "internal" cryptokitties keys if different)
+    name = ALT_TRAIT_TYPE_NAMES[ name.downcase ]  if ALT_TRAIT_TYPE_NAMES[ name.downcase ]
+
     @@trait_types_by_name[ name.downcase ]
   end
 
@@ -107,6 +137,11 @@ class TraitType
     end
   end
 
+  def self.each_with_index
+    @@trait_types_by_key.each_with_index do |(key,type),i|
+      yield( type,i )
+    end
+  end
 
 
   attr_accessor :key,
@@ -153,10 +188,10 @@ class TraitType
    Kai::ALPHABET.each do |kai|
      name = hash_kai[kai]
      if name.nil?
-       puts "#{key} - #{kai} is missing"
+       ## puts "#{key} - #{kai} is missing"
        hash_kai2[kai] = "#{key}_#{kai}"
      elsif name.empty?
-       puts "#{key} - #{kai} is empty"
+       ## puts "#{key} - #{kai} is empty"
        hash_kai2[kai] = "#{key}_#{kai}"
      else
        hash_kai2[kai] = name
@@ -226,11 +261,10 @@ class Traits
   end
 
   def self.each() TraitType.each { |type| yield(type) }; end
+  def self.each_with_index() TraitType.each_with_index { |type,i| yield(type,i) }; end
 end  # class Traits
 
 
 
-
-
-pp Kittyverse.banner
-pp Kittyverse.root
+# say hello
+puts Kittyverse.banner    if defined?($RUBYLIBS_DEBUG) && $RUBYLIBS_DEBUG
