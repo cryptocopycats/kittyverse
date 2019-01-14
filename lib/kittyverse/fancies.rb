@@ -35,7 +35,7 @@ FANCIES =
               time: { start: '2019-01-17', end: '2019-01-28' }, 
            desc: 'Goddess Aeona - Goddess of Nature - Gods Unchained Promotion',
            special: true },
-  hypurrion: { name: 'Hypurrion', date: '2019-01-10', limit: 1, ids: [269] 
+  hypurrion: { name: 'Hypurrion', date: '2019-01-10', limit: 1, ids: [269], 
              desc: 'Hyperion - Mythic Titan of Light - Gods Unchained Promotion',
              exclusive: true },
 
