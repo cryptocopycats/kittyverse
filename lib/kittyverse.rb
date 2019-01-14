@@ -2,6 +2,8 @@
 
 ## std libs
 require 'date'
+require 'json'
+
 
 ## 3rd party libs
 require 'base32-alphabets'
