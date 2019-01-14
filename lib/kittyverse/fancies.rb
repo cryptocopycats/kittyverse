@@ -27,6 +27,17 @@ FANCIES =
   ## 2019
   ## January
 
+  tallythepurrocious: { name: 'Tally The Purrocious', date: '2019-01-10', 
+                       time: { end: '2019-01-21' },
+                       traits: ['selkirk', 'koala', 'arcreactor', 'sully'],
+                       desc: 'Gods Unchained Promotion - Mystical Cat Talisman' },
+  aeoncat: { name: 'Aeoncat', date: '2019-01-10', limit: 380,
+              time: { start: '2019-01-17', end: '2019-01-28' }, 
+           desc: 'Goddess Aeona - Goddess of Nature - Gods Unchained Promotion',
+           special: true },
+  hypurrion: { name: 'Hypurrion', date: '2019-01-10', limit: 1, ids: [269] 
+             desc: 'Hyperion - Mythic Titan of Light - Gods Unchained Promotion',
+             exclusive: true },
 
   ## 2018
   ## December
