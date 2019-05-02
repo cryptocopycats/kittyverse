@@ -1,5 +1,208 @@
 # encoding: utf-8
 
+
+
+# Apr 27, 2019
+# Krakitten Fancy Cat is discovered. Fancy Cat
+krakitten: { name: 'Krakitten', date: '2019-04-27',
+             time: { end: '2019-05-06' },
+             traits: ['cobalt', 'ducky', 'salty', 'splat']
+           }
+# Apr 13, 2019
+# Furbeard Fancy Cat is discovered. Fancy Cat
+furbeard: { name: 'Furbeard', date: '2019-04-13',
+            limit: 3733,
+            traits: ['inflatablepool', 'hanauma', 'neckbeard']
+          }
+
+# Apr 10, 2019
+# Sparkles Special Edition Cat is released.Special Edition Cat
+sparkles: { name: 'Sparkles', date: '2019-04-10',
+            limit: 100,
+            special: true
+            desc: 'Freebie for CryptoKitties Community Events'
+          }
+
+papacatuanuku: { name: 'Papacatuanuku', limit: 1, ids: [1500000],
+                 exclusive: true,
+                 desc: 'Kitty #1500000' }
+
+# Mar 30, 2019
+# Glitter Fancy Cat is discovered. Fancy Cat
+glitter: { name: 'Glitter', date: '2019-03-30',
+           time: { end: '2019-11-30'},
+           traits: ['rorschach', 'juju', 'unicorn', 'hyacinth'],
+         }
+# Mar 16, 2019
+# Clover Fancy Cat is discovered. Fancy Cat
+clover: { name: 'Clover', date: '2019-03-16',
+          limit: 2506,
+          traits: ['shamrock', 'emeraldgreen', 'roadtogold', 'PU27'],
+          desc: "Celebrating St. Patrick's Day (March/19th)" }
+# Mar 2, 2019
+# Glasswalker Fancy Cat is discovered. Fancy Cat
+glasswalker: { name: 'Glasswalker', date: '2019-03-02',
+                limit: 1230,
+                traits: ['cloudwhite', 'henna', 'pearl', 'firedup'],
+                desc: "Ninja Fancy Cat"
+              }
+# Feb 21, 2019
+# Ande Fancy Cat is discovered. Fancy Cat
+ande: { name: 'Ande', date: '2019-02-21',
+        limit: 440,
+        traits: ['munchkin', 'cashewmilk', 'moue', 'PU30', 'WE10'],
+      }
+# Feb 17, 2019
+# Al Fancy Cat is discovered. Fancy Cat
+al: { name: 'Al', date: '2019-02-17',
+      time: { end: '2019-12-01'},
+      traits: ['munchkin','moue','cashewmilk','brownies',],
+    }
+# Feb 16, 2019
+# Pizzazz Fancy Cat is discovered.Fancy Cat
+pizzazz: { name: 'Pizzazz', date: '2019-02-16',
+           time: { end: '2019-12-01'},
+           traits: ['mekong', 'scarlet', 'spangled', 'wonky'],
+         }
+# Feb 9, 2019
+# Miss Purrfect Fancy Cat is discovered.Fancy Cat
+misspurrfect: { name: 'Miss Purrfect', date: '2019-02-09',
+                limit: 1298,
+                traits: ['allyouneed', 'butterscotch', 'asif', 'satiated', 'flapflap'],
+                desc: "Celebrating St. Valentine's Day (Feb/14th)"
+              }
+# Jan 26, 2019
+# Squib Fancy Cat is discovered. Fancy Cat
+squib: { name: 'Squib', date: '2019-01-26',
+         limit: 1443,
+         traits: ['oldlace', 'razzledazzle', 'buzzed', 'rollercoaster'],
+         desc: 'Celebrating American Football Super Bowl LIII in 2019' }
+
+
+
+# Mar 26, 2019
+# Sir Meowsalot Exclusive Cat is released. Exclusive Cat
+sirmeowsalot: { name: 'Sir Meowsalot', date: '2019-03-26',
+                limit: 21, ids: (201..221).to_a,
+                exclusive: true }
+
+cyberberry: { name: 'Cyber Berry', limit: 1, ids: [282],
+              date: '2019-03-02',
+              exclusive: true,
+              desc: "Winner of the NFTme Sweetstakes" }
+
+# Mar 1, 2019
+# Hinecatone Exclusive Cat is discovered. Exclusive Cat
+hinecatone: { name: 'Hinecatone', date: '2019-03-01', limit: 15,
+              ids: [1423547, 1433380, 1433486, 1440835, 1453366, 1456935, 1456973, 1459319, 1463197, 1466118, 1474082, 1484593, 1484982, 1492154, 1498885],
+              exclusive: true }
+
+# Feb 15, 2019
+# Felono Exclusive Cat is discovered. Exclusive Cat
+felono: { name: 'Felono', date: '2019-02-15', limit: 30,
+          ids: [1394641, 1404595, 1406021, 1413065, 1414375, 1420553, 1421315, 1421864, 1424104 ,1425433, 1431823, 1435517, 1436333, 1449860, 1451482, 1455458, 1459320, 1462952, 1463069, 1476999, 1483225, 1487210, 1487551, 1489681, 1490345, 1491632, 1492206, 1492739, 1492817, 1498778],
+          exclusive: true }
+
+
+
+
+
+tallythepurrocious   limit:	3992
+genedough            limit: 1376
+
+
+
+Apr 13, 2019
+Pirate Purrstiges
+
+Scratchingpost trait is discovered. Purrstige
+  time: { end: '2019-05-10' }, traits: ['WE10', 'PU26']
+Hooked trait is discovered. Purrstige
+  time: { end: '2019-05-10' }, traits: ['WE10', 'PU27']
+Landlubber trait is discovered. Purrstige
+  time: { end: '2019-05-10' }, traits: ['WE10', 'PU29']
+Wrecked trait is discovered. Purrstige
+  time: { end: '2019-05-10' }, traits: ['EN00', 'PU26']
+Purrbados trait is discovered. Purrstige
+  time: { end: '2019-05-10' }, traits: ['EN01', 'PU26']
+Timbers trait is discovered. Purrstige
+  time: { end: '2019-05-10' }, traits: ['WE10', 'EN00', 'PU26']
+Maraud trait is discovered. Purrstige
+  time: { end: '2019-05-10' }, traits: ['WE10', 'EN01', 'PU26']
+
+
+# Mar 15, 2019
+# Oohshiny trait is discovered. Purrstige
+oohshiny: { name: 'Oohshiny', limit: 2484,
+   time: { start: '2019-03-15', end: '2019-03-28'},
+   traits: ['roadtogold', 'PU27']
+
+
+Feb 21, 2019
+Alpacat purrstiges
+Dreamcloud trait is discovered.Purrstige
+  time: { start: '2019-02-22', end: '2019-03-25' }, limit: 1246,
+  traits: ['munchkin', 'WE10', 'PU24'],
+Alpunka trait is discovered.Purrstige
+  time: { start: '2019-02-22', end: '2019-03-25' }, limit: 926,
+  traits: ['munchkin', 'WE10', 'PU28'],
+Cindylou trait is discovered.Purrstige
+  time: { start: '2019-02-22', end: '2019-03-25' }, limit: 905,
+  traits: ['munchkin', 'WE10', 'PU30'],
+Alpacacino trait is discovered.Purrstige
+  time: { start: '2019-02-22', end: '2019-03-25' }, limit: 1220,
+  traits: ['munchkin', 'WE10', 'PU27'],
+Beatlesque trait is discovered.Purrstige
+  time: { start: '2019-02-22', end: '2019-03-25' }, limit: 783,
+  traits: ['munchkin', 'WE10', 'PU29'],
+Huacool trait is discovered.Purrstige
+  time: { start: '2019-02-22', end: '2019-03-25' }, limit: 837,
+  traits: ['munchkin', 'WE10', 'PU25'],
+Inaband trait is discovered.Purrstige
+  time: { start: '2019-02-22', end: '2019-03-25' }, limit: 1048,
+  traits: ['munchkin', 'WE10', 'PU26'],
+
+
+May 1, 2019
+Robokitty Purrstiges
+New Purrstige	Bionic	PU30
+time: { start: '2019-05-01', end: '2019-08-31' },
+traits: ['ragdoll', 'WE05', Any Totesbasic, 'PU30'],
+New Purrstige	Fileshare	PU29
+time: { start: '2019-05-01', end: '2019-08-31' },
+traits: ['ragdoll', 'WE05', Any Totesbasic, 'PU29'],
+New Purrstige	Pawsfree	PU28
+time: { start: '2019-05-01', end: '2019-08-31' },
+traits: ['ragdoll', 'WE05', Any Totesbasic, 'PU28'],
+New Purrstige	Uplink	PU27
+time: { start: '2019-05-01', end: '2019-08-31' },
+traits: ['ragdoll', 'WE05', Any Totesbasic, 'PU27'],
+New Purrstige	Gauntlet	PU26
+time: { start: '2019-05-01', end: '2019-08-31' },
+traits: ['ragdoll', 'WE05', Any Totesbasic, 'PU26'],
+New Purrstige	Catterypack	PU25
+time: { start: '2019-05-01', end: '2019-08-31' },
+traits: ['ragdoll', 'WE05', Any Totesbasic, 'PU25'],
+New Purrstige	Squelch	PU24
+time: { start: '2019-05-01', end: '2019-08-31' },
+traits: ['ragdoll', 'WE05', Any Totesbasic -FIX!!, 'PU24'],
+
+
+Reindeer limit: 854
+	time: { start: '2018-14-12', end: '2019-01-07' },
+  Wild: Elk ++ Purrstige: PU24/PU25/PU26/PU27
+
+Holidaycheer limit: 759
+  time: { start: '2018-14-12', end: '2019-01-07' },
+  Wild: Elk ++ Purrstige: PU28/PU29
+
+Lit  limit: 1006
+  time: { start: '2018-14-12', end: '2019-01-07' },
+  Wild: Elk ++ Purrstige: PU30
+
+
+
+
 ###
 #
 #  for latest updates on new fancies/exclusives see:
