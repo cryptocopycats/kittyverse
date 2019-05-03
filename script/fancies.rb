@@ -5,7 +5,8 @@
 #  $ ruby -I ./lib script/fancies.rb
 
 
-require 'copycats'
+
+require 'kittyverse'
 
 
 pp FANCIES
