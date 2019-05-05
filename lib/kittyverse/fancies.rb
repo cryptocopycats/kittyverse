@@ -159,9 +159,8 @@ FANCIES =
 
   tallythepurrocious: { name: 'Tally The Purrocious',
                         recipe: {
-                          time: { start: '2019-01-10', end: '2019-01-21' },
+                          time: { start: '2019-01-10', end: '2019-01-21' }, count: 3992,
                           traits: ['selkirk', 'koala', 'arcreactor', 'sully'] },
-                        count: 3992,
                         desc: 'Gods Unchained Promotion - Mystical Cat Talisman'
                       },
   ## date: '2019-01-10 ???  -- use for date "announced" or something - why? why not?
