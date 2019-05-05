@@ -15,7 +15,9 @@ require 'kittyverse/traits'
 require 'kittyverse/traits_timeline'
 require 'kittyverse/mewtations'
 require 'kittyverse/fancies'
+require 'kittyverse/purrstige'
 require 'kittyverse/catalog'
+
 
 require 'kittyverse/links'
 require 'kittyverse/pages/genes'
@@ -117,7 +119,7 @@ class TraitType
     'tertiary color'   => 'accent color',
     'accent colour'    => 'accent color',     # british (canadian) spelling
     'wild'             => 'wild element',
-    'secrect'          => 'secret y gene'
+    'secret'           => 'secret y gene'
   }
 
   def self.find_by_name( name )
