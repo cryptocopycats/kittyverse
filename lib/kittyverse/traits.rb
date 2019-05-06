@@ -71,8 +71,8 @@ TRAITS =
     'c' => 'jaguar',
     'd' => 'spock',
     'e' => 'mittens',
-    'f' => 'totesbasic_f',  ## use totesbasic_f - why? why not?
-    'g' => 'totesbasic_g',  ## use totesbasic_g
+    'f' => 'totesbasic 1',   ## use totesbasic_f or totesbasic (14) - why? why not?
+    'g' => 'totesbasic 2',   ## use totesbasic_g or totesbasic (15)
     'h' => 'splat',
     'i' => 'thunderstruck',
     'j' => 'dippedcone',
@@ -80,7 +80,7 @@ TRAITS =
     'm' => 'tigerpunk',
     'n' => 'henna',
     'o' => 'arcreactor',
-    'p' => 'totesbasic_p',  ## use totesbasic_p
+    'p' => 'totesbasic 3',   ## use totesbasic_p or totesbasic (23) - why? why not?
     'q' => 'scorpius',
     'r' => 'razzledazzle',
     's' => 'hotrod',
@@ -167,9 +167,9 @@ TRAITS =
     'x' => ''
     }
   },
-  color1: {
+  colorprimary: {
     genes: '16-19',
-    name: 'Base Color', code: 'BC',   ##  colorprimary / body color
+    name: 'Base Color', code: 'BC',   ##  color1 / colorprimary / body color
     kai: {
     '1' => 'shadowgrey',
     '2' => 'salmon',
@@ -205,9 +205,9 @@ TRAITS =
     'x' => ''
     }
   },
-  color2: {
+  colorsecondary: {
     genes: '20-23',
-    name:  'Highlight Color', code: 'HC',    ## colorsecondary / sec color / pattern color
+    name:  'Highlight Color', code: 'HC',    ## color2 / colorsecondary / sec color / pattern color
     kai: {
     '1' => 'cyborg',
     '2' => 'springcrocus',
@@ -243,9 +243,9 @@ TRAITS =
     'x' => ''
     }
   },
-  color3: {
+  colortertiary: {
     genes: '24-27',
-    name: 'Accent Color', code: 'AC',   ## colortertiary
+    name: 'Accent Color', code: 'AC',   ## color3 / colortertiary
     kai: {
     '1' => 'belleblue',
     '2' => 'sandalwood',
