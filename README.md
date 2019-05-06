@@ -86,7 +86,7 @@ See the [copycats command line tool (and core library)](https://github.com/crypt
 
 ## More Documentation / Articles / Samples
 
-- [Programming Crypto Collectibles Step-by-Step Book / Guide](https://github.com/cryptocopycats/programming-cryptocollectibles) -
+- [Programming Crypto Collectibles Step-by-Step Book / Guide](https://github.com/openblockchains/programming-cryptocollectibles) -
 Let's start with CryptoKitties & Copycats. Inside Unique Bits & Bytes on the Blockchain...
 - [Ruby Quiz - Challenge #8 - Base32 Alphabet](https://github.com/planetruby/quiz/tree/master/008) - Convert the Super "Sekretoooo" 256-Bit CryptoKitties Genome to Kai Notation - Annipurrsary!
 
