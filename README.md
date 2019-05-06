@@ -74,7 +74,7 @@ tt = TraitType.find_by( code: 'FU' )
 
 Auto-generated CryptoKitties refrence pages / cheat sheets include:
 
-- [**CryptoKittes Cattributes Rarity / Popularity Statistics**](CATTRIBUTES.md)
+- [**CryptoKitties Cattributes Rarity / Popularity Statistics**](CATTRIBUTES.md)
 - [**CryptoKitties Updates - Fancy / Exclusive / Special Edition Cats - Timeline**](updates/FANCIES.md)
 - and others
 
