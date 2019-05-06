@@ -1,0 +1,299 @@
+Total , Description    , Type          
+   108, timbers        , prestige      
+   144, landlubber     , prestige      
+   165, hooked         , prestige      
+   166, maraud         , prestige      
+   195, wrecked        , prestige      
+   300, purrbados      , prestige      
+   327, scratchingpost , prestige      
+   615, thatsawrap     , prestige      
+   697, bridesmaid     , coloreyes     
+   711, fallspice      , colortertiary 
+   759, holidaycheer   , prestige      
+   782, mallowflower   , colortertiary 
+   783, beatlesque     , prestige      
+   785, ooze           , colorsecondary
+   818, metime         , environment   
+   830, struck         , mouth         
+   837, huacool        , prestige      
+   854, reindeer       , prestige      
+   855, summerbonnet   , colortertiary 
+   861, burmilla       , body          
+   874, liger          , body          
+   879, candyshoppe    , eyes          
+   891, downbythebay   , coloreyes     
+   905, cindylou       , prestige      
+   916, dreamboat      , colortertiary 
+   921, prune          , prestige      
+   926, alpunka        , prestige      
+   998, furball        , prestige      
+  1006, lit            , prestige      
+  1048, inaband        , prestige      
+  1068, dune           , environment   
+  1076, secretgarden   , environment   
+  1111, firstblush     , colorprimary  
+  1120, floorislava    , environment   
+  1121, mertail        , colorsecondary
+  1149, gemini         , coloreyes     
+  1218, oasis          , coloreyes     
+  1220, alpacacino     , prestige      
+  1246, dreamcloud     , prestige      
+  1247, cornflower     , colorprimary  
+  1249, duckduckcat    , prestige      
+  1275, junglebook     , environment   
+  1287, cobalt         , colortertiary 
+  1351, jacked         , environment   
+  1369, scorpius       , pattern       
+  1382, foghornpawhorn , wild          
+  1402, featherbrain   , wild          
+  1411, icicle         , colorprimary  
+  1438, moonrise       , pattern       
+  1480, splat          , pattern       
+  1495, prism          , environment   
+  1504, isotope        , coloreyes     
+  1516, ruhroh         , mouth         
+  1578, prairierose    , colorsecondary
+  1598, gyre           , pattern       
+  1671, hacker         , eyes          
+  1688, tendertears    , eyes          
+  1692, oceanid        , eyes          
+  1724, myparade       , environment   
+  1758, autumnmoon     , coloreyes     
+  1772, balinese       , body          
+  1786, delite         , mouth         
+  1930, drama          , eyes          
+  1976, babypuke       , coloreyes     
+  1985, frozen         , environment   
+  2017, kurilian       , body          
+  2174, aflutter       , wild          
+  2179, lavender       , colorprimary  
+  2214, majestic       , mouth         
+  2243, lykoi          , body          
+  2272, drift          , environment   
+  2301, alicorn        , wild          
+  2326, wyrm           , wild          
+  2396, inflatablepool , colorsecondary
+  2431, walrus         , mouth         
+  2453, cyborg         , colorsecondary
+  2484, oohshiny       , prestige      
+  2589, hotcocoa       , colorprimary  
+  3100, glacier        , colorprimary  
+  3153, bornwithit     , eyes          
+  3222, samwise        , mouth         
+  3226, garnet         , colorsecondary
+  3382, mintmacaron    , colortertiary 
+  3451, trioculus      , wild          
+  3473, tinybox        , environment   
+  3544, hanauma        , colortertiary 
+  3580, avatar         , pattern       
+  3857, juju           , environment   
+  3912, rosequartz     , colorsecondary
+  3918, dioscuri       , coloreyes     
+  3950, vigilante      , pattern       
+  4037, topoftheworld  , mouth         
+  4163, buttercup      , colortertiary 
+  4211, seafoam        , colortertiary 
+  4280, twilightsparkle, coloreyes     
+  4287, fox            , body          
+  4340, flamingo       , colortertiary 
+  4511, yokel          , mouth         
+  4544, hyacinth       , colorprimary  
+  4639, meowgarine     , colorprimary  
+  4675, daemonwings    , wild          
+  4744, chameleon      , eyes          
+  4770, pinefresh      , coloreyes     
+  4922, mekong         , body          
+  5149, kaleidoscope   , coloreyes     
+  5252, firedup        , eyes          
+  5327, satiated       , mouth         
+  5448, turtleback     , colorsecondary
+  5593, ducky          , wild          
+  5802, allyouneed     , pattern       
+  5820, palejade       , coloreyes     
+  5828, universe       , colorsecondary
+  5925, razzledazzle   , pattern       
+  6518, finalfrontier  , environment   
+  6629, pearl          , colorsecondary
+  6675, redvelvet      , colorprimary  
+  6771, highsociety    , pattern       
+  6871, mainecoon      , body          
+  6926, royalblue      , colorsecondary
+  7071, grimace        , mouth         
+  7161, unicorn        , wild          
+  7259, daemonhorns    , wild          
+  7329, hotrod         , pattern       
+  7590, starstruck     , mouth         
+  7644, littlefoot     , wild          
+  7702, periwinkle     , colortertiary 
+  7766, buzzed         , eyes          
+  7841, manx           , body          
+  8041, shamrock       , colorprimary  
+  8093, pumpkin        , coloreyes     
+  8191, atlantis       , colortertiary 
+  8227, sully          , colortertiary 
+  8257, wowza          , eyes          
+  8628, lynx           , body          
+  8808, neckbeard      , mouth         
+  8889, cheeky         , mouth         
+  8893, roadtogold     , environment   
+  8990, dippedcone     , pattern       
+  9012, sweetmeloncakes, eyes          
+  9087, peppermint     , colorsecondary
+  9315, arcreactor     , pattern       
+  9449, safetyvest     , colorsecondary
+  9614, thunderstruck  , pattern       
+  9751, dragonfruit    , colorprimary  
+  9780, toyger         , body          
+ 10320, flapflap       , wild          
+ 10378, patrickstarfish, colortertiary 
+ 10691, wingtips       , eyes          
+ 10868, harbourfog     , colorprimary  
+ 11136, koala          , colorprimary  
+ 11262, dragontail     , wild          
+ 11269, dragonwings    , wild          
+ 11351, belch          , mouth         
+ 11491, alien          , eyes          
+ 11977, verdigris      , colorprimary  
+ 12293, wasntme        , mouth         
+ 12342, highlander     , body          
+ 12386, tundra         , colorprimary  
+ 12409, butterscotch   , colorsecondary
+ 12569, manul          , body          
+ 12715, hintomint      , colorprimary  
+ 12720, salty          , environment   
+ 12950, mittens        , pattern       
+ 13325, daffodil       , colortertiary 
+ 13434, cerulian       , colorsecondary
+ 13885, eclipse        , coloreyes     
+ 14074, martian        , colorprimary  
+ 14185, padparadscha   , colorsecondary
+ 14301, persian        , body          
+ 14414, wolfgrey       , colorsecondary
+ 14688, caffeine       , eyes          
+ 15288, missmuffett    , colortertiary 
+ 17343, elk            , wild          
+ 18042, baddate        , eyes          
+ 18323, violet         , colorsecondary
+ 18838, chantilly      , body          
+ 19541, camo           , pattern       
+ 19734, fabulous       , eyes          
+ 19908, moue           , mouth         
+ 20088, siberian       , body          
+ 21433, onyx           , colorprimary  
+ 21781, forgetmenot    , coloreyes     
+ 22020, bubblegum      , coloreyes     
+ 22669, springcrocus   , colorsecondary
+ 23186, chartreux      , body          
+ 23399, impish         , mouth         
+ 23851, norwegianforest, body          
+ 23852, henna          , pattern       
+ 24905, dali           , mouth         
+ 25100, nachocheez     , colorprimary  
+ 25362, sass           , eyes          
+ 25708, serpent        , eyes          
+ 26615, poisonberry    , colorsecondary
+ 27282, tigerpunk      , pattern       
+ 29237, stunned        , eyes          
+ 29798, shale          , colortertiary 
+ 29800, fangtastic     , mouth         
+ 29948, apricot        , colorsecondary
+ 31841, otaku          , eyes          
+ 32512, swarley        , eyes          
+ 33367, lilac          , colorsecondary
+ 33591, jaguar         , pattern       
+ 34652, rollercoaster  , mouth         
+ 36696, peach          , colortertiary 
+ 37081, asif           , eyes          
+ 37984, limegreen      , coloreyes     
+ 38075, parakeet       , coloreyes     
+ 38196, doridnudibranch, coloreyes     
+ 38723, confuzzled     , mouth         
+ 39702, kalahari       , colortertiary 
+ 40189, oldlace        , colorprimary  
+ 43011, bloodred       , colortertiary 
+ 44982, ganado         , pattern       
+ 45843, laperm         , body          
+ 46160, olive          , coloreyes     
+ 47822, leopard        , pattern       
+ 47887, savannah       , body          
+ 47928, pixiebob       , body          
+ 48285, morningglory   , colortertiary 
+ 51380, skyblue        , colorsecondary
+ 55089, brownies       , colorprimary  
+ 59682, gerbil         , mouth         
+ 59708, cashewmilk     , colortertiary 
+ 59714, calicool       , pattern       
+ 60449, spangled       , pattern       
+ 61146, cloudwhite     , colorprimary  
+ 62000, rorschach      , pattern       
+ 62510, tongue         , mouth         
+ 63280, belleblue      , colortertiary 
+ 63749, dahlia         , coloreyes     
+ 65298, beard          , mouth         
+ 73374, scarlet        , colorsecondary
+ 74338, azaleablush    , colortertiary 
+ 74808, coralsunrise   , coloreyes     
+ 74822, bobtail        , body          
+ 77462, whixtensions   , mouth         
+ 79549, barkbrown      , colorsecondary
+ 84769, koladiviya     , body          
+ 86232, cinderella     , colorprimary  
+ 89487, salmon         , colorprimary  
+ 91279, emeraldgreen   , colortertiary 
+ 91800, grim           , mouth         
+ 92175, googly         , eyes          
+ 92555, wuvme          , mouth         
+ 92924, frosting       , colortertiary 
+ 93416, cymric         , body          
+ 93843, chestnut       , coloreyes     
+ 94891, raisedbrow     , eyes          
+ 95111, gold           , coloreyes     
+ 95294, orangesoda     , colorprimary  
+ 95380, wonky          , eyes          
+ 96284, cyan           , coloreyes     
+ 96891, ragamuffin     , body          
+ 97040, chronic        , eyes          
+ 97402, rascal         , pattern       
+ 98527, aquamarine     , colorprimary  
+ 98610, birman         , body          
+ 99202, thundergrey    , coloreyes     
+ 99501, slyboots       , eyes          
+100560, sapphire       , coloreyes     
+102825, sandalwood     , colortertiary 
+103815, himalayan      , body          
+104963, purplehaze     , colortertiary 
+107394, egyptiankohl   , colorsecondary
+107524, tiger          , pattern       
+111343, chocolate      , colorsecondary
+112550, icy            , colortertiary 
+113895, wiley          , eyes          
+117082, spock          , pattern       
+117497, topaz          , coloreyes     
+119397, saycheese      , mouth         
+119541, bananacream    , colorprimary  
+120449, simple         , eyes          
+130534, sphynx         , body          
+131008, shadowgrey     , colorprimary  
+135799, selkirk        , body          
+136723, sizzurp        , coloreyes     
+141285, munchkin       , body          
+145880, amur           , pattern       
+147062, mauveover      , colorprimary  
+148465, mintgreen      , coloreyes     
+155611, strawberry     , coloreyes     
+162716, cottoncandy    , colorprimary  
+164315, ragdoll        , body          
+170891, luckystripe    , pattern       
+172192, crazy          , eyes          
+176650, soserious      , mouth         
+180845, coffee         , colorsecondary
+189914, greymatter     , colorprimary  
+192511, lemonade       , colorsecondary
+200241, royalpurple    , colorsecondary
+200341, swampgreen     , colorsecondary
+210332, happygokitty   , mouth         
+225798, kittencream    , colortertiary 
+228702, granitegrey    , colortertiary 
+232226, pouty          , mouth         
+253225, thicccbrowz    , eyes          
+343048, totesbasic     , pattern       
