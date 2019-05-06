@@ -92,15 +92,14 @@ Let's start with CryptoKitties & Copycats. Inside Unique Bits & Bytes on the Blo
 
 
 
-
-## Questions? Comments?
-
-Post them on the [cryptokitties reddit](https://www.reddit.com/r/cryptokitties). Thanks.
-
-
 ## License
 
 ![](https://publicdomainworks.github.io/buttons/zero88x31.png)
 
 The `kittyverse` scripts are dedicated to the public domain.
 Use it as you please with no restrictions whatsoever.
+
+
+## Questions? Comments?
+
+Post them on the [cryptokitties reddit](https://www.reddit.com/r/cryptokitties). Thanks.
