@@ -46,23 +46,23 @@ For trait types (e.g. fur, pattern, eye color, eye shape, base color, etc.)
 use:
 
 ``` ruby
-t =  Traits[ :body ]
-p t.class    #=> TraitType
-p t.name     #=> "Fur"
-p t.code     #=> "FU"
-p t.genes    #=> "0-3"
+tt =  Traits[ :body ]
+p tt.class    #=> TraitType
+p tt.name     #=> "Fur"
+p tt.code     #=> "FU"
+p tt.genes    #=> "0-3"
 
 # -or-
 
-t = TraitType.find_by_key( :body )
-t = TraitType.find_by( key: 'body' )
-t = Traits[ 'Fur' ]
-t = TraitType.find_by_name( 'Fur' )
-t = TraitType.find_by( name: 'Fur' )
-t = Traits[ 'FU' ]
-t = Traits[ :FU ]
-t = TraitType.find_by_code( 'FU' )
-t = TraitType.find_by( code: 'FU' )
+tt = TraitType.find_by_key( :body )
+tt = TraitType.find_by( key: 'body' )
+tt = Traits[ 'Fur' ]
+tt = TraitType.find_by_name( 'Fur' )
+tt = TraitType.find_by( name: 'Fur' )
+tt = Traits[ 'FU' ]
+tt = Traits[ :FU ]
+tt = TraitType.find_by_code( 'FU' )
+tt = TraitType.find_by( code: 'FU' )
 # ...
 ```
 
