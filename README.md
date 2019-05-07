@@ -66,6 +66,75 @@ tt = TraitType.find_by( code: 'FU' )
 # ...
 ```
 
+#### What about `totesbasic`?
+
+Yes, the `totesbasic` pattern cattributes has tree traits, that is, `totesbasic 1` with the code `PA14`
+and `totesbasic 2` with `PA15` and `totesbasic 3` with `PA23`.
+Use:
+
+``` ruby
+t = Traits[ 'PA14' ]
+p t.class      #=> Trait
+p t.name       #=> "totesbasic 1"
+p t.type.name  #=> "Pattern"
+p t.code       #=> "PA14"
+p t.kai        #=> "f"
+
+# -or-
+
+t = Trait.find_by_code( 'PA14' )
+t = Trait.find_by( code: 'PA14' )
+t = Traits[ 'totesbasic 1' ]
+t = Traits[ 'Totesbasic 1' ]
+t = Trait.find_by_name( 'Totesbasic 1' )
+t = Trait.find_by( name: 'Totesbasic 1' )
+t = Traits[ :body ][ 'f' ]
+t = Traits[ :body ][ '14' ]
+t = Traits[ :body ][ 14 ]
+# ...
+``` 
+
+
+### Cattributes
+
+Use the `Cattribute` helper class to lookup cattributes incl. purrstige cattributes with timed trait recipes / forumlas:
+
+``` ruby
+c = Cattribute[ 'totesbasic' ]
+p c.class          #=> Cattribute
+p c.name           #=> "totesbasic"
+p c.type.name      #=> "Pattern"
+p c.traits.size    #=> 3
+p c.traits         #=> ["totesbasic 1", "totesbasic 2", "totesbasic 3"]
+p c.traits[0].code #=> "PA14"
+p c.traits[1].code #=> "PA15"
+p c.traits[2].code #=> "PA23"
+# ...
+
+c = Cattribute[ "savannah' ]
+p c.class          #=> Cattribute
+p c.name           #=> "savannah"
+p c.type.name      #=> "Fur"
+p c.traits.size    #=> 1
+p c.traits         #=> ["savannah"]
+# ...
+
+c = Cattribute[ "bionic" ]
+p c.class          #=> Cattribute
+p c.name           #=> "bionic"
+p c.type.name      #=> "Purrstige"
+p c.traits.size    #=> 0
+p c.traits         #=> []
+p c.recipe         #=> {time: {start: "2019-05-01", end: "2019-08-31"},
+                   #    traits: ["ragdoll",
+                   #              "WE05",
+                   #              ["totesbasic 1", "totesbasic 2", "totesbasic 3"],
+                   #              "PU30"]}
+
+# ...
+```
+
+
 
 
 ## Real World Usage
