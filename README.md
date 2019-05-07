@@ -44,7 +44,7 @@ t = Traits[ 'Fur' ][0]
 
 #### What about `totesbasic`?
 
-Note, yes, the `totesbasic` pattern cattribute has _three_ traits, that is, `totesbasic 1` with the code `PA14`
+Note, the `totesbasic` pattern cattribute has _three_ traits, that is, `totesbasic 1` with the code `PA14`
 and `totesbasic 2` with `PA15` and `totesbasic 3` with `PA23`.
 Use:
 
@@ -102,6 +102,14 @@ tt = TraitType.find_by( code: 'FU' )
 Use the `Cattribute` helper class to lookup cattributes incl. purrstige cattributes with timed trait recipes / forumlas:
 
 ``` ruby
+c = Cattribute[ 'savannah' ]
+p c.class          #=> Cattribute
+p c.name           #=> "savannah"
+p c.type.name      #=> "Fur"
+p c.traits.size    #=> 1
+p c.traits         #=> ["savannah"]
+# ...
+
 c = Cattribute[ 'totesbasic' ]
 p c.class          #=> Cattribute
 p c.name           #=> "totesbasic"
@@ -111,14 +119,6 @@ p c.traits         #=> ["totesbasic 1", "totesbasic 2", "totesbasic 3"]
 p c.traits[0].code #=> "PA14"
 p c.traits[1].code #=> "PA15"
 p c.traits[2].code #=> "PA23"
-# ...
-
-c = Cattribute[ 'savannah' ]
-p c.class          #=> Cattribute
-p c.name           #=> "savannah"
-p c.type.name      #=> "Fur"
-p c.traits.size    #=> 1
-p c.traits         #=> ["savannah"]
 # ...
 
 c = Cattribute[ 'bionic' ]
