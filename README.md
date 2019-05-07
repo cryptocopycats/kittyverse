@@ -108,6 +108,7 @@ p c.name           #=> "savannah"
 p c.type.name      #=> "Fur"
 p c.traits.size    #=> 1
 p c.traits         #=> ["savannah"]
+p c.traits[0].code #=> "FU00"
 # ...
 
 c = Cattribute[ 'totesbasic' ]
