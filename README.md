@@ -144,7 +144,7 @@ p c.recipe         #=> {time: {start: "2019-05-01", end: "2019-08-31"},
 
 ### Reference Pages / Cheat Sheets
 
-Auto-generated CryptoKitties refrence pages / cheat sheets include:
+Auto-generated CryptoKitties reference pages / cheat sheets include:
 
 - [**CryptoKitties Cattributes Rarity / Popularity Statistics**](CATTRIBUTES.md)
 - [**CryptoKitties Updates - Fancy / Exclusive / Special Edition Cats - Timeline**](updates/FANCIES.md)
