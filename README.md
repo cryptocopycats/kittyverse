@@ -42,30 +42,6 @@ t = Traits[ 'Fur' ][0]
 # ...
 ```
 
-For trait types (e.g. fur, pattern, eye color, eye shape, base color, etc.)
-use:
-
-``` ruby
-tt =  Traits[ :body ]
-p tt.class    #=> TraitType
-p tt.name     #=> "Fur"
-p tt.code     #=> "FU"
-p tt.genes    #=> "0-3"
-
-# -or-
-
-tt = TraitType.find_by_key( :body )
-tt = TraitType.find_by( key: 'body' )
-tt = Traits[ 'Fur' ]
-tt = TraitType.find_by_name( 'Fur' )
-tt = TraitType.find_by( name: 'Fur' )
-tt = Traits[ 'FU' ]
-tt = Traits[ :FU ]
-tt = TraitType.find_by_code( 'FU' )
-tt = TraitType.find_by( code: 'FU' )
-# ...
-```
-
 #### What about `totesbasic`?
 
 Note, yes, the `totesbasic` pattern cattribute has _three_ traits, that is, `totesbasic 1` with the code `PA14`
@@ -93,6 +69,32 @@ t = Traits[ :body ][ '14' ]
 t = Traits[ :body ][ 14 ]
 # ...
 ``` 
+
+
+
+For trait types (e.g. fur, pattern, eye color, eye shape, base color, etc.)
+use:
+
+``` ruby
+tt =  Traits[ :body ]
+p tt.class    #=> TraitType
+p tt.name     #=> "Fur"
+p tt.code     #=> "FU"
+p tt.genes    #=> "0-3"
+
+# -or-
+
+tt = TraitType.find_by_key( :body )
+tt = TraitType.find_by( key: 'body' )
+tt = Traits[ 'Fur' ]
+tt = TraitType.find_by_name( 'Fur' )
+tt = TraitType.find_by( name: 'Fur' )
+tt = Traits[ 'FU' ]
+tt = Traits[ :FU ]
+tt = TraitType.find_by_code( 'FU' )
+tt = TraitType.find_by( code: 'FU' )
+# ...
+```
 
 
 ### Cattributes
