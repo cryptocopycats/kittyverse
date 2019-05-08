@@ -32,6 +32,7 @@ def build_fancy( key, h )
   line = "[**#{name}**]"
   line << "(#{kitties_fancy_search_url( key, h )})"
 
+  ## todo/fix: limit/count !!!!
   line << " (#{h[:limit] ? h[:limit] : '?'}"    # add limit if present/known
   line << "+#{h[:overflow]}"    if h[:overflow]
   line << ")"
@@ -49,9 +50,9 @@ def build_fancies( fancies )
 end
 
 
-buf << "## Special Edition Cats (#{Catalog.specials.size})"
+buf << "## Special Edition Cats (#{Catalog.special_editions.size})"
 buf << "\n\n"
-buf << build_fancies( Catalog.specials )
+buf << build_fancies( Catalog.special_editions )
 buf << "\n\n\n"
 
 buf << "## Exclusive Cats (#{Catalog.exclusives.size})"
@@ -80,11 +81,12 @@ genesisdate = Date.new( 2017, 11, 23)   ## 2017-11-23
 
 FANCIES.each do |key,h|
 
-  ## note: skip prestige  (purrstige cattributes) entries
-  next   if h[:prestige]
+  date_str = h[:date]
+  date_str = h[:recipe][:time][:start]         if date_str.nil? && h[:recipe]
+  date_str = h[:specialedition][:time][:start] if date_str.nil? && h[:specialedition]
 
+  date = Date.strptime( date_str, '%Y-%m-%d' )
 
-  date = Date.strptime( h[:date], '%Y-%m-%d' )
 
   if year != date.year
     buf << "\n"
@@ -118,7 +120,7 @@ FANCIES.each do |key,h|
   name = ""
 
   line << "- "
-  if h[:special]
+  if h[:specialedition]
     line << "Special Edition "
   elsif h[:exclusive]
     line << "Exclusive "
@@ -132,19 +134,19 @@ FANCIES.each do |key,h|
   line << "[**#{name}**]"
   line << "(#{kitties_fancy_search_url( key, h )})"
 
-
+  ## todo/fix: limit/count !!!!
   line << " (#{h[:limit] ? h[:limit] : '?'}"     # add limit if present/known
   line << "+#{h[:overflow]}"   if h[:overflow]
 
-  if h[:ids]
-    id_links = h[:ids].map { |id| "[##{id}](#{kitties_kitty_url(id)})" }
+  if h[:exclusive]
+    id_links = h[:exclusive][:ids].map { |id| "[##{id}](#{kitties_kitty_url(id)})" }
     line << " - #{id_links.join(', ')}"
   end
   line << ")"
 
 
 
-  if h[:special]
+  if h[:specialedition]
     line << " Fancy Cat released"
     line << " -- #{h[:desc]}"    if h[:desc]
     line << "."
@@ -166,8 +168,8 @@ FANCIES.each do |key,h|
 
   buf << "\n"
 
-  if h[:variants]
-    h[:variants].each do |variant_key,variant_h|
+  if h[:recipe] && h[:recipe][:variants]
+    h[:recipe][:variants].each do |variant_key,variant_h|
       buf << "![](#{media_fancy_pic_url( key, variant_key )})"
       buf << "\n"
     end

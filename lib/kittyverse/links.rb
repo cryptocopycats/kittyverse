@@ -22,12 +22,10 @@ def kitties_fancy_search_url( key, h )   ## todo: find a better name - why? why 
   ## note: use (official) chinese name for search param if present
   param =  h[:name_cn] ? h[:name_cn] : key
 
-  if h[:special]
+  if h[:specialedition]
     q = "specialedition:#{param}"    ## todo: urlescape param - why? why not?
   elsif h[:exclusive]   ## just use fancy too - why? why not?
     q = "exclusive:#{param}"
-  elsif h[:prestige]
-    q = "purrstige:#{param}"
   else  ## assume fancy
     q = "fancy:#{param}"
   end
@@ -36,7 +34,7 @@ def kitties_fancy_search_url( key, h )   ## todo: find a better name - why? why 
 end
 
 ## alias :kitties_special_search_url :kitties_fancy_search_url
-def kitties_special_search_url( key, h ) kitties_fancy_search_url( key, h); end
+def kitties_specialedition_search_url( key, h ) kitties_fancy_search_url( key, h); end
 
 
 
