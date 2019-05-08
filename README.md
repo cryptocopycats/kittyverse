@@ -182,10 +182,10 @@ f = Fancy.find_by( name: 'Bug Cat' )
 **Fancy Cat Types**
 
 ``` ruby
-Fancy.size                      #=> 83
-Fancy.exclusives.size           #=> 22
-Fancy.special_editions.size     #=> 5
-Fancy.fancies.size              #=> 56
+p Fancy.size                      #=> 83
+p Fancy.exclusives.size           #=> 22
+p Fancy.special_editions.size     #=> 5
+p Fancy.fancies.size              #=> 56
 ```
 
 Loop over all fancies:
