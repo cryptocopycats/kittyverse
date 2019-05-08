@@ -1,14 +1,5 @@
 # encoding: utf-8
 
-####
-# use:
-#  $ ruby -I ./lib script/cattributes2.rb
-
-require 'kittyverse'
-
-
-pp FANCIES
-
 
 class Cattribute
 
@@ -123,25 +114,3 @@ class Cattribute
 
 
 end # class Cattribute
-
-c = Cattribute.find_by_name( 'savannah' )
-pp c.name
-pp c.type.name
-pp c.traits.size
-c = Cattribute.find_by_name( :totesbasic )
-pp c.name
-pp c.type.name
-pp c.traits.size
-c = Cattribute.find_by_name( 'bionic' )
-pp c.name
-pp c.type.name
-pp c.traits.size
-pp c.recipe
-
-## c = Cattribute.find_by( name: 'bionic' )
-c = Cattribute[ 'bionic' ]
-pp 
-pp c.name
-pp c.type.name
-pp c.traits.size
-pp c.recipe

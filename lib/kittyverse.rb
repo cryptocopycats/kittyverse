@@ -85,10 +85,15 @@ class TraitType
   #  note: all keys are the same except:
   ALT_TRAIT_TYPE_KEYS =
   {
-    :colorprimary   => :color1,
-    :colorsecondary => :color2,
-    :colortertiary  => :color3
+    # :colorprimary   => :color1,
+    # :colorsecondary => :color2,
+    # :colortertiary  => :color3
+
+    :color1   => :colorprimary,
+    :color2   => :colorsecondary,
+    :color3   => :colortertiary
   }
+
 
   def self.find_by_key( key )
     ## note: allow string AND symbols (thus, use .to_sym !!!)
@@ -162,7 +167,8 @@ class TraitType
                 :name,
                 :code,
                 :genes,
-                :traits  ## array of 32 traits
+                :traits,      ## array of 32 traits
+                :cattributes  ## array of 29/31/x cattributes
 
   def initialize( **kwargs )
     update( kwargs )
@@ -277,6 +283,9 @@ class Traits
   def self.each() TraitType.each { |type| yield(type) }; end
   def self.each_with_index() TraitType.each_with_index { |type,i| yield(type,i) }; end
 end  # class Traits
+
+
+require 'kittyverse/cattributes'
 
 
 
