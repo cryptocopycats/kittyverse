@@ -137,7 +137,66 @@ p c.recipe         #=> {time: {start: "2019-05-01", end: "2019-08-31"},
 # ...
 ```
 
+### Fancies
 
+Use the `Fancy` helper class to lookup fancy or exclusive or special edition cats  incl. timed trait recipes / forumlas, counts, limits, ids and more:
+
+``` ruby
+f = Fancy[ :genesis ]
+p f.class         #=> Fancy
+p f.name          #=> "Genesis"
+p f.key           #=> :genesis
+p f.exlusive?     #=> true
+p f.ids.size      #=> 1
+p f.ids           #=> [1]
+#...
+
+# -or-
+
+f = Fancy.find_by_key( :genesis )
+f = Fancy.find_by( key: 'genesis' )
+f = Fancy[ 'Genesis' ]
+f = Fancy.find_by_name( 'Genesis' )
+f = Fancy.find_by( name: 'Genesis' )
+# ...
+
+f = Fancy[ :bugcat ]
+p f.class         #=> Fancy
+p f.name          #=> "Bug Cat"
+p f.key           #=> :bugcat
+p f.exlusive?     #=> true
+p f.ids.size      #=> 3
+p f.ids           #=> [101,102,103]
+#...
+
+# -or-
+
+f = Fancy[ 'Bug Cat' ]
+f = Fancy[ 'BugCat' ]
+f = Fancy[ 'bugcat' ]
+f = Fancy.find_by_name( 'Bug Cat' )
+f = Fancy.find_by( name: 'Bug Cat' )
+# ...
+```
+
+**Fancy Cat Types**
+
+``` ruby
+Fancy.size                      #=> 83
+Fancy.exclusives.size           #=> 22
+Fancy.special_editions.size     #=> 5
+Fancy.fancies.size              #=> 56
+```
+
+Loop over all fancies:
+
+``` ruby
+Fancy.each do |fancy|
+  p fancy.name
+end
+
+# ...
+```
 
 
 ## Real World Usage
