@@ -1,6 +1,13 @@
 # encoding: utf-8
 
 
+
+class Cattributes
+  ## add cattributes (traits) type lookup to Cattribute itself - why? why not?
+  def self.[]( key )  TraitType.find_by_key( key ).cattributes; end
+end
+
+
 class Cattribute
 
   def self.cattributes_by_name()  @@cattributes_by_name ||= {}; end
@@ -26,6 +33,7 @@ class Cattribute
 
 
   attr_accessor :type,
+                :key,
                 :name,
                 :traits,
                 :recipe
@@ -68,6 +76,7 @@ class Cattribute
           t3 = Traits[ TOTESBASIC[2] ]
 
           cattribute = Cattribute.new(
+                           key:    'totesbasic'.to_sym,
                            name:   'Totesbasic',
                            type:   tt,
                            traits: [t1,t2,t3]
@@ -77,6 +86,7 @@ class Cattribute
         end
       else
         cattribute = Cattribute.new(
+                         key:    t.name.to_sym,
                          name:   t.name,
                          type:   tt,
                          traits: [t]
@@ -98,6 +108,7 @@ class Cattribute
     pp h
 
     cattribute = Cattribute.new(
+                     key:    key,
                      name:   h[:name],
                      type:   tt,
                      traits: [],  ## empty traits

@@ -113,8 +113,9 @@ genesisdate = Date.new( 2017, 11, 23)   ## 2017-11-23
 ## buf << "## Purrstige Cattributes"
 buf << "\n\n"
 
-PURRSTIGES.each do |key,h|
-  date = Date.strptime( h[:date] || h[:recipe][:time][:start], '%Y-%m-%d' )
+Cattributes[:prestige].each do |c|
+  key =  c.key
+  date = Date.strptime( c.recipe[:time][:start], '%Y-%m-%d' )
 
   if year != date.year
     buf << "\n"
@@ -145,18 +146,18 @@ PURRSTIGES.each do |key,h|
 
 
 
-  time_start = Date.strptime( h[:recipe][:time][:start], '%Y-%m-%d' )
-  time_end   = Date.strptime( h[:recipe][:time][:end],   '%Y-%m-%d' )
+  time_start = Date.strptime( c.recipe[:time][:start], '%Y-%m-%d' )
+  time_end   = Date.strptime( c.recipe[:time][:end],   '%Y-%m-%d' )
 
   time_days  = (time_end.to_date.jd - time_start.to_date.jd) + 1
 
   name = ""
-  name << h[:name]
+  name << c.name
 
   buf << "[**#{name}**]"
   buf << "(#{kitties_search_url( key )}) "
 
-  buf << " (#{h[:recipe][:count] || '?'}"      # add count if present/known
+  buf << " (#{c.recipe[:count] || '?'}"      # add count if present/known
   buf << "), "
 
 
@@ -171,11 +172,11 @@ PURRSTIGES.each do |key,h|
   buf << ", "
 
 
-  buf << " **#{h[:recipe][:traits].size}** traits:"
+  buf << " **#{c.recipe[:traits].size}** traits:"
   buf << "\n"
 
   ## traits:
-  h[:recipe][:traits].each do |trait_keys|
+  c.recipe[:traits].each do |trait_keys|
     buf << "- "
     buf << build_traits( trait_keys )
     buf << "\n"
