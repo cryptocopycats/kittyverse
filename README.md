@@ -206,6 +206,7 @@ end
 Auto-generated CryptoKitties reference pages / cheat sheets include:
 
 - [**CryptoKitties Cattributes Rarity / Popularity Statistics**](CATTRIBUTES.md)
+- [**CryptoKitties Traits Cheat Sheet (with Codes, Mewtation Levels, Search Links and More)**](TRAITS.md)
 - [**CryptoKitties Updates - Fancy / Exclusive / Special Edition Cats - Timeline**](updates/FANCIES.md)
 - [**CryptoKitties Updates - Purrstige Trait Recipes / Formulas - Timeline**](updates/PURRSTIGES.md)
 - and others
