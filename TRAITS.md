@@ -1,7 +1,7 @@
 # Traits
 
 | Tier | Kai | Fur (FU) | Pattern (PA) | Eye Color (EC) | Eye Shape (ES) | Base Color (BC) |
-|----|----|----|----|----|----|----|----|
+|----|----|----|----|----|----|----|
 |    |    | 0-3 | 4-7 | 8-11 | 12-15 | 16-19 |
 |  | 1 |[**Savannah**](https://www.cryptokitties.co/search?include=sale,sire,other&search=savannah) (FU00) |[**Vigilante**](https://www.cryptokitties.co/search?include=sale,sire,other&search=vigilante) (PA00) |[**Hundergrey**](https://www.cryptokitties.co/search?include=sale,sire,other&search=hundergrey) (EC00) |[**Swarley**](https://www.cryptokitties.co/search?include=sale,sire,other&search=swarley) (ES00) |[**Shadowgrey**](https://www.cryptokitties.co/search?include=sale,sire,other&search=shadowgrey) (BC00) |
 |  | 2 |[**Selkirk**](https://www.cryptokitties.co/search?include=sale,sire,other&search=selkirk) (FU01) |[**Tiger**](https://www.cryptokitties.co/search?include=sale,sire,other&search=tiger) (PA01) |[**Gold**](https://www.cryptokitties.co/search?include=sale,sire,other&search=gold) (EC01) |[**Wonky**](https://www.cryptokitties.co/search?include=sale,sire,other&search=wonky) (ES01) |[**Salmon**](https://www.cryptokitties.co/search?include=sale,sire,other&search=salmon) (BC01) |
@@ -38,7 +38,7 @@
 
 
 | Tier | Kai | Highlight Color (HC) | Accent Color (AC) | Wild Element (WE) | Mouth (MO) | Environment (EN) |
-|----|----|----|----|----|----|----|----|
+|----|----|----|----|----|----|----|
 |    |    | 20-23 | 24-27 | 28-31 | 32-35 | 36-39 |
 |  | 1 |[**Cyborg**](https://www.cryptokitties.co/search?include=sale,sire,other&search=cyborg) (HC00) |[**Belleblue**](https://www.cryptokitties.co/search?include=sale,sire,other&search=belleblue) (AC00) |WE00 |[**Whixtensions**](https://www.cryptokitties.co/search?include=sale,sire,other&search=whixtensions) (MO00) |EN00 |
 |  | 2 |[**Springcrocus**](https://www.cryptokitties.co/search?include=sale,sire,other&search=springcrocus) (HC01) |[**Sandalwood**](https://www.cryptokitties.co/search?include=sale,sire,other&search=sandalwood) (AC01) |WE01 |[**Wasntme**](https://www.cryptokitties.co/search?include=sale,sire,other&search=wasntme) (MO01) |EN01 |
@@ -75,7 +75,7 @@
 
 
 | Tier | Kai | Secret Y Gene (SE) | Purrstige (PU) |
-|----|----|----|----|----|----|----|----|
+|----|----|----|----|
 |    |    | 40-43 | 44-47 |
 |  | 1 |SE00 |PU00 |
 |  | 2 |SE01 |PU01 |
@@ -144,6 +144,7 @@ Note: It's impossible for a mutation to reach `x` e.g. `w+x = x`.
 | **8** | 00111 | 7 | **g** | 01111 | 15| **p** | 10111 |23 | **x** | 11111 |31 |
 
 Note: The digit-0 and the letter-l are NOT used in kai.
+
 
 
 
