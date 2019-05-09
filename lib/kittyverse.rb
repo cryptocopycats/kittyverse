@@ -11,15 +11,16 @@ require 'base32-alphabets'
 
 ## our own code
 require 'kittyverse/version'    # note: let version always go first
-require 'kittyverse/traits'
-require 'kittyverse/traits_timeline'
+
+require 'kittyverse/config/traits'
+require 'kittyverse/config/traits_timeline'
+require 'kittyverse/config/fancies'
+require 'kittyverse/config/purrstige'
+
+
 require 'kittyverse/mewtations'
-require 'kittyverse/fancies'
-require 'kittyverse/purrstige'
-require 'kittyverse/catalog'
-
-
 require 'kittyverse/links'
+
 require 'kittyverse/pages/genes'
 
 
@@ -209,10 +210,12 @@ class TraitType
      name = hash_kai[kai]
      if name.nil?
        ## puts "#{key} - #{kai} is missing"
-       hash_kai2[kai] = "#{key}_#{kai}"
+       ## hash_kai2[kai] = "#{key}_#{kai}"
+       hash_kai2[kai] = nil
      elsif name.empty?
        ## puts "#{key} - #{kai} is empty"
-       hash_kai2[kai] = "#{key}_#{kai}"
+       ## hash_kai2[kai] = "#{key}_#{kai}"
+       hash_kai2[kai] = nil
      else
        hash_kai2[kai] = name
      end
@@ -227,8 +230,8 @@ class TraitType
      )
 
      ## (auto-)add traits for lookup by name, code, etc. via (hash) mapping
-     Trait.traits_by_name[ trait.name ] = trait
-     Trait.traits_by_code[ trait.code ] = trait
+     Trait.traits_by_name[ trait.name.downcase ] = trait    if trait.name  ## note: traits without name (nil) exist!!
+     Trait.traits_by_code[ trait.code ]          = trait
 
      traits << trait
      traits
@@ -286,6 +289,7 @@ end  # class Traits
 
 
 require 'kittyverse/cattributes'
+require 'kittyverse/fancies'
 
 
 

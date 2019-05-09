@@ -18,7 +18,7 @@ Use the `Traits` helper class to lookup trait types (e.g. fur, pattern, eye colo
 ``` ruby
 t = Traits[ 'FU00' ]
 p t.class      #=> Trait
-p t.name       #=> "savannah"
+p t.name       #=> "Savannah"
 p t.type.name  #=> "Fur"
 p t.code       #=> "FU00"
 p t.kai        #=> "1"
@@ -51,7 +51,7 @@ Use:
 ``` ruby
 t = Traits[ 'PA14' ]
 p t.class      #=> Trait
-p t.name       #=> "totesbasic 1"
+p t.name       #=> "Totesbasic 1"
 p t.type.name  #=> "Pattern"
 p t.code       #=> "PA14"
 p t.kai        #=> "f"
@@ -68,7 +68,7 @@ t = Traits[ :body ][ 'f' ]
 t = Traits[ :body ][ '14' ]
 t = Traits[ :body ][ 14 ]
 # ...
-``` 
+```
 
 
 
@@ -104,19 +104,19 @@ Use the `Cattribute` helper class to lookup cattributes incl. purrstige cattribu
 ``` ruby
 c = Cattribute[ 'savannah' ]
 p c.class          #=> Cattribute
-p c.name           #=> "savannah"
+p c.name           #=> "Savannah"
 p c.type.name      #=> "Fur"
 p c.traits.size    #=> 1
-p c.traits         #=> ["savannah"]
+p c.traits         #=> ["Savannah"]
 p c.traits[0].code #=> "FU00"
 # ...
 
 c = Cattribute[ 'totesbasic' ]
 p c.class          #=> Cattribute
-p c.name           #=> "totesbasic"
+p c.name           #=> "Totesbasic"
 p c.type.name      #=> "Pattern"
 p c.traits.size    #=> 3
-p c.traits         #=> ["totesbasic 1", "totesbasic 2", "totesbasic 3"]
+p c.traits         #=> ["Totesbasic 1", "Totesbasic 2", "Totesbasic 3"]
 p c.traits[0].code #=> "PA14"
 p c.traits[1].code #=> "PA15"
 p c.traits[2].code #=> "PA23"
@@ -124,14 +124,14 @@ p c.traits[2].code #=> "PA23"
 
 c = Cattribute[ 'bionic' ]
 p c.class          #=> Cattribute
-p c.name           #=> "bionic"
+p c.name           #=> "Bionic"
 p c.type.name      #=> "Purrstige"
 p c.traits.size    #=> 0
 p c.traits         #=> []
 p c.recipe         #=> {time: {start: "2019-05-01", end: "2019-08-31"},
-                   #    traits: ["ragdoll",
+                   #    traits: ["Ragdoll",
                    #              "WE05",
-                   #              ["totesbasic 1", "totesbasic 2", "totesbasic 3"],
+                   #              ["Totesbasic 1", "Totesbasic 2", "Totesbasic 3"],
                    #              "PU30"]}
 
 # ...

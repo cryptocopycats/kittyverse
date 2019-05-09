@@ -11,187 +11,84 @@ require 'helper'
 class TestTraits < MiniTest::Test
 
 
-def test_find
+def test_savannah
+  [ Traits[ 'FU00' ],
+    Trait.find_by_code( 'FU00' ),
+    Trait.find_by( code: 'FU00' ),
+    Traits[ 'savannah' ],
+    Traits[ 'Savannah' ],
+    Trait.find_by_name( 'Savannah' ),
+    Trait.find_by( name: 'Savannah' ),
+    Traits[ :body ][ '1' ],
+    Traits[ :body ][ '00' ],
+    Traits[ :body ][ 0 ],
+    Traits['FU']['00'],
+    Traits['FU'][0],
+    Traits[:FU][0],
+    Traits[:FU00],
+    Traits['Fur'][0]
+  ].each do |t|
+    assert_equal Trait,      t.class
+    assert_equal "Savannah", t.name
+    assert_equal "Fur",      t.type.name
+    assert_equal "FU00",     t.code
+    assert_equal "1",        t.kai
+  end
+end
 
-  t = Traits[ 'FU00' ]
-  assert_equal Trait,      t.class
-  assert_equal "savannah", t.name
-  assert_equal "Fur",      t.type.name
-  assert_equal "FU00",     t.code
-  assert_equal "1",        t.kai
+def test_fu31
+  [ Traits[ :body ][ 'x' ],
+    Traits[ :body ][ '31' ],
+    Traits[ :body ][ 31 ]
+  ].each do |t|
+    assert_equal Trait,    t.class
+    assert_equal nil,      t.name
+    assert_equal "Fur",    t.type.name
+    assert_equal "FU31",   t.code
+    assert_equal "x",      t.kai
+  end
+end
 
-  t = Trait.find_by_code( 'FU00' )
-  assert_equal Trait,      t.class
-  assert_equal "savannah", t.name
-  assert_equal "Fur",      t.type.name
-  assert_equal "FU00",     t.code
-  assert_equal "1",        t.kai
+def test_vigilante
+  [ Traits['Pattern'][0],
+    Traits['PA00'],
+    Traits['Vigilante']
+  ].each do |t|
+    assert_equal Trait,       t.class
+    assert_equal "Vigilante", t.name
+    assert_equal "Pattern",   t.type.name
+    assert_equal "PA00",      t.code
+    assert_equal "1",         t.kai
+  end
+end
 
-
-  t = Trait.find_by( code: 'FU00' )
-  assert_equal Trait,      t.class
-  assert_equal "savannah", t.name
-  assert_equal "Fur",      t.type.name
-  assert_equal "FU00",     t.code
-  assert_equal "1",        t.kai
-
-
-  t = Traits[ 'savannah' ]
-  assert_equal Trait,      t.class
-  assert_equal "savannah", t.name
-  assert_equal "Fur",      t.type.name
-  assert_equal "FU00",     t.code
-  assert_equal "1",        t.kai
-
-  t = Traits[ 'Savannah' ]
-  assert_equal Trait,      t.class
-  assert_equal "savannah", t.name
-  assert_equal "Fur",      t.type.name
-  assert_equal "FU00",     t.code
-  assert_equal "1",        t.kai
-
-  t = Trait.find_by_name( 'Savannah' )
-  assert_equal Trait,      t.class
-  assert_equal "savannah", t.name
-  assert_equal "Fur",      t.type.name
-  assert_equal "FU00",     t.code
-  assert_equal "1",        t.kai
-
-  t = Trait.find_by( name: 'Savannah' )
-  assert_equal Trait,      t.class
-  assert_equal "savannah", t.name
-  assert_equal "Fur",      t.type.name
-  assert_equal "FU00",     t.code
-  assert_equal "1",        t.kai
-
-  t = Traits[ :body ][ '1' ]
-  assert_equal Trait,      t.class
-  assert_equal "savannah", t.name
-  assert_equal "Fur",      t.type.name
-  assert_equal "FU00",     t.code
-  assert_equal "1",        t.kai
-
-  t = Traits[ :body ][ 'x' ]
-  assert_equal Trait,    t.class
-  assert_equal "body_x", t.name
-  assert_equal "Fur",    t.type.name
-  assert_equal "FU31",   t.code
-  assert_equal "x",      t.kai
-
-  t = Traits[ :body ][ '00' ]
-  assert_equal Trait,      t.class
-  assert_equal "savannah", t.name
-  assert_equal "Fur",      t.type.name
-  assert_equal "FU00",     t.code
-  assert_equal "1",        t.kai
-
-  t = Traits[ :body ][ '31' ]
-  assert_equal Trait,    t.class
-  assert_equal "body_x", t.name
-  assert_equal "Fur",    t.type.name
-  assert_equal "FU31",   t.code
-  assert_equal "x",      t.kai
-
-  t = Traits[ :body ][ 0 ]
-  assert_equal Trait,      t.class
-  assert_equal "savannah", t.name
-  assert_equal "Fur",      t.type.name
-  assert_equal "FU00",     t.code
-  assert_equal "1",        t.kai
-
-  t = Traits[ :body ][ 31 ]
-  assert_equal Trait,    t.class
-  assert_equal "body_x", t.name
-  assert_equal "Fur",    t.type.name
-  assert_equal "FU31",   t.code
-  assert_equal "x",      t.kai
-
-
-  t =  Traits[ :body ]
-  assert_equal TraitType, t.class
-  assert_equal "Fur",     t.name
-
-  t =  TraitType.find_by_key( :body )
-  assert_equal TraitType, t.class
-  assert_equal "Fur",     t.name
-
-  t =  TraitType.find_by( :key => :body )
-  assert_equal TraitType, t.class
-  assert_equal "Fur",     t.name
-
-
-  t = Traits['FU']['00']
-  assert_equal Trait,      t.class
-  assert_equal "savannah", t.name
-  assert_equal "Fur",      t.type.name
-  assert_equal "FU00",     t.code
-  assert_equal "1",        t.kai
-
-  t = Traits['FU'][0]
-  assert_equal Trait,      t.class
-  assert_equal "savannah", t.name
-  assert_equal "Fur",      t.type.name
-  assert_equal "FU00",     t.code
-  assert_equal "1",        t.kai
-
-  t = Traits[:FU][0]
-  assert_equal Trait,      t.class
-  assert_equal "savannah", t.name
-  assert_equal "Fur",      t.type.name
-  assert_equal "FU00",     t.code
-  assert_equal "1",        t.kai
-
-  t = Traits[:FU00]
-  assert_equal Trait,      t.class
-  assert_equal "savannah", t.name
-  assert_equal "Fur",      t.type.name
-  assert_equal "FU00",     t.code
-  assert_equal "1",        t.kai
-
-  t = Traits['Fur'][0]
-  assert_equal Trait,      t.class
-  assert_equal "savannah", t.name
-  assert_equal "Fur",      t.type.name
-  assert_equal "FU00",     t.code
-  assert_equal "1",        t.kai
-
-  t = Traits['Pattern'][0]
-  assert_equal Trait,       t.class
-  assert_equal "vigilante", t.name
-  assert_equal "Pattern",   t.type.name
-  assert_equal "PA00",      t.code
-  assert_equal "1",         t.kai
-
-  t = Traits['PA00']
-  assert_equal Trait,       t.class
-  assert_equal "vigilante", t.name
-  assert_equal "Pattern",   t.type.name
-  assert_equal "PA00",      t.code
-  assert_equal "1",         t.kai
-
-  t = Traits['Vigilante']
-  assert_equal Trait,       t.class
-  assert_equal "vigilante", t.name
-  assert_equal "Pattern",   t.type.name
-  assert_equal "PA00",      t.code
-  assert_equal "1",         t.kai
+def test_body
+  [ Traits[ :body ],
+    TraitType.find_by_key( :body ),
+    TraitType.find_by( :key => :body )
+  ].each do |tt|
+    assert_equal TraitType, tt.class
+    assert_equal "Fur",     tt.name
+  end
 end
 
 
-def test_each
-  TraitType.each do |type|
-    puts "#{type.key} => #{type.name} (#{type.code}), genes #{type.genes}"
-  end
 
+
+def test_each
   Traits.each do |type|
     puts "#{type.key} => #{type.name} (#{type.code}), genes #{type.genes}"
   end
 
-  TraitType.each_with_index do |type,i|
+  Traits.each_with_index do |type,i|
     puts "#{i}: #{type.key} => #{type.name} (#{type.code}), genes #{type.genes}"
   end
 
-  Traits.each_with_index do |type,i|
+  TraitType.each do |type|
+    puts "#{type.key} => #{type.name} (#{type.code}), genes #{type.genes}"
+  end
+
+  TraitType.each_with_index do |type,i|
     puts "#{i}: #{type.key} => #{type.name} (#{type.code}), genes #{type.genes}"
   end
 end

@@ -5,7 +5,7 @@
 
 
 ## note: totesbasic has three traits / genes
-TOTESBASIC = ['totesbasic 1', 'totesbasic 2', 'totesbasic 3']    ## was: ['PA14', 'PA15', 'PA23']
+TOTESBASIC = ['Totesbasic 1', 'Totesbasic 2', 'Totesbasic 3']    ## was: ['PA14', 'PA15', 'PA23']
 ANY_TOTESBASIC = ALL_TOTESBASIC = TOTESBASIC
 
 
