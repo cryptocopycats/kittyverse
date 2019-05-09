@@ -6,13 +6,14 @@ Rakefile
 lib/kittyverse.rb
 lib/kittyverse/cattributes.rb
 lib/kittyverse/config/fancies.rb
-lib/kittyverse/config/purrstige.rb
+lib/kittyverse/config/purrstiges.rb
 lib/kittyverse/config/traits.rb
 lib/kittyverse/config/traits_timeline.rb
 lib/kittyverse/fancies.rb
 lib/kittyverse/links.rb
 lib/kittyverse/mewtations.rb
 lib/kittyverse/pages/genes.rb
+lib/kittyverse/traits.rb
 lib/kittyverse/version.rb
 test/helper.rb
 test/test_cattributes.rb

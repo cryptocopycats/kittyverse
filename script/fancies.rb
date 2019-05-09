@@ -8,11 +8,6 @@
 
 require 'kittyverse'
 
-require_relative 'fancies2'
-
-
-pp FANCIES
-
 
 buf = ""
 buf += <<TXT
@@ -31,7 +26,7 @@ def build_fancy( fancy )
   name << " (#{fancy.name_cn})"   if fancy.name_cn   # add chinese name if present
 
   line = "[**#{name}**]"
-  ## line << "(#{kitties_fancy_search_url( key, h )})"
+  line << "(#{kitties_fancy_search_url( fancy )})"
 
   ## todo/fix: limit/count !!!!
   if fancy.limit.nil?
@@ -137,7 +132,7 @@ Fancy.each do |fancy|
   name << " (#{fancy.name_cn})"  if fancy.name_cn   # add chinese name if present
 
   line << "[**#{name}**]"
-  ## line << "(#{kitties_fancy_search_url( key, h )})"
+  line << "(#{kitties_fancy_search_url( fancy )})"
 
   ## todo/fix: limit/count !!!!
   line << " (#{fancy.limit ? fancy.limit : '?'}"     # add limit if present/known

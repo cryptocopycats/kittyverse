@@ -9,7 +9,6 @@
 require 'kittyverse'
 
 
-pp PURRSTIGES
 
 buf = ""
 buf += <<TXT
@@ -63,7 +62,7 @@ buf << "\n\n\n"
 def build_trait( key )
   puts "lookup trait >#{key}<"
   trait = Traits[ key ]
-  pp trait
+  ## pp trait
 
   if key =~ /[A-Z]{2}[0-9]{2}/   # if code e.g. WE20 - keep as is
      line = "**#{key}** #{MEWTATION_LEVEL[trait.kai]} "
