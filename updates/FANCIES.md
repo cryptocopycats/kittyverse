@@ -11,6 +11,11 @@ see <https://updates.cryptokitties.co>
 [**Purremy Allaire**](https://www.cryptokitties.co/search?include=sale,sire,other&search=specialedition:purremyallaire) (10)
 [**Lil Bub Ub Bub (BUB)**](https://www.cryptokitties.co/search?include=sale,sire,other&search=specialedition:lilbub) (468)
 
+![](https://cryptocopycats.github.io/media/kitties/100x100/fancy-sparkles.png)
+![](https://cryptocopycats.github.io/media/kitties/100x100/fancy-aeoncat.png)
+![](https://cryptocopycats.github.io/media/kitties/100x100/fancy-catzy.png)
+![](https://cryptocopycats.github.io/media/kitties/100x100/fancy-purremyallaire.png)
+![](https://cryptocopycats.github.io/media/kitties/100x100/fancy-lilbub.png)
 
 
 ## Exclusive Cats (22)
@@ -37,6 +42,29 @@ see <https://updates.cryptokitties.co>
 [**Cathena**](https://www.cryptokitties.co/search?include=sale,sire,other&search=exclusive:cathena) (1)
 [**Genesis**](https://www.cryptokitties.co/search?include=sale,sire,other&search=exclusive:genesis) (1)
 [**Bug Cat**](https://www.cryptokitties.co/search?include=sale,sire,other&search=exclusive:bugcat) (3)
+
+![](https://cryptocopycats.github.io/media/kitties/100x100/fancy-papacatuanuku.png)
+![](https://cryptocopycats.github.io/media/kitties/100x100/fancy-sirmeowsalot.png)
+![](https://cryptocopycats.github.io/media/kitties/100x100/fancy-cyberberry.png)
+![](https://cryptocopycats.github.io/media/kitties/100x100/fancy-hinecatone.png)
+![](https://cryptocopycats.github.io/media/kitties/100x100/fancy-felono.png)
+![](https://cryptocopycats.github.io/media/kitties/100x100/fancy-hypurrion.png)
+![](https://cryptocopycats.github.io/media/kitties/100x100/fancy-dracothemagnificent.png)
+![](https://cryptocopycats.github.io/media/kitties/100x100/fancy-bugcatv2.png)
+![](https://cryptocopycats.github.io/media/kitties/100x100/fancy-lilbubthemagicalspacecat.png)
+![](https://cryptocopycats.github.io/media/kitties/100x100/fancy-vulcat.png)
+![](https://cryptocopycats.github.io/media/kitties/100x100/fancy-vulcant.png)
+![](https://cryptocopycats.github.io/media/kitties/100x100/fancy-rabbidkitty.png)
+![](https://cryptocopycats.github.io/media/kitties/100x100/fancy-honu.png)
+![](https://cryptocopycats.github.io/media/kitties/100x100/fancy-victoire.png)
+![](https://cryptocopycats.github.io/media/kitties/100x100/fancy-furlin.png)
+![](https://cryptocopycats.github.io/media/kitties/100x100/fancy-celestialcyberdimension.png)
+![](https://cryptocopycats.github.io/media/kitties/100x100/fancy-goldendragoncat.png)
+![](https://cryptocopycats.github.io/media/kitties/100x100/fancy-goldendogcat.png)
+![](https://cryptocopycats.github.io/media/kitties/100x100/fancy-knightkitty.png)
+![](https://cryptocopycats.github.io/media/kitties/100x100/fancy-cathena.png)
+![](https://cryptocopycats.github.io/media/kitties/100x100/fancy-genesis.png)
+![](https://cryptocopycats.github.io/media/kitties/100x100/fancy-bugcat.png)
 
 
 
