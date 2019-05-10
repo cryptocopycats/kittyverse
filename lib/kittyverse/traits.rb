@@ -12,10 +12,33 @@ class Trait
     @@traits_by_code[ code.upcase.to_s ]
   end
 
+  ALT_TRAIT_NAMES =
+  {
+    'totesbasic (14)' => 'totesbasic 1',
+    'totesbasic (15)' => 'totesbasic 2',
+    'totesbasic (23)' => 'totesbasic 3',
+    'totesbasic_14'   => 'totesbasic 1',
+    'totesbasic_15'   => 'totesbasic 2',
+    'totesbasic_23'   => 'totesbasic 3',
+    'totesbasic (f)'  => 'totesbasic 1',
+    'totesbasic (g)'  => 'totesbasic 2',
+    'totesbasic (p)'  => 'totesbasic 3',
+    'totesbasic_f'    => 'totesbasic 1',
+    'totesbasic_g'    => 'totesbasic 2',
+    'totesbasic_p'    => 'totesbasic 3',
+    'totesbasic_1'    => 'totesbasic 1',
+    'totesbasic_2'    => 'totesbasic 2',
+    'totesbasic_3'    => 'totesbasic 3',
+  }
+    
   def self.find_by_name( name )
     ## note: allow string AND symbols (thus, use .to_s !!!)
     ## note: downcase name e.g. allow Savannah too (not just savannah)
-    @@traits_by_name[ name.downcase.to_s ]
+
+    name = name.to_s.downcase 
+    name = ALT_TRAIT_NAMES[ name ]  if ALT_TRAIT_NAMES[ name ]
+
+    @@traits_by_name[ name ]
   end
 
   ## add "generic" convenience find helper
@@ -63,28 +86,28 @@ class TraitType
   #  note: all keys are the same except:
   ALT_TRAIT_TYPE_KEYS =
   {
-    # :colorprimary   => :color1,
-    # :colorsecondary => :color2,
-    # :colortertiary  => :color3
-
-    :color1   => :colorprimary,
-    :color2   => :colorsecondary,
-    :color3   => :colortertiary
+    :color1    => :colorprimary,
+    :color2    => :colorsecondary,
+    :color3    => :colortertiary,
+    :purrstige => :prestige,
+    ## add :fur, etc. too - why? why not?
   }
 
 
   def self.find_by_key( key )
     ## note: allow string AND symbols (thus, use .to_sym !!!)
     ## note: allow  known alternative mappings/key (e.g. "internal" cryptokitties keys if different)
-    key = ALT_TRAIT_TYPE_KEYS[ key.to_sym ]  if ALT_TRAIT_TYPE_KEYS[ key.to_sym ]
+    key = key.to_sym
+    key = ALT_TRAIT_TYPE_KEYS[ key ]  if ALT_TRAIT_TYPE_KEYS[ key ]
 
-    @@trait_types_by_key[ key.to_sym ]
+    @@trait_types_by_key[ key]
   end
 
   def self.find_by_code( code )
     ## note: allow string AND symbols (thus, use .to_s)
     ##  e.g. allow 'FU', 'fu', :fu, :FU, etc.
-    @@trait_types_by_code[ code.upcase.to_s ]
+    code = code.to_s.upcase
+    @@trait_types_by_code[ code ]
   end
 
   ALT_TRAIT_TYPE_NAMES =
@@ -102,15 +125,17 @@ class TraitType
     'tertiary color'   => 'accent color',
     'accent colour'    => 'accent color',     # british (canadian) spelling
     'wild'             => 'wild element',
-    'secret'           => 'secret y gene'
+    'secret'           => 'secret y gene',
+    'prestige'         => 'purrstige',
   }
 
   def self.find_by_name( name )
     ## note: downcase name e.g. allow fur too (not just Fur)
     ## note: allow  known alternative mappings/key (e.g. "internal" cryptokitties keys if different)
-    name = ALT_TRAIT_TYPE_NAMES[ name.downcase ]  if ALT_TRAIT_TYPE_NAMES[ name.downcase ]
+    name = name.to_s.downcase
+    name = ALT_TRAIT_TYPE_NAMES[ name ]  if ALT_TRAIT_TYPE_NAMES[ name ]
 
-    @@trait_types_by_name[ name.downcase ]
+    @@trait_types_by_name[ name ]
   end
 
 
