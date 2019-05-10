@@ -1,11 +1,12 @@
-# Updates - Fancy / Exclusive / Special Edition Cats - Timeline
-
-see <https://updates.cryptokitties.co>
-
 
 [2019](#2019) • 
 [2018](#2018) •
 [2017](#2017)
+
+# Updates - Fancy / Exclusive / Special Edition Cats - Timeline
+
+see <https://updates.cryptokitties.co>
+
 
 
 ## Special Edition Cats (5)
@@ -205,6 +206,7 @@ see <https://updates.cryptokitties.co>
 Apr 27, 2019 (521d)
 
 <a name="krakitten">
+
 - [**Krakitten**](https://www.cryptokitties.co/search?include=sale,sire,other&search=fancy:krakitten) (?) Fancy Cat discovered. #Fancy Cat
 
 ![](https://cryptocopycats.github.io/media/kitties/100x100/fancy-krakitten.png)
@@ -212,6 +214,7 @@ Apr 27, 2019 (521d)
 Apr 13, 2019 (507d)
 
 <a name="furbeard">
+
 - [**Furbeard**](https://www.cryptokitties.co/search?include=sale,sire,other&search=fancy:furbeard) (3733) Fancy Cat discovered. #Fancy Cat
 
 ![](https://cryptocopycats.github.io/media/kitties/100x100/fancy-furbeard.png)
