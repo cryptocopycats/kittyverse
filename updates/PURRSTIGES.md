@@ -1,3 +1,6 @@
+[2019](#2019) • 
+[2018](#2018)
+
 # Updates - Purrstige Trait Recipes / Formulas  - Timeline
 
 see <https://updates.cryptokitties.co>
