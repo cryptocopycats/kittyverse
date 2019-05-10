@@ -35,7 +35,25 @@ def test_savannah
     assert_equal "1",        t.kai
   end
 end
+  
 
+def test_totesbasic
+  [ Trait.find_by_name( 'totesbasic 1' ),
+    Trait.find_by_name( 'totesbasic_1' ),
+    Trait.find_by_name( 'totesbasic (14)' ),
+    Trait.find_by_name( 'totesbasic_14' ),
+    Trait.find_by_name( 'totesbasic (f)' ),
+    Trait.find_by_name( 'totesbasic_f' ),
+  ].each do |t|
+    assert_equal Trait,          t.class
+    assert_equal "Totesbasic 1", t.name
+    assert_equal "Pattern",      t.type.name
+    assert_equal "PA14",         t.code
+    assert_equal "f",            t.kai
+  end
+end
+
+  
 def test_fu31
   [ Traits[ :body ][ 'x' ],
     Traits[ :body ][ '31' ],
@@ -69,6 +87,7 @@ def test_body
   ].each do |tt|
     assert_equal TraitType, tt.class
     assert_equal "Fur",     tt.name
+    assert_equal 32,        tt.traits.size
   end
 end
 
