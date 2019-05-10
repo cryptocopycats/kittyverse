@@ -7,8 +7,8 @@ see <https://updates.cryptokitties.co>
 
 _Special traits for a limited time only bred through a recipe._
 
-[**Bionic**](https://www.cryptokitties.co/search?include=sale,sire,other&search=bionic) (?![](https://cryptocopycats.github.io/media/unlocked-18x18.png))
-[**Fileshare**](https://www.cryptokitties.co/search?include=sale,sire,other&search=fileshare) (?)
+[**Bionic**](https://www.cryptokitties.co/search?include=sale,sire,other&search=bionic) (![](https://cryptocopycats.github.io/media/unlocked-18x18.png)?)
+[**Fileshare**](https://www.cryptokitties.co/search?include=sale,sire,other&search=fileshare) (![](https://cryptocopycats.github.io/media/unlocked-18x18.png)?)
 [**Pawsfree**](https://www.cryptokitties.co/search?include=sale,sire,other&search=pawsfree) (?)
 [**Uplink**](https://www.cryptokitties.co/search?include=sale,sire,other&search=uplink) (?)
 [**Gauntlet**](https://www.cryptokitties.co/search?include=sale,sire,other&search=gaunlet) (?)
@@ -21,8 +21,8 @@ _Special traits for a limited time only bred through a recipe._
 [**Purrbados**](https://www.cryptokitties.co/search?include=sale,sire,other&search=purrbados) (?)
 [**Timbers**](https://www.cryptokitties.co/search?include=sale,sire,other&search=timbers) (?)
 [**Maraud**](https://www.cryptokitties.co/search?include=sale,sire,other&search=maraud) (?)
-[**Oohshiny**](https://www.cryptokitties.co/search?include=sale,sire,other&search=oohshiny) (2484![](https://cryptocopycats.github.io/media/locked-18x18.png))
-[**Dreamcloud**](https://www.cryptokitties.co/search?include=sale,sire,other&search=dreamcloud) (1246)
+[**Oohshiny**](https://www.cryptokitties.co/search?include=sale,sire,other&search=oohshiny) (![](https://cryptocopycats.github.io/media/locked-18x18.png)2484)
+[**Dreamcloud**](https://www.cryptokitties.co/search?include=sale,sire,other&search=dreamcloud) (![](https://cryptocopycats.github.io/media/locked-18x18.png)1246)
 [**Alpunka**](https://www.cryptokitties.co/search?include=sale,sire,other&search=alpunka) (926)
 [**Cindylou**](https://www.cryptokitties.co/search?include=sale,sire,other&search=cindylou) (905)
 [**Alpacacino**](https://www.cryptokitties.co/search?include=sale,sire,other&search=alpacacino) (1220)
