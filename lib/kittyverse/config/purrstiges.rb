@@ -57,43 +57,43 @@ squelch: { name: 'Squelch',
 #  Scratchingpost trait is discovered. Purrstige
 scratchingpost: { name: 'Scratchingpost',
                   recipe: {
-                    time: { start: '2019-04-13', end: '2019-05-10' },
+                    time: { start: '2019-04-13', end: '2019-05-10' }, count: 772,
                     traits: ['WE10', 'PU26'] }
                 },
 #  Hooked trait is discovered. Purrstige
 hooked: { name: 'Hooked',
           recipe: {
-            time: { start: '2019-04-13', end: '2019-05-10' },
+            time: { start: '2019-04-13', end: '2019-05-10' }, count: 1277,
             traits: ['WE10', 'PU27'] }
         },
 #  Landlubber trait is discovered. Purrstige
 landlubber: { name: 'Landlubber',
               recipe: {
-                time: { start: '2019-04-13', end: '2019-05-10' },
+                time: { start: '2019-04-13', end: '2019-05-10' }, count: 711,
                 traits: ['WE10', 'PU29'] }
             },
 # Wrecked trait is discovered. Purrstige
 wrecked: { name: 'Wrecked',
            recipe: {
-             time: { start: '2019-04-13', end: '2019-05-10' },
+             time: { start: '2019-04-13', end: '2019-05-10' }, count: 959,
              traits: ['EN00', 'PU26'] }
           },
 # Purrbados trait is discovered. Purrstige
 purrbados: { name: 'Purrbados',
              recipe: {
-               time: { start: '2019-04-13', end: '2019-05-10' },
+               time: { start: '2019-04-13', end: '2019-05-10' }, count: 1344,
                traits: ['EN01', 'PU26'] }
             },
 # Timbers trait is discovered. Purrstige
 timbers: { name: 'Timbers',
            recipe: {
-             time: { start: '2019-04-13', end: '2019-05-10' },
+             time: { start: '2019-04-13', end: '2019-05-10' }, count: 472,
              traits: ['WE10', 'EN00', 'PU26'] }
           },
 # Maraud trait is discovered. Purrstige
 maraud: { name: 'Maraud',
           recipe: {
-            time: { start: '2019-04-13', end: '2019-05-10' },
+            time: { start: '2019-04-13', end: '2019-05-10' }, count: 620,
             traits: ['WE10', 'EN01', 'PU26'] }
         },
 
