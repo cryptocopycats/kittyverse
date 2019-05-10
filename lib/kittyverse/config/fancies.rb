@@ -30,6 +30,15 @@
 
 FANCIES =
 {
+  'kitt-e': { name: 'KITT-E', date: '2019-05-10',
+              specialedition: {
+                limit: 500 }
+            },
+  'dapp-e': { name: 'DAPP-E', date: '2019-05-10',
+              exclusive: {
+                limit: 50, ids: (1829..1878).to_a }
+            },
+  
   # Apr 27, 2019
   # Krakitten Fancy Cat is discovered. Fancy Cat
   krakitten: { name: 'Krakitten',
