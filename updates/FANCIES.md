@@ -3,6 +3,11 @@
 see <https://updates.cryptokitties.co>
 
 
+[2019](#2019) • 
+[2018](#2018) •
+[2017](#2017)
+
+
 ## Special Edition Cats (5)
 
 [**Sparkles**](https://www.cryptokitties.co/search?include=sale,sire,other&search=specialedition:sparkles) (100)
@@ -70,8 +75,8 @@ see <https://updates.cryptokitties.co>
 
 ## Fancy Cats (56)
 
-[**Krakitten**](https://www.cryptokitties.co/search?include=sale,sire,other&search=fancy:krakitten) (?)
-[**Furbeard**](https://www.cryptokitties.co/search?include=sale,sire,other&search=fancy:furbeard) (3733)
+[**Krakitten**](#krakitten) (?)
+[**Furbeard**](#furbeard) (3733)
 [**Glitter**](https://www.cryptokitties.co/search?include=sale,sire,other&search=fancy:glitter) (?)
 [**Clover**](https://www.cryptokitties.co/search?include=sale,sire,other&search=fancy:clover) (2506)
 [**Glasswalker**](https://www.cryptokitties.co/search?include=sale,sire,other&search=fancy:glasswalker) (1230)
@@ -198,11 +203,15 @@ see <https://updates.cryptokitties.co>
 ### April
 
 Apr 27, 2019 (521d)
+
+<a name="krakitten">
 - [**Krakitten**](https://www.cryptokitties.co/search?include=sale,sire,other&search=fancy:krakitten) (?) Fancy Cat discovered. #Fancy Cat
 
 ![](https://cryptocopycats.github.io/media/kitties/100x100/fancy-krakitten.png)
 
 Apr 13, 2019 (507d)
+
+<a name="furbeard">
 - [**Furbeard**](https://www.cryptokitties.co/search?include=sale,sire,other&search=fancy:furbeard) (3733) Fancy Cat discovered. #Fancy Cat
 
 ![](https://cryptocopycats.github.io/media/kitties/100x100/fancy-furbeard.png)
