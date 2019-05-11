@@ -97,11 +97,16 @@ def build_fancy_media( fancy )
   buf = ""
   if fancy.recipe && fancy.recipe.variants
     fancy.recipe.variants.each do |variant_key,variant_h|
-      buf << "![#{fancy.name} #{variant_h[:name]}](#{media_fancy_pic_url( fancy.key, variant_key )})"
+      name = "#{fancy.name} #{variant_h[:name]}"
+
+      buf << %Q{![#{name}](#{media_fancy_pic_url( fancy.key, variant_key )} "#{name}")}
       buf << "\n"
     end
   else
-    buf << "![#{fancy.name}](#{media_fancy_pic_url( fancy.key )})"
+    name = "#{fancy.name}"
+    name << " (#{fancy.name_cn})" if fancy.name_cn
+
+    buf << %Q{![#{name}](#{media_fancy_pic_url( fancy.key )} "#{name}")}
     buf << "\n"
   end
   buf

@@ -30,6 +30,14 @@
 
 FANCIES =
 {
+  'curdlin': { name: 'Curdlin',
+                recipe: {
+                  time: { start: '2019-05-11', end: '2019-11-30' }, count: 4,
+                  traits: ['nachocheez', 'saycheese', 'missmuffett', 'dippedcone']},
+                desc: 'Cheeze Wizard Cat - Celebrating the Launch of the Cheeze Wizards on the Blockchain'
+                ## see https://www.cryptokitties.co/blog/post/things-are-getting-cheezy-in-cryptokitties
+             },
+
   'kitt-e': { name: 'KITT-E', date: '2019-05-10',
               specialedition: {
                 limit: 500 },
