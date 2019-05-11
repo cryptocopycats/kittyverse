@@ -4,7 +4,7 @@
 
 [Fur (FU)](#fur-fu) • 
 [Pattern (PA)](#pattern-pa) • 
-Eye Color (EC) • Eye Shape (ES) • Base Color (BC) • Highlight Color (HC) • Accent Color (AC) • Wild Element (WE) • Mouth (MO) • Environment (EN) • Secret Y Gene (SE) • Purrstige (PU)
+Eye Color (EC) • Eye Shape (ES) • Base Color (BC) • Highlight Color (HC) • Accent Color (AC) • Wild Element (WE) • Mouth (MO) • Environment (EN) • Purrstige (PU)
 
 ## Fur (FU)
 
