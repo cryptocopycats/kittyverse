@@ -34,7 +34,7 @@
 | III | u |[**Lykoi**](https://www.cryptokitties.co/search?include=sale,sire,other&search=lykoi) (FU28) |[**Avatar**](https://www.cryptokitties.co/search?include=sale,sire,other&search=avatar) (PA28) |[**Gemini**](https://www.cryptokitties.co/search?include=sale,sire,other&search=gemini) (EC28) |
 | III | v |[**Burmilla**](https://www.cryptokitties.co/search?include=sale,sire,other&search=burmilla) (FU29) |[**Gyre**](https://www.cryptokitties.co/search?include=sale,sire,other&search=gyre) (PA29) |[**Dioscuri**](https://www.cryptokitties.co/search?include=sale,sire,other&search=dioscuri) (EC29) |
 | IIII | w |[**Liger**](https://www.cryptokitties.co/search?include=sale,sire,other&search=liger) (FU30) |[**Moonrise**](https://www.cryptokitties.co/search?include=sale,sire,other&search=moonrise) (PA30) |[**Kaleidoscope**](https://www.cryptokitties.co/search?include=sale,sire,other&search=kaleidoscope) (EC30) |
-|  | x |FU31 |PA31 |EC31 |
+
 
 
 | Tier | Kai | Eye Shape (ES) | Base Color (BC) | Highlight Color (HC) |
@@ -71,7 +71,6 @@
 | III | u |[**Bornwithit**](https://www.cryptokitties.co/search?include=sale,sire,other&search=bornwithit) (ES28) |[**Hotcocoa**](https://www.cryptokitties.co/search?include=sale,sire,other&search=hotcocoa) (BC28) |[**Inflatablepool**](https://www.cryptokitties.co/search?include=sale,sire,other&search=inflatablepool) (HC28) |
 | III | v |[**Candyshoppe**](https://www.cryptokitties.co/search?include=sale,sire,other&search=candyshoppe) (ES29) |[**Shamrock**](https://www.cryptokitties.co/search?include=sale,sire,other&search=shamrock) (BC29) |[**Pearl**](https://www.cryptokitties.co/search?include=sale,sire,other&search=pearl) (HC29) |
 | IIII | w |[**Drama**](https://www.cryptokitties.co/search?include=sale,sire,other&search=drama) (ES30) |[**Firstblush**](https://www.cryptokitties.co/search?include=sale,sire,other&search=firstblush) (BC30) |[**Prairierose**](https://www.cryptokitties.co/search?include=sale,sire,other&search=prairierose) (HC30) |
-|  | x |ES31 |BC31 |HC31 |
 
 
 | Tier | Kai | Accent Color (AC) | Wild Element (WE) | Mouth (MO) |
@@ -165,7 +164,10 @@ Base      Tier I    Tier II   Tier III  Tier IIII
           p = f+g
 ```
 
+<!--
 Note: It's impossible for a mutation to reach `x` e.g. `w+x = x`.
+-->
+
 
 ## Kai (Base32) Notation
 
