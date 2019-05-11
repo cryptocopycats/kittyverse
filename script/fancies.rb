@@ -11,6 +11,10 @@ require 'kittyverse'
 
 buf = ""
 buf += <<TXT
+[2019](#2019) •
+[2018](#2018) •
+[2017](#2017)
+
 # Updates - Fancy / Exclusive / Special Edition Cats - Timeline
 
 see <https://updates.cryptokitties.co>
@@ -20,13 +24,50 @@ TXT
 
 
 
+def build_fancy_counter( fancy )
+  buf = ""
+
+  if fancy.recipe?
+    ## todo/fix: limit/count !!!!
+    if fancy.recipe.time?   ## time windowed recipe
+      if fancy.recipe.time_end >= Date.today
+        buf << "![](https://cryptocopycats.github.io/media/unlocked-18x18.png)"
+        if fancy.count     # add count if present/known
+          buf << "#{fancy.count}+"
+        else
+          buf << "?"
+        end
+      else
+        buf << "![](https://cryptocopycats.github.io/media/locked-18x18.png)"
+        buf << "#{fancy.count ? fancy.count : '?'}"     # add count if present/known
+      end
+    else  ## assume limit
+      if fancy.count && fancy.count < fancy.limit
+        buf << "![](https://cryptocopycats.github.io/media/unlocked-18x18.png)"
+        buf << "#{fancy.count <=0 ? '?' : fancy.count}/#{fancy.limit}"     # add limit if present/known
+      else
+        buf << "![](https://cryptocopycats.github.io/media/locked-18x18.png)"
+        buf << "#{fancy.limit ? fancy.limit : '?'}"    # add limit if present/known
+      end
+    end
+  else
+    ## todo/fix: limit/count !!!!
+    buf << "#{fancy.limit ? fancy.limit : '?'}"     # add limit if present/known
+    ## buf << "+#{h[:overflow]}"   if h[:overflow]
+  end
+  buf
+end
+
+
 def build_fancy( fancy )
   name = ""
   name << fancy.name
   name << " (#{fancy.name_cn})"   if fancy.name_cn   # add chinese name if present
 
   line = "[**#{name}**]"
-  line << "(#{kitties_fancy_search_url( fancy )})"
+  ## line << "(#{kitties_fancy_search_url( fancy )})"
+  line << "(##{fancy.key})"
+
 
   ## todo/fix: limit/count !!!!
   if fancy.limit.nil?
@@ -53,27 +94,55 @@ def build_fancies( fancies )
   buf
 end
 
+def build_fancy_media( fancy )
+  buf = ""
+  if fancy.recipe && fancy.recipe.variants
+    fancy.recipe.variants.each do |variant_key,variant_h|
+      buf << "![](#{media_fancy_pic_url( fancy.key, variant_key )})"
+      buf << "\n"
+    end
+  else
+    buf << "![](#{media_fancy_pic_url( fancy.key )})"
+    buf << "\n"
+  end
+  buf
+end
+
+def build_fancies_media( fancies )
+  buf = ""
+  fancies.each do |fancy|
+    build_fancy_media( fancy )
+  end
+  buf
+end
+
+
 
 buf << "## Special Edition Cats (#{Fancy.special_editions.size})"
 buf << "\n\n"
 buf << build_fancies( Fancy.special_editions )
-buf << "\n\n\n"
+buf << "\n\n"
+buf << build_fancies_media( Fancy.special_editions )
+buf << "\n\n"
 
 buf << "## Exclusive Cats (#{Fancy.exclusives.size})"
 buf << "\n\n"
 buf << build_fancies( Fancy.exclusives )
-buf << "\n\n\n"
+buf << "\n\n"
+buf << build_fancies_media( Fancy.exclusives )
+buf << "\n\n"
 
 buf << "## Fancy Cats (#{Fancy.fancies.size})"
 buf << "\n\n"
 buf << build_fancies( Fancy.fancies )
-buf << "\n\n\n"
+buf << "\n\n"
+buf << build_fancies_media( Fancy.fancies )
+buf << "\n\n"
 
 
 
 ##################
 ## step 2 - add fancy cat details / chronic
-
 
 month = nil
 year  = nil
@@ -81,6 +150,7 @@ last_date = nil
 
 ## start of kitties blockchain / genesis
 genesisdate = Date.new( 2017, 11, 23)   ## 2017-11-23
+
 
 
 Fancy.each do |fancy|
@@ -116,6 +186,11 @@ Fancy.each do |fancy|
   last_date = date
 
 
+  ## add anchor name
+  buf << %Q{\n<a name="#{fancy.key}">}
+  buf << "\n\n"
+
+
   line = ""
   name = ""
 
@@ -134,9 +209,9 @@ Fancy.each do |fancy|
   line << "[**#{name}**]"
   line << "(#{kitties_fancy_search_url( fancy )})"
 
-  ## todo/fix: limit/count !!!!
-  line << " (#{fancy.limit ? fancy.limit : '?'}"     # add limit if present/known
-  ## line << "+#{h[:overflow]}"   if h[:overflow]
+
+  line << " ("
+  line << build_fancy_counter(fancy)
 
   if fancy.ids
     id_links = fancy.ids.map { |id| "[##{id}](#{kitties_kitty_url(id)})" }
@@ -168,18 +243,8 @@ Fancy.each do |fancy|
 
   buf << "\n"
 
-  if fancy.recipe && fancy.recipe[:variants]
-    fancy.recipe[:variants].each do |variant_key,variant_h|
-      buf << "![](#{media_fancy_pic_url( key, variant_key )})"
-      buf << "\n"
-    end
-  else
-    buf << "![](#{media_fancy_pic_url( key )})"
-    buf << "\n"
-  end
+  build_fancy_media( fancy )
 end
-
-
 
 
 puts buf

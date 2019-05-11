@@ -23,7 +23,7 @@ require 'kittyverse/links'
 
 require 'kittyverse/pages/genes'
 
-
+require 'kittyverse/recipes'
 require 'kittyverse/traits'
 require 'kittyverse/cattributes'
 require 'kittyverse/fancies'
@@ -31,4 +31,4 @@ require 'kittyverse/fancies'
 
 
 # say hello
-puts Kittyverse.banner    if defined?($RUBYLIBS_DEBUG) && $RUBYLIBS_DEBUG
+puts Kittyverse.banner    if defined?($RUBYCOCO_DEBUG) && $RUBYCOCO_DEBUG

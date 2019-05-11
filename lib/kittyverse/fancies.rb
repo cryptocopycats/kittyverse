@@ -106,7 +106,6 @@ class Fancy
 
     exclusive      = h[:exclusive]
     specialedition = h[:specialedition]
-    recipe         = h[:recipe]
 
     attribs = {
       key:       key,
@@ -115,9 +114,20 @@ class Fancy
       name_cn:   name_cn,
       desc:      desc,
       exclusive: exclusive,
-      specialedition: specialedition,
-      recipe:    recipe,
+      specialedition: specialedition
     }
+
+    if h[:recipe]
+      pp h[:recipe]
+      recipe = Recipe.new(
+         traits:     h[:recipe][:traits],    ## todo/fix: turn strings into trait objs!!!!
+         variants:   h[:recipe][:variants],    ## todo/fix: turn variant hash into variant ??? - why? why not?
+         limit:      h[:recipe][:limit],
+         time_start: h[:recipe][:time] && h[:recipe][:time][:start] ? Date.strptime( h[:recipe][:time][:start], '%Y-%m-%d' ) : nil,
+         time_end:   h[:recipe][:time] && h[:recipe][:time][:end]   ? Date.strptime( h[:recipe][:time][:end],   '%Y-%m-%d' ) : nil,
+      )
+      attribs[:recipe] = recipe
+    end
 
 
     ## todo: check for overflow  - if overflow use limit+overflow = count
