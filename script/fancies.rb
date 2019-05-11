@@ -111,9 +111,52 @@ end
 def build_fancies_media( fancies )
   buf = ""
   fancies.each do |fancy|
-    build_fancy_media( fancy )
+    buf << build_fancy_media( fancy )
   end
   buf
+end
+
+
+
+def build_trait( key )
+  puts "lookup trait >#{key}<"
+  trait = Traits[ key ]
+  ## pp trait
+
+  if key =~ /[A-Z]{2}[0-9]{2}/   # if code e.g. WE20 - keep as is
+     line = "**#{key}** #{MEWTATION_LEVEL[trait.kai]} "
+
+     [line, trait.type.name]
+  else
+    # rec[:name] = name
+    # rec[:kai]  = kai
+    # rec[:code] = code
+    # rec[:type] = key   ## todo - use trait instead of type  (use string not symbol?) - why? why not?
+
+    line = ""
+    line << "**#{trait.name}** #{MEWTATION_LEVEL[trait.kai]} "
+    line << "("
+    line << trait.code
+    line << ")"
+
+    [line, trait.type.name]
+  end
+end
+
+def build_traits( key_or_keys )
+  pp key_or_keys
+  if key_or_keys.is_a? Array
+    keys = key_or_keys
+    tt = ""   ## last trait type  (assume all trait types are the same for now)
+    t = keys.map do |key|
+      t, tt = build_trait( key )
+      t
+    end.join(', ')
+  else
+    key = key_or_keys
+    t, tt = build_trait( key )
+  end
+  "#{t} - #{tt}"   # trait (t) - trait type (tt)
 end
 
 
@@ -241,9 +284,52 @@ Fancy.each do |fancy|
   buf << line
   buf << "\n"
 
+
+  if fancy.recipe?
+    buf << "  - **#{fancy.recipe.traits.size}** traits"
+    buf << " + **#{fancy.recipe.variants.size}** variants"  if fancy.recipe.variants
+
+    if fancy.recipe.time?   ## time windowed recipe
+      buf << " - "
+      if fancy.recipe.time_start.year == fancy.recipe.time_end.year
+        buf << fancy.recipe.time_start.strftime( '%b %-d')
+      else   # include year
+        buf << fancy.recipe.time_start.strftime( '%b %-d %Y')
+      end
+
+      buf << " - "
+      buf << fancy.recipe.time_end.strftime( '%b %-d %Y')
+
+      time_days  = (fancy.recipe.time_end.to_date.jd - fancy.recipe.time_start.to_date.jd) + 1
+      buf << " (#{time_days}d)"
+    end
+    buf << ":"
+    buf << "\n"
+
+    ## traits:
+    fancy.recipe.traits.each do |trait_keys|
+        buf << "    - "
+        buf << build_traits( trait_keys )
+        buf << "\n"
+    end
+
+    if fancy.recipe.variants
+        fancy.recipe.variants.each do |variant_key,variant_h|
+          buf << "      - **#{variant_h[:name]}** (#{variant_h[:count]}), **#{variant_h[:traits].size}** trait:\n"
+          variant_h[:traits].each do |trait_keys|
+            buf << "        - "
+            buf << build_traits( trait_keys )
+            buf << "\n"
+          end
+        end
+    end
+  end
+
+  buf << "\n"
+  buf << build_fancy_media( fancy )
   buf << "\n"
 
-  build_fancy_media( fancy )
+  buf
 end
 
 

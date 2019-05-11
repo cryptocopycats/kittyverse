@@ -32,26 +32,31 @@ FANCIES =
 {
   'kitt-e': { name: 'KITT-E', date: '2019-05-10',
               specialedition: {
-                limit: 500 }
+                limit: 500 },
+              desc: 'Dapper (Crypto Contract) Wallet Promotion Cat'
             },
   'dapp-e': { name: 'DAPP-E', date: '2019-05-10',
               exclusive: {
-                limit: 50, ids: (1829..1878).to_a }
+                limit: 50, ids: (1829..1878).to_a },
+              desc: 'Dapper (Crypto Contract) Wallet Promotion Cat'
             },
-  
+
   # Apr 27, 2019
   # Krakitten Fancy Cat is discovered. Fancy Cat
   krakitten: { name: 'Krakitten',
                recipe: {
                  time: { start: '2019-04-27', end: '2019-05-06' },
-                 traits: ['cobalt', 'ducky', 'salty', 'splat']}
+                 traits: ['cobalt', 'ducky', 'salty', 'splat']},
+                 ## desc: 'Beware the Krakitten in the briny deep.'
              },
   # Apr 13, 2019
   # Furbeard Fancy Cat is discovered. Fancy Cat
-  furbeard: { name: 'Furbeard', date: '2019-04-13',
+  furbeard: { name: 'Furbeard',
               recipe: {
-                limit: 3733,  ### todo -check if furbear was time windowed???
-                traits: ['inflatablepool', 'hanauma', 'neckbeard']}
+                time: { start: '2019-04-13', end: '2019-04-26'}, count: 3733,
+                traits: ['inflatablepool', 'hanauma', 'neckbeard']},
+                desc: 'Dread Pirate Cat'   # Avast Ye! This Old Salt knows a few tricks: how to avoid a meowtiny, how to get out of swabbing the litter deck, and just where the captain's log is buried.
+                ## see https://www.cryptokitties.co/blog/post/pirate-cats-are-plundering-cryptokitties/
             },
 
   # Apr 10, 2019
@@ -521,7 +526,7 @@ FANCIES =
   santaclaws:   { name: 'Santa Claws', date: '2017-12-12',
                   recipe: {
                     limit: 1000, overflow: 2,
-                    traits: ['cloudwhite','scarlet','beard','wild_d'] },
+                    traits: ['cloudwhite','scarlet','beard','WE12'] },
                   desc: 'Ho Ho Ho - Santa Claus Kitty'
                 },
   mistletoe:    { name: 'Mistletoe', date: '2017-12-09',
