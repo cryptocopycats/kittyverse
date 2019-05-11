@@ -1,14 +1,18 @@
 # Genes (12 x 4)
 
-Fur (0-3) • Pattern (4-7) • Eye Color (8-11) • Eye Shape (12-15) • Base Color (16-19) • Highlight Color (20-23) • Accent Color (24-27) • Wild Element (28-31) • Mouth (32-35) • Environment (36-39) • Secret Y Gene (40-43) • Purrstige (44-47)
+[Fur (0-3)](#fur_0_3) • 
+[Pattern (4-7)](#pattern_4_7) • 
+Eye Color (8-11) • Eye Shape (12-15) • Base Color (16-19) • Highlight Color (20-23) • Accent Color (24-27) • Wild Element (28-31) • Mouth (32-35) • Environment (36-39) • Secret Y Gene (40-43) • Purrstige (44-47)
 
-## Fur (FU) - Genes 0-3
+## Fur (FU) 
+
+_Genes 0-3_
 
 |Kai|Code|Name         |Kai|Code|Name        |
 |--:|---:|-------------|--:|---:|------------|
-| 1 | FU00 | **[savannah](https://www.cryptokitties.co/search?include=sale,sire,other&search=savannah)**  | h | FU16 | **[norwegianforest](https://www.cryptokitties.co/search?include=sale,sire,other&search=norwegianforest)** I |
-| 2 | FU01 | **[selkirk](https://www.cryptokitties.co/search?include=sale,sire,other&search=selkirk)**  | i | FU17 | **[mekong](https://www.cryptokitties.co/search?include=sale,sire,other&search=mekong)** I |
-| 3 | FU02 | **[chantilly](https://www.cryptokitties.co/search?include=sale,sire,other&search=chantilly)**  | j | FU18 | **[highlander](https://www.cryptokitties.co/search?include=sale,sire,other&search=highlander)** I |
+| 1 | FU00 | **[Savannah](https://www.cryptokitties.co/search?include=sale,sire,other&search=savannah)**  | h | FU16 | **[norwegianforest](https://www.cryptokitties.co/search?include=sale,sire,other&search=norwegianforest)** I |
+| 2 | FU01 | **[Selkirk](https://www.cryptokitties.co/search?include=sale,sire,other&search=selkirk)**  | i | FU17 | **[mekong](https://www.cryptokitties.co/search?include=sale,sire,other&search=mekong)** I |
+| 3 | FU02 | **[Chantilly](https://www.cryptokitties.co/search?include=sale,sire,other&search=chantilly)**  | j | FU18 | **[highlander](https://www.cryptokitties.co/search?include=sale,sire,other&search=highlander)** I |
 | 4 | FU03 | **[birman](https://www.cryptokitties.co/search?include=sale,sire,other&search=birman)**  | k | FU19 | **[balinese](https://www.cryptokitties.co/search?include=sale,sire,other&search=balinese)** I |
 | 5 | FU04 | **[koladiviya](https://www.cryptokitties.co/search?include=sale,sire,other&search=koladiviya)**  | m | FU20 | **[lynx](https://www.cryptokitties.co/search?include=sale,sire,other&search=lynx)** I |
 | 6 | FU05 | **[bobtail](https://www.cryptokitties.co/search?include=sale,sire,other&search=bobtail)**  | n | FU21 | **[mainecoon](https://www.cryptokitties.co/search?include=sale,sire,other&search=mainecoon)** I |
@@ -24,7 +28,9 @@ Fur (0-3) • Pattern (4-7) • Eye Color (8-11) • Eye Shape (12-15) • Base 
 | g | FU15 | **[ragdoll](https://www.cryptokitties.co/search?include=sale,sire,other&search=ragdoll)**  | x | FU31 | ? |
 
 
-## Pattern (PA) - Genes 4-7
+## Pattern (PA) 
+
+_Genes 4-7_
 
 |Kai|Code|Name         |Kai|Code|Name        |
 |--:|---:|-------------|--:|---:|------------|
@@ -35,18 +41,20 @@ Fur (0-3) • Pattern (4-7) • Eye Color (8-11) • Eye Shape (12-15) • Base 
 | 5 | PA04 | **[leopard](https://www.cryptokitties.co/search?include=sale,sire,other&search=leopard)**  | m | PA20 | **[tigerpunk](https://www.cryptokitties.co/search?include=sale,sire,other&search=tigerpunk)** I |
 | 6 | PA05 | **[camo](https://www.cryptokitties.co/search?include=sale,sire,other&search=camo)**  | n | PA21 | **[henna](https://www.cryptokitties.co/search?include=sale,sire,other&search=henna)** I |
 | 7 | PA06 | **[rorschach](https://www.cryptokitties.co/search?include=sale,sire,other&search=rorschach)**  | o | PA22 | **[arcreactor](https://www.cryptokitties.co/search?include=sale,sire,other&search=arcreactor)** I |
-| 8 | PA07 | **[spangled](https://www.cryptokitties.co/search?include=sale,sire,other&search=spangled)**  | p | PA23 | **[totesbasic_p](https://www.cryptokitties.co/search?include=sale,sire,other&search=totesbasic)** I |
+| 8 | PA07 | **[spangled](https://www.cryptokitties.co/search?include=sale,sire,other&search=spangled)**  | p | PA23 | **[Totesbasic_3](https://www.cryptokitties.co/search?include=sale,sire,other&search=totesbasic)** I |
 | 9 | PA08 | **[calicool](https://www.cryptokitties.co/search?include=sale,sire,other&search=calicool)**  | q | PA24 | **[scorpius](https://www.cryptokitties.co/search?include=sale,sire,other&search=scorpius)** II |
 | a | PA09 | **[luckystripe](https://www.cryptokitties.co/search?include=sale,sire,other&search=luckystripe)**  | r | PA25 | **[razzledazzle](https://www.cryptokitties.co/search?include=sale,sire,other&search=razzledazzle)** II |
 | b | PA10 | **[amur](https://www.cryptokitties.co/search?include=sale,sire,other&search=amur)**  | s | PA26 | **[hotrod](https://www.cryptokitties.co/search?include=sale,sire,other&search=hotrod)** II |
 | c | PA11 | **[jaguar](https://www.cryptokitties.co/search?include=sale,sire,other&search=jaguar)**  | t | PA27 | **[allyouneed](https://www.cryptokitties.co/search?include=sale,sire,other&search=allyouneed)** II |
 | d | PA12 | **[spock](https://www.cryptokitties.co/search?include=sale,sire,other&search=spock)**  | u | PA28 | **[avatar](https://www.cryptokitties.co/search?include=sale,sire,other&search=avatar)** III |
-| e | PA13 | **[mittens](https://www.cryptokitties.co/search?include=sale,sire,other&search=mittens)**  | v | PA29 | **[gyre](https://www.cryptokitties.co/search?include=sale,sire,other&search=gyre)** III |
-| f | PA14 | **[totesbasic_f](https://www.cryptokitties.co/search?include=sale,sire,other&search=totesbasic)**  | w | PA30 | **[moonrise](https://www.cryptokitties.co/search?include=sale,sire,other&search=moonrise)** IIII |
-| g | PA15 | **[totesbasic_g](https://www.cryptokitties.co/search?include=sale,sire,other&search=totesbasic)**  | x | PA31 | ? |
+| e | PA13 | **[Mittens](https://www.cryptokitties.co/search?include=sale,sire,other&search=mittens)**  | v | PA29 | **[gyre](https://www.cryptokitties.co/search?include=sale,sire,other&search=gyre)** III |
+| f | PA14 | **[Totesbasic 1](https://www.cryptokitties.co/search?include=sale,sire,other&search=totesbasic)**  | w | PA30 | **[moonrise](https://www.cryptokitties.co/search?include=sale,sire,other&search=moonrise)** IIII |
+| g | PA15 | **[Totesbasic_2](https://www.cryptokitties.co/search?include=sale,sire,other&search=totesbasic)**  | x | PA31 | ? |
 
 
-## Eye Color (EC) - Genes 8-11
+## Eye Color (EC) 
+
+_Genes 8-11_
 
 |Kai|Code|Name         |Kai|Code|Name        |
 |--:|---:|-------------|--:|---:|------------|
