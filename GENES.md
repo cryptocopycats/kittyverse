@@ -1,7 +1,7 @@
 # Genes (12 x 4)
 
-[Fur (0-3)](#fur_0_3) • 
-[Pattern (4-7)](#pattern_4_7) • 
+[Fur (0-3)](#fur_fu) • 
+[Pattern (4-7)](#pattern_pa) • 
 Eye Color (8-11) • Eye Shape (12-15) • Base Color (16-19) • Highlight Color (20-23) • Accent Color (24-27) • Wild Element (28-31) • Mouth (32-35) • Environment (36-39) • Secret Y Gene (40-43) • Purrstige (44-47)
 
 ## Fur (FU) 
