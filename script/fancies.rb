@@ -44,7 +44,12 @@ def build_fancy_counter( fancy )
     else  ## assume limit
       if fancy.count && fancy.count < fancy.limit
         buf << "![](https://cryptocopycats.github.io/media/unlocked-18x18.png)"
-        buf << "#{fancy.count <=0 ? '?' : fancy.count}/#{fancy.limit}"     # add limit if present/known
+        if fancy.count <= 0
+          buf << '?'
+        else
+          buf << "#{fancy.count}+"
+        end
+        buf << "/#{fancy.limit}"     # add limit if present/known
       else
         buf << "![](https://cryptocopycats.github.io/media/locked-18x18.png)"
         buf << "#{fancy.limit ? fancy.limit : '?'}"    # add limit if present/known
@@ -59,6 +64,7 @@ def build_fancy_counter( fancy )
 end
 
 
+
 def build_fancy( fancy )
   name = ""
   name << fancy.name
@@ -68,17 +74,9 @@ def build_fancy( fancy )
   ## line << "(#{kitties_fancy_search_url( fancy )})"
   line << "(##{fancy.key})"
 
-
-  ## todo/fix: limit/count !!!!
-  if fancy.limit.nil?
-    ## just display/use count
-    line << " (#{fancy.count ? fancy.count : '?'})"
-  else
-    ## display/use count AND limit
-    line << " (#{fancy.limit ? fancy.limit : '?'}"    # add limit if present/known
-    ## line << "+#{h[:overflow]}"    if h[:overflow]
-    line << ")"
-  end
+  line << " ("
+  line << build_fancy_counter( fancy )
+  line << ")"
 
   line
 end

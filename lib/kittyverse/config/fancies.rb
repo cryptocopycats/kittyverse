@@ -45,7 +45,7 @@ FANCIES =
   # Krakitten Fancy Cat is discovered. Fancy Cat
   krakitten: { name: 'Krakitten',
                recipe: {
-                 time: { start: '2019-04-27', end: '2019-05-06' },
+                 time: { start: '2019-04-27', end: '2019-05-06' }, count: 1221,
                  traits: ['cobalt', 'ducky', 'salty', 'splat']},
                  ## desc: 'Beware the Krakitten in the briny deep.'
              },
@@ -77,7 +77,7 @@ FANCIES =
   # Glitter Fancy Cat is discovered. Fancy Cat
   glitter: { name: 'Glitter',
              recipe: {
-               time: { start: '2019-03-30', end: '2019-11-30'},
+               time: { start: '2019-03-30', end: '2019-11-30'},  count: 658,   ## note: ++count NOT FINAL!!!
                traits: ['rorschach', 'juju', 'unicorn', 'hyacinth'] }
            },
 
@@ -132,14 +132,14 @@ FANCIES =
   # Al Fancy Cat is discovered. Fancy Cat
   al: { name: 'Al',
         recipe: {
-          time: { start: '2019-02-17', end: '2019-12-01'},
+          time: { start: '2019-02-17', end: '2019-12-01'}, count: 3209, ## note: count NOT FINAL!!!
           traits: ['munchkin','moue','cashewmilk','brownies'] }
       },
   # Feb 16, 2019
   # Pizzazz Fancy Cat is discovered.Fancy Cat
   pizzazz: { name: 'Pizzazz',
              recipe: {
-               time: { start: '2019-02-16', end: '2019-12-01'},
+               time: { start: '2019-02-16', end: '2019-12-01'}, count: 1438, ## note: count NOT FINAL!!!
                traits: ['mekong', 'scarlet', 'spangled', 'wonky'] }
            },
 
@@ -152,11 +152,12 @@ FANCIES =
 
   # Feb 9, 2019
   # Miss Purrfect Fancy Cat is discovered.Fancy Cat
-  misspurrfect: { name: 'Miss Purrfect', date: '2019-02-09',
+  misspurrfect: { name: 'Miss Purrfect',
                   recipe: {
-                    limit: 1298,
+                    time: { start: '2019-02-09', end: '2019-02-14'}, count: 1298,
                     traits: ['allyouneed', 'butterscotch', 'asif', 'satiated', 'flapflap']},
                   desc: "Celebrating St. Valentine's Day 2019 (Feb/14th)"
+                  ## see https://www.cryptokitties.co/blog/post/how-to-breed-miss-purrfect/
                 },
 
   ## 2019
@@ -166,9 +167,10 @@ FANCIES =
   # Squib Fancy Cat is discovered. Fancy Cat
   squib: { name: 'Squib', date: '2019-01-26',
            recipe: {
-             limit: 1443,
+             limit: 1443,    ## todo/check:  check if time-windows?
              traits: ['oldlace', 'razzledazzle', 'buzzed', 'rollercoaster']},
            desc: 'Celebrating American Football Super Bowl LIII in 2019'
+           ## see https://www.cryptokitties.co/blog/post/how-to-breed-squib/
          },
 
   tallythepurrocious: { name: 'Tally The Purrocious',
@@ -209,7 +211,7 @@ FANCIES =
             },
   pawrula:  { name: 'Pawrula the Bright',
               recipe: {
-                 time: { start: '2018-12-15', end: '2019-11-30' },
+                 time: { start: '2018-12-15', end: '2019-11-30' }, count: 1952,  ## note: count NOT FINAL!!!
                  traits: ['camo', 'butterscotch', 'fox'] },
               desc: 'Neha Narula - Director of the Digital Currency Initiative at the MIT Media Lab'
             },
@@ -381,7 +383,7 @@ FANCIES =
   ## May
   page:              { name: 'Page', date: '2018-05-31',
                        recipe: {
-                         limit: 50_000,
+                         limit: 50_000,   count: 3936,  ## note: count NOT FINAL!!!
                          traits: ['rascal', 'peach', 'wasntme' ]}
                      },
   "schrödingerscat": { name: "Schrödinger's Cat", date: '2018-05-20',

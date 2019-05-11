@@ -79,62 +79,62 @@ see <https://updates.cryptokitties.co>
 
 ## Fancy Cats (56)
 
-[**Krakitten**](#krakitten) (?)
-[**Furbeard**](#furbeard) (3733)
-[**Glitter**](#glitter) (?)
-[**Clover**](#clover) (2506)
-[**Glasswalker**](#glasswalker) (1230)
-[**Ande**](#ande) (440)
-[**Al**](#al) (?)
-[**Pizzazz**](#pizzazz) (?)
-[**Miss Purrfect**](#misspurrfect) (1298)
-[**Squib**](#squib) (1443)
-[**Tally The Purrocious**](#tallythepurrocious) (3992)
-[**Gene Dough**](#genedough) (1376)
-[**Pawrula the Bright**](#pawrula) (?)
-[**Draco**](#draco) (1115)
-[**Draco Junior**](#dracojunior) (1398)
-[**Dreggo**](#dreggo) (3624)
-[**Pickles**](#pickles) (303)
-[**Dukecat**](#dukecat) (1366)
-[**Sheila Purren**](#sheilapurren) (1971)
-[**Pawzilla**](#pawzilla) (1185)
-[**Meowstro**](#meowstro) (1698)
-[**Atlas**](#atlas) (998)
-[**Purrity**](#purrity) (5984)
-[**Squiddlesworth**](#squiddlesworth) (1510)
-[**Purrspero**](#purrspero) (4448)
-[**Catbury**](#catbury) (76)
-[**Lulu**](#lulu) (999)
-[**Boot**](#boot) (1440)
-[**Raspoutine**](#raspoutine) (1867)
-[**Kitty Pride**](#kittypride) (1316)
-[**Furrmingo**](#furrmingo) (333)
-[**Page**](#page) (50000)
-[**Schrödinger's Cat**](#schrödingerscat) (73)
-[**Chat Plongeur**](#chatplongeur) (1910)
-[**Doc Purr**](#docpurr) (250)
-[**Swish**](#swish) (2880)
-[**Flutterbee**](#flutterbee) (275)
-[**Vernon**](#vernon) (320)
-[**Berry**](#berry) (200)
-[**Puss For Progress**](#pussforprogress) (1920)
-[**Fortune Cat (红包喵)**](#fortunecat) (888)
-[**Lion Dance (咚咚锵)**](#liondance) (888)
-[**Dog Cat (汪星爷)**](#dogcat) (88)
-[**Tabby**](#tabby) (250)
-[**Yuri Catsuki**](#yuricatsuki) (250)
-[**Mister Purrfect**](#misterpurrfect) (1000)
-[**Earnie**](#earnie) (500)
-[**Momo-chan**](#momo-chan) (500)
-[**Negato**](#negato) (500)
-[**Stitches**](#stitches) (500)
-[**Phu Ziqaat**](#phuziqaat) (1000)
-[**Santa Claws**](#santaclaws) (1000)
-[**Mistletoe**](#mistletoe) (2000)
-[**Dracula**](#dracula) (2000)
-[**Du Cat**](#ducat) (10000)
-[**Ship Cat**](#shipcat) (2000)
+[**Krakitten**](#krakitten) (![](https://cryptocopycats.github.io/media/locked-18x18.png)1221)
+[**Furbeard**](#furbeard) (![](https://cryptocopycats.github.io/media/locked-18x18.png)3733)
+[**Glitter**](#glitter) (![](https://cryptocopycats.github.io/media/unlocked-18x18.png)658+)
+[**Clover**](#clover) (![](https://cryptocopycats.github.io/media/locked-18x18.png)2506)
+[**Glasswalker**](#glasswalker) (![](https://cryptocopycats.github.io/media/locked-18x18.png)1230)
+[**Ande**](#ande) (![](https://cryptocopycats.github.io/media/locked-18x18.png)440)
+[**Al**](#al) (![](https://cryptocopycats.github.io/media/unlocked-18x18.png)3209+)
+[**Pizzazz**](#pizzazz) (![](https://cryptocopycats.github.io/media/unlocked-18x18.png)1438+)
+[**Miss Purrfect**](#misspurrfect) (![](https://cryptocopycats.github.io/media/locked-18x18.png)1298)
+[**Squib**](#squib) (![](https://cryptocopycats.github.io/media/locked-18x18.png)1443)
+[**Tally The Purrocious**](#tallythepurrocious) (![](https://cryptocopycats.github.io/media/locked-18x18.png)3992)
+[**Gene Dough**](#genedough) (![](https://cryptocopycats.github.io/media/locked-18x18.png)1376)
+[**Pawrula the Bright**](#pawrula) (![](https://cryptocopycats.github.io/media/unlocked-18x18.png)1952+)
+[**Draco**](#draco) (![](https://cryptocopycats.github.io/media/locked-18x18.png)1115)
+[**Draco Junior**](#dracojunior) (![](https://cryptocopycats.github.io/media/locked-18x18.png)1398)
+[**Dreggo**](#dreggo) (![](https://cryptocopycats.github.io/media/locked-18x18.png)3624)
+[**Pickles**](#pickles) (![](https://cryptocopycats.github.io/media/locked-18x18.png)303)
+[**Dukecat**](#dukecat) (![](https://cryptocopycats.github.io/media/locked-18x18.png)1366)
+[**Sheila Purren**](#sheilapurren) (![](https://cryptocopycats.github.io/media/locked-18x18.png)1971)
+[**Pawzilla**](#pawzilla) (![](https://cryptocopycats.github.io/media/locked-18x18.png)1185)
+[**Meowstro**](#meowstro) (![](https://cryptocopycats.github.io/media/locked-18x18.png)1698)
+[**Atlas**](#atlas) (![](https://cryptocopycats.github.io/media/locked-18x18.png)998)
+[**Purrity**](#purrity) (![](https://cryptocopycats.github.io/media/locked-18x18.png)5984)
+[**Squiddlesworth**](#squiddlesworth) (![](https://cryptocopycats.github.io/media/locked-18x18.png)1510)
+[**Purrspero**](#purrspero) (![](https://cryptocopycats.github.io/media/locked-18x18.png)4448)
+[**Catbury**](#catbury) (![](https://cryptocopycats.github.io/media/locked-18x18.png)76)
+[**Lulu**](#lulu) (![](https://cryptocopycats.github.io/media/locked-18x18.png)999)
+[**Boot**](#boot) (![](https://cryptocopycats.github.io/media/locked-18x18.png)1440)
+[**Raspoutine**](#raspoutine) (![](https://cryptocopycats.github.io/media/locked-18x18.png)1867)
+[**Kitty Pride**](#kittypride) (![](https://cryptocopycats.github.io/media/locked-18x18.png)1316)
+[**Furrmingo**](#furrmingo) (![](https://cryptocopycats.github.io/media/locked-18x18.png)333)
+[**Page**](#page) (![](https://cryptocopycats.github.io/media/unlocked-18x18.png)3936+/50000)
+[**Schrödinger's Cat**](#schrödingerscat) (![](https://cryptocopycats.github.io/media/locked-18x18.png)73)
+[**Chat Plongeur**](#chatplongeur) (![](https://cryptocopycats.github.io/media/locked-18x18.png)1910)
+[**Doc Purr**](#docpurr) (![](https://cryptocopycats.github.io/media/locked-18x18.png)250)
+[**Swish**](#swish) (![](https://cryptocopycats.github.io/media/locked-18x18.png)2880)
+[**Flutterbee**](#flutterbee) (![](https://cryptocopycats.github.io/media/locked-18x18.png)275)
+[**Vernon**](#vernon) (![](https://cryptocopycats.github.io/media/locked-18x18.png)320)
+[**Berry**](#berry) (![](https://cryptocopycats.github.io/media/locked-18x18.png)200)
+[**Puss For Progress**](#pussforprogress) (![](https://cryptocopycats.github.io/media/locked-18x18.png)1920)
+[**Fortune Cat (红包喵)**](#fortunecat) (![](https://cryptocopycats.github.io/media/locked-18x18.png)888)
+[**Lion Dance (咚咚锵)**](#liondance) (![](https://cryptocopycats.github.io/media/locked-18x18.png)888)
+[**Dog Cat (汪星爷)**](#dogcat) (![](https://cryptocopycats.github.io/media/locked-18x18.png)88)
+[**Tabby**](#tabby) (![](https://cryptocopycats.github.io/media/locked-18x18.png)250)
+[**Yuri Catsuki**](#yuricatsuki) (![](https://cryptocopycats.github.io/media/locked-18x18.png)250)
+[**Mister Purrfect**](#misterpurrfect) (![](https://cryptocopycats.github.io/media/locked-18x18.png)1000)
+[**Earnie**](#earnie) (![](https://cryptocopycats.github.io/media/locked-18x18.png)500)
+[**Momo-chan**](#momo-chan) (![](https://cryptocopycats.github.io/media/locked-18x18.png)500)
+[**Negato**](#negato) (![](https://cryptocopycats.github.io/media/locked-18x18.png)500)
+[**Stitches**](#stitches) (![](https://cryptocopycats.github.io/media/locked-18x18.png)500)
+[**Phu Ziqaat**](#phuziqaat) (![](https://cryptocopycats.github.io/media/locked-18x18.png)1000)
+[**Santa Claws**](#santaclaws) (![](https://cryptocopycats.github.io/media/locked-18x18.png)1000)
+[**Mistletoe**](#mistletoe) (![](https://cryptocopycats.github.io/media/locked-18x18.png)2000)
+[**Dracula**](#dracula) (![](https://cryptocopycats.github.io/media/locked-18x18.png)2000)
+[**Du Cat**](#ducat) (![](https://cryptocopycats.github.io/media/locked-18x18.png)10000)
+[**Ship Cat**](#shipcat) (![](https://cryptocopycats.github.io/media/locked-18x18.png)2000)
 
 
 ![](https://cryptocopycats.github.io/media/kitties/100x100/fancy-krakitten.png)
@@ -230,7 +230,7 @@ Apr 27, 2019 (521d)
 
 <a name="krakitten">
 
-- [**Krakitten**](https://www.cryptokitties.co/search?include=sale,sire,other&search=fancy:krakitten) (![](https://cryptocopycats.github.io/media/locked-18x18.png)?) Fancy Cat discovered. #Fancy Cat
+- [**Krakitten**](https://www.cryptokitties.co/search?include=sale,sire,other&search=fancy:krakitten) (![](https://cryptocopycats.github.io/media/locked-18x18.png)1221) Fancy Cat discovered. #Fancy Cat
   - **4** traits - Apr 27 - May 6 2019 (10d):
     - **Cobalt** II (AC25) - Accent Color
     - **Ducky** I (WE18) - Wild Element
@@ -277,7 +277,7 @@ Mar 30, 2019 (493d)
 
 <a name="glitter">
 
-- [**Glitter**](https://www.cryptokitties.co/search?include=sale,sire,other&search=fancy:glitter) (![](https://cryptocopycats.github.io/media/unlocked-18x18.png)?) Fancy Cat discovered. #Fancy Cat
+- [**Glitter**](https://www.cryptokitties.co/search?include=sale,sire,other&search=fancy:glitter) (![](https://cryptocopycats.github.io/media/unlocked-18x18.png)658+) Fancy Cat discovered. #Fancy Cat
   - **4** traits - Mar 30 - Nov 30 2019 (246d):
     - **Rorschach**  (PA06) - Pattern
     - **Juju** I (EN18) - Environment
@@ -361,7 +361,7 @@ Feb 17, 2019 (452d)
 
 <a name="al">
 
-- [**Al**](https://www.cryptokitties.co/search?include=sale,sire,other&search=fancy:al) (![](https://cryptocopycats.github.io/media/unlocked-18x18.png)?) Fancy Cat discovered. #Fancy Cat
+- [**Al**](https://www.cryptokitties.co/search?include=sale,sire,other&search=fancy:al) (![](https://cryptocopycats.github.io/media/unlocked-18x18.png)3209+) Fancy Cat discovered. #Fancy Cat
   - **4** traits - Feb 17 - Dec 1 2019 (288d):
     - **Munchkin**  (FU12) - Fur
     - **Moue**  (MO13) - Mouth
@@ -375,7 +375,7 @@ Feb 16, 2019 (451d)
 
 <a name="pizzazz">
 
-- [**Pizzazz**](https://www.cryptokitties.co/search?include=sale,sire,other&search=fancy:pizzazz) (![](https://cryptocopycats.github.io/media/unlocked-18x18.png)?) Fancy Cat discovered. #Fancy Cat
+- [**Pizzazz**](https://www.cryptokitties.co/search?include=sale,sire,other&search=fancy:pizzazz) (![](https://cryptocopycats.github.io/media/unlocked-18x18.png)1438+) Fancy Cat discovered. #Fancy Cat
   - **4** traits - Feb 16 - Dec 1 2019 (289d):
     - **Mekong** I (FU17) - Fur
     - **Scarlet**  (HC10) - Highlight Color
@@ -399,7 +399,7 @@ Feb 9, 2019 (444d)
 <a name="misspurrfect">
 
 - [**Miss Purrfect**](https://www.cryptokitties.co/search?include=sale,sire,other&search=fancy:misspurrfect) (![](https://cryptocopycats.github.io/media/locked-18x18.png)1298) Fancy Cat discovered -- Celebrating St. Valentine's Day 2019 (Feb/14th). #Fancy Cat
-  - **5** traits:
+  - **5** traits - Feb 9 - Feb 14 2019 (6d):
     - **Allyouneed** II (PA27) - Pattern
     - **Butterscotch**  (HC15) - Highlight Color
     - **Asif**  (ES11) - Eye Shape
@@ -495,7 +495,7 @@ Dec 15, 2018 (388d)
 
 <a name="pawrula">
 
-- [**Pawrula the Bright**](https://www.cryptokitties.co/search?include=sale,sire,other&search=fancy:pawrula) (![](https://cryptocopycats.github.io/media/unlocked-18x18.png)?) Fancy Cat discovered -- Neha Narula - Director of the Digital Currency Initiative at the MIT Media Lab. #Fancy Cat
+- [**Pawrula the Bright**](https://www.cryptokitties.co/search?include=sale,sire,other&search=fancy:pawrula) (![](https://cryptocopycats.github.io/media/unlocked-18x18.png)1952+) Fancy Cat discovered -- Neha Narula - Director of the Digital Currency Initiative at the MIT Media Lab. #Fancy Cat
   - **3** traits - Dec 15 2018 - Nov 30 2019 (351d):
     - **Camo**  (PA05) - Pattern
     - **Butterscotch**  (HC15) - Highlight Color
@@ -881,7 +881,7 @@ May 31, 2018 (190d)
 
 <a name="page">
 
-- [**Page**](https://www.cryptokitties.co/search?include=sale,sire,other&search=fancy:page) (![](https://cryptocopycats.github.io/media/locked-18x18.png)50000) Fancy Cat discovered. #Fancy Cat
+- [**Page**](https://www.cryptokitties.co/search?include=sale,sire,other&search=fancy:page) (![](https://cryptocopycats.github.io/media/unlocked-18x18.png)3936+/50000) Fancy Cat discovered. #Fancy Cat
   - **3** traits:
     - **Rascal**  (PA02) - Pattern
     - **Peach**  (AC02) - Accent Color
