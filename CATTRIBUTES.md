@@ -1,6 +1,6 @@
 # Cattributes Rarity / Popularity Statistics
 
-(Source: [`api.cryptokitties.co/cattributes` (JSON)](https://api.cryptokitties.co/cattributes), [(CSV)](datasets/cattributes.csv))
+(Source: [`api.cryptokitties.co/cattributes` (JSON)](https://api.cryptokitties.co/cattributes), [(CSV)](datasets/))
 
 [Fur (FU)](#fur-fu) • 
 [Pattern (PA)](#pattern-pa) • 
