@@ -206,7 +206,7 @@ end
 Auto-generated CryptoKitties reference pages / cheat sheets include:
 
 - [**CryptoKitties Cattributes Rarity / Popularity Statistics**](CATTRIBUTES.md)
-- [**CryptoKitties Genome / Genes Cheat Sheet**](GENES.md) - Fur (0-3) • Pattern (4-7) • Eye Color (8-11) • Eye Shape (12-15) • Base Color (16-19) • Highlight Color (20-23) • Accent Color (24-27) • Wild (28-31) • Mouth (32-35) • Environment (36-39) • Secret Y Gene (40-43) • Purrstige (44-47)
+- [**CryptoKitties Genome / Genes Cheat Sheet**](GENES.md) - Fur (FU) • Pattern (PA) • Eye Color (EC) • Eye Shape (ES) • Base Color (BC) • Highlight Color (HC) • Accent Color (AC) • Wild Element (WE) • Mouth (MO) • Environment (EN) • Secret Y Gene (SE) • Purrstige (PU)
 - [**CryptoKitties Traits Cheat Sheet (with Codes, Mewtation Levels / Tiers, Search Links and More)**](TRAITS.md)
 - [**CryptoKitties Updates - Fancy / Exclusive / Special Edition Cats - Timeline**](updates/FANCIES.md)
 - [**CryptoKitties Updates - Purrstige Trait Recipes / Formulas - Timeline**](updates/PURRSTIGES.md)
