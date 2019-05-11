@@ -2,29 +2,32 @@
 
 (Source: [`api.cryptokitties.co/cattributes` (JSON)](https://api.cryptokitties.co/cattributes), [(CSV)](datasets/cattributes.csv))
 
+[Fur (FU)](#fur-fu) • 
+[Pattern (PA)](#pattern-pa) • 
+Eye Color (EC) • Eye Shape (ES) • Base Color (BC) • Highlight Color (HC) • Accent Color (AC) • Wild Element (WE) • Mouth (MO) • Environment (EN) • Secret Y Gene (SE) • Purrstige (PU)
 
-## Fur (Genes 0-3)
+## Fur (FU)
 
 _1441185 Cats with 31 Cattributes_
 
 | #|Total (%)|Cattribute|
 |-:|--------:|----------|
-| 1/31 | 861 (0.06) | [**burmilla**](https://www.cryptokitties.co/search?include=sale,sire,other&search=burmilla) |
-| 2/31 | 874 (0.06) | [**liger**](https://www.cryptokitties.co/search?include=sale,sire,other&search=liger) |
-| 3/31 | 1772 (0.12) | [**balinese**](https://www.cryptokitties.co/search?include=sale,sire,other&search=balinese) |
-| 4/31 | 2017 (0.14) | [**kurilian**](https://www.cryptokitties.co/search?include=sale,sire,other&search=kurilian) |
-| 5/31 | 2243 (0.16) | [**lykoi**](https://www.cryptokitties.co/search?include=sale,sire,other&search=lykoi) |
-| 6/31 | 4287 (0.30) | [**fox**](https://www.cryptokitties.co/search?include=sale,sire,other&search=fox) |
-| 7/31 | 4922 (0.34) | [**mekong**](https://www.cryptokitties.co/search?include=sale,sire,other&search=mekong) |
-| 8/31 | 6871 (0.48) | [**mainecoon**](https://www.cryptokitties.co/search?include=sale,sire,other&search=mainecoon) |
-| 9/31 | 7841 (0.54) | [**manx**](https://www.cryptokitties.co/search?include=sale,sire,other&search=manx) |
-| 10/31 | 8628 (0.60) | [**lynx**](https://www.cryptokitties.co/search?include=sale,sire,other&search=lynx) |
-| 11/31 | 9780 (0.68) | [**toyger**](https://www.cryptokitties.co/search?include=sale,sire,other&search=toyger) |
-| 12/31 | 12342 (0.86) | [**highlander**](https://www.cryptokitties.co/search?include=sale,sire,other&search=highlander) |
-| 13/31 | 12569 (0.87) | [**manul**](https://www.cryptokitties.co/search?include=sale,sire,other&search=manul) |
-| 14/31 | 14301 (0.99) | [**persian**](https://www.cryptokitties.co/search?include=sale,sire,other&search=persian) |
-| 15/31 | 18838 (1.31) | [**chantilly**](https://www.cryptokitties.co/search?include=sale,sire,other&search=chantilly) |
-| 16/31 | 20088 (1.39) | [**siberian**](https://www.cryptokitties.co/search?include=sale,sire,other&search=siberian) |
+| 1/31 | 861 (0.06%) | [**Burmilla**](https://www.cryptokitties.co/search?include=sale,sire,other&search=burmilla) |
+| 2/31 | 874 (0.06%) | [**Liger**](https://www.cryptokitties.co/search?include=sale,sire,other&search=liger) |
+| 3/31 | 1772 (0.12%) | [**balinese**](https://www.cryptokitties.co/search?include=sale,sire,other&search=balinese) |
+| 4/31 | 2017 (0.14%) | [**kurilian**](https://www.cryptokitties.co/search?include=sale,sire,other&search=kurilian) |
+| 5/31 | 2243 (0.16%) | [**lykoi**](https://www.cryptokitties.co/search?include=sale,sire,other&search=lykoi) |
+| 6/31 | 4287 (0.30%) | [**fox**](https://www.cryptokitties.co/search?include=sale,sire,other&search=fox) |
+| 7/31 | 4922 (0.34%) | [**mekong**](https://www.cryptokitties.co/search?include=sale,sire,other&search=mekong) |
+| 8/31 | 6871 (0.48%) | [**mainecoon**](https://www.cryptokitties.co/search?include=sale,sire,other&search=mainecoon) |
+| 9/31 | 7841 (0.54%) | [**manx**](https://www.cryptokitties.co/search?include=sale,sire,other&search=manx) |
+| 10/31 | 8628 (0.60%) | [**lynx**](https://www.cryptokitties.co/search?include=sale,sire,other&search=lynx) |
+| 11/31 | 9780 (0.68%) | [**toyger**](https://www.cryptokitties.co/search?include=sale,sire,other&search=toyger) |
+| 12/31 | 12342 (0.86%) | [**highlander**](https://www.cryptokitties.co/search?include=sale,sire,other&search=highlander) |
+| 13/31 | 12569 (0.87%) | [**manul**](https://www.cryptokitties.co/search?include=sale,sire,other&search=manul) |
+| 14/31 | 14301 (0.99%) | [**persian**](https://www.cryptokitties.co/search?include=sale,sire,other&search=persian) |
+| 15/31 | 18838 (1.31%) | [**chantilly**](https://www.cryptokitties.co/search?include=sale,sire,other&search=chantilly) |
+| 16/31 | 20088 (1.39%) | [**siberian**](https://www.cryptokitties.co/search?include=sale,sire,other&search=siberian) |
 | 17/31 | 23186 (1.61) | [**chartreux**](https://www.cryptokitties.co/search?include=sale,sire,other&search=chartreux) |
 | 18/31 | 23851 (1.65) | [**norwegianforest**](https://www.cryptokitties.co/search?include=sale,sire,other&search=norwegianforest) |
 | 19/31 | 45843 (3.18) | [**laperm**](https://www.cryptokitties.co/search?include=sale,sire,other&search=laperm) |
