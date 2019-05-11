@@ -31,19 +31,19 @@ def build_fancy_counter( fancy )
     ## todo/fix: limit/count !!!!
     if fancy.recipe.time?   ## time windowed recipe
       if fancy.recipe.time_end >= Date.today
-        buf << "![](https://cryptocopycats.github.io/media/unlocked-18x18.png)"
+        buf << "![](https://cryptocopycats.github.io/media/icons/18x18/unlocked.png)"
         if fancy.count     # add count if present/known
           buf << "#{fancy.count}+"
         else
           buf << "?"
         end
       else
-        buf << "![](https://cryptocopycats.github.io/media/locked-18x18.png)"
+        ## buf << "![](https://cryptocopycats.github.io/media/icons/18x18/locked.png)"
         buf << "#{fancy.count ? fancy.count : '?'}"     # add count if present/known
       end
     else  ## assume limit
       if fancy.count && fancy.count < fancy.limit
-        buf << "![](https://cryptocopycats.github.io/media/unlocked-18x18.png)"
+        buf << "![](https://cryptocopycats.github.io/media/icons/18x18/unlocked.png)"
         if fancy.count <= 0
           buf << '?'
         else
@@ -51,7 +51,7 @@ def build_fancy_counter( fancy )
         end
         buf << "/#{fancy.limit}"     # add limit if present/known
       else
-        buf << "![](https://cryptocopycats.github.io/media/locked-18x18.png)"
+        ## buf << "![](https://cryptocopycats.github.io/media/icons/18x18/locked.png)"
         buf << "#{fancy.limit ? fancy.limit : '?'}"    # add limit if present/known
       end
     end
@@ -92,15 +92,16 @@ def build_fancies( fancies )
   buf
 end
 
+
 def build_fancy_media( fancy )
   buf = ""
   if fancy.recipe && fancy.recipe.variants
     fancy.recipe.variants.each do |variant_key,variant_h|
-      buf << "![](#{media_fancy_pic_url( fancy.key, variant_key )})"
+      buf << "![#{fancy.name} #{variant_h[:name]}](#{media_fancy_pic_url( fancy.key, variant_key )})"
       buf << "\n"
     end
   else
-    buf << "![](#{media_fancy_pic_url( fancy.key )})"
+    buf << "![#{fancy.name}](#{media_fancy_pic_url( fancy.key )})"
     buf << "\n"
   end
   buf
