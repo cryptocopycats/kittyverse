@@ -212,65 +212,65 @@ _Genes 8-11_
 
 |Kai|Code|Name         |Kai|Code|Name        |
 |--:|---:|-------------|--:|---:|------------|
-| 1 | EN00 | ? | h | EN16 | **[salty](https://www.cryptokitties.co/search?include=sale,sire,other&search=salty)** I |
-| 2 | EN01 | ? | i | EN17 | **[dune](https://www.cryptokitties.co/search?include=sale,sire,other&search=dune)** I |
-| 3 | EN02 | ? | j | EN18 | **[juju](https://www.cryptokitties.co/search?include=sale,sire,other&search=juju)** I |
-| 4 | EN03 | ? | k | EN19 | **[tinybox](https://www.cryptokitties.co/search?include=sale,sire,other&search=tinybox)** I |
-| 5 | EN04 | ? | m | EN20 | **[myparade](https://www.cryptokitties.co/search?include=sale,sire,other&search=myparade)** I |
-| 6 | EN05 | ? | n | EN21 | **[finalfrontier](https://www.cryptokitties.co/search?include=sale,sire,other&search=finalfrontier)** I |
-| 7 | EN06 | ? | o | EN22 | **[metime](https://www.cryptokitties.co/search?include=sale,sire,other&search=metime)** I |
-| 8 | EN07 | ? | p | EN23 | **[drift](https://www.cryptokitties.co/search?include=sale,sire,other&search=drift)** I |
-| 9 | EN08 | ? | q | EN24 | **[secretgarden](https://www.cryptokitties.co/search?include=sale,sire,other&search=secretgarden)** II |
-| a | EN09 | ? | r | EN25 | **[frozen](https://www.cryptokitties.co/search?include=sale,sire,other&search=frozen)** II |
-| b | EN10 | ? | s | EN26 | **[roadtogold](https://www.cryptokitties.co/search?include=sale,sire,other&search=roadtogold)** II |
-| c | EN11 | ? | t | EN27 | **[jacked](https://www.cryptokitties.co/search?include=sale,sire,other&search=jacked)** II |
-| d | EN12 | ? | u | EN28 | **[floorislava](https://www.cryptokitties.co/search?include=sale,sire,other&search=floorislava)** III |
-| e | EN13 | ? | v | EN29 | **[prism](https://www.cryptokitties.co/search?include=sale,sire,other&search=prism)** III |
-| f | EN14 | ? | w | EN30 | **[junglebook](https://www.cryptokitties.co/search?include=sale,sire,other&search=junglebook)** IIII |
-| g | EN15 | ? | x | EN31 | ? |
+| 1 | EN00 |  | h | EN16 | **[salty](https://www.cryptokitties.co/search?include=sale,sire,other&search=salty)** I |
+| 2 | EN01 |  | i | EN17 | **[dune](https://www.cryptokitties.co/search?include=sale,sire,other&search=dune)** I |
+| 3 | EN02 |  | j | EN18 | **[juju](https://www.cryptokitties.co/search?include=sale,sire,other&search=juju)** I |
+| 4 | EN03 |  | k | EN19 | **[tinybox](https://www.cryptokitties.co/search?include=sale,sire,other&search=tinybox)** I |
+| 5 | EN04 |  | m | EN20 | **[myparade](https://www.cryptokitties.co/search?include=sale,sire,other&search=myparade)** I |
+| 6 | EN05 |  | n | EN21 | **[finalfrontier](https://www.cryptokitties.co/search?include=sale,sire,other&search=finalfrontier)** I |
+| 7 | EN06 |  | o | EN22 | **[metime](https://www.cryptokitties.co/search?include=sale,sire,other&search=metime)** I |
+| 8 | EN07 |  | p | EN23 | **[drift](https://www.cryptokitties.co/search?include=sale,sire,other&search=drift)** I |
+| 9 | EN08 |  | q | EN24 | **[secretgarden](https://www.cryptokitties.co/search?include=sale,sire,other&search=secretgarden)** II |
+| a | EN09 |  | r | EN25 | **[frozen](https://www.cryptokitties.co/search?include=sale,sire,other&search=frozen)** II |
+| b | EN10 |  | s | EN26 | **[roadtogold](https://www.cryptokitties.co/search?include=sale,sire,other&search=roadtogold)** II |
+| c | EN11 |  | t | EN27 | **[jacked](https://www.cryptokitties.co/search?include=sale,sire,other&search=jacked)** II |
+| d | EN12 |  | u | EN28 | **[floorislava](https://www.cryptokitties.co/search?include=sale,sire,other&search=floorislava)** III |
+| e | EN13 |  | v | EN29 | **[prism](https://www.cryptokitties.co/search?include=sale,sire,other&search=prism)** III |
+| f | EN14 |  | w | EN30 | **[junglebook](https://www.cryptokitties.co/search?include=sale,sire,other&search=junglebook)** IIII |
+| g | EN15 |  | x | EN31 | ? |
 
 
 ## Secret Y Gene (SE) - Genes 40-43
 
 |Kai|Code|Name         |Kai|Code|Name        |
 |--:|---:|-------------|--:|---:|------------|
-| 1 | SE00 | ? | h | SE16 | ? I |
-| 2 | SE01 | ? | i | SE17 | ? I |
-| 3 | SE02 | ? | j | SE18 | ? I |
-| 4 | SE03 | ? | k | SE19 | ? I|
-| 5 | SE04 | ? | m | SE20 | ? |
-| 6 | SE05 | ? | n | SE21 | ? |
-| 7 | SE06 | ? | o | SE22 | ? |
-| 8 | SE07 | ? | p | SE23 | ? |
-| 9 | SE08 | ? | q | SE24 | ? |
-| a | SE09 | ? | r | SE25 | ? |
-| b | SE10 | ? | s | SE26 | ? |
-| c | SE11 | ? | t | SE27 | ? |
-| d | SE12 | ? | u | SE28 | ? III |
-| e | SE13 | ? | v | SE29 | ? III |
-| f | SE14 | ? | w | SE30 | ? IIII |
-| g | SE15 | ? | x | SE31 | ? |
+| 1 | SE00 | - | h | SE16 | - I |
+| 2 | SE01 | - | i | SE17 | - I |
+| 3 | SE02 | - | j | SE18 | - I |
+| 4 | SE03 | - | k | SE19 | - I|
+| 5 | SE04 | - | m | SE20 | - |
+| 6 | SE05 | - | n | SE21 | - |
+| 7 | SE06 | - | o | SE22 | - |
+| 8 | SE07 | - | p | SE23 | - |
+| 9 | SE08 | - | q | SE24 | - |
+| a | SE09 | - | r | SE25 | - |
+| b | SE10 | - | s | SE26 | - |
+| c | SE11 | - | t | SE27 | - |
+| d | SE12 | - | u | SE28 | - III |
+| e | SE13 | - | v | SE29 | - III |
+| f | SE14 | - | w | SE30 | - IIII |
+| g | SE15 | - | x | SE31 | - |
 
 
 ## Purrstige (PU) - Genes 44-47
 
 |Kai|Code|Name         |Kai|Code|Name        |
 |--:|---:|-------------|--:|---:|------------|
-| 1 | PU00 | ? | h | PU16 | **?** I |
-| 2 | PU01 | ? | i | PU17 | **?** I |
-| 3 | PU02 | ? | j | PU18 | ? |
-| 4 | PU03 | ? | k | PU19 | ? |
-| 5 | PU04 | ? | m | PU20 | ? |
-| 6 | PU05 | ? | n | PU21 | ? |
-| 7 | PU06 | ? | o | PU22 | ? |
-| 8 | PU07 | ? | p | PU23 | ? |
-| 9 | PU08 | ? | q | PU24 | ? |
-| a | PU09 | ? | r | PU25 | ? |
-| b | PU10 | ? | s | PU26 | ? |
-| c | PU11 | ? | t | PU27 | ? |
-| d | PU12 | ? | u | PU28 | **?** III |
-| e | PU13 | ? | v | PU29 | **?** III|
-| f | PU14 | ? | w | PU30 | **?** IIII |
-| g | PU15 | ? | x | PU31 | **?**  |
+| 1 | PU00 | ∅ | h | PU16 | **∅** I |
+| 2 | PU01 | ∅ | i | PU17 | **∅** I |
+| 3 | PU02 | ∅ | j | PU18 | ∅ |
+| 4 | PU03 | ∅ | k | PU19 | ∅ |
+| 5 | PU04 | ∅ | m | PU20 | ∅ |
+| 6 | PU05 | ∅ | n | PU21 | ∅ |
+| 7 | PU06 | ∅ | o | PU22 | ∅ |
+| 8 | PU07 | ∅ | p | PU23 | ∅ |
+| 9 | PU08 | ∅ | q | PU24 | ∅ |
+| a | PU09 | ∅ | r | PU25 | ∅ |
+| b | PU10 | ∅ | s | PU26 | ∅ |
+| c | PU11 | ∅ | t | PU27 | ∅ |
+| d | PU12 | ∅ | u | PU28 | **∅** III |
+| e | PU13 | ∅ | v | PU29 | **∅** III|
+| f | PU14 | ∅ | w | PU30 | **∅** IIII |
+| g | PU15 | ∅ | x | PU31 | **∅**  |
 
 
