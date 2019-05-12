@@ -24,11 +24,27 @@ TXT
 
 
 
+def build_time_window( time_start, time_end )
+  buf = ""
+  if time_start.year == time_end.year
+    buf << time_start.strftime( '%b %-d')
+  else   # include year
+    buf << time_start.strftime( '%b %-d %Y')
+  end
+
+  buf << " - "
+  buf << time_end.strftime( '%b %-d %Y')
+
+  time_days  = (time_end.to_date.jd - time_start.to_date.jd) + 1
+  buf << " (#{time_days}d)"
+  buf
+end
+
+
 def build_fancy_counter( fancy )
   buf = ""
 
   if fancy.recipe?
-    ## todo/fix: limit/count !!!!
     if fancy.recipe.time?   ## time windowed recipe
       if fancy.recipe.time_end >= Date.today
         buf << "![](https://cryptocopycats.github.io/media/icons/18x18/unlocked.png)"
@@ -52,13 +68,14 @@ def build_fancy_counter( fancy )
         buf << "/#{fancy.limit}"     # add limit if present/known
       else
         ## buf << "![](https://cryptocopycats.github.io/media/icons/18x18/locked.png)"
-        buf << "#{fancy.limit ? fancy.limit : '?'}"    # add limit if present/known
+        buf << "#{fancy.limit ? fancy.limit : '?'}"
+        buf << "+#{fancy.overflow}"     if fancy.overflow?
       end
     end
   else
-    ## todo/fix: limit/count !!!!
+    ## note: fow now exclusive and specialeditions always have a limit
+    ##          and do NOT use counts   (- use count for (time-windowed) specialeditions - why? why not?)
     buf << "#{fancy.limit ? fancy.limit : '?'}"     # add limit if present/known
-    ## buf << "+#{h[:overflow]}"   if h[:overflow]
   end
   buf
 end
@@ -289,23 +306,21 @@ Fancy.each do |fancy|
   buf << "\n"
 
 
+  ## special case for time-windows special editions
+  if fancy.specialedition? && fancy.time?
+    time_window = build_time_window( fancy.time_start, fancy.time_end )
+    buf << "  - #{time_window}"
+    buf << "\n"
+  end
+
+
   if fancy.recipe?
     buf << "  - **#{fancy.recipe.traits.size}** traits"
     buf << " + **#{fancy.recipe.variants.size}** variants"  if fancy.recipe.variants
 
     if fancy.recipe.time?   ## time windowed recipe
-      buf << " - "
-      if fancy.recipe.time_start.year == fancy.recipe.time_end.year
-        buf << fancy.recipe.time_start.strftime( '%b %-d')
-      else   # include year
-        buf << fancy.recipe.time_start.strftime( '%b %-d %Y')
-      end
-
-      buf << " - "
-      buf << fancy.recipe.time_end.strftime( '%b %-d %Y')
-
-      time_days  = (fancy.recipe.time_end.to_date.jd - fancy.recipe.time_start.to_date.jd) + 1
-      buf << " (#{time_days}d)"
+      time_window = build_time_window( fancy.recipe.time_start, fancy.recipe.time_end )
+      buf << " - #{time_window}"
     end
     buf << ":"
     buf << "\n"

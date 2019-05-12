@@ -121,7 +121,7 @@ see <https://updates.cryptokitties.co>
 [**Berry**](#berry) (200)
 [**Puss For Progress**](#pussforprogress) (1920)
 [**Fortune Cat (红包喵)**](#fortunecat) (888)
-[**Lion Dance (咚咚锵)**](#liondance) (888)
+[**Lion Dance (咚咚锵)**](#liondance) (888+1)
 [**Dog Cat (汪星爷)**](#dogcat) (88)
 [**Tabby**](#tabby) (250)
 [**Yuri Catsuki**](#yuricatsuki) (250)
@@ -131,7 +131,7 @@ see <https://updates.cryptokitties.co>
 [**Negato**](#negato) (500)
 [**Stitches**](#stitches) (500)
 [**Phu Ziqaat**](#phuziqaat) (1000)
-[**Santa Claws**](#santaclaws) (1000)
+[**Santa Claws**](#santaclaws) (1000+2)
 [**Mistletoe**](#mistletoe) (2000)
 [**Dracula**](#dracula) (2000)
 [**Du Cat**](#ducat) (10000)
@@ -460,6 +460,7 @@ Jan 17, 2019 (421d)
 <a name="aeoncat">
 
 - Special Edition [**Aeoncat**](https://www.cryptokitties.co/search?include=sale,sire,other&search=specialedition:aeoncat) (380) Fancy Cat released -- Goddess Aeona - Goddess of Nature - Gods Unchained Promotion. #Fancy Cat #Special Edition
+  - Jan 17 - Jan 28 2019 (12d)
 
 ![Aeoncat](https://cryptocopycats.github.io/media/kitties/100x100/fancy-aeoncat.png "Aeoncat")
 
@@ -1066,7 +1067,7 @@ Mar 7, 2018 (105d)
 
 <a name="liondance">
 
-- [**Lion Dance (咚咚锵)**](https://www.cryptokitties.co/search?include=sale,sire,other&search=fancy:咚咚锵) (888) Fancy Cat discovered. #Fancy Cat
+- [**Lion Dance (咚咚锵)**](https://www.cryptokitties.co/search?include=sale,sire,other&search=fancy:咚咚锵) (888+1) Fancy Cat discovered. #Fancy Cat
   - **4** traits:
     - **Manx** II (FU27) - Fur
     - **Royalblue** II (HC26) - Highlight Color
@@ -1235,7 +1236,7 @@ Dec 12, 2017 (20d)
 
 <a name="santaclaws">
 
-- [**Santa Claws**](https://www.cryptokitties.co/search?include=sale,sire,other&search=fancy:santaclaws) (1000) Fancy Cat discovered -- Ho Ho Ho - Santa Claus Kitty. #Fancy Cat
+- [**Santa Claws**](https://www.cryptokitties.co/search?include=sale,sire,other&search=fancy:santaclaws) (1000+2) Fancy Cat discovered -- Ho Ho Ho - Santa Claus Kitty. #Fancy Cat
   - **4** traits:
     - **Cloudwhite** I (BC16) - Base Color
     - **Scarlet**  (HC10) - Highlight Color

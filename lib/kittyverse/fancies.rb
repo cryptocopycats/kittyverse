@@ -70,7 +70,9 @@ class Fancy
                 :recipe,
                 :count,
                 :limit,
-                :ids
+                :ids,
+                :time_start,
+                :time_end
 
   def initialize( **kwargs )
     update( kwargs )
@@ -88,10 +90,18 @@ class Fancy
   alias_method :special_edition?, :specialedition?
   def recipe?()           @recipe.nil? == false; end
 
+  def overflow?() @count && @limit && @count > @limit; end
+  def overflow()  @count - @limit; end   ## todo: check for count limit set - why? why not?
+
+  def time?() @time_start && @time_end; end  ## is fancy(recipe,specialedition) time windowed? true/false
 
 
-  ## auto-fill
+  ###########################################
+  ## auto-fill fancies
   FANCIES.each do |key,h|
+
+    name    = h[:name]
+    name_cn = h[:name_cn]   # add chinese name if present
 
     date_str = h[:date]
     date_str = h[:recipe][:time][:start]         if date_str.nil? && h[:recipe]
@@ -99,50 +109,45 @@ class Fancy
 
     date = Date.strptime( date_str, '%Y-%m-%d' )
 
-
-    name =    h[:name]
-    name_cn = h[:name_cn]   # add chinese name if present
-    desc    = h[:desc]
-
-    exclusive      = h[:exclusive]
-    specialedition = h[:specialedition]
-
     attribs = {
       key:       key,
-      date:      date,
       name:      name,
       name_cn:   name_cn,
-      desc:      desc,
-      exclusive: exclusive,
-      specialedition: specialedition
+      date:      date,
+      desc:      h[:desc]
     }
 
-    if h[:recipe]
-      pp h[:recipe]
-      recipe = Recipe.new(
-         traits:     h[:recipe][:traits],    ## todo/fix: turn strings into trait objs!!!!
-         variants:   h[:recipe][:variants],    ## todo/fix: turn variant hash into variant ??? - why? why not?
-         limit:      h[:recipe][:limit],
-         time_start: h[:recipe][:time] && h[:recipe][:time][:start] ? Date.strptime( h[:recipe][:time][:start], '%Y-%m-%d' ) : nil,
-         time_end:   h[:recipe][:time] && h[:recipe][:time][:end]   ? Date.strptime( h[:recipe][:time][:end],   '%Y-%m-%d' ) : nil,
-      )
-      attribs[:recipe] = recipe
-    end
+    attribs = if h[:exclusive]
+                attribs.merge( exclusive: true,
+                               limit:     h[:exclusive][:limit],
+                               ids:       h[:exclusive][:ids] )
+              elsif h[:specialedition]
+                attribs.merge( specialedition: true,
+                               limit:          h[:specialedition][:limit],
+                               time_start:     h[:specialedition][:time] && h[:specialedition][:time][:start] ? Date.strptime( h[:specialedition][:time][:start], '%Y-%m-%d' ) : nil,
+                               time_end:       h[:specialedition][:time] && h[:specialedition][:time][:end]   ? Date.strptime( h[:specialedition][:time][:end],   '%Y-%m-%d' ) : nil )
+              else ## assume "normal/regular" fancy with recipes
+                pp h[:recipe]
+                recipe = Recipe.new(
+                          traits:     h[:recipe][:traits],      ## todo/fix: turn strings into trait objs!!!!
+                          variants:   h[:recipe][:variants],    ## todo/fix: turn variant hash into variant ??? - why? why not?
+                          limit:      h[:recipe][:limit],
+                          time_start: h[:recipe][:time] && h[:recipe][:time][:start] ? Date.strptime( h[:recipe][:time][:start], '%Y-%m-%d' ) : nil,
+                          time_end:   h[:recipe][:time] && h[:recipe][:time][:end]   ? Date.strptime( h[:recipe][:time][:end],   '%Y-%m-%d' ) : nil )
 
+                ## note: support overflow "shortcut" - overflow+limit => count
+                count = if h[:recipe][:overflow]
+                          recipe.limit + h[:recipe][:overflow]
+                        else
+                          h[:recipe][:count]
+                        end
 
-    ## todo: check for overflow  - if overflow use limit+overflow = count
-    ##   add traits and time windows
-    if exclusive
-      attribs = attribs.merge( limit: h[:exclusive][:limit],
-                               count: h[:exclusive][:count],
-                               ids:   h[:exclusive][:ids] )
-    elsif specialedition
-      attribs = attribs.merge( limit: h[:specialedition][:limit],
-                               count: h[:specialedition][:count] )
-    else  ## assume "normal/regular" fancy with recipes
-      attribs = attribs.merge( limit: h[:recipe][:limit],
-                               count: h[:recipe][:count] )
-    end
+                attribs.merge( recipe:     recipe,
+                               limit:      recipe.limit,
+                               time_start: recipe.time_start,
+                               time_end:   recipe.time_end,
+                               count:      count )
+              end
 
 
     fancy = Fancy.new( **attribs )
