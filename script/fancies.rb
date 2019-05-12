@@ -41,7 +41,7 @@ def build_time_window( time_start, time_end )
 end
 
 
-def build_fancy_counter( fancy )
+def build_fancy_counter( fancy, show_time: false )
   buf = ""
 
   if fancy.recipe?
@@ -52,6 +52,9 @@ def build_fancy_counter( fancy )
           buf << "#{fancy.count}+"
         else
           buf << "?"
+        end
+        if show_time
+          buf << "/Till: #{fancy.recipe.time_end.strftime( '%b %-d %Y')}"
         end
       else
         ## buf << "![](https://cryptocopycats.github.io/media/icons/18x18/locked.png)"
@@ -92,7 +95,7 @@ def build_fancy( fancy )
   line << "(##{fancy.key})"
 
   line << " ("
-  line << build_fancy_counter( fancy )
+  line << build_fancy_counter( fancy, show_time: true )
   line << ")"
 
   line

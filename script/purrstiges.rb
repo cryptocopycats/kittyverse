@@ -41,7 +41,7 @@ def build_time_window( time_start, time_end )
 end
 
 
-def build_prestige_counter( prestige )
+def build_prestige_counter( prestige, show_time: false )
   buf = ""
 
   if prestige.recipe.time_end >= Date.today
@@ -50,6 +50,9 @@ def build_prestige_counter( prestige )
       buf << "#{prestige.count}+"
     else
       buf << "?"
+    end
+    if show_time
+      buf << "/Till: #{prestige.recipe.time_end.strftime( '%b %-d %Y')}"
     end
   else
     ## buf << "![](https://cryptocopycats.github.io/media/icons/18x18/locked.png)"
@@ -64,7 +67,7 @@ def build_prestige( c )
 
   line = "[**#{name}**](##{c.key})"
 
-  line << " (#{build_prestige_counter(c)})"    # add count(er)
+  line << " (#{build_prestige_counter(c, show_time: true)})"    # add count(er)
   line
 end
 

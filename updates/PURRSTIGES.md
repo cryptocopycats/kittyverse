@@ -10,13 +10,13 @@ see <https://updates.cryptokitties.co>
 
 _Special traits for a limited time only bred through a recipe._
 
-[**Bionic**](#bionic) (![](https://cryptocopycats.github.io/media/icons/18x18/unlocked.png)?)
-[**Fileshare**](#fileshare) (![](https://cryptocopycats.github.io/media/icons/18x18/unlocked.png)?)
-[**Pawsfree**](#pawsfree) (![](https://cryptocopycats.github.io/media/icons/18x18/unlocked.png)?)
-[**Uplink**](#uplink) (![](https://cryptocopycats.github.io/media/icons/18x18/unlocked.png)?)
-[**Gauntlet**](#gaunlet) (![](https://cryptocopycats.github.io/media/icons/18x18/unlocked.png)?)
-[**Catterypack**](#catterypack) (![](https://cryptocopycats.github.io/media/icons/18x18/unlocked.png)?)
-[**Squelch**](#squelch) (![](https://cryptocopycats.github.io/media/icons/18x18/unlocked.png)?)
+[**Bionic**](#bionic) (![](https://cryptocopycats.github.io/media/icons/18x18/unlocked.png)?/Till: Aug 31 2019)
+[**Fileshare**](#fileshare) (![](https://cryptocopycats.github.io/media/icons/18x18/unlocked.png)?/Till: Aug 31 2019)
+[**Pawsfree**](#pawsfree) (![](https://cryptocopycats.github.io/media/icons/18x18/unlocked.png)?/Till: Aug 31 2019)
+[**Uplink**](#uplink) (![](https://cryptocopycats.github.io/media/icons/18x18/unlocked.png)?/Till: Aug 31 2019)
+[**Gauntlet**](#gaunlet) (![](https://cryptocopycats.github.io/media/icons/18x18/unlocked.png)?/Till: Aug 31 2019)
+[**Catterypack**](#catterypack) (![](https://cryptocopycats.github.io/media/icons/18x18/unlocked.png)?/Till: Aug 31 2019)
+[**Squelch**](#squelch) (![](https://cryptocopycats.github.io/media/icons/18x18/unlocked.png)?/Till: Aug 31 2019)
 [**Scratchingpost**](#scratchingpost) (772)
 [**Hooked**](#hooked) (1277)
 [**Landlubber**](#landlubber) (711)
