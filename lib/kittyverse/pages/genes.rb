@@ -10,7 +10,7 @@ def build
   headings = []
   TraitType.trait_types_by_key.values.each do |tt|
     anchor = "#{tt.name} #{tt.code}".downcase.gsub( ' ', '-' )
-    headings << "[#{tt.name} (#{tt.code})](#{anchor})"
+    headings << "[#{tt.name} (#{tt.code})](##{anchor})"
   end
 
   buf << headings.join( " • " )
@@ -36,22 +36,23 @@ def make_table( traits )
   ## pp rows
 
   buf = ""
-  buf << "|Kai|Code|Name         |Kai|Code|Name        |\n"
-  buf << "|--:|---:|-------------|--:|---:|------------|\n"
+  buf << "|Kai|Binary|Code|Name         |Kai|Binary|Code|Name        |\n"
+  buf << "|--:|-----:|---:|-------------|--:|-----:|---:|------------|\n"
 
   rows.each do |row|
     buf << "| "
 
     parts = row.map do |trait|
-      kai  = trait.kai
-      code = trait.code
-      name = trait.name
+      kai    = trait.kai
+      binary = "%05b" % Kai::NUM[kai]
+      code   = trait.code
+      name   = trait.name
 
       if name.nil?
         if kai == "x"  ## code == 31  -- note: so far x/31 trait is unknown/undefined!!!
           cattribute = "?"
         else  ## "anonymous / unnamed" gene / trait
-          cattribute = "**∅** #{MEWTATION_LEVEL[kai]}"
+          cattribute = "∅ #{MEWTATION_LEVEL[kai]}"
         end
       else
         if name.start_with?( "Totesbasic" )  ## note: special case for three totesbasic traits
@@ -62,7 +63,7 @@ def make_table( traits )
         cattribute = "**[#{name}](#{kitties_search_url(q)})** #{MEWTATION_LEVEL[kai]}"
       end
 
-      "#{kai} | #{code} | #{cattribute}"
+      "#{kai} | #{binary} | #{code} | #{cattribute}"
     end
 
     buf << parts.join( " | " )
