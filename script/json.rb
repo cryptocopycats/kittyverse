@@ -7,8 +7,11 @@
 
 require 'kittyverse'
 
+BUILD_DIR = './build'
+# BUILD_DIR = '../kittyverse.json'
 
-File.open( 'build/traits.json', 'w:utf-8' ) do |f|
+
+File.open( "#{BUILD_DIR}/traits.json", 'w:utf-8' ) do |f|
   f.write JSON.pretty_generate( TRAITS )
 end
 
@@ -16,6 +19,10 @@ end
 #  f.write JSON.pretty_generate( TRAITS_TIMELINE )
 # end
 
-File.open( 'build/fancies.json', 'w:utf-8' ) do |f|
+File.open( "#{BUILD_DIR}/fancies.json", 'w:utf-8' ) do |f|
   f.write JSON.pretty_generate( FANCIES )
+end
+
+File.open( "#{BUILD_DIR}/purrstiges.json", 'w:utf-8' ) do |f|
+  f.write JSON.pretty_generate( PURRSTIGES )
 end
