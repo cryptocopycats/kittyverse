@@ -36,7 +36,8 @@ class Cattribute
                 :key,
                 :name,
                 :traits,
-                :recipe
+                :recipe,
+                :count
 
   def initialize( **kwargs )
     update( kwargs )
@@ -107,12 +108,19 @@ class Cattribute
     puts "key: #{key}"
     pp h
 
+    recipe = Recipe.new(
+              traits:     h[:recipe][:traits],      ## todo/fix: turn strings into trait objs!!!!
+              limit:      h[:recipe][:limit],
+              time_start: h[:recipe][:time] && h[:recipe][:time][:start] ? Date.strptime( h[:recipe][:time][:start], '%Y-%m-%d' ) : nil,
+              time_end:   h[:recipe][:time] && h[:recipe][:time][:end]   ? Date.strptime( h[:recipe][:time][:end],   '%Y-%m-%d' ) : nil )
+
     cattribute = Cattribute.new(
                      key:    key,
                      name:   h[:name],
                      type:   tt,
                      traits: [],  ## empty traits
-                     recipe: h[:recipe]  ## todo/fix: add recipe as a struct (NOT as a hash)
+                     count:  h[:recipe][:count],   # note: add count from recipe hash (NOT incl. in recipe struct)
+                     recipe: recipe
                    )
     tt.cattributes << cattribute
 

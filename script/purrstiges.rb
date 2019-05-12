@@ -12,6 +12,9 @@ require 'kittyverse'
 
 buf = ""
 buf += <<TXT
+[2019](#2019) •
+[2018](#2018)
+
 # Updates - Purrstige Trait Recipes / Formulas  - Timeline
 
 see <https://updates.cryptokitties.co>
@@ -21,16 +24,47 @@ TXT
 
 
 
+def build_time_window( time_start, time_end )
+  buf = ""
+  if time_start.year == time_end.year
+    buf << time_start.strftime( '%b %-d')
+  else   # include year
+    buf << time_start.strftime( '%b %-d %Y')
+  end
 
-def build_prestige( key, h )
+  buf << " - "
+  buf << time_end.strftime( '%b %-d %Y')
+
+  time_days  = (time_end.to_date.jd - time_start.to_date.jd) + 1
+  buf << " (#{time_days}d)"
+  buf
+end
+
+
+def build_prestige_counter( prestige )
+  buf = ""
+
+  if prestige.recipe.time_end >= Date.today
+    buf << "![](https://cryptocopycats.github.io/media/icons/18x18/unlocked.png)"
+    if prestige.count     # add count if present/known
+      buf << "#{prestige.count}+"
+    else
+      buf << "?"
+    end
+  else
+    ## buf << "![](https://cryptocopycats.github.io/media/icons/18x18/locked.png)"
+    buf << "#{prestige.count ? prestige.count : '?'}"     # add count if present/known
+  end
+  buf
+end
+
+def build_prestige( c )
   name = ""
-  name << h[:name]
+  name << c.name
 
-  line = "[**#{name}**]"
-  line << "(#{kitties_search_url( key )})"
+  line = "[**#{name}**](##{c.key})"
 
-  line << " (#{h[:recipe][:count] || '?'}"    # add count if present/known
-  line << ")"
+  line << " (#{build_prestige_counter(c)})"    # add count(er)
   line
 end
 
@@ -38,8 +72,8 @@ end
 
 def build_prestiges
   buf = ""
-  PURRSTIGES.each do |key,h|
-    buf << build_prestige( key, h )
+  Cattributes[:prestige].each do |c|
+    buf << build_prestige( c )
     buf << "\n"
   end
   buf
@@ -48,7 +82,7 @@ end
 
 
 
-buf << "## Purrstige Cattributes (#{PURRSTIGES.size})"
+buf << "## Purrstige Cattributes (#{Cattributes[:prestige].size})"
 buf << "\n\n"
 buf << "_Special traits for a limited time only bred through a recipe._"
 buf << "\n\n"
@@ -115,7 +149,7 @@ buf << "\n\n"
 
 Cattributes[:prestige].each do |c|
   key =  c.key
-  date = Date.strptime( c.recipe[:time][:start], '%Y-%m-%d' )
+  date = c.recipe.time_start
 
   if year != date.year
     buf << "\n"
@@ -145,11 +179,10 @@ Cattributes[:prestige].each do |c|
   last_date = date
 
 
+  ## add anchor name
+  buf << %Q{\n<a name="#{c.key}">}
+  buf << "\n\n"
 
-  time_start = Date.strptime( c.recipe[:time][:start], '%Y-%m-%d' )
-  time_end   = Date.strptime( c.recipe[:time][:end],   '%Y-%m-%d' )
-
-  time_days  = (time_end.to_date.jd - time_start.to_date.jd) + 1
 
   name = ""
   name << c.name
@@ -157,26 +190,19 @@ Cattributes[:prestige].each do |c|
   buf << "[**#{name}**]"
   buf << "(#{kitties_search_url( key )}) "
 
-  buf << " (#{c.recipe[:count] || '?'}"      # add count if present/known
-  buf << "), "
+  buf << " (#{build_prestige_counter(c)})"      # add count(er)
+  buf << ", "
 
-
-  if time_start.year == time_end.year
-    buf << time_start.strftime( '%b %-d')
-  else   # include year
-    buf << time_start.strftime( '%b %-d %Y')
-  end
-  buf << " - "
-  buf << time_end.strftime( '%b %-d %Y')
-  buf << " (#{time_days}d)"
+  time_window = build_time_window( c.recipe.time_start, c.recipe.time_end )
+  buf << "#{time_window}"
   buf << ", "
 
 
-  buf << " **#{c.recipe[:traits].size}** traits:"
+  buf << " **#{c.recipe.traits.size}** traits:"
   buf << "\n"
 
   ## traits:
-  c.recipe[:traits].each do |trait_keys|
+  c.recipe.traits.each do |trait_keys|
     buf << "- "
     buf << build_traits( trait_keys )
     buf << "\n"
