@@ -3,12 +3,6 @@
 
 class Fancy
 
-  def self.special_editions()  @@special_editions  ||= []; end  # special edition fancies
-  def self.exclusives()        @@exclusives        ||= []; end  # exclusive fancies
-  def self.fancies()           @@fancies           ||= []; end  # "normal" fancies
-
-
-
   def self.fancies_by_key()  @@fancies_by_key  ||= {}; end
   def self.fancies_by_name() @@fancies_by_name ||= {}; end
 
@@ -53,6 +47,41 @@ class Fancy
       yield( fancy )
     end
   end
+
+
+  def self.special_editions  # special edition fancies
+    @@fancies_by_key.values.select { |fancy| fancy.special_edition? }
+  end
+  def self.exclusives        # exclusive fancies
+    @@fancies_by_key.values.select { |fancy| fancy.exclusive? }
+  end
+  def self.fancies           # "normal" fancies
+    @@fancies_by_key.values.select { |fancy| fancy.recipe? }
+  end
+
+  def self.breedable   ## todo: find a better name e.g. use unlocked why? why not?
+    today = Date.today
+    @@fancies_by_key.values.select do |fancy|
+        if fancy.recipe?
+          if fancy.recipe.time?   ## time windowed recipe
+            if fancy.recipe.time_end >= today
+              true
+            else
+              false
+            end
+          else  ## assume limit
+            if fancy.count && fancy.count < fancy.limit
+              true
+            else
+              false
+            end
+          end
+        else
+          false
+        end
+    end
+  end
+
 
   def self.size() @@fancies_by_key.size; end  ## todo: add length alias too? why? why not?
 
@@ -151,16 +180,7 @@ class Fancy
 
 
     fancy = Fancy.new( **attribs )
-    pp fancy
-
-    if fancy.exclusive?
-      exclusives << fancy
-    elsif fancy.special_edition?
-      special_editions << fancy
-    else  ## assume "normal/regular" fancy (with recipe)
-      fancies << fancy
-    end
-
+    ## pp fancy
 
     ## note: key MUST be a symbol (NOT a string)
     fancies_by_key[key] = fancy

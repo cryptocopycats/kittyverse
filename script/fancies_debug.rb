@@ -17,13 +17,8 @@ buf += <<TXT
 
 TXT
 
-Fancy.each do |fancy|
-
-  key  = fancy.key
-  date = fancy.date
-
+def build_fancy( fancy )
   line = ""
-  name = ""
 
   line << "- "
   if fancy.special_edition?
@@ -33,7 +28,7 @@ Fancy.each do |fancy|
   else
   end
 
-
+  name = ""
   name << fancy.name
   name << " (#{fancy.name_cn})"  if fancy.name_cn   # add chinese name if present
 
@@ -54,10 +49,24 @@ Fancy.each do |fancy|
 
   line << " -- #{fancy.desc}"    if fancy.desc
 
-  buf << line
-  buf << "\n"
+  line
+end
 
-  buf
+
+
+buf << "## Breedable\n\n"
+
+Fancy.breedable.each do |fancy|
+  buf << build_fancy( fancy )
+  buf << "\n"
+end
+
+buf << "\n\n"
+buf << "## All\n\n"
+
+Fancy.each do |fancy|
+  buf << build_fancy( fancy )
+  buf << "\n"
 end
 
 
