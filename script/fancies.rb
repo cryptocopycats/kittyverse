@@ -184,26 +184,29 @@ def build_traits( key_or_keys )
 end
 
 
+special_editions = Fancy.special_editions
+exclusives       = Fancy.exclusives
+fancies          = Fancy.fancies
 
-buf << "## Special Edition Cats (#{Fancy.special_editions.size})"
+buf << "## Special Edition Cats (#{special_editions.size})"
 buf << "\n\n"
-buf << build_fancies( Fancy.special_editions )
+buf << build_fancies( special_editions )
 buf << "\n\n"
-buf << build_fancies_media( Fancy.special_editions )
-buf << "\n\n"
-
-buf << "## Exclusive Cats (#{Fancy.exclusives.size})"
-buf << "\n\n"
-buf << build_fancies( Fancy.exclusives )
-buf << "\n\n"
-buf << build_fancies_media( Fancy.exclusives )
+buf << build_fancies_media( special_editions )
 buf << "\n\n"
 
-buf << "## Fancy Cats (#{Fancy.fancies.size})"
+buf << "## Exclusive Cats (#{exclusives.size})"
 buf << "\n\n"
-buf << build_fancies( Fancy.fancies )
+buf << build_fancies( exclusives )
 buf << "\n\n"
-buf << build_fancies_media( Fancy.fancies )
+buf << build_fancies_media( exclusives )
+buf << "\n\n"
+
+buf << "## Fancy Cats (#{fancies.size})"
+buf << "\n\n"
+buf << build_fancies( fancies )
+buf << "\n\n"
+buf << build_fancies_media( fancies )
 buf << "\n\n"
 
 
