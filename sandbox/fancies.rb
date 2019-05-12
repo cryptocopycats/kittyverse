@@ -2,7 +2,7 @@
 
 ####
 # use:
-#  $ ruby -I ./lib script/fancies_debug.rb
+#  $ ruby -I ./lib sandbox/fancies.rb
 
 
 
