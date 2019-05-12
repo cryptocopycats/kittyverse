@@ -56,7 +56,7 @@ _Genes 8-11_
 
 |Kai|Code|Name         |Kai|Code|Name        |
 |--:|---:|-------------|--:|---:|------------|
-| 1 | EC00 | **[Hundergrey](https://www.cryptokitties.co/search?include=sale,sire,other&search=Hundergrey)**  | h | EC16 | **[Pumpkin](https://www.cryptokitties.co/search?include=sale,sire,other&search=Pumpkin)** I |
+| 1 | EC00 | **[Thundergrey](https://www.cryptokitties.co/search?include=sale,sire,other&search=Thundergrey)**  | h | EC16 | **[Pumpkin](https://www.cryptokitties.co/search?include=sale,sire,other&search=Pumpkin)** I |
 | 2 | EC01 | **[Gold](https://www.cryptokitties.co/search?include=sale,sire,other&search=Gold)**  | i | EC17 | **[Limegreen](https://www.cryptokitties.co/search?include=sale,sire,other&search=Limegreen)** I |
 | 3 | EC02 | **[Topaz](https://www.cryptokitties.co/search?include=sale,sire,other&search=Topaz)**  | j | EC18 | **[Bridesmaid](https://www.cryptokitties.co/search?include=sale,sire,other&search=Bridesmaid)** I |
 | 4 | EC03 | **[Mintgreen](https://www.cryptokitties.co/search?include=sale,sire,other&search=Mintgreen)**  | k | EC19 | **[Bubblegum](https://www.cryptokitties.co/search?include=sale,sire,other&search=Bubblegum)** I |

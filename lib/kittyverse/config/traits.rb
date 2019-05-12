@@ -95,7 +95,7 @@ TRAITS =
     genes: '8-11',
     name:  'Eye Color', code: 'EC',
     kai: {
-    '1' => 'Hundergrey',
+    '1' => 'Thundergrey',
     '2' => 'Gold',
     '3' => 'Topaz',
     '4' => 'Mintgreen',

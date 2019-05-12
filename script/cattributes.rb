@@ -27,18 +27,15 @@ recs.each do |h|
 
 
   ## double check traits if present / known / defined
-  trait = Trait.find_by( name: h['Description'] )
-  if trait
-    if trait.type.name != tt.name  ### use trait.type == trait_type !!!
-      puts "mismatched trait - expected >#{trait.type}< got:"
+  c = Cattribute.find_by( name: h['Description'] )
+  if c
+    if c.type.name != tt.name  ### use trait.type == trait_type !!!
+      puts "mismatched trait - expected >#{c.type}< got:"
       pp h
       exit 1
     end
   else
    ## note: skip prestige for know
-    next  if h['Type'] == 'prestige'
-    next  if h['Description'] == 'totesbasic'
-
     puts "unknown / undefined trait:"
     pp h
     exit 1
@@ -54,13 +51,22 @@ buf = ""
 buf += <<TXT
 # Cattributes Rarity / Popularity Statistics
 
-(Source: [`api.cryptokitties.co/cattributes` (JSON)](https://api.cryptokitties.co/cattributes), [(CSV)](datasets/cattributes.csv))
+(Source: [`api.cryptokitties.co/cattributes` (JSON)](https://api.cryptokitties.co/cattributes), [(CSV)](datasets))
 
 
 TXT
 
 
+headings = []
+Traits.each do |tt|
+  next if [:secret].include?( tt.key )    ## skip secret traits for now
 
+  anchor = "#{tt.name} #{tt.code}".downcase.gsub( ' ', '-' )
+  headings << "[#{tt.name} (#{tt.code})](##{anchor})"
+end
+
+buf << headings.join( " • " )
+buf << "\n\n"
 
 
 
@@ -74,7 +80,7 @@ Traits.each do |tt|
   total = rec[0]
   items = rec[1]
 
-  buf << "## #{tt.name} (Genes #{tt.genes})\n\n"
+  buf << "## #{tt.name} (#{tt.code})\n\n"
 
   buf << "_#{total} Cats with #{items.size} Cattributes_\n\n"
 
@@ -91,9 +97,9 @@ Traits.each do |tt|
 
     percent = Float(100*count)/Float(total)
 
-    buf << "| #{rank} | #{count} (#{('%2.2f' % percent)}) | "
+    buf << "| #{rank} | #{count} (#{('%2.2f' % percent)}%) | "
     buf << "[**#{name}**](#{kitties_search_url(name)}) |"
-    ## todo: add mewtation level and code/kai etc.
+    ## todo: add mewtation level and code/kai etc - why? why not?
 
     buf << "\n"
   end

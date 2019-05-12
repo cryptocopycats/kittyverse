@@ -5,10 +5,11 @@ class GenesPage
 
 def build
   buf = ""
+  ##  todo/fix: use TraitType.size or something short like it!!!!
   buf << "# Genes (#{TraitType.trait_types_by_key.keys.size} x 4)\n\n"
 
   headings = []
-  TraitType.trait_types_by_key.values.each do |tt|
+  Traits.each do |tt|
     anchor = "#{tt.name} #{tt.code}".downcase.gsub( ' ', '-' )
     headings << "[#{tt.name} (#{tt.code})](##{anchor})"
   end
@@ -17,7 +18,7 @@ def build
   buf << "\n\n"
 
 
-  TraitType.trait_types_by_key.values.each do |tt|
+  Traits.each do |tt|
     buf << "## #{tt.name} (#{tt.code})\n\n"
     buf << "_Genes #{tt.genes}_\n\n"
     buf << make_table( tt.traits )

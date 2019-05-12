@@ -6,7 +6,7 @@
 require 'json'
 require 'pp'
 
-txt = File.read( './dl/cattributes-2019-05-06.json' )
+txt = File.read( './dl/cattributes-2019-05-12.json' )
 
 data = JSON.parse( txt )
 ## pp data

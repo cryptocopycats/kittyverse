@@ -3,7 +3,7 @@
 | Tier | Kai | Fur (FU) | Pattern (PA) | Eye Color (EC) |
 |----|----|----|----|----|
 |    |    | 0-3 | 4-7 | 8-11 |
-|  | 1 |[**Savannah**](https://www.cryptokitties.co/search?include=sale,sire,other&search=savannah) (FU00) |[**Vigilante**](https://www.cryptokitties.co/search?include=sale,sire,other&search=vigilante) (PA00) |[**Hundergrey**](https://www.cryptokitties.co/search?include=sale,sire,other&search=hundergrey) (EC00) |
+|  | 1 |[**Savannah**](https://www.cryptokitties.co/search?include=sale,sire,other&search=savannah) (FU00) |[**Vigilante**](https://www.cryptokitties.co/search?include=sale,sire,other&search=vigilante) (PA00) |[**Thundergrey**](https://www.cryptokitties.co/search?include=sale,sire,other&search=thundergrey) (EC00) |
 |  | 2 |[**Selkirk**](https://www.cryptokitties.co/search?include=sale,sire,other&search=selkirk) (FU01) |[**Tiger**](https://www.cryptokitties.co/search?include=sale,sire,other&search=tiger) (PA01) |[**Gold**](https://www.cryptokitties.co/search?include=sale,sire,other&search=gold) (EC01) |
 |  | 3 |[**Chantilly**](https://www.cryptokitties.co/search?include=sale,sire,other&search=chantilly) (FU02) |[**Rascal**](https://www.cryptokitties.co/search?include=sale,sire,other&search=rascal) (PA02) |[**Topaz**](https://www.cryptokitties.co/search?include=sale,sire,other&search=topaz) (EC02) |
 |  | 4 |[**Birman**](https://www.cryptokitties.co/search?include=sale,sire,other&search=birman) (FU03) |[**Ganado**](https://www.cryptokitties.co/search?include=sale,sire,other&search=ganado) (PA03) |[**Mintgreen**](https://www.cryptokitties.co/search?include=sale,sire,other&search=mintgreen) (EC03) |
@@ -34,7 +34,7 @@
 | III | u |[**Lykoi**](https://www.cryptokitties.co/search?include=sale,sire,other&search=lykoi) (FU28) |[**Avatar**](https://www.cryptokitties.co/search?include=sale,sire,other&search=avatar) (PA28) |[**Gemini**](https://www.cryptokitties.co/search?include=sale,sire,other&search=gemini) (EC28) |
 | III | v |[**Burmilla**](https://www.cryptokitties.co/search?include=sale,sire,other&search=burmilla) (FU29) |[**Gyre**](https://www.cryptokitties.co/search?include=sale,sire,other&search=gyre) (PA29) |[**Dioscuri**](https://www.cryptokitties.co/search?include=sale,sire,other&search=dioscuri) (EC29) |
 | IIII | w |[**Liger**](https://www.cryptokitties.co/search?include=sale,sire,other&search=liger) (FU30) |[**Moonrise**](https://www.cryptokitties.co/search?include=sale,sire,other&search=moonrise) (PA30) |[**Kaleidoscope**](https://www.cryptokitties.co/search?include=sale,sire,other&search=kaleidoscope) (EC30) |
-
+|  | x |FU31 |PA31 |EC31 |
 
 
 | Tier | Kai | Eye Shape (ES) | Base Color (BC) | Highlight Color (HC) |
@@ -71,6 +71,7 @@
 | III | u |[**Bornwithit**](https://www.cryptokitties.co/search?include=sale,sire,other&search=bornwithit) (ES28) |[**Hotcocoa**](https://www.cryptokitties.co/search?include=sale,sire,other&search=hotcocoa) (BC28) |[**Inflatablepool**](https://www.cryptokitties.co/search?include=sale,sire,other&search=inflatablepool) (HC28) |
 | III | v |[**Candyshoppe**](https://www.cryptokitties.co/search?include=sale,sire,other&search=candyshoppe) (ES29) |[**Shamrock**](https://www.cryptokitties.co/search?include=sale,sire,other&search=shamrock) (BC29) |[**Pearl**](https://www.cryptokitties.co/search?include=sale,sire,other&search=pearl) (HC29) |
 | IIII | w |[**Drama**](https://www.cryptokitties.co/search?include=sale,sire,other&search=drama) (ES30) |[**Firstblush**](https://www.cryptokitties.co/search?include=sale,sire,other&search=firstblush) (BC30) |[**Prairierose**](https://www.cryptokitties.co/search?include=sale,sire,other&search=prairierose) (HC30) |
+|  | x |ES31 |BC31 |HC31 |
 
 
 | Tier | Kai | Accent Color (AC) | Wild Element (WE) | Mouth (MO) |
@@ -164,10 +165,7 @@ Base      Tier I    Tier II   Tier III  Tier IIII
           p = f+g
 ```
 
-<!--
 Note: It's impossible for a mutation to reach `x` e.g. `w+x = x`.
--->
-
 
 ## Kai (Base32) Notation
 
@@ -183,11 +181,4 @@ Note: It's impossible for a mutation to reach `x` e.g. `w+x = x`.
 | **8** | 00111 | 7 | **g** | 01111 | 15| **p** | 10111 |23 | **x** | 11111 |31 |
 
 Note: The digit-0 and the letter-l are NOT used in kai.
-
-
-
-
-
-
-
 
