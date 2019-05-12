@@ -36,23 +36,26 @@ def make_table( traits )
   ## pp rows
 
   buf = ""
-  buf << "|Kai|Binary|Code|Name         |Kai|Binary|Code|Name        |\n"
-  buf << "|--:|-----:|---:|-------------|--:|-----:|---:|------------|\n"
+  buf << "|Kai|Code|Name         |Kai|Code|Name        |\n"
+  buf << "|--:|---:|-------------|--:|---:|------------|\n"
 
   rows.each do |row|
     buf << "| "
 
     parts = row.map do |trait|
       kai    = trait.kai
-      binary = "%05b" % Kai::NUM[kai]
+      ## binary = "%05b" % Kai::NUM[kai]
       code   = trait.code
       name   = trait.name
 
       if name.nil?
-        if kai == "x"  ## code == 31  -- note: so far x/31 trait is unknown/undefined!!!
+        ## note: so far x/31 trait is unknown/undefined!!!
+        if kai == "x"
           cattribute = "?"
+        elsif trait.type.key == :secret
+          cattribute = "? #{MEWTATION_LEVEL[kai]}"    ## unknown unknown
         else  ## "anonymous / unnamed" gene / trait
-          cattribute = "∅ #{MEWTATION_LEVEL[kai]}"
+          cattribute = "∅ #{MEWTATION_LEVEL[kai]}"    ## known unknown :-)
         end
       else
         if name.start_with?( "Totesbasic" )  ## note: special case for three totesbasic traits
@@ -63,7 +66,7 @@ def make_table( traits )
         cattribute = "**[#{name}](#{kitties_search_url(q)})** #{MEWTATION_LEVEL[kai]}"
       end
 
-      "#{kai} | #{binary} | #{code} | #{cattribute}"
+      "#{kai} | #{code} | #{cattribute}"
     end
 
     buf << parts.join( " | " )
