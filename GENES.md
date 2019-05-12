@@ -1,276 +1,292 @@
 # Genes (12 x 4)
 
-[Fur (FU)](#fur-fu) • 
-[Pattern (PA)](#pattern-pa) • 
-Eye Color (EC) • Eye Shape (ES) • Base Color (BC) • Highlight Color (HC) • Accent Color (AC) • Wild Element (WE) • Mouth (MO) • Environment (EN) • Secret Y Gene (SE) • Purrstige (PU)
+[Fur (FU)](fur-fu) • [Pattern (PA)](pattern-pa) • [Eye Color (EC)](eye-color-ec) • [Eye Shape (ES)](eye-shape-es) • [Base Color (BC)](base-color-bc) • [Highlight Color (HC)](highlight-color-hc) • [Accent Color (AC)](accent-color-ac) • [Wild Element (WE)](wild-element-we) • [Mouth (MO)](mouth-mo) • [Environment (EN)](environment-en) • [Secret Y Gene (SE)](secret-y-gene-se) • [Purrstige (PU)](purrstige-pu)
 
-## Fur (FU) 
+## Fur (FU)
 
 _Genes 0-3_
 
 |Kai|Code|Name         |Kai|Code|Name        |
 |--:|---:|-------------|--:|---:|------------|
-| 1 | FU00 | **[Savannah](https://www.cryptokitties.co/search?include=sale,sire,other&search=savannah)**  | h | FU16 | **[norwegianforest](https://www.cryptokitties.co/search?include=sale,sire,other&search=norwegianforest)** I |
-| 2 | FU01 | **[Selkirk](https://www.cryptokitties.co/search?include=sale,sire,other&search=selkirk)**  | i | FU17 | **[mekong](https://www.cryptokitties.co/search?include=sale,sire,other&search=mekong)** I |
-| 3 | FU02 | **[Chantilly](https://www.cryptokitties.co/search?include=sale,sire,other&search=chantilly)**  | j | FU18 | **[highlander](https://www.cryptokitties.co/search?include=sale,sire,other&search=highlander)** I |
-| 4 | FU03 | **[birman](https://www.cryptokitties.co/search?include=sale,sire,other&search=birman)**  | k | FU19 | **[balinese](https://www.cryptokitties.co/search?include=sale,sire,other&search=balinese)** I |
-| 5 | FU04 | **[koladiviya](https://www.cryptokitties.co/search?include=sale,sire,other&search=koladiviya)**  | m | FU20 | **[lynx](https://www.cryptokitties.co/search?include=sale,sire,other&search=lynx)** I |
-| 6 | FU05 | **[bobtail](https://www.cryptokitties.co/search?include=sale,sire,other&search=bobtail)**  | n | FU21 | **[mainecoon](https://www.cryptokitties.co/search?include=sale,sire,other&search=mainecoon)** I |
-| 7 | FU06 | **[manul](https://www.cryptokitties.co/search?include=sale,sire,other&search=manul)**  | o | FU22 | **[laperm](https://www.cryptokitties.co/search?include=sale,sire,other&search=laperm)** I |
-| 8 | FU07 | **[pixiebob](https://www.cryptokitties.co/search?include=sale,sire,other&search=pixiebob)**  | p | FU23 | **[persian](https://www.cryptokitties.co/search?include=sale,sire,other&search=persian)** I |
-| 9 | FU08 | **[siberian](https://www.cryptokitties.co/search?include=sale,sire,other&search=siberian)**  | q | FU24 | **[fox](https://www.cryptokitties.co/search?include=sale,sire,other&search=fox)** II |
-| a | FU09 | **[cymric](https://www.cryptokitties.co/search?include=sale,sire,other&search=cymric)**  | r | FU25 | **[kurilian](https://www.cryptokitties.co/search?include=sale,sire,other&search=kurilian)** II |
-| b | FU10 | **[chartreux](https://www.cryptokitties.co/search?include=sale,sire,other&search=chartreux)**  | s | FU26 | **[toyger](https://www.cryptokitties.co/search?include=sale,sire,other&search=toyger)** II |
-| c | FU11 | **[himalayan](https://www.cryptokitties.co/search?include=sale,sire,other&search=himalayan)**  | t | FU27 | **[manx](https://www.cryptokitties.co/search?include=sale,sire,other&search=manx)** II |
-| d | FU12 | **[munchkin](https://www.cryptokitties.co/search?include=sale,sire,other&search=munchkin)**  | u | FU28 | **[lykoi](https://www.cryptokitties.co/search?include=sale,sire,other&search=lykoi)** III |
-| e | FU13 | **[sphynx](https://www.cryptokitties.co/search?include=sale,sire,other&search=sphynx)**  | v | FU29 | **[burmilla](https://www.cryptokitties.co/search?include=sale,sire,other&search=burmilla)** III |
-| f | FU14 | **[ragamuffin](https://www.cryptokitties.co/search?include=sale,sire,other&search=ragamuffin)**  | w | FU30 | **[liger](https://www.cryptokitties.co/search?include=sale,sire,other&search=liger)** IIII |
-| g | FU15 | **[ragdoll](https://www.cryptokitties.co/search?include=sale,sire,other&search=ragdoll)**  | x | FU31 | ? |
+| 1 | FU00 | **[Savannah](https://www.cryptokitties.co/search?include=sale,sire,other&search=Savannah)**  | h | FU16 | **[Norwegianforest](https://www.cryptokitties.co/search?include=sale,sire,other&search=Norwegianforest)** I |
+| 2 | FU01 | **[Selkirk](https://www.cryptokitties.co/search?include=sale,sire,other&search=Selkirk)**  | i | FU17 | **[Mekong](https://www.cryptokitties.co/search?include=sale,sire,other&search=Mekong)** I |
+| 3 | FU02 | **[Chantilly](https://www.cryptokitties.co/search?include=sale,sire,other&search=Chantilly)**  | j | FU18 | **[Highlander](https://www.cryptokitties.co/search?include=sale,sire,other&search=Highlander)** I |
+| 4 | FU03 | **[Birman](https://www.cryptokitties.co/search?include=sale,sire,other&search=Birman)**  | k | FU19 | **[Balinese](https://www.cryptokitties.co/search?include=sale,sire,other&search=Balinese)** I |
+| 5 | FU04 | **[Koladiviya](https://www.cryptokitties.co/search?include=sale,sire,other&search=Koladiviya)**  | m | FU20 | **[Lynx](https://www.cryptokitties.co/search?include=sale,sire,other&search=Lynx)** I |
+| 6 | FU05 | **[Bobtail](https://www.cryptokitties.co/search?include=sale,sire,other&search=Bobtail)**  | n | FU21 | **[Mainecoon](https://www.cryptokitties.co/search?include=sale,sire,other&search=Mainecoon)** I |
+| 7 | FU06 | **[Manul](https://www.cryptokitties.co/search?include=sale,sire,other&search=Manul)**  | o | FU22 | **[Laperm](https://www.cryptokitties.co/search?include=sale,sire,other&search=Laperm)** I |
+| 8 | FU07 | **[Pixiebob](https://www.cryptokitties.co/search?include=sale,sire,other&search=Pixiebob)**  | p | FU23 | **[Persian](https://www.cryptokitties.co/search?include=sale,sire,other&search=Persian)** I |
+| 9 | FU08 | **[Siberian](https://www.cryptokitties.co/search?include=sale,sire,other&search=Siberian)**  | q | FU24 | **[Fox](https://www.cryptokitties.co/search?include=sale,sire,other&search=Fox)** II |
+| a | FU09 | **[Cymric](https://www.cryptokitties.co/search?include=sale,sire,other&search=Cymric)**  | r | FU25 | **[Kurilian](https://www.cryptokitties.co/search?include=sale,sire,other&search=Kurilian)** II |
+| b | FU10 | **[Chartreux](https://www.cryptokitties.co/search?include=sale,sire,other&search=Chartreux)**  | s | FU26 | **[Toyger](https://www.cryptokitties.co/search?include=sale,sire,other&search=Toyger)** II |
+| c | FU11 | **[Himalayan](https://www.cryptokitties.co/search?include=sale,sire,other&search=Himalayan)**  | t | FU27 | **[Manx](https://www.cryptokitties.co/search?include=sale,sire,other&search=Manx)** II |
+| d | FU12 | **[Munchkin](https://www.cryptokitties.co/search?include=sale,sire,other&search=Munchkin)**  | u | FU28 | **[Lykoi](https://www.cryptokitties.co/search?include=sale,sire,other&search=Lykoi)** III |
+| e | FU13 | **[Sphynx](https://www.cryptokitties.co/search?include=sale,sire,other&search=Sphynx)**  | v | FU29 | **[Burmilla](https://www.cryptokitties.co/search?include=sale,sire,other&search=Burmilla)** III |
+| f | FU14 | **[Ragamuffin](https://www.cryptokitties.co/search?include=sale,sire,other&search=Ragamuffin)**  | w | FU30 | **[Liger](https://www.cryptokitties.co/search?include=sale,sire,other&search=Liger)** IIII |
+| g | FU15 | **[Ragdoll](https://www.cryptokitties.co/search?include=sale,sire,other&search=Ragdoll)**  | x | FU31 | ? |
 
 
-## Pattern (PA) 
+## Pattern (PA)
 
 _Genes 4-7_
 
 |Kai|Code|Name         |Kai|Code|Name        |
 |--:|---:|-------------|--:|---:|------------|
-| 1 | PA00 | **[vigilante](https://www.cryptokitties.co/search?include=sale,sire,other&search=vigilante)**  | h | PA16 | **[splat](https://www.cryptokitties.co/search?include=sale,sire,other&search=splat)** I |
-| 2 | PA01 | **[tiger](https://www.cryptokitties.co/search?include=sale,sire,other&search=tiger)**  | i | PA17 | **[thunderstruck](https://www.cryptokitties.co/search?include=sale,sire,other&search=thunderstruck)** I |
-| 3 | PA02 | **[rascal](https://www.cryptokitties.co/search?include=sale,sire,other&search=rascal)**  | j | PA18 | **[dippedcone](https://www.cryptokitties.co/search?include=sale,sire,other&search=dippedcone)** I |
-| 4 | PA03 | **[ganado](https://www.cryptokitties.co/search?include=sale,sire,other&search=ganado)**  | k | PA19 | **[highsociety](https://www.cryptokitties.co/search?include=sale,sire,other&search=highsociety)** I |
-| 5 | PA04 | **[leopard](https://www.cryptokitties.co/search?include=sale,sire,other&search=leopard)**  | m | PA20 | **[tigerpunk](https://www.cryptokitties.co/search?include=sale,sire,other&search=tigerpunk)** I |
-| 6 | PA05 | **[camo](https://www.cryptokitties.co/search?include=sale,sire,other&search=camo)**  | n | PA21 | **[henna](https://www.cryptokitties.co/search?include=sale,sire,other&search=henna)** I |
-| 7 | PA06 | **[rorschach](https://www.cryptokitties.co/search?include=sale,sire,other&search=rorschach)**  | o | PA22 | **[arcreactor](https://www.cryptokitties.co/search?include=sale,sire,other&search=arcreactor)** I |
-| 8 | PA07 | **[spangled](https://www.cryptokitties.co/search?include=sale,sire,other&search=spangled)**  | p | PA23 | **[Totesbasic 3](https://www.cryptokitties.co/search?include=sale,sire,other&search=totesbasic)** I |
-| 9 | PA08 | **[calicool](https://www.cryptokitties.co/search?include=sale,sire,other&search=calicool)**  | q | PA24 | **[scorpius](https://www.cryptokitties.co/search?include=sale,sire,other&search=scorpius)** II |
-| a | PA09 | **[luckystripe](https://www.cryptokitties.co/search?include=sale,sire,other&search=luckystripe)**  | r | PA25 | **[razzledazzle](https://www.cryptokitties.co/search?include=sale,sire,other&search=razzledazzle)** II |
-| b | PA10 | **[amur](https://www.cryptokitties.co/search?include=sale,sire,other&search=amur)**  | s | PA26 | **[hotrod](https://www.cryptokitties.co/search?include=sale,sire,other&search=hotrod)** II |
-| c | PA11 | **[jaguar](https://www.cryptokitties.co/search?include=sale,sire,other&search=jaguar)**  | t | PA27 | **[allyouneed](https://www.cryptokitties.co/search?include=sale,sire,other&search=allyouneed)** II |
-| d | PA12 | **[spock](https://www.cryptokitties.co/search?include=sale,sire,other&search=spock)**  | u | PA28 | **[avatar](https://www.cryptokitties.co/search?include=sale,sire,other&search=avatar)** III |
-| e | PA13 | **[Mittens](https://www.cryptokitties.co/search?include=sale,sire,other&search=mittens)**  | v | PA29 | **[gyre](https://www.cryptokitties.co/search?include=sale,sire,other&search=gyre)** III |
-| f | PA14 | **[Totesbasic 1](https://www.cryptokitties.co/search?include=sale,sire,other&search=totesbasic)**  | w | PA30 | **[moonrise](https://www.cryptokitties.co/search?include=sale,sire,other&search=moonrise)** IIII |
+| 1 | PA00 | **[Vigilante](https://www.cryptokitties.co/search?include=sale,sire,other&search=Vigilante)**  | h | PA16 | **[Splat](https://www.cryptokitties.co/search?include=sale,sire,other&search=Splat)** I |
+| 2 | PA01 | **[Tiger](https://www.cryptokitties.co/search?include=sale,sire,other&search=Tiger)**  | i | PA17 | **[Thunderstruck](https://www.cryptokitties.co/search?include=sale,sire,other&search=Thunderstruck)** I |
+| 3 | PA02 | **[Rascal](https://www.cryptokitties.co/search?include=sale,sire,other&search=Rascal)**  | j | PA18 | **[Dippedcone](https://www.cryptokitties.co/search?include=sale,sire,other&search=Dippedcone)** I |
+| 4 | PA03 | **[Ganado](https://www.cryptokitties.co/search?include=sale,sire,other&search=Ganado)**  | k | PA19 | **[Highsociety](https://www.cryptokitties.co/search?include=sale,sire,other&search=Highsociety)** I |
+| 5 | PA04 | **[Leopard](https://www.cryptokitties.co/search?include=sale,sire,other&search=Leopard)**  | m | PA20 | **[Tigerpunk](https://www.cryptokitties.co/search?include=sale,sire,other&search=Tigerpunk)** I |
+| 6 | PA05 | **[Camo](https://www.cryptokitties.co/search?include=sale,sire,other&search=Camo)**  | n | PA21 | **[Henna](https://www.cryptokitties.co/search?include=sale,sire,other&search=Henna)** I |
+| 7 | PA06 | **[Rorschach](https://www.cryptokitties.co/search?include=sale,sire,other&search=Rorschach)**  | o | PA22 | **[Arcreactor](https://www.cryptokitties.co/search?include=sale,sire,other&search=Arcreactor)** I |
+| 8 | PA07 | **[Spangled](https://www.cryptokitties.co/search?include=sale,sire,other&search=Spangled)**  | p | PA23 | **[Totesbasic 3](https://www.cryptokitties.co/search?include=sale,sire,other&search=totesbasic)** I |
+| 9 | PA08 | **[Calicool](https://www.cryptokitties.co/search?include=sale,sire,other&search=Calicool)**  | q | PA24 | **[Scorpius](https://www.cryptokitties.co/search?include=sale,sire,other&search=Scorpius)** II |
+| a | PA09 | **[Luckystripe](https://www.cryptokitties.co/search?include=sale,sire,other&search=Luckystripe)**  | r | PA25 | **[Razzledazzle](https://www.cryptokitties.co/search?include=sale,sire,other&search=Razzledazzle)** II |
+| b | PA10 | **[Amur](https://www.cryptokitties.co/search?include=sale,sire,other&search=Amur)**  | s | PA26 | **[Hotrod](https://www.cryptokitties.co/search?include=sale,sire,other&search=Hotrod)** II |
+| c | PA11 | **[Jaguar](https://www.cryptokitties.co/search?include=sale,sire,other&search=Jaguar)**  | t | PA27 | **[Allyouneed](https://www.cryptokitties.co/search?include=sale,sire,other&search=Allyouneed)** II |
+| d | PA12 | **[Spock](https://www.cryptokitties.co/search?include=sale,sire,other&search=Spock)**  | u | PA28 | **[Avatar](https://www.cryptokitties.co/search?include=sale,sire,other&search=Avatar)** III |
+| e | PA13 | **[Mittens](https://www.cryptokitties.co/search?include=sale,sire,other&search=Mittens)**  | v | PA29 | **[Gyre](https://www.cryptokitties.co/search?include=sale,sire,other&search=Gyre)** III |
+| f | PA14 | **[Totesbasic 1](https://www.cryptokitties.co/search?include=sale,sire,other&search=totesbasic)**  | w | PA30 | **[Moonrise](https://www.cryptokitties.co/search?include=sale,sire,other&search=Moonrise)** IIII |
 | g | PA15 | **[Totesbasic 2](https://www.cryptokitties.co/search?include=sale,sire,other&search=totesbasic)**  | x | PA31 | ? |
 
 
-## Eye Color (EC) 
+## Eye Color (EC)
 
 _Genes 8-11_
 
 |Kai|Code|Name         |Kai|Code|Name        |
 |--:|---:|-------------|--:|---:|------------|
-| 1 | EC00 | **[thundergrey](https://www.cryptokitties.co/search?include=sale,sire,other&search=thundergrey)**  | h | EC16 | **[pumpkin](https://www.cryptokitties.co/search?include=sale,sire,other&search=pumpkin)** I |
-| 2 | EC01 | **[gold](https://www.cryptokitties.co/search?include=sale,sire,other&search=gold)**  | i | EC17 | **[limegreen](https://www.cryptokitties.co/search?include=sale,sire,other&search=limegreen)** I |
-| 3 | EC02 | **[topaz](https://www.cryptokitties.co/search?include=sale,sire,other&search=topaz)**  | j | EC18 | **[bridesmaid](https://www.cryptokitties.co/search?include=sale,sire,other&search=bridesmaid)** I |
-| 4 | EC03 | **[mintgreen](https://www.cryptokitties.co/search?include=sale,sire,other&search=mintgreen)**  | k | EC19 | **[bubblegum](https://www.cryptokitties.co/search?include=sale,sire,other&search=bubblegum)** I |
-| 5 | EC04 | **[isotope](https://www.cryptokitties.co/search?include=sale,sire,other&search=isotope)**  | m | EC20 | **[twilightsparkle](https://www.cryptokitties.co/search?include=sale,sire,other&search=twilightsparkle)** I |
-| 6 | EC05 | **[sizzurp](https://www.cryptokitties.co/search?include=sale,sire,other&search=sizzurp)**  | n | EC21 | **[palejade](https://www.cryptokitties.co/search?include=sale,sire,other&search=palejade)** I |
-| 7 | EC06 | **[chestnut](https://www.cryptokitties.co/search?include=sale,sire,other&search=chestnut)**  | o | EC22 | **[pinefresh](https://www.cryptokitties.co/search?include=sale,sire,other&search=pinefresh)** I |
-| 8 | EC07 | **[strawberry](https://www.cryptokitties.co/search?include=sale,sire,other&search=strawberry)**  | p | EC23 | **[eclipse](https://www.cryptokitties.co/search?include=sale,sire,other&search=eclipse)** I |
-| 9 | EC08 | **[sapphire](https://www.cryptokitties.co/search?include=sale,sire,other&search=sapphire)**  | q | EC24 | **[babypuke](https://www.cryptokitties.co/search?include=sale,sire,other&search=babypuke)** II |
-| a | EC09 | **[forgetmenot](https://www.cryptokitties.co/search?include=sale,sire,other&search=forgetmenot)**  | r | EC25 | **[downbythebay](https://www.cryptokitties.co/search?include=sale,sire,other&search=downbythebay)** II |
-| b | EC10 | **[dahlia](https://www.cryptokitties.co/search?include=sale,sire,other&search=dahlia)**  | s | EC26 | **[autumnmoon](https://www.cryptokitties.co/search?include=sale,sire,other&search=autumnmoon)** II |
-| c | EC11 | **[coralsunrise](https://www.cryptokitties.co/search?include=sale,sire,other&search=coralsunrise)**  | t | EC27 | **[oasis](https://www.cryptokitties.co/search?include=sale,sire,other&search=oasis)** II |
-| d | EC12 | **[olive](https://www.cryptokitties.co/search?include=sale,sire,other&search=olive)**  | u | EC28 | **[gemini](https://www.cryptokitties.co/search?include=sale,sire,other&search=gemini)** III |
-| e | EC13 | **[doridnudibranch](https://www.cryptokitties.co/search?include=sale,sire,other&search=doridnudibranch)**  | v | EC29 | **[dioscuri](https://www.cryptokitties.co/search?include=sale,sire,other&search=dioscuri)** III |
-| f | EC14 | **[parakeet](https://www.cryptokitties.co/search?include=sale,sire,other&search=parakeet)**  | w | EC30 | **[kaleidoscope](https://www.cryptokitties.co/search?include=sale,sire,other&search=kaleidoscope)** IIII |
-| g | EC15 | **[cyan](https://www.cryptokitties.co/search?include=sale,sire,other&search=cyan)**  | x | EC31 | ? |
+| 1 | EC00 | **[Hundergrey](https://www.cryptokitties.co/search?include=sale,sire,other&search=Hundergrey)**  | h | EC16 | **[Pumpkin](https://www.cryptokitties.co/search?include=sale,sire,other&search=Pumpkin)** I |
+| 2 | EC01 | **[Gold](https://www.cryptokitties.co/search?include=sale,sire,other&search=Gold)**  | i | EC17 | **[Limegreen](https://www.cryptokitties.co/search?include=sale,sire,other&search=Limegreen)** I |
+| 3 | EC02 | **[Topaz](https://www.cryptokitties.co/search?include=sale,sire,other&search=Topaz)**  | j | EC18 | **[Bridesmaid](https://www.cryptokitties.co/search?include=sale,sire,other&search=Bridesmaid)** I |
+| 4 | EC03 | **[Mintgreen](https://www.cryptokitties.co/search?include=sale,sire,other&search=Mintgreen)**  | k | EC19 | **[Bubblegum](https://www.cryptokitties.co/search?include=sale,sire,other&search=Bubblegum)** I |
+| 5 | EC04 | **[Isotope](https://www.cryptokitties.co/search?include=sale,sire,other&search=Isotope)**  | m | EC20 | **[Twilightsparkle](https://www.cryptokitties.co/search?include=sale,sire,other&search=Twilightsparkle)** I |
+| 6 | EC05 | **[Sizzurp](https://www.cryptokitties.co/search?include=sale,sire,other&search=Sizzurp)**  | n | EC21 | **[Palejade](https://www.cryptokitties.co/search?include=sale,sire,other&search=Palejade)** I |
+| 7 | EC06 | **[Chestnut](https://www.cryptokitties.co/search?include=sale,sire,other&search=Chestnut)**  | o | EC22 | **[Pinefresh](https://www.cryptokitties.co/search?include=sale,sire,other&search=Pinefresh)** I |
+| 8 | EC07 | **[Strawberry](https://www.cryptokitties.co/search?include=sale,sire,other&search=Strawberry)**  | p | EC23 | **[Eclipse](https://www.cryptokitties.co/search?include=sale,sire,other&search=Eclipse)** I |
+| 9 | EC08 | **[Sapphire](https://www.cryptokitties.co/search?include=sale,sire,other&search=Sapphire)**  | q | EC24 | **[Babypuke](https://www.cryptokitties.co/search?include=sale,sire,other&search=Babypuke)** II |
+| a | EC09 | **[Forgetmenot](https://www.cryptokitties.co/search?include=sale,sire,other&search=Forgetmenot)**  | r | EC25 | **[Downbythebay](https://www.cryptokitties.co/search?include=sale,sire,other&search=Downbythebay)** II |
+| b | EC10 | **[Dahlia](https://www.cryptokitties.co/search?include=sale,sire,other&search=Dahlia)**  | s | EC26 | **[Autumnmoon](https://www.cryptokitties.co/search?include=sale,sire,other&search=Autumnmoon)** II |
+| c | EC11 | **[Coralsunrise](https://www.cryptokitties.co/search?include=sale,sire,other&search=Coralsunrise)**  | t | EC27 | **[Oasis](https://www.cryptokitties.co/search?include=sale,sire,other&search=Oasis)** II |
+| d | EC12 | **[Olive](https://www.cryptokitties.co/search?include=sale,sire,other&search=Olive)**  | u | EC28 | **[Gemini](https://www.cryptokitties.co/search?include=sale,sire,other&search=Gemini)** III |
+| e | EC13 | **[Doridnudibranch](https://www.cryptokitties.co/search?include=sale,sire,other&search=Doridnudibranch)**  | v | EC29 | **[Dioscuri](https://www.cryptokitties.co/search?include=sale,sire,other&search=Dioscuri)** III |
+| f | EC14 | **[Parakeet](https://www.cryptokitties.co/search?include=sale,sire,other&search=Parakeet)**  | w | EC30 | **[Kaleidoscope](https://www.cryptokitties.co/search?include=sale,sire,other&search=Kaleidoscope)** IIII |
+| g | EC15 | **[Cyan](https://www.cryptokitties.co/search?include=sale,sire,other&search=Cyan)**  | x | EC31 | ? |
 
 
-## Eye Shape (ES) - Genes 12-15
+## Eye Shape (ES)
 
-|Kai|Code|Name         |Kai|Code|Name        |
-|--:|---:|-------------|--:|---:|------------|
-| 1 | ES00 | **[swarley](https://www.cryptokitties.co/search?include=sale,sire,other&search=swarley)**  | h | ES16 | **[chameleon](https://www.cryptokitties.co/search?include=sale,sire,other&search=chameleon)** I |
-| 2 | ES01 | **[wonky](https://www.cryptokitties.co/search?include=sale,sire,other&search=wonky)**  | i | ES17 | **[alien](https://www.cryptokitties.co/search?include=sale,sire,other&search=alien)** I |
-| 3 | ES02 | **[serpent](https://www.cryptokitties.co/search?include=sale,sire,other&search=serpent)**  | j | ES18 | **[fabulous](https://www.cryptokitties.co/search?include=sale,sire,other&search=fabulous)** I |
-| 4 | ES03 | **[googly](https://www.cryptokitties.co/search?include=sale,sire,other&search=googly)**  | k | ES19 | **[raisedbrow](https://www.cryptokitties.co/search?include=sale,sire,other&search=raisedbrow)** I |
-| 5 | ES04 | **[otaku](https://www.cryptokitties.co/search?include=sale,sire,other&search=otaku)**  | m | ES20 | **[tendertears](https://www.cryptokitties.co/search?include=sale,sire,other&search=tendertears)** I |
-| 6 | ES05 | **[simple](https://www.cryptokitties.co/search?include=sale,sire,other&search=simple)**  | n | ES21 | **[hacker](https://www.cryptokitties.co/search?include=sale,sire,other&search=hacker)** I |
-| 7 | ES06 | **[crazy](https://www.cryptokitties.co/search?include=sale,sire,other&search=crazy)**  | o | ES22 | **[sass](https://www.cryptokitties.co/search?include=sale,sire,other&search=sass)** I |
-| 8 | ES07 | **[thicccbrowz](https://www.cryptokitties.co/search?include=sale,sire,other&search=thicccbrowz)**  | p | ES23 | **[sweetmeloncakes](https://www.cryptokitties.co/search?include=sale,sire,other&search=sweetmeloncakes)** I |
-| 9 | ES08 | **[caffeine](https://www.cryptokitties.co/search?include=sale,sire,other&search=caffeine)**  | q | ES24 | **[oceanid](https://www.cryptokitties.co/search?include=sale,sire,other&search=oceanid)** II |
-| a | ES09 | **[wowza](https://www.cryptokitties.co/search?include=sale,sire,other&search=wowza)**  | r | ES25 | **[wingtips](https://www.cryptokitties.co/search?include=sale,sire,other&search=wingtips)** II |
-| b | ES10 | **[baddate](https://www.cryptokitties.co/search?include=sale,sire,other&search=baddate)**  | s | ES26 | **[firedup](https://www.cryptokitties.co/search?include=sale,sire,other&search=firedup)** II |
-| c | ES11 | **[asif](https://www.cryptokitties.co/search?include=sale,sire,other&search=asif)**  | t | ES27 | **[buzzed](https://www.cryptokitties.co/search?include=sale,sire,other&search=buzzed)** II |
-| d | ES12 | **[chronic](https://www.cryptokitties.co/search?include=sale,sire,other&search=chronic)**  | u | ES28 | **[bornwithit](https://www.cryptokitties.co/search?include=sale,sire,other&search=bornwithit)** III |
-| e | ES13 | **[slyboots](https://www.cryptokitties.co/search?include=sale,sire,other&search=slyboots)**  | v | ES29 | **[candyshoppe](https://www.cryptokitties.co/search?include=sale,sire,other&search=candyshoppe)** III |
-| f | ES14 | **[wiley](https://www.cryptokitties.co/search?include=sale,sire,other&search=wiley)**  | w | ES30 | **[drama](https://www.cryptokitties.co/search?include=sale,sire,other&search=drama)** IIII |
-| g | ES15 | **[stunned](https://www.cryptokitties.co/search?include=sale,sire,other&search=stunned)**  | x | ES31 | ? |
-
-
-## Base Color (BC) - Genes 16-19
+_Genes 12-15_
 
 |Kai|Code|Name         |Kai|Code|Name        |
 |--:|---:|-------------|--:|---:|------------|
-| 1 | BC00 | **[shadowgrey](https://www.cryptokitties.co/search?include=sale,sire,other&search=shadowgrey)**  | h | BC16 | **[cloudwhite](https://www.cryptokitties.co/search?include=sale,sire,other&search=cloudwhite)** I |
-| 2 | BC01 | **[salmon](https://www.cryptokitties.co/search?include=sale,sire,other&search=salmon)**  | i | BC17 | **[cornflower](https://www.cryptokitties.co/search?include=sale,sire,other&search=cornflower)** I |
-| 3 | BC02 | **[meowgarine](https://www.cryptokitties.co/search?include=sale,sire,other&search=meowgarine)**  | j | BC18 | **[oldlace](https://www.cryptokitties.co/search?include=sale,sire,other&search=oldlace)** I |
-| 4 | BC03 | **[orangesoda](https://www.cryptokitties.co/search?include=sale,sire,other&search=orangesoda)**  | k | BC19 | **[koala](https://www.cryptokitties.co/search?include=sale,sire,other&search=koala)** I |
-| 5 | BC04 | **[cottoncandy](https://www.cryptokitties.co/search?include=sale,sire,other&search=cottoncandy)**  | m | BC20 | **[lavender](https://www.cryptokitties.co/search?include=sale,sire,other&search=lavender)** I |
-| 6 | BC05 | **[mauveover](https://www.cryptokitties.co/search?include=sale,sire,other&search=mauveover)**  | n | BC21 | **[glacier](https://www.cryptokitties.co/search?include=sale,sire,other&search=glacier)** I |
-| 7 | BC06 | **[aquamarine](https://www.cryptokitties.co/search?include=sale,sire,other&search=aquamarine)**  | o | BC22 | **[redvelvet](https://www.cryptokitties.co/search?include=sale,sire,other&search=redvelvet)** I |
-| 8 | BC07 | **[nachocheez](https://www.cryptokitties.co/search?include=sale,sire,other&search=nachocheez)**  | p | BC23 | **[verdigris](https://www.cryptokitties.co/search?include=sale,sire,other&search=verdigris)** I |
-| 9 | BC08 | **[harbourfog](https://www.cryptokitties.co/search?include=sale,sire,other&search=harbourfog)**  | q | BC24 | **[icicle](https://www.cryptokitties.co/search?include=sale,sire,other&search=icicle)** II |
-| a | BC09 | **[cinderella](https://www.cryptokitties.co/search?include=sale,sire,other&search=cinderella)**  | r | BC25 | **[onyx](https://www.cryptokitties.co/search?include=sale,sire,other&search=onyx)** II |
-| b | BC10 | **[greymatter](https://www.cryptokitties.co/search?include=sale,sire,other&search=greymatter)**  | s | BC26 | **[hyacinth](https://www.cryptokitties.co/search?include=sale,sire,other&search=hyacinth)** II |
-| c | BC11 | **[tundra](https://www.cryptokitties.co/search?include=sale,sire,other&search=tundra)**  | t | BC27 | **[martian](https://www.cryptokitties.co/search?include=sale,sire,other&search=martian)** II |
-| d | BC12 | **[brownies](https://www.cryptokitties.co/search?include=sale,sire,other&search=brownies)**  | u | BC28 | **[hotcocoa](https://www.cryptokitties.co/search?include=sale,sire,other&search=hotcocoa)** III |
-| e | BC13 | **[dragonfruit](https://www.cryptokitties.co/search?include=sale,sire,other&search=dragonfruit)**  | v | BC29 | **[shamrock](https://www.cryptokitties.co/search?include=sale,sire,other&search=shamrock)** III |
-| f | BC14 | **[hintomint](https://www.cryptokitties.co/search?include=sale,sire,other&search=hintomint)**  | w | BC30 | **[firstblush](https://www.cryptokitties.co/search?include=sale,sire,other&search=firstblush)** IIII |
-| g | BC15 | **[bananacream](https://www.cryptokitties.co/search?include=sale,sire,other&search=bananacream)**  | x | BC31 | ? |
+| 1 | ES00 | **[Swarley](https://www.cryptokitties.co/search?include=sale,sire,other&search=Swarley)**  | h | ES16 | **[Chameleon](https://www.cryptokitties.co/search?include=sale,sire,other&search=Chameleon)** I |
+| 2 | ES01 | **[Wonky](https://www.cryptokitties.co/search?include=sale,sire,other&search=Wonky)**  | i | ES17 | **[Alien](https://www.cryptokitties.co/search?include=sale,sire,other&search=Alien)** I |
+| 3 | ES02 | **[Serpent](https://www.cryptokitties.co/search?include=sale,sire,other&search=Serpent)**  | j | ES18 | **[Fabulous](https://www.cryptokitties.co/search?include=sale,sire,other&search=Fabulous)** I |
+| 4 | ES03 | **[Googly](https://www.cryptokitties.co/search?include=sale,sire,other&search=Googly)**  | k | ES19 | **[Raisedbrow](https://www.cryptokitties.co/search?include=sale,sire,other&search=Raisedbrow)** I |
+| 5 | ES04 | **[Otaku](https://www.cryptokitties.co/search?include=sale,sire,other&search=Otaku)**  | m | ES20 | **[Tendertears](https://www.cryptokitties.co/search?include=sale,sire,other&search=Tendertears)** I |
+| 6 | ES05 | **[Simple](https://www.cryptokitties.co/search?include=sale,sire,other&search=Simple)**  | n | ES21 | **[Hacker](https://www.cryptokitties.co/search?include=sale,sire,other&search=Hacker)** I |
+| 7 | ES06 | **[Crazy](https://www.cryptokitties.co/search?include=sale,sire,other&search=Crazy)**  | o | ES22 | **[Sass](https://www.cryptokitties.co/search?include=sale,sire,other&search=Sass)** I |
+| 8 | ES07 | **[Thicccbrowz](https://www.cryptokitties.co/search?include=sale,sire,other&search=Thicccbrowz)**  | p | ES23 | **[Sweetmeloncakes](https://www.cryptokitties.co/search?include=sale,sire,other&search=Sweetmeloncakes)** I |
+| 9 | ES08 | **[Caffeine](https://www.cryptokitties.co/search?include=sale,sire,other&search=Caffeine)**  | q | ES24 | **[Oceanid](https://www.cryptokitties.co/search?include=sale,sire,other&search=Oceanid)** II |
+| a | ES09 | **[Wowza](https://www.cryptokitties.co/search?include=sale,sire,other&search=Wowza)**  | r | ES25 | **[Wingtips](https://www.cryptokitties.co/search?include=sale,sire,other&search=Wingtips)** II |
+| b | ES10 | **[Baddate](https://www.cryptokitties.co/search?include=sale,sire,other&search=Baddate)**  | s | ES26 | **[Firedup](https://www.cryptokitties.co/search?include=sale,sire,other&search=Firedup)** II |
+| c | ES11 | **[Asif](https://www.cryptokitties.co/search?include=sale,sire,other&search=Asif)**  | t | ES27 | **[Buzzed](https://www.cryptokitties.co/search?include=sale,sire,other&search=Buzzed)** II |
+| d | ES12 | **[Chronic](https://www.cryptokitties.co/search?include=sale,sire,other&search=Chronic)**  | u | ES28 | **[Bornwithit](https://www.cryptokitties.co/search?include=sale,sire,other&search=Bornwithit)** III |
+| e | ES13 | **[Slyboots](https://www.cryptokitties.co/search?include=sale,sire,other&search=Slyboots)**  | v | ES29 | **[Candyshoppe](https://www.cryptokitties.co/search?include=sale,sire,other&search=Candyshoppe)** III |
+| f | ES14 | **[Wiley](https://www.cryptokitties.co/search?include=sale,sire,other&search=Wiley)**  | w | ES30 | **[Drama](https://www.cryptokitties.co/search?include=sale,sire,other&search=Drama)** IIII |
+| g | ES15 | **[Stunned](https://www.cryptokitties.co/search?include=sale,sire,other&search=Stunned)**  | x | ES31 | ? |
 
 
-## Highlight Color (HC) - Genes 20-23
+## Base Color (BC)
 
-|Kai|Code|Name         |Kai|Code|Name        |
-|--:|---:|-------------|--:|---:|------------|
-| 1 | HC00 | **[cyborg](https://www.cryptokitties.co/search?include=sale,sire,other&search=cyborg)**  | h | HC16 | **[ooze](https://www.cryptokitties.co/search?include=sale,sire,other&search=ooze)** I |
-| 2 | HC01 | **[springcrocus](https://www.cryptokitties.co/search?include=sale,sire,other&search=springcrocus)**  | i | HC17 | **[safetyvest](https://www.cryptokitties.co/search?include=sale,sire,other&search=safetyvest)** I |
-| 3 | HC02 | **[egyptiankohl](https://www.cryptokitties.co/search?include=sale,sire,other&search=egyptiankohl)**  | j | HC18 | **[turtleback](https://www.cryptokitties.co/search?include=sale,sire,other&search=turtleback)** I |
-| 4 | HC03 | **[poisonberry](https://www.cryptokitties.co/search?include=sale,sire,other&search=poisonberry)**  | k | HC19 | **[rosequartz](https://www.cryptokitties.co/search?include=sale,sire,other&search=rosequartz)** I |
-| 5 | HC04 | **[lilac](https://www.cryptokitties.co/search?include=sale,sire,other&search=lilac)**  | m | HC20 | **[wolfgrey](https://www.cryptokitties.co/search?include=sale,sire,other&search=wolfgrey)** I |
-| 6 | HC05 | **[apricot](https://www.cryptokitties.co/search?include=sale,sire,other&search=apricot)**  | n | HC21 | **[cerulian](https://www.cryptokitties.co/search?include=sale,sire,other&search=cerulian)** I |
-| 7 | HC06 | **[royalpurple](https://www.cryptokitties.co/search?include=sale,sire,other&search=royalpurple)**  | o | HC22 | **[skyblue](https://www.cryptokitties.co/search?include=sale,sire,other&search=skyblue)** I |
-| 8 | HC07 | **[padparadscha](https://www.cryptokitties.co/search?include=sale,sire,other&search=padparadscha)**  | p | HC23 | **[garnet](https://www.cryptokitties.co/search?include=sale,sire,other&search=garnet)** I |
-| 9 | HC08 | **[swampgreen](https://www.cryptokitties.co/search?include=sale,sire,other&search=swampgreen)**  | q | HC24 | **[peppermint](https://www.cryptokitties.co/search?include=sale,sire,other&search=peppermint)** II |
-| a | HC09 | **[violet](https://www.cryptokitties.co/search?include=sale,sire,other&search=violet)**  | r | HC25 | **[universe](https://www.cryptokitties.co/search?include=sale,sire,other&search=universe)** II |
-| b | HC10 | **[scarlet](https://www.cryptokitties.co/search?include=sale,sire,other&search=scarlet)**  | s | HC26 | **[royalblue](https://www.cryptokitties.co/search?include=sale,sire,other&search=royalblue)** II |
-| c | HC11 | **[barkbrown](https://www.cryptokitties.co/search?include=sale,sire,other&search=barkbrown)**  | t | HC27 | **[mertail](https://www.cryptokitties.co/search?include=sale,sire,other&search=mertail)** II |
-| d | HC12 | **[coffee](https://www.cryptokitties.co/search?include=sale,sire,other&search=coffee)**  | u | HC28 | **[inflatablepool](https://www.cryptokitties.co/search?include=sale,sire,other&search=inflatablepool)** III |
-| e | HC13 | **[lemonade](https://www.cryptokitties.co/search?include=sale,sire,other&search=lemonade)**  | v | HC29 | **[pearl](https://www.cryptokitties.co/search?include=sale,sire,other&search=pearl)** III |
-| f | HC14 | **[chocolate](https://www.cryptokitties.co/search?include=sale,sire,other&search=chocolate)**  | w | HC30 | **[prairierose](https://www.cryptokitties.co/search?include=sale,sire,other&search=prairierose)** IIII |
-| g | HC15 | **[butterscotch](https://www.cryptokitties.co/search?include=sale,sire,other&search=butterscotch)**  | x | HC31 | ? |
-
-
-## Accent Color (AC) - Genes 24-27
+_Genes 16-19_
 
 |Kai|Code|Name         |Kai|Code|Name        |
 |--:|---:|-------------|--:|---:|------------|
-| 1 | AC00 | **[belleblue](https://www.cryptokitties.co/search?include=sale,sire,other&search=belleblue)**  | h | AC16 | **[daffodil](https://www.cryptokitties.co/search?include=sale,sire,other&search=daffodil)** I |
-| 2 | AC01 | **[sandalwood](https://www.cryptokitties.co/search?include=sale,sire,other&search=sandalwood)**  | i | AC17 | **[flamingo](https://www.cryptokitties.co/search?include=sale,sire,other&search=flamingo)** I |
-| 3 | AC02 | **[peach](https://www.cryptokitties.co/search?include=sale,sire,other&search=peach)**  | j | AC18 | **[buttercup](https://www.cryptokitties.co/search?include=sale,sire,other&search=buttercup)** I |
-| 4 | AC03 | **[icy](https://www.cryptokitties.co/search?include=sale,sire,other&search=icy)**  | k | AC19 | **[bloodred](https://www.cryptokitties.co/search?include=sale,sire,other&search=bloodred)** I |
-| 5 | AC04 | **[granitegrey](https://www.cryptokitties.co/search?include=sale,sire,other&search=granitegrey)**  | m | AC20 | **[atlantis](https://www.cryptokitties.co/search?include=sale,sire,other&search=atlantis)** I |
-| 6 | AC05 | **[cashewmilk](https://www.cryptokitties.co/search?include=sale,sire,other&search=cashewmilk)**  | n | AC21 | **[summerbonnet](https://www.cryptokitties.co/search?include=sale,sire,other&search=summerbonnet)** I |
-| 7 | AC06 | **[kittencream](https://www.cryptokitties.co/search?include=sale,sire,other&search=kittencream)**  | o | AC22 | **[periwinkle](https://www.cryptokitties.co/search?include=sale,sire,other&search=periwinkle)** I |
-| 8 | AC07 | **[emeraldgreen](https://www.cryptokitties.co/search?include=sale,sire,other&search=emeraldgreen)**  | p | AC23 | **[patrickstarfish](https://www.cryptokitties.co/search?include=sale,sire,other&search=patrickstarfish)** I |
-| 9 | AC08 | **[kalahari](https://www.cryptokitties.co/search?include=sale,sire,other&search=kalahari)**  | q | AC24 | **[seafoam](https://www.cryptokitties.co/search?include=sale,sire,other&search=seafoam)** II |
-| a | AC09 | **[shale](https://www.cryptokitties.co/search?include=sale,sire,other&search=shale)**  | r | AC25 | **[cobalt](https://www.cryptokitties.co/search?include=sale,sire,other&search=cobalt)** II |
-| b | AC10 | **[purplehaze](https://www.cryptokitties.co/search?include=sale,sire,other&search=purplehaze)**  | s | AC26 | **[mallowflower](https://www.cryptokitties.co/search?include=sale,sire,other&search=mallowflower)** II |
-| c | AC11 | **[hanauma](https://www.cryptokitties.co/search?include=sale,sire,other&search=hanauma)**  | t | AC27 | **[mintmacaron](https://www.cryptokitties.co/search?include=sale,sire,other&search=mintmacaron)** II |
-| d | AC12 | **[azaleablush](https://www.cryptokitties.co/search?include=sale,sire,other&search=azaleablush)**  | u | AC28 | **[sully](https://www.cryptokitties.co/search?include=sale,sire,other&search=sully)** III |
-| e | AC13 | **[missmuffett](https://www.cryptokitties.co/search?include=sale,sire,other&search=missmuffett)**  | v | AC29 | **[fallspice](https://www.cryptokitties.co/search?include=sale,sire,other&search=fallspice)** III |
-| f | AC14 | **[morningglory](https://www.cryptokitties.co/search?include=sale,sire,other&search=morningglory)**  | w | AC30 | **[dreamboat](https://www.cryptokitties.co/search?include=sale,sire,other&search=dreamboat)** IIII |
-| g | AC15 | **[frosting](https://www.cryptokitties.co/search?include=sale,sire,other&search=frosting)**  | x | AC31 | ? |
+| 1 | BC00 | **[Shadowgrey](https://www.cryptokitties.co/search?include=sale,sire,other&search=Shadowgrey)**  | h | BC16 | **[Cloudwhite](https://www.cryptokitties.co/search?include=sale,sire,other&search=Cloudwhite)** I |
+| 2 | BC01 | **[Salmon](https://www.cryptokitties.co/search?include=sale,sire,other&search=Salmon)**  | i | BC17 | **[Cornflower](https://www.cryptokitties.co/search?include=sale,sire,other&search=Cornflower)** I |
+| 3 | BC02 | **[Meowgarine](https://www.cryptokitties.co/search?include=sale,sire,other&search=Meowgarine)**  | j | BC18 | **[Oldlace](https://www.cryptokitties.co/search?include=sale,sire,other&search=Oldlace)** I |
+| 4 | BC03 | **[Orangesoda](https://www.cryptokitties.co/search?include=sale,sire,other&search=Orangesoda)**  | k | BC19 | **[Koala](https://www.cryptokitties.co/search?include=sale,sire,other&search=Koala)** I |
+| 5 | BC04 | **[Cottoncandy](https://www.cryptokitties.co/search?include=sale,sire,other&search=Cottoncandy)**  | m | BC20 | **[Lavender](https://www.cryptokitties.co/search?include=sale,sire,other&search=Lavender)** I |
+| 6 | BC05 | **[Mauveover](https://www.cryptokitties.co/search?include=sale,sire,other&search=Mauveover)**  | n | BC21 | **[Glacier](https://www.cryptokitties.co/search?include=sale,sire,other&search=Glacier)** I |
+| 7 | BC06 | **[Aquamarine](https://www.cryptokitties.co/search?include=sale,sire,other&search=Aquamarine)**  | o | BC22 | **[Redvelvet](https://www.cryptokitties.co/search?include=sale,sire,other&search=Redvelvet)** I |
+| 8 | BC07 | **[Nachocheez](https://www.cryptokitties.co/search?include=sale,sire,other&search=Nachocheez)**  | p | BC23 | **[Verdigris](https://www.cryptokitties.co/search?include=sale,sire,other&search=Verdigris)** I |
+| 9 | BC08 | **[Harbourfog](https://www.cryptokitties.co/search?include=sale,sire,other&search=Harbourfog)**  | q | BC24 | **[Icicle](https://www.cryptokitties.co/search?include=sale,sire,other&search=Icicle)** II |
+| a | BC09 | **[Cinderella](https://www.cryptokitties.co/search?include=sale,sire,other&search=Cinderella)**  | r | BC25 | **[Onyx](https://www.cryptokitties.co/search?include=sale,sire,other&search=Onyx)** II |
+| b | BC10 | **[Greymatter](https://www.cryptokitties.co/search?include=sale,sire,other&search=Greymatter)**  | s | BC26 | **[Hyacinth](https://www.cryptokitties.co/search?include=sale,sire,other&search=Hyacinth)** II |
+| c | BC11 | **[Tundra](https://www.cryptokitties.co/search?include=sale,sire,other&search=Tundra)**  | t | BC27 | **[Martian](https://www.cryptokitties.co/search?include=sale,sire,other&search=Martian)** II |
+| d | BC12 | **[Brownies](https://www.cryptokitties.co/search?include=sale,sire,other&search=Brownies)**  | u | BC28 | **[Hotcocoa](https://www.cryptokitties.co/search?include=sale,sire,other&search=Hotcocoa)** III |
+| e | BC13 | **[Dragonfruit](https://www.cryptokitties.co/search?include=sale,sire,other&search=Dragonfruit)**  | v | BC29 | **[Shamrock](https://www.cryptokitties.co/search?include=sale,sire,other&search=Shamrock)** III |
+| f | BC14 | **[Hintomint](https://www.cryptokitties.co/search?include=sale,sire,other&search=Hintomint)**  | w | BC30 | **[Firstblush](https://www.cryptokitties.co/search?include=sale,sire,other&search=Firstblush)** IIII |
+| g | BC15 | **[Bananacream](https://www.cryptokitties.co/search?include=sale,sire,other&search=Bananacream)**  | x | BC31 | ? |
 
 
-## Wild Element (WE) - Genes 28-31
+## Highlight Color (HC)
 
-|Kai|Code|Name         |Kai|Code|Name        |
-|--:|---:|-------------|--:|---:|------------|
-| 1 | WE00 | ? | h | WE16 | **[littlefoot](https://www.cryptokitties.co/search?include=sale,sire,other&search=littlefoot)** I |
-| 2 | WE01 | ? | i | WE17 | **[elk](https://www.cryptokitties.co/search?include=sale,sire,other&search=elk)** I |
-| 3 | WE02 | ? | j | WE18 | **[ducky](https://www.cryptokitties.co/search?include=sale,sire,other&search=ducky)** I |
-| 4 | WE03 | ? | k | WE19 | **[trioculus](https://www.cryptokitties.co/search?include=sale,sire,other&search=trioculus)** I |
-| 5 | WE04 | ? | m | WE20 | **[daemonwings](https://www.cryptokitties.co/search?include=sale,sire,other&search=daemonwings)** I |
-| 6 | WE05 | ? | n | WE21 | **[featherbrain](https://www.cryptokitties.co/search?include=sale,sire,other&search=featherbrain)** I |
-| 7 | WE06 | ? | o | WE22 | **[flapflap](https://www.cryptokitties.co/search?include=sale,sire,other&search=flapflap)** I |
-| 8 | WE07 | ? | p | WE23 | **[daemonhorns](https://www.cryptokitties.co/search?include=sale,sire,other&search=daemonhorns)** I |
-| 9 | WE08 | ? | q | WE24 | **[dragontail](https://www.cryptokitties.co/search?include=sale,sire,other&search=dragontail)** II |
-| a | WE09 | ? | r | WE25 | **[aflutter](https://www.cryptokitties.co/search?include=sale,sire,other&search=aflutter)** II |
-| b | WE10 | ? | s | WE26 | **[foghornpawhorn](https://www.cryptokitties.co/search?include=sale,sire,other&search=foghornpawhorn)** II |
-| c | WE11 | ? | t | WE27 | **[unicorn](https://www.cryptokitties.co/search?include=sale,sire,other&search=unicorn)** II |
-| d | WE12 | ? | u | WE28 | **[dragonwings](https://www.cryptokitties.co/search?include=sale,sire,other&search=dragonwings)** III |
-| e | WE13 | ? | v | WE29 | **[alicorn](https://www.cryptokitties.co/search?include=sale,sire,other&search=alicorn)** III |
-| f | WE14 | ? | w | WE30 | **[wyrm](https://www.cryptokitties.co/search?include=sale,sire,other&search=wyrm)** IIII |
-| g | WE15 | ? | x | WE31 | ? |
-
-
-## Mouth (MO) - Genes 32-35
+_Genes 20-23_
 
 |Kai|Code|Name         |Kai|Code|Name        |
 |--:|---:|-------------|--:|---:|------------|
-| 1 | MO00 | **[whixtensions](https://www.cryptokitties.co/search?include=sale,sire,other&search=whixtensions)**  | h | MO16 | **[cheeky](https://www.cryptokitties.co/search?include=sale,sire,other&search=cheeky)** I |
-| 2 | MO01 | **[wasntme](https://www.cryptokitties.co/search?include=sale,sire,other&search=wasntme)**  | i | MO17 | **[starstruck](https://www.cryptokitties.co/search?include=sale,sire,other&search=starstruck)** I |
-| 3 | MO02 | **[wuvme](https://www.cryptokitties.co/search?include=sale,sire,other&search=wuvme)**  | j | MO18 | **[samwise](https://www.cryptokitties.co/search?include=sale,sire,other&search=samwise)** I |
-| 4 | MO03 | **[gerbil](https://www.cryptokitties.co/search?include=sale,sire,other&search=gerbil)**  | k | MO19 | **[ruhroh](https://www.cryptokitties.co/search?include=sale,sire,other&search=ruhroh)** I |
-| 5 | MO04 | **[confuzzled](https://www.cryptokitties.co/search?include=sale,sire,other&search=confuzzled)**  | m | MO20 | **[dali](https://www.cryptokitties.co/search?include=sale,sire,other&search=dali)** I |
-| 6 | MO05 | **[impish](https://www.cryptokitties.co/search?include=sale,sire,other&search=impish)**  | n | MO21 | **[grimace](https://www.cryptokitties.co/search?include=sale,sire,other&search=grimace)** I |
-| 7 | MO06 | **[belch](https://www.cryptokitties.co/search?include=sale,sire,other&search=belch)**  | o | MO22 | **[majestic](https://www.cryptokitties.co/search?include=sale,sire,other&search=majestic)** I |
-| 8 | MO07 | **[rollercoaster](https://www.cryptokitties.co/search?include=sale,sire,other&search=rollercoaster)**  | p | MO23 | **[tongue](https://www.cryptokitties.co/search?include=sale,sire,other&search=tongue)** I |
-| 9 | MO08 | **[beard](https://www.cryptokitties.co/search?include=sale,sire,other&search=beard)**  | q | MO24 | **[yokel](https://www.cryptokitties.co/search?include=sale,sire,other&search=yokel)** II |
-| a | MO09 | **[pouty](https://www.cryptokitties.co/search?include=sale,sire,other&search=pouty)**  | r | MO25 | **[topoftheworld](https://www.cryptokitties.co/search?include=sale,sire,other&search=topoftheworld)** II |
-| b | MO10 | **[saycheese](https://www.cryptokitties.co/search?include=sale,sire,other&search=saycheese)**  | s | MO26 | **[neckbeard](https://www.cryptokitties.co/search?include=sale,sire,other&search=neckbeard)** II |
-| c | MO11 | **[grim](https://www.cryptokitties.co/search?include=sale,sire,other&search=grim)**  | t | MO27 | **[satiated](https://www.cryptokitties.co/search?include=sale,sire,other&search=satiated)** II |
-| d | MO12 | **[fangtastic](https://www.cryptokitties.co/search?include=sale,sire,other&search=fangtastic)**  | u | MO28 | **[walrus](https://www.cryptokitties.co/search?include=sale,sire,other&search=walrus)** III |
-| e | MO13 | **[moue](https://www.cryptokitties.co/search?include=sale,sire,other&search=moue)**  | v | MO29 | **[struck](https://www.cryptokitties.co/search?include=sale,sire,other&search=struck)** III |
-| f | MO14 | **[happygokitty](https://www.cryptokitties.co/search?include=sale,sire,other&search=happygokitty)**  | w | MO30 | **[delite](https://www.cryptokitties.co/search?include=sale,sire,other&search=delite)** IIII |
-| g | MO15 | **[soserious](https://www.cryptokitties.co/search?include=sale,sire,other&search=soserious)**  | x | MO31 | ? |
+| 1 | HC00 | **[Cyborg](https://www.cryptokitties.co/search?include=sale,sire,other&search=Cyborg)**  | h | HC16 | **[Ooze](https://www.cryptokitties.co/search?include=sale,sire,other&search=Ooze)** I |
+| 2 | HC01 | **[Springcrocus](https://www.cryptokitties.co/search?include=sale,sire,other&search=Springcrocus)**  | i | HC17 | **[Safetyvest](https://www.cryptokitties.co/search?include=sale,sire,other&search=Safetyvest)** I |
+| 3 | HC02 | **[Egyptiankohl](https://www.cryptokitties.co/search?include=sale,sire,other&search=Egyptiankohl)**  | j | HC18 | **[Turtleback](https://www.cryptokitties.co/search?include=sale,sire,other&search=Turtleback)** I |
+| 4 | HC03 | **[Poisonberry](https://www.cryptokitties.co/search?include=sale,sire,other&search=Poisonberry)**  | k | HC19 | **[Rosequartz](https://www.cryptokitties.co/search?include=sale,sire,other&search=Rosequartz)** I |
+| 5 | HC04 | **[Lilac](https://www.cryptokitties.co/search?include=sale,sire,other&search=Lilac)**  | m | HC20 | **[Wolfgrey](https://www.cryptokitties.co/search?include=sale,sire,other&search=Wolfgrey)** I |
+| 6 | HC05 | **[Apricot](https://www.cryptokitties.co/search?include=sale,sire,other&search=Apricot)**  | n | HC21 | **[Cerulian](https://www.cryptokitties.co/search?include=sale,sire,other&search=Cerulian)** I |
+| 7 | HC06 | **[Royalpurple](https://www.cryptokitties.co/search?include=sale,sire,other&search=Royalpurple)**  | o | HC22 | **[Skyblue](https://www.cryptokitties.co/search?include=sale,sire,other&search=Skyblue)** I |
+| 8 | HC07 | **[Padparadscha](https://www.cryptokitties.co/search?include=sale,sire,other&search=Padparadscha)**  | p | HC23 | **[Garnet](https://www.cryptokitties.co/search?include=sale,sire,other&search=Garnet)** I |
+| 9 | HC08 | **[Swampgreen](https://www.cryptokitties.co/search?include=sale,sire,other&search=Swampgreen)**  | q | HC24 | **[Peppermint](https://www.cryptokitties.co/search?include=sale,sire,other&search=Peppermint)** II |
+| a | HC09 | **[Violet](https://www.cryptokitties.co/search?include=sale,sire,other&search=Violet)**  | r | HC25 | **[Universe](https://www.cryptokitties.co/search?include=sale,sire,other&search=Universe)** II |
+| b | HC10 | **[Scarlet](https://www.cryptokitties.co/search?include=sale,sire,other&search=Scarlet)**  | s | HC26 | **[Royalblue](https://www.cryptokitties.co/search?include=sale,sire,other&search=Royalblue)** II |
+| c | HC11 | **[Barkbrown](https://www.cryptokitties.co/search?include=sale,sire,other&search=Barkbrown)**  | t | HC27 | **[Mertail](https://www.cryptokitties.co/search?include=sale,sire,other&search=Mertail)** II |
+| d | HC12 | **[Coffee](https://www.cryptokitties.co/search?include=sale,sire,other&search=Coffee)**  | u | HC28 | **[Inflatablepool](https://www.cryptokitties.co/search?include=sale,sire,other&search=Inflatablepool)** III |
+| e | HC13 | **[Lemonade](https://www.cryptokitties.co/search?include=sale,sire,other&search=Lemonade)**  | v | HC29 | **[Pearl](https://www.cryptokitties.co/search?include=sale,sire,other&search=Pearl)** III |
+| f | HC14 | **[Chocolate](https://www.cryptokitties.co/search?include=sale,sire,other&search=Chocolate)**  | w | HC30 | **[Prairierose](https://www.cryptokitties.co/search?include=sale,sire,other&search=Prairierose)** IIII |
+| g | HC15 | **[Butterscotch](https://www.cryptokitties.co/search?include=sale,sire,other&search=Butterscotch)**  | x | HC31 | ? |
 
 
-## Environment (EN) - Genes 36-39
+## Accent Color (AC)
 
-|Kai|Code|Name         |Kai|Code|Name        |
-|--:|---:|-------------|--:|---:|------------|
-| 1 | EN00 |  | h | EN16 | **[salty](https://www.cryptokitties.co/search?include=sale,sire,other&search=salty)** I |
-| 2 | EN01 |  | i | EN17 | **[dune](https://www.cryptokitties.co/search?include=sale,sire,other&search=dune)** I |
-| 3 | EN02 |  | j | EN18 | **[juju](https://www.cryptokitties.co/search?include=sale,sire,other&search=juju)** I |
-| 4 | EN03 |  | k | EN19 | **[tinybox](https://www.cryptokitties.co/search?include=sale,sire,other&search=tinybox)** I |
-| 5 | EN04 |  | m | EN20 | **[myparade](https://www.cryptokitties.co/search?include=sale,sire,other&search=myparade)** I |
-| 6 | EN05 |  | n | EN21 | **[finalfrontier](https://www.cryptokitties.co/search?include=sale,sire,other&search=finalfrontier)** I |
-| 7 | EN06 |  | o | EN22 | **[metime](https://www.cryptokitties.co/search?include=sale,sire,other&search=metime)** I |
-| 8 | EN07 |  | p | EN23 | **[drift](https://www.cryptokitties.co/search?include=sale,sire,other&search=drift)** I |
-| 9 | EN08 |  | q | EN24 | **[secretgarden](https://www.cryptokitties.co/search?include=sale,sire,other&search=secretgarden)** II |
-| a | EN09 |  | r | EN25 | **[frozen](https://www.cryptokitties.co/search?include=sale,sire,other&search=frozen)** II |
-| b | EN10 |  | s | EN26 | **[roadtogold](https://www.cryptokitties.co/search?include=sale,sire,other&search=roadtogold)** II |
-| c | EN11 |  | t | EN27 | **[jacked](https://www.cryptokitties.co/search?include=sale,sire,other&search=jacked)** II |
-| d | EN12 |  | u | EN28 | **[floorislava](https://www.cryptokitties.co/search?include=sale,sire,other&search=floorislava)** III |
-| e | EN13 |  | v | EN29 | **[prism](https://www.cryptokitties.co/search?include=sale,sire,other&search=prism)** III |
-| f | EN14 |  | w | EN30 | **[junglebook](https://www.cryptokitties.co/search?include=sale,sire,other&search=junglebook)** IIII |
-| g | EN15 |  | x | EN31 | ? |
-
-
-## Secret Y Gene (SE) - Genes 40-43
+_Genes 24-27_
 
 |Kai|Code|Name         |Kai|Code|Name        |
 |--:|---:|-------------|--:|---:|------------|
-| 1 | SE00 | - | h | SE16 | - I |
-| 2 | SE01 | - | i | SE17 | - I |
-| 3 | SE02 | - | j | SE18 | - I |
-| 4 | SE03 | - | k | SE19 | - I|
-| 5 | SE04 | - | m | SE20 | - |
-| 6 | SE05 | - | n | SE21 | - |
-| 7 | SE06 | - | o | SE22 | - |
-| 8 | SE07 | - | p | SE23 | - |
-| 9 | SE08 | - | q | SE24 | - |
-| a | SE09 | - | r | SE25 | - |
-| b | SE10 | - | s | SE26 | - |
-| c | SE11 | - | t | SE27 | - |
-| d | SE12 | - | u | SE28 | - III |
-| e | SE13 | - | v | SE29 | - III |
-| f | SE14 | - | w | SE30 | - IIII |
-| g | SE15 | - | x | SE31 | - |
+| 1 | AC00 | **[Belleblue](https://www.cryptokitties.co/search?include=sale,sire,other&search=Belleblue)**  | h | AC16 | **[Daffodil](https://www.cryptokitties.co/search?include=sale,sire,other&search=Daffodil)** I |
+| 2 | AC01 | **[Sandalwood](https://www.cryptokitties.co/search?include=sale,sire,other&search=Sandalwood)**  | i | AC17 | **[Flamingo](https://www.cryptokitties.co/search?include=sale,sire,other&search=Flamingo)** I |
+| 3 | AC02 | **[Peach](https://www.cryptokitties.co/search?include=sale,sire,other&search=Peach)**  | j | AC18 | **[Buttercup](https://www.cryptokitties.co/search?include=sale,sire,other&search=Buttercup)** I |
+| 4 | AC03 | **[Icy](https://www.cryptokitties.co/search?include=sale,sire,other&search=Icy)**  | k | AC19 | **[Bloodred](https://www.cryptokitties.co/search?include=sale,sire,other&search=Bloodred)** I |
+| 5 | AC04 | **[Granitegrey](https://www.cryptokitties.co/search?include=sale,sire,other&search=Granitegrey)**  | m | AC20 | **[Atlantis](https://www.cryptokitties.co/search?include=sale,sire,other&search=Atlantis)** I |
+| 6 | AC05 | **[Cashewmilk](https://www.cryptokitties.co/search?include=sale,sire,other&search=Cashewmilk)**  | n | AC21 | **[Summerbonnet](https://www.cryptokitties.co/search?include=sale,sire,other&search=Summerbonnet)** I |
+| 7 | AC06 | **[Kittencream](https://www.cryptokitties.co/search?include=sale,sire,other&search=Kittencream)**  | o | AC22 | **[Periwinkle](https://www.cryptokitties.co/search?include=sale,sire,other&search=Periwinkle)** I |
+| 8 | AC07 | **[Emeraldgreen](https://www.cryptokitties.co/search?include=sale,sire,other&search=Emeraldgreen)**  | p | AC23 | **[Patrickstarfish](https://www.cryptokitties.co/search?include=sale,sire,other&search=Patrickstarfish)** I |
+| 9 | AC08 | **[Kalahari](https://www.cryptokitties.co/search?include=sale,sire,other&search=Kalahari)**  | q | AC24 | **[Seafoam](https://www.cryptokitties.co/search?include=sale,sire,other&search=Seafoam)** II |
+| a | AC09 | **[Shale](https://www.cryptokitties.co/search?include=sale,sire,other&search=Shale)**  | r | AC25 | **[Cobalt](https://www.cryptokitties.co/search?include=sale,sire,other&search=Cobalt)** II |
+| b | AC10 | **[Purplehaze](https://www.cryptokitties.co/search?include=sale,sire,other&search=Purplehaze)**  | s | AC26 | **[Mallowflower](https://www.cryptokitties.co/search?include=sale,sire,other&search=Mallowflower)** II |
+| c | AC11 | **[Hanauma](https://www.cryptokitties.co/search?include=sale,sire,other&search=Hanauma)**  | t | AC27 | **[Mintmacaron](https://www.cryptokitties.co/search?include=sale,sire,other&search=Mintmacaron)** II |
+| d | AC12 | **[Azaleablush](https://www.cryptokitties.co/search?include=sale,sire,other&search=Azaleablush)**  | u | AC28 | **[Sully](https://www.cryptokitties.co/search?include=sale,sire,other&search=Sully)** III |
+| e | AC13 | **[Missmuffett](https://www.cryptokitties.co/search?include=sale,sire,other&search=Missmuffett)**  | v | AC29 | **[Fallspice](https://www.cryptokitties.co/search?include=sale,sire,other&search=Fallspice)** III |
+| f | AC14 | **[Morningglory](https://www.cryptokitties.co/search?include=sale,sire,other&search=Morningglory)**  | w | AC30 | **[Dreamboat](https://www.cryptokitties.co/search?include=sale,sire,other&search=Dreamboat)** IIII |
+| g | AC15 | **[Frosting](https://www.cryptokitties.co/search?include=sale,sire,other&search=Frosting)**  | x | AC31 | ? |
 
 
-## Purrstige (PU) - Genes 44-47
+## Wild Element (WE)
+
+_Genes 28-31_
 
 |Kai|Code|Name         |Kai|Code|Name        |
 |--:|---:|-------------|--:|---:|------------|
-| 1 | PU00 | **∅** | h | PU16 | **∅** I |
-| 2 | PU01 | **∅** | i | PU17 | **∅** I |
-| 3 | PU02 | **∅** | j | PU18 | **∅** |
-| 4 | PU03 | **∅** | k | PU19 | **∅** |
-| 5 | PU04 | **∅** | m | PU20 | **∅** |
-| 6 | PU05 | **∅** | n | PU21 | **∅** |
-| 7 | PU06 | **∅** | o | PU22 | **∅** |
-| 8 | PU07 | **∅** | p | PU23 | **∅** |
-| 9 | PU08 | **∅** | q | PU24 | **∅** |
-| a | PU09 | **∅** | r | PU25 | **∅** |
-| b | PU10 | **∅** | s | PU26 | **∅** |
-| c | PU11 | **∅** | t | PU27 | **∅** |
-| d | PU12 | **∅** | u | PU28 | **∅** III |
-| e | PU13 | **∅** | v | PU29 | **∅** III|
-| f | PU14 | **∅** | w | PU30 | **∅** IIII |
-| g | PU15 | **∅** | x | PU31 | ?  |
+| 1 | WE00 | **∅**  | h | WE16 | **[Littlefoot](https://www.cryptokitties.co/search?include=sale,sire,other&search=Littlefoot)** I |
+| 2 | WE01 | **∅**  | i | WE17 | **[Elk](https://www.cryptokitties.co/search?include=sale,sire,other&search=Elk)** I |
+| 3 | WE02 | **∅**  | j | WE18 | **[Ducky](https://www.cryptokitties.co/search?include=sale,sire,other&search=Ducky)** I |
+| 4 | WE03 | **∅**  | k | WE19 | **[Trioculus](https://www.cryptokitties.co/search?include=sale,sire,other&search=Trioculus)** I |
+| 5 | WE04 | **∅**  | m | WE20 | **[Daemonwings](https://www.cryptokitties.co/search?include=sale,sire,other&search=Daemonwings)** I |
+| 6 | WE05 | **∅**  | n | WE21 | **[Featherbrain](https://www.cryptokitties.co/search?include=sale,sire,other&search=Featherbrain)** I |
+| 7 | WE06 | **∅**  | o | WE22 | **[Flapflap](https://www.cryptokitties.co/search?include=sale,sire,other&search=Flapflap)** I |
+| 8 | WE07 | **∅**  | p | WE23 | **[Daemonhorns](https://www.cryptokitties.co/search?include=sale,sire,other&search=Daemonhorns)** I |
+| 9 | WE08 | **∅**  | q | WE24 | **[Dragontail](https://www.cryptokitties.co/search?include=sale,sire,other&search=Dragontail)** II |
+| a | WE09 | **∅**  | r | WE25 | **[Aflutter](https://www.cryptokitties.co/search?include=sale,sire,other&search=Aflutter)** II |
+| b | WE10 | **∅**  | s | WE26 | **[Foghornpawhorn](https://www.cryptokitties.co/search?include=sale,sire,other&search=Foghornpawhorn)** II |
+| c | WE11 | **∅**  | t | WE27 | **[Unicorn](https://www.cryptokitties.co/search?include=sale,sire,other&search=Unicorn)** II |
+| d | WE12 | **∅**  | u | WE28 | **[Dragonwings](https://www.cryptokitties.co/search?include=sale,sire,other&search=Dragonwings)** III |
+| e | WE13 | **∅**  | v | WE29 | **[Alicorn](https://www.cryptokitties.co/search?include=sale,sire,other&search=Alicorn)** III |
+| f | WE14 | **∅**  | w | WE30 | **[Wyrm](https://www.cryptokitties.co/search?include=sale,sire,other&search=Wyrm)** IIII |
+| g | WE15 | **∅**  | x | WE31 | ? |
+
+
+## Mouth (MO)
+
+_Genes 32-35_
+
+|Kai|Code|Name         |Kai|Code|Name        |
+|--:|---:|-------------|--:|---:|------------|
+| 1 | MO00 | **[Whixtensions](https://www.cryptokitties.co/search?include=sale,sire,other&search=Whixtensions)**  | h | MO16 | **[Cheeky](https://www.cryptokitties.co/search?include=sale,sire,other&search=Cheeky)** I |
+| 2 | MO01 | **[Wasntme](https://www.cryptokitties.co/search?include=sale,sire,other&search=Wasntme)**  | i | MO17 | **[Starstruck](https://www.cryptokitties.co/search?include=sale,sire,other&search=Starstruck)** I |
+| 3 | MO02 | **[Wuvme](https://www.cryptokitties.co/search?include=sale,sire,other&search=Wuvme)**  | j | MO18 | **[Samwise](https://www.cryptokitties.co/search?include=sale,sire,other&search=Samwise)** I |
+| 4 | MO03 | **[Gerbil](https://www.cryptokitties.co/search?include=sale,sire,other&search=Gerbil)**  | k | MO19 | **[Ruhroh](https://www.cryptokitties.co/search?include=sale,sire,other&search=Ruhroh)** I |
+| 5 | MO04 | **[Confuzzled](https://www.cryptokitties.co/search?include=sale,sire,other&search=Confuzzled)**  | m | MO20 | **[Dali](https://www.cryptokitties.co/search?include=sale,sire,other&search=Dali)** I |
+| 6 | MO05 | **[Impish](https://www.cryptokitties.co/search?include=sale,sire,other&search=Impish)**  | n | MO21 | **[Grimace](https://www.cryptokitties.co/search?include=sale,sire,other&search=Grimace)** I |
+| 7 | MO06 | **[Belch](https://www.cryptokitties.co/search?include=sale,sire,other&search=Belch)**  | o | MO22 | **[Majestic](https://www.cryptokitties.co/search?include=sale,sire,other&search=Majestic)** I |
+| 8 | MO07 | **[Rollercoaster](https://www.cryptokitties.co/search?include=sale,sire,other&search=Rollercoaster)**  | p | MO23 | **[Tongue](https://www.cryptokitties.co/search?include=sale,sire,other&search=Tongue)** I |
+| 9 | MO08 | **[Beard](https://www.cryptokitties.co/search?include=sale,sire,other&search=Beard)**  | q | MO24 | **[Yokel](https://www.cryptokitties.co/search?include=sale,sire,other&search=Yokel)** II |
+| a | MO09 | **[Pouty](https://www.cryptokitties.co/search?include=sale,sire,other&search=Pouty)**  | r | MO25 | **[Topoftheworld](https://www.cryptokitties.co/search?include=sale,sire,other&search=Topoftheworld)** II |
+| b | MO10 | **[Saycheese](https://www.cryptokitties.co/search?include=sale,sire,other&search=Saycheese)**  | s | MO26 | **[Neckbeard](https://www.cryptokitties.co/search?include=sale,sire,other&search=Neckbeard)** II |
+| c | MO11 | **[Grim](https://www.cryptokitties.co/search?include=sale,sire,other&search=Grim)**  | t | MO27 | **[Satiated](https://www.cryptokitties.co/search?include=sale,sire,other&search=Satiated)** II |
+| d | MO12 | **[Fangtastic](https://www.cryptokitties.co/search?include=sale,sire,other&search=Fangtastic)**  | u | MO28 | **[Walrus](https://www.cryptokitties.co/search?include=sale,sire,other&search=Walrus)** III |
+| e | MO13 | **[Moue](https://www.cryptokitties.co/search?include=sale,sire,other&search=Moue)**  | v | MO29 | **[Struck](https://www.cryptokitties.co/search?include=sale,sire,other&search=Struck)** III |
+| f | MO14 | **[Happygokitty](https://www.cryptokitties.co/search?include=sale,sire,other&search=Happygokitty)**  | w | MO30 | **[Delite](https://www.cryptokitties.co/search?include=sale,sire,other&search=Delite)** IIII |
+| g | MO15 | **[Soserious](https://www.cryptokitties.co/search?include=sale,sire,other&search=Soserious)**  | x | MO31 | ? |
+
+
+## Environment (EN)
+
+_Genes 36-39_
+
+|Kai|Code|Name         |Kai|Code|Name        |
+|--:|---:|-------------|--:|---:|------------|
+| 1 | EN00 | **∅**  | h | EN16 | **[Salty](https://www.cryptokitties.co/search?include=sale,sire,other&search=Salty)** I |
+| 2 | EN01 | **∅**  | i | EN17 | **[Dune](https://www.cryptokitties.co/search?include=sale,sire,other&search=Dune)** I |
+| 3 | EN02 | **∅**  | j | EN18 | **[Juju](https://www.cryptokitties.co/search?include=sale,sire,other&search=Juju)** I |
+| 4 | EN03 | **∅**  | k | EN19 | **[Tinybox](https://www.cryptokitties.co/search?include=sale,sire,other&search=Tinybox)** I |
+| 5 | EN04 | **∅**  | m | EN20 | **[Myparade](https://www.cryptokitties.co/search?include=sale,sire,other&search=Myparade)** I |
+| 6 | EN05 | **∅**  | n | EN21 | **[Finalfrontier](https://www.cryptokitties.co/search?include=sale,sire,other&search=Finalfrontier)** I |
+| 7 | EN06 | **∅**  | o | EN22 | **[Metime](https://www.cryptokitties.co/search?include=sale,sire,other&search=Metime)** I |
+| 8 | EN07 | **∅**  | p | EN23 | **[Drift](https://www.cryptokitties.co/search?include=sale,sire,other&search=Drift)** I |
+| 9 | EN08 | **∅**  | q | EN24 | **[Secretgarden](https://www.cryptokitties.co/search?include=sale,sire,other&search=Secretgarden)** II |
+| a | EN09 | **∅**  | r | EN25 | **[Frozen](https://www.cryptokitties.co/search?include=sale,sire,other&search=Frozen)** II |
+| b | EN10 | **∅**  | s | EN26 | **[Roadtogold](https://www.cryptokitties.co/search?include=sale,sire,other&search=Roadtogold)** II |
+| c | EN11 | **∅**  | t | EN27 | **[Jacked](https://www.cryptokitties.co/search?include=sale,sire,other&search=Jacked)** II |
+| d | EN12 | **∅**  | u | EN28 | **[Floorislava](https://www.cryptokitties.co/search?include=sale,sire,other&search=Floorislava)** III |
+| e | EN13 | **∅**  | v | EN29 | **[Prism](https://www.cryptokitties.co/search?include=sale,sire,other&search=Prism)** III |
+| f | EN14 | **∅**  | w | EN30 | **[Junglebook](https://www.cryptokitties.co/search?include=sale,sire,other&search=Junglebook)** IIII |
+| g | EN15 | **∅**  | x | EN31 | ? |
+
+
+## Secret Y Gene (SE)
+
+_Genes 40-43_
+
+|Kai|Code|Name         |Kai|Code|Name        |
+|--:|---:|-------------|--:|---:|------------|
+| 1 | SE00 | **∅**  | h | SE16 | **∅** I |
+| 2 | SE01 | **∅**  | i | SE17 | **∅** I |
+| 3 | SE02 | **∅**  | j | SE18 | **∅** I |
+| 4 | SE03 | **∅**  | k | SE19 | **∅** I |
+| 5 | SE04 | **∅**  | m | SE20 | **∅** I |
+| 6 | SE05 | **∅**  | n | SE21 | **∅** I |
+| 7 | SE06 | **∅**  | o | SE22 | **∅** I |
+| 8 | SE07 | **∅**  | p | SE23 | **∅** I |
+| 9 | SE08 | **∅**  | q | SE24 | **∅** II |
+| a | SE09 | **∅**  | r | SE25 | **∅** II |
+| b | SE10 | **∅**  | s | SE26 | **∅** II |
+| c | SE11 | **∅**  | t | SE27 | **∅** II |
+| d | SE12 | **∅**  | u | SE28 | **∅** III |
+| e | SE13 | **∅**  | v | SE29 | **∅** III |
+| f | SE14 | **∅**  | w | SE30 | **∅** IIII |
+| g | SE15 | **∅**  | x | SE31 | ? |
+
+
+## Purrstige (PU)
+
+_Genes 44-47_
+
+|Kai|Code|Name         |Kai|Code|Name        |
+|--:|---:|-------------|--:|---:|------------|
+| 1 | PU00 | **∅**  | h | PU16 | **∅** I |
+| 2 | PU01 | **∅**  | i | PU17 | **∅** I |
+| 3 | PU02 | **∅**  | j | PU18 | **∅** I |
+| 4 | PU03 | **∅**  | k | PU19 | **∅** I |
+| 5 | PU04 | **∅**  | m | PU20 | **∅** I |
+| 6 | PU05 | **∅**  | n | PU21 | **∅** I |
+| 7 | PU06 | **∅**  | o | PU22 | **∅** I |
+| 8 | PU07 | **∅**  | p | PU23 | **∅** I |
+| 9 | PU08 | **∅**  | q | PU24 | **∅** II |
+| a | PU09 | **∅**  | r | PU25 | **∅** II |
+| b | PU10 | **∅**  | s | PU26 | **∅** II |
+| c | PU11 | **∅**  | t | PU27 | **∅** II |
+| d | PU12 | **∅**  | u | PU28 | **∅** III |
+| e | PU13 | **∅**  | v | PU29 | **∅** III |
+| f | PU14 | **∅**  | w | PU30 | **∅** IIII |
+| g | PU15 | **∅**  | x | PU31 | ? |
 
 
