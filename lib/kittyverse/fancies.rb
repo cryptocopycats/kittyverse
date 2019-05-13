@@ -59,27 +59,9 @@ class Fancy
     @@fancies_by_key.values.select { |fancy| fancy.recipe? }
   end
 
-  def self.breedable   ## todo: find a better name e.g. use unlocked why? why not?
+  def self.breedable         ## todo: find a better name (or add alias) e.g. use unlocked why? why not?
     today = Date.today
-    @@fancies_by_key.values.select do |fancy|
-        if fancy.recipe?
-          if fancy.recipe.time?   ## time windowed recipe
-            if fancy.recipe.time_end >= today
-              true
-            else
-              false
-            end
-          else  ## assume limit
-            if fancy.count && fancy.count < fancy.limit
-              true
-            else
-              false
-            end
-          end
-        else
-          false
-        end
-    end
+    @@fancies_by_key.values.select { |fancy| fancy.breedable?( today ) }
   end
 
 
@@ -121,12 +103,39 @@ class Fancy
 
   def overflow?() @count && @limit && @count > @limit; end
   def overflow()  @count - @limit; end   ## todo: check for count limit set - why? why not?
+  def limit?()    @limit; end
+  def count?()    @count; end
 
   def time?() @time_start && @time_end; end  ## is fancy(recipe,specialedition) time windowed? true/false
 
   ## todo/check: assume @time_end is already a date - why? why not?  
   def time_days() (@time_end.to_date.jd - @time_start.to_date.jd) + 1; end
 
+
+  def unlocked?( today=Date.today )
+    if @recipe
+      if @recipe.time?   ## time windowed recipe
+        if @recipe.time_end >= today
+          true
+        else
+          false
+        end
+      else  ## assume limit
+        if @count && @count < @limit
+          true
+        else
+          false
+        end
+      end
+    else
+      false
+    end
+  end
+
+  alias_method :breedable?, :unlocked?
+
+  def locked?( today=Date.today ) !unlocked( today ); end
+  
 
   ###########################################
   ## auto-fill fancies
