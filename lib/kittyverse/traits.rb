@@ -92,7 +92,7 @@ class Trait
   alias_method :level, :tier
   alias_method :m,     :tier   # m = mewtation/mutation
 
-  def base?() tier == 0; end  # base level mutation (0)
+  def base?() tier == 0; end  # base level 0 - no mutation
   def m1?()   tier == 1; end  # m1 - mutation level 1
   def m2?()   tier == 2; end  # m2 - mutation level 2
   def m3?()   tier == 3; end  # m3 - mutation level 3
