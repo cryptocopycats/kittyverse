@@ -71,7 +71,33 @@ class Trait
   end
 
   def num()   Kai::NUMBER[@kai]; end
-  def code()  @type.code + Kai::CODE[@kai]; end
+  def code()  "#{@type.code}#{Kai::CODE[@kai]}"; end
+
+  ###
+  # fix!!! - add mutation tier tables from
+  #  lib/kittyverse/mewtations.rb !!!!!
+  def tier( format=:num )
+    ## num   =>  0,1,2,3,4,nil                 : Integer|Nil
+    ## roman => "","I","II","III","IIII",nil   : String|Nil
+
+    if format == :roman
+      MUTATION_TIER_ROMAN[@kai]
+    else   ## assume integer num(ber)
+      MUTATION_TIER[@kai]
+    end
+  end
+
+  def tier_roman() tier(:roman); end
+
+  alias_method :level, :tier
+  alias_method :m,     :tier   # m = mewtation/mutation
+
+  def base?() tier == 0; end  # base level mutation (0)
+  def m1?()   tier == 1; end  # m1 - mutation level 1
+  def m2?()   tier == 2; end  # m2 - mutation level 2
+  def m3?()   tier == 3; end  # m3 - mutation level 3
+  def m4?()   tier == 4; end  # m4 - mutation level 4
+
 end  # class Trait
 
 
