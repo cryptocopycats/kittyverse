@@ -72,10 +72,7 @@ class Trait
 
   def num()   Kai::NUMBER[@kai]; end
   def code()  "#{@type.code}#{Kai::CODE[@kai]}"; end
-
-  ###
-  # fix!!! - add mutation tier tables from
-  #  lib/kittyverse/mewtations.rb !!!!!
+  
   def tier( format=:num )
     ## num   =>  0,1,2,3,4,nil                 : Integer|Nil
     ## roman => "","I","II","III","IIII",nil   : String|Nil
