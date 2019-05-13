@@ -40,10 +40,18 @@ def kitties_specialedition_search_url( fancy ) kitties_fancy_search_url( fancy )
 ################################
 #  /media - image links
 
-def media_fancy_pic_url( key, variant_key=nil )    ### todo: find a better name - why? why not?
+def media_fancy_url( key, variant_key=nil )    ### todo: find a better name - why? why not?
   if variant_key
     "https://cryptocopycats.github.io/media/kitties/100x100/fancy-#{key}-#{variant_key}.png"
   else
     "https://cryptocopycats.github.io/media/kitties/100x100/fancy-#{key}.png"
   end
+end
+
+## (old) alias for media_fany_url
+def media_fancy_pic_url( key, variant_key=nil ) media_fancy_url( key, variant_key ); end
+
+
+def media_icon_url( key )
+  "https://cryptocopycats.github.io/media/icons/18x18/#{key}.png"
 end
