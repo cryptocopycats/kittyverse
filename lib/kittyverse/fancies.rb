@@ -124,6 +124,9 @@ class Fancy
 
   def time?() @time_start && @time_end; end  ## is fancy(recipe,specialedition) time windowed? true/false
 
+  ## todo/check: assume @time_end is already a date - why? why not?  
+  def time_days() (@time_end.to_date.jd - @time_start.to_date.jd) + 1; end
+
 
   ###########################################
   ## auto-fill fancies
