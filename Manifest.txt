@@ -13,6 +13,7 @@ lib/kittyverse/fancies.rb
 lib/kittyverse/links.rb
 lib/kittyverse/mewtations.rb
 lib/kittyverse/pages/genes.rb
+lib/kittyverse/recipes.rb
 lib/kittyverse/traits.rb
 lib/kittyverse/version.rb
 test/helper.rb

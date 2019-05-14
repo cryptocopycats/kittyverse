@@ -5,11 +5,10 @@ class GenesPage
 
 def build
   buf = ""
-  ##  todo/fix: use TraitType.size or something short like it!!!!
-  buf << "# Genes (#{TraitType.trait_types_by_key.keys.size} x 4)\n\n"
+  buf << "# Genes (#{TraitType.size} x 4)\n\n"
 
   headings = []
-  Traits.each do |tt|
+  TraitType.each do |tt|
     anchor = "#{tt.name} #{tt.code}".downcase.gsub( ' ', '-' )
     headings << "[#{tt.name} (#{tt.code})](##{anchor})"
   end
@@ -18,7 +17,7 @@ def build
   buf << "\n\n"
 
 
-  Traits.each do |tt|
+  TraitType.each do |tt|
     buf << "## #{tt.name} (#{tt.code})\n\n"
     buf << "_Genes #{tt.genes}_\n\n"
     buf << make_table( tt.traits )
@@ -48,23 +47,24 @@ def make_table( traits )
       ## binary = "%05b" % Kai::NUM[kai]
       code   = trait.code
       name   = trait.name
+      tier   = trait.tier_roman   ## e.g. I,II,III, etc. : String
 
       if name.nil?
         ## note: so far x/31 trait is unknown/undefined!!!
         if kai == "x"
           cattribute = "?"
         elsif trait.type.key == :secret
-          cattribute = "? #{MEWTATION_LEVEL[kai]}"    ## unknown unknown
+          cattribute = "? #{tier}"    ## unknown unknown
         else  ## "anonymous / unnamed" gene / trait
-          cattribute = "∅ #{MEWTATION_LEVEL[kai]}"    ## known unknown :-)
+          cattribute = "∅ #{tier}"    ## known unknown :-)
         end
       else
-        if name.start_with?( "Totesbasic" )  ## note: special case for three totesbasic traits
+        if name.downcase.start_with?( "totesbasic" )  ## note: special case for three totesbasic traits
           q = "totesbasic"
         else
           q = name
         end
-        cattribute = "**[#{name}](#{kitties_search_url(q)})** #{MEWTATION_LEVEL[kai]}"
+        cattribute = "**[#{name}](#{kitties_search_url(q)})** #{tier}"
       end
 
       "#{kai} | #{code} | #{cattribute}"

@@ -24,7 +24,6 @@ class Recipe
   ## is recipe time windowed? true/false
   def time?() @time_start && @time_end; end
 
-  ## todo/check: assume @time_end is already a date - why? why not?  
-  def time_days() (@time_end.to_date.jd - @time_start.to_date.jd) + 1; end
-  
+  def time_days() (@time_end.jd - @time_start.jd) + 1; end
+
 end  # class Recipe

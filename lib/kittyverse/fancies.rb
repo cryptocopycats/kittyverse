@@ -86,6 +86,7 @@ class Fancy
                 :time_end
 
   def initialize( **kwargs )
+    @exclusive = @specialedition = @recipe = nil
     update( kwargs )
   end
 
@@ -106,10 +107,9 @@ class Fancy
   def limit?()    @limit; end
   def count?()    @count; end
 
-  def time?() @time_start && @time_end; end  ## is fancy(recipe,specialedition) time windowed? true/false
+  def time?()     @time_start && @time_end; end  ## is fancy(recipe,specialedition) time windowed? true/false
 
-  ## todo/check: assume @time_end is already a date - why? why not?  
-  def time_days() (@time_end.to_date.jd - @time_start.to_date.jd) + 1; end
+  def time_days() (@time_end.jd - @time_start.jd) + 1; end
 
 
   def unlocked?( today=Date.today )
@@ -134,8 +134,8 @@ class Fancy
 
   alias_method :breedable?, :unlocked?
 
-  def locked?( today=Date.today ) !unlocked( today ); end
-  
+  def locked?( today=Date.today ) !unlocked?( today ); end
+
 
   ###########################################
   ## auto-fill fancies

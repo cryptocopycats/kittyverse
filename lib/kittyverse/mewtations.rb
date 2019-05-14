@@ -76,7 +76,7 @@ MUTATION_TIER_ROMAN = {
   'u' => 'III',
   'v' => 'III',
   'w' => 'IIII',
-  'x' => ''
+  'x' => ''          ## Use nil and NOT empty string "" - why? why not?
 }
 
 MUTATION_PAIR = {
@@ -114,7 +114,7 @@ MUTATION_PAIR = {
   'x' => ''
 }
 
-## add alias(es) 
+## add alias(es)
 MEWTATION_TIER       = MUTATION_TIER
 MEWTATION_TIER_ROMAN = MUTATION_TIER_ROMAN
-MEWTATION_PAIR       = MUTATION_PAIR    
+MEWTATION_PAIR       = MUTATION_PAIR

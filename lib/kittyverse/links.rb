@@ -52,6 +52,6 @@ end
 def media_fancy_pic_url( key, variant_key=nil ) media_fancy_url( key, variant_key ); end
 
 
-def media_icon_url( key )
+def media_icon_url( key )   ## note: use :unlocked, :locked, etc.
   "https://cryptocopycats.github.io/media/icons/18x18/#{key}.png"
 end

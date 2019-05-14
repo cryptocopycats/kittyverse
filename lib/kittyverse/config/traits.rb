@@ -375,3 +375,53 @@ TRAITS =
       ##  prune, furball, duckduckcat, or thatsawrap - more like fancies (not really traits)
   }
 }
+
+
+# quick hack - map copycats keys to (internal) cryptokitties trait type keys
+#  note: all keys are the same except:
+ALT_TRAIT_TYPE_KEYS =
+{
+  :color1    => :colorprimary,
+  :color2    => :colorsecondary,
+  :color3    => :colortertiary,
+  :purrstige => :prestige,
+  ## add :fur, etc. too - why? why not?
+}
+
+ALT_TRAIT_TYPE_NAMES =
+{
+  'body'             => 'fur',
+  'eyes'             => 'eye shape',
+  'eye type'         => 'eye shape',
+  'body color'       => 'base color',
+  'primary color'    => 'base color',
+  'base colour'      => 'base color',       # british (canadian) spelling
+  'secondary color'  => 'highlight color',
+  'sec color'        => 'highlight color',
+  'pattern color'    => 'highlight color',
+  'highlight colour' => 'highlight color',  # british (canadian) spelling
+  'tertiary color'   => 'accent color',
+  'accent colour'    => 'accent color',     # british (canadian) spelling
+  'wild'             => 'wild element',
+  'secret'           => 'secret y gene',
+  'prestige'         => 'purrstige',
+}
+
+ALT_TRAIT_NAMES =
+{
+  'totesbasic (14)' => 'totesbasic 1',
+  'totesbasic (15)' => 'totesbasic 2',
+  'totesbasic (23)' => 'totesbasic 3',
+  'totesbasic_14'   => 'totesbasic 1',
+  'totesbasic_15'   => 'totesbasic 2',
+  'totesbasic_23'   => 'totesbasic 3',
+  'totesbasic (f)'  => 'totesbasic 1',
+  'totesbasic (g)'  => 'totesbasic 2',
+  'totesbasic (p)'  => 'totesbasic 3',
+  'totesbasic_f'    => 'totesbasic 1',
+  'totesbasic_g'    => 'totesbasic 2',
+  'totesbasic_p'    => 'totesbasic 3',
+  'totesbasic_1'    => 'totesbasic 1',
+  'totesbasic_2'    => 'totesbasic 2',
+  'totesbasic_3'    => 'totesbasic 3',
+}

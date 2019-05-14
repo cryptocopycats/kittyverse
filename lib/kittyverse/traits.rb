@@ -3,8 +3,8 @@
 
 class Trait
 
-  def self.traits_by_name()  @@traits_by_name ||= {}; end
   def self.traits_by_code()  @@traits_by_code ||= {}; end
+  def self.traits_by_name()  @@traits_by_name ||= {}; end
 
   def self.find_by_code( code )
     ## note: allow string AND symbols (thus, use .to_s)
@@ -12,44 +12,34 @@ class Trait
     @@traits_by_code[ code.upcase.to_s ]
   end
 
-  ALT_TRAIT_NAMES =
-  {
-    'totesbasic (14)' => 'totesbasic 1',
-    'totesbasic (15)' => 'totesbasic 2',
-    'totesbasic (23)' => 'totesbasic 3',
-    'totesbasic_14'   => 'totesbasic 1',
-    'totesbasic_15'   => 'totesbasic 2',
-    'totesbasic_23'   => 'totesbasic 3',
-    'totesbasic (f)'  => 'totesbasic 1',
-    'totesbasic (g)'  => 'totesbasic 2',
-    'totesbasic (p)'  => 'totesbasic 3',
-    'totesbasic_f'    => 'totesbasic 1',
-    'totesbasic_g'    => 'totesbasic 2',
-    'totesbasic_p'    => 'totesbasic 3',
-    'totesbasic_1'    => 'totesbasic 1',
-    'totesbasic_2'    => 'totesbasic 2',
-    'totesbasic_3'    => 'totesbasic 3',
-  }
-    
   def self.find_by_name( name )
     ## note: allow string AND symbols (thus, use .to_s !!!)
     ## note: downcase name e.g. allow Savannah too (not just savannah)
 
-    name = name.to_s.downcase 
+    name = name.to_s.downcase
     name = ALT_TRAIT_NAMES[ name ]  if ALT_TRAIT_NAMES[ name ]
 
     @@traits_by_name[ name ]
   end
 
-  ## add "generic" convenience find helper
+
+  ## add "generic" convenience find helpers
   def self.find_by( **kwargs )
-    if kwargs[ :name ]
-       find_by_name( kwargs[ :name ] )
-    elsif kwargs[ :code ]
+    if kwargs[ :code ]
       find_by_code( kwargs[ :code] )
+    elsif kwargs[ :name ]
+      find_by_name( kwargs[ :name ] )
     else
       ## todo/fix: throw argument except!!!
       nil
+    end
+  end
+
+  def self.[]( key )
+    if key.size == 4 && key =~ /^[A-Za-z]{2}[0-9]{2}$/
+      Trait.find_by_code( key )
+    else
+      Trait.find_by_name( key )
     end
   end
 
@@ -70,9 +60,12 @@ class Trait
     self   ## return self for chaining
   end
 
-  def num()   Kai::NUMBER[@kai]; end
-  def code()  "#{@type.code}#{Kai::CODE[@kai]}"; end
-  
+  def num()    Kai::NUMBER[@kai]; end
+  def code()   "#{@type.code}#{Kai::CODE[@kai]}"; end
+  def binary() "%05b" % num; end
+  alias_method :bin, :binary
+
+
   def tier( format=:num )
     ## num   =>  0,1,2,3,4,nil                 : Integer|Nil
     ## roman => "","I","II","III","IIII",nil   : String|Nil
@@ -105,17 +98,6 @@ class TraitType
   def self.trait_types_by_code() @@trait_types_by_code ||= {}; end
   def self.trait_types_by_name() @@trait_types_by_name ||= {}; end
 
-  # quick hack - map copycats keys to (internal) cryptokitties trait type keys
-  #  note: all keys are the same except:
-  ALT_TRAIT_TYPE_KEYS =
-  {
-    :color1    => :colorprimary,
-    :color2    => :colorsecondary,
-    :color3    => :colortertiary,
-    :purrstige => :prestige,
-    ## add :fur, etc. too - why? why not?
-  }
-
 
   def self.find_by_key( key )
     ## note: allow string AND symbols (thus, use .to_sym !!!)
@@ -132,25 +114,6 @@ class TraitType
     code = code.to_s.upcase
     @@trait_types_by_code[ code ]
   end
-
-  ALT_TRAIT_TYPE_NAMES =
-  {
-    'body'             => 'fur',
-    'eyes'             => 'eye shape',
-    'eye type'         => 'eye shape',
-    'body color'       => 'base color',
-    'primary color'    => 'base color',
-    'base colour'      => 'base color',       # british (canadian) spelling
-    'secondary color'  => 'highlight color',
-    'sec color'        => 'highlight color',
-    'pattern color'    => 'highlight color',
-    'highlight colour' => 'highlight color',  # british (canadian) spelling
-    'tertiary color'   => 'accent color',
-    'accent colour'    => 'accent color',     # british (canadian) spelling
-    'wild'             => 'wild element',
-    'secret'           => 'secret y gene',
-    'prestige'         => 'purrstige',
-  }
 
   def self.find_by_name( name )
     ## note: downcase name e.g. allow fur too (not just Fur)
@@ -176,6 +139,19 @@ class TraitType
     end
   end
 
+  def self.[]( key )
+    ## check for codes e.g. FU, PA, ... (or fu, pa,...).
+    if key.size == 2 && key =~ /^[A-Za-z]{2}$/
+      TraitType.find_by_code( key )
+    else
+      if key.is_a? Symbol    ## e.g. :body, :pattern, etc.
+        TraitType.find_by_key( key )
+      else ## assume string
+        TraitType.find_by_name( key )
+      end
+    end
+  end
+
   def self.each
     @@trait_types_by_key.each do |(key,type)|
       yield( type )
@@ -187,6 +163,8 @@ class TraitType
       yield( type,i )
     end
   end
+
+  def self.size() @@trait_types_by_key.size; end  ## todo: add length alias too? why? why not?
 
 
   attr_accessor :key,
@@ -284,11 +262,6 @@ end  # class TraitType
 
 class Traits
   def self.[]( key )
-
-   ## todo:
-   ##   add lookup trait type by alt_names (string)
-   ##   add lookup trait type by alt_keys (symbol)
-
     ## check for codes e.g. FU, PA, ... (or fu, pa,...).
     if key.size == 2 && key =~ /^[A-Za-z]{2}$/
       TraitType.find_by_code( key )

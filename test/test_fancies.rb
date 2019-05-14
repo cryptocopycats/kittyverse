@@ -37,6 +37,31 @@ def test_bugcat_v2
 end
 
 
+def test_curdlin
+  fancy = Fancy[ 'Curdlin' ]
+  assert_equal :curdlin,   fancy.key
+  assert                   fancy.exclusive? == false
+  assert                   fancy.specialedition? == false
+  assert                   fancy.special_edition? == false
+
+  assert                   fancy.time?
+  assert                   fancy.recipe?
+  assert                   fancy.recipe.time?
+  assert 4,                fancy.recipe.traits.size
+  assert 204,              fancy.time_days
+  assert 204,              fancy.recipe.time_days
+
+  today  = Date.new( 2019,  5,  5 )
+  assert                   fancy.unlocked?( today )
+  assert                   fancy.breedable?( today )
+  assert                   fancy.locked?( today ) == false
+  future = Date.new( 2019, 12, 20 )
+  assert                   fancy.unlocked?( future ) == false
+  assert                   fancy.breedable?( future ) == false
+  assert                   fancy.locked?( future )
+end
+
+
 def test_misc
   Fancy.each do |fancy|
     p fancy.name
