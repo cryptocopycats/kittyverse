@@ -58,7 +58,7 @@ TXT
 
 
 headings = []
-Traits.each do |tt|
+TraitType.each do |tt|
   next if [:secret].include?( tt.key )    ## skip secret traits for now
 
   anchor = "#{tt.name} #{tt.code}".downcase.gsub( ' ', '-' )
@@ -71,7 +71,7 @@ buf << "\n\n"
 
 
 
-Traits.each do |tt|
+TraitType.each do |tt|
   next if [:secret].include?( tt.key )    ## skip secret traits for now
 
   rec = types[ tt.key ]
