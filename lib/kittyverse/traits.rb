@@ -139,15 +139,25 @@ class TraitType
     end
   end
 
-  def self.[]( key )
-    ## check for codes e.g. FU, PA, ... (or fu, pa,...).
-    if key.size == 2 && key =~ /^[A-Za-z]{2}$/
-      TraitType.find_by_code( key )
+  def self.[]( key_or_index_or_offset, length=nil )
+    if length    ## returns a slice of trait types
+      offset = key_or_index_or_offset
+      @@trait_types_by_key.values[offset, length]
     else
-      if key.is_a? Symbol    ## e.g. :body, :pattern, etc.
-        TraitType.find_by_key( key )
-      else ## assume string
-        TraitType.find_by_name( key )
+      if key_or_index_or_offset.is_a? Integer
+        index = key_or_index_or_offset
+        @@trait_types_by_key.values[index]
+      else
+        key = key_or_index_or_offset
+        if key.size == 2 && key =~ /^[A-Za-z]{2}$/ ## check for codes e.g. FU, PA, ... (or fu, pa,...)
+          TraitType.find_by_code( key )
+        else
+          if key.is_a? Symbol    ## e.g. :body, :pattern, etc.
+            TraitType.find_by_key( key )
+          else ## assume string
+            TraitType.find_by_name( key )
+          end
+        end
       end
     end
   end
@@ -165,7 +175,6 @@ class TraitType
   end
 
   def self.size() @@trait_types_by_key.size; end  ## todo: add length alias too? why? why not?
-
 
   attr_accessor :key,
                 :name,

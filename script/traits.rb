@@ -14,7 +14,7 @@ class TraitsReport
 def build_part( offset, length )
   buf = ""
   buf << "| Tier | Kai |"
-  TraitType.trait_types_by_key.values[offset, length].each do |tt|
+  TraitType[offset, length].each do |tt|
     buf << " #{tt.name} (#{tt.code}) |"
   end
   buf << "\n"
@@ -23,16 +23,17 @@ def build_part( offset, length )
   buf << "\n"
 
   buf << "|    |    |"
-  TraitType.trait_types_by_key.values[offset, length].each do |tt|
+  TraitType[offset, length].each do |tt|
     buf << " #{tt.genes} |"
   end
   buf << "\n"
 
-  (0..31).each do |i|
+## note: skip unknown trait 31/x for now (e.g. use 0..30 and NOT 0..31)
+  (0..30).each do |i|
     kai  = Kai::ALPHABET[i]
-    tier = MUTATION_LEVEL[kai]
+    tier = MUTATION_TIER_ROMAN[kai]
     buf << "| #{tier} | #{kai} |"
-    TraitType.trait_types_by_key.values[offset, length].each do |tt|
+    TraitType[offset, length].each do |tt|
       t = tt.traits[i]
       if t.name
 
@@ -82,6 +83,7 @@ Base      Tier I    Tier II   Tier III  Tier IIII
 ```
 
 Note: It's impossible for a mutation to reach `x` e.g. `w+x = x`.
+
 
 ## Kai (Base32) Notation
 

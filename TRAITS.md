@@ -34,7 +34,6 @@
 | III | u |[**Lykoi**](https://www.cryptokitties.co/search?include=sale,sire,other&search=lykoi) (FU28) |[**Avatar**](https://www.cryptokitties.co/search?include=sale,sire,other&search=avatar) (PA28) |[**Gemini**](https://www.cryptokitties.co/search?include=sale,sire,other&search=gemini) (EC28) |
 | III | v |[**Burmilla**](https://www.cryptokitties.co/search?include=sale,sire,other&search=burmilla) (FU29) |[**Gyre**](https://www.cryptokitties.co/search?include=sale,sire,other&search=gyre) (PA29) |[**Dioscuri**](https://www.cryptokitties.co/search?include=sale,sire,other&search=dioscuri) (EC29) |
 | IIII | w |[**Liger**](https://www.cryptokitties.co/search?include=sale,sire,other&search=liger) (FU30) |[**Moonrise**](https://www.cryptokitties.co/search?include=sale,sire,other&search=moonrise) (PA30) |[**Kaleidoscope**](https://www.cryptokitties.co/search?include=sale,sire,other&search=kaleidoscope) (EC30) |
-|  | x |FU31 |PA31 |EC31 |
 
 
 | Tier | Kai | Eye Shape (ES) | Base Color (BC) | Highlight Color (HC) |
@@ -71,7 +70,6 @@
 | III | u |[**Bornwithit**](https://www.cryptokitties.co/search?include=sale,sire,other&search=bornwithit) (ES28) |[**Hotcocoa**](https://www.cryptokitties.co/search?include=sale,sire,other&search=hotcocoa) (BC28) |[**Inflatablepool**](https://www.cryptokitties.co/search?include=sale,sire,other&search=inflatablepool) (HC28) |
 | III | v |[**Candyshoppe**](https://www.cryptokitties.co/search?include=sale,sire,other&search=candyshoppe) (ES29) |[**Shamrock**](https://www.cryptokitties.co/search?include=sale,sire,other&search=shamrock) (BC29) |[**Pearl**](https://www.cryptokitties.co/search?include=sale,sire,other&search=pearl) (HC29) |
 | IIII | w |[**Drama**](https://www.cryptokitties.co/search?include=sale,sire,other&search=drama) (ES30) |[**Firstblush**](https://www.cryptokitties.co/search?include=sale,sire,other&search=firstblush) (BC30) |[**Prairierose**](https://www.cryptokitties.co/search?include=sale,sire,other&search=prairierose) (HC30) |
-|  | x |ES31 |BC31 |HC31 |
 
 
 | Tier | Kai | Accent Color (AC) | Wild Element (WE) | Mouth (MO) |
@@ -108,7 +106,6 @@
 | III | u |[**Sully**](https://www.cryptokitties.co/search?include=sale,sire,other&search=sully) (AC28) |[**Dragonwings**](https://www.cryptokitties.co/search?include=sale,sire,other&search=dragonwings) (WE28) |[**Walrus**](https://www.cryptokitties.co/search?include=sale,sire,other&search=walrus) (MO28) |
 | III | v |[**Fallspice**](https://www.cryptokitties.co/search?include=sale,sire,other&search=fallspice) (AC29) |[**Alicorn**](https://www.cryptokitties.co/search?include=sale,sire,other&search=alicorn) (WE29) |[**Struck**](https://www.cryptokitties.co/search?include=sale,sire,other&search=struck) (MO29) |
 | IIII | w |[**Dreamboat**](https://www.cryptokitties.co/search?include=sale,sire,other&search=dreamboat) (AC30) |[**Wyrm**](https://www.cryptokitties.co/search?include=sale,sire,other&search=wyrm) (WE30) |[**Delite**](https://www.cryptokitties.co/search?include=sale,sire,other&search=delite) (MO30) |
-|  | x |AC31 |WE31 |MO31 |
 
 
 | Tier | Kai | Environment (EN) | Secret Y Gene (SE) | Purrstige (PU) |
@@ -145,7 +142,6 @@
 | III | u |[**Floorislava**](https://www.cryptokitties.co/search?include=sale,sire,other&search=floorislava) (EN28) |SE28 |PU28 |
 | III | v |[**Prism**](https://www.cryptokitties.co/search?include=sale,sire,other&search=prism) (EN29) |SE29 |PU29 |
 | IIII | w |[**Junglebook**](https://www.cryptokitties.co/search?include=sale,sire,other&search=junglebook) (EN30) |SE30 |PU30 |
-|  | x |EN31 |SE31 |PU31 |
 
 
 ## Mutations / Mewtations
@@ -166,6 +162,7 @@ Base      Tier I    Tier II   Tier III  Tier IIII
 ```
 
 Note: It's impossible for a mutation to reach `x` e.g. `w+x = x`.
+
 
 ## Kai (Base32) Notation
 

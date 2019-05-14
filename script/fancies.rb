@@ -24,19 +24,17 @@ TXT
 
 
 
-def build_time_window( time_start, time_end )
+def build_time_window( o )
   buf = ""
-  if time_start.year == time_end.year
-    buf << time_start.strftime( '%b %-d')
+  if o.time_start.year == o.time_end.year
+    buf << o.time_start.strftime( '%b %-d')
   else   # include year
-    buf << time_start.strftime( '%b %-d %Y')
+    buf << o.time_start.strftime( '%b %-d %Y')
   end
 
   buf << " - "
-  buf << time_end.strftime( '%b %-d %Y')
-
-  time_days  = (time_end.to_date.jd - time_start.to_date.jd) + 1
-  buf << " (#{time_days}d)"
+  buf << o.time_end.strftime( '%b %-d %Y')
+  buf << " (#{o.time_days}d)"
   buf
 end
 
@@ -47,7 +45,7 @@ def build_fancy_counter( fancy, show_time: false )
   if fancy.recipe?
     if fancy.recipe.time?   ## time windowed recipe
       if fancy.recipe.time_end >= Date.today
-        buf << "![](https://cryptocopycats.github.io/media/icons/18x18/unlocked.png)"
+        buf << "![](#{media_icon_url(:unlocked)})"
         if fancy.count     # add count if present/known
           buf << "#{fancy.count}+"
         else
@@ -57,12 +55,11 @@ def build_fancy_counter( fancy, show_time: false )
           buf << "/Till: #{fancy.recipe.time_end.strftime( '%b %-d %Y')}"
         end
       else
-        ## buf << "![](https://cryptocopycats.github.io/media/icons/18x18/locked.png)"
         buf << "#{fancy.count ? fancy.count : '?'}"     # add count if present/known
       end
     else  ## assume limit
       if fancy.count && fancy.count < fancy.limit
-        buf << "![](https://cryptocopycats.github.io/media/icons/18x18/unlocked.png)"
+        buf << "![](#{media_icon_url(:unlocked)})"
         if fancy.count <= 0
           buf << '?'
         else
@@ -70,7 +67,6 @@ def build_fancy_counter( fancy, show_time: false )
         end
         buf << "/#{fancy.limit}"     # add limit if present/known
       else
-        ## buf << "![](https://cryptocopycats.github.io/media/icons/18x18/locked.png)"
         buf << "#{fancy.limit ? fancy.limit : '?'}"
         buf << "+#{fancy.overflow}"     if fancy.overflow?
       end
@@ -144,11 +140,11 @@ end
 
 def build_trait( key )
   puts "lookup trait >#{key}<"
-  trait = Traits[ key ]
+  trait = Trait[ key ]
   ## pp trait
 
   if key =~ /[A-Z]{2}[0-9]{2}/   # if code e.g. WE20 - keep as is
-     line = "**#{key}** #{MEWTATION_LEVEL[trait.kai]} "
+     line = "**#{key}** #{trait.tier_roman} "
 
      [line, trait.type.name]
   else
@@ -158,7 +154,7 @@ def build_trait( key )
     # rec[:type] = key   ## todo - use trait instead of type  (use string not symbol?) - why? why not?
 
     line = ""
-    line << "**#{trait.name}** #{MEWTATION_LEVEL[trait.kai]} "
+    line << "**#{trait.name}** #{trait.tier_roman} "
     line << "("
     line << trait.code
     line << ")"
@@ -249,7 +245,7 @@ Fancy.each do |fancy|
     buf << "\n"
     buf << date.strftime( '%b %-d, %Y')
 
-    day_count = (date.to_date.jd - genesisdate.jd)+1
+    day_count = (date.jd - genesisdate.jd)+1
     buf << " (#{day_count}d)"
     buf << "\n"
   end
@@ -314,7 +310,7 @@ Fancy.each do |fancy|
 
   ## special case for time-windows special editions
   if fancy.specialedition? && fancy.time?
-    time_window = build_time_window( fancy.time_start, fancy.time_end )
+    time_window = build_time_window( fancy )
     buf << "  - #{time_window}"
     buf << "\n"
   end
@@ -325,7 +321,7 @@ Fancy.each do |fancy|
     buf << " + **#{fancy.recipe.variants.size}** variants"  if fancy.recipe.variants
 
     if fancy.recipe.time?   ## time windowed recipe
-      time_window = build_time_window( fancy.recipe.time_start, fancy.recipe.time_end )
+      time_window = build_time_window( fancy.recipe )
       buf << " - #{time_window}"
     end
     buf << ":"

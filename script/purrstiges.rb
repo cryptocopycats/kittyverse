@@ -24,19 +24,17 @@ TXT
 
 
 
-def build_time_window( time_start, time_end )
+def build_time_window( o )
   buf = ""
-  if time_start.year == time_end.year
-    buf << time_start.strftime( '%b %-d')
+  if o.time_start.year == o.time_end.year
+    buf << o.time_start.strftime( '%b %-d')
   else   # include year
-    buf << time_start.strftime( '%b %-d %Y')
+    buf << o.time_start.strftime( '%b %-d %Y')
   end
 
   buf << " - "
-  buf << time_end.strftime( '%b %-d %Y')
-
-  time_days  = (time_end.to_date.jd - time_start.to_date.jd) + 1
-  buf << " (#{time_days}d)"
+  buf << o.time_end.strftime( '%b %-d %Y')
+  buf << " (#{o.time_days}d)"
   buf
 end
 
@@ -45,7 +43,7 @@ def build_prestige_counter( prestige, show_time: false )
   buf = ""
 
   if prestige.recipe.time_end >= Date.today
-    buf << "![](https://cryptocopycats.github.io/media/icons/18x18/unlocked.png)"
+    buf << "![](#{media_icon_url(:unlocked)})"
     if prestige.count     # add count if present/known
       buf << "#{prestige.count}+"
     else
@@ -55,7 +53,6 @@ def build_prestige_counter( prestige, show_time: false )
       buf << "/Till: #{prestige.recipe.time_end.strftime( '%b %-d %Y')}"
     end
   else
-    ## buf << "![](https://cryptocopycats.github.io/media/icons/18x18/locked.png)"
     buf << "#{prestige.count ? prestige.count : '?'}"     # add count if present/known
   end
   buf
@@ -98,11 +95,11 @@ buf << "\n\n\n"
 
 def build_trait( key )
   puts "lookup trait >#{key}<"
-  trait = Traits[ key ]
+  trait = Trait[ key ]
   ## pp trait
 
   if key =~ /[A-Z]{2}[0-9]{2}/   # if code e.g. WE20 - keep as is
-     line = "**#{key}** #{MEWTATION_LEVEL[trait.kai]} "
+     line = "**#{key}** #{trait.tier_roman} "
 
      [line, trait.type.name]
   else
@@ -112,7 +109,7 @@ def build_trait( key )
     # rec[:type] = key   ## todo - use trait instead of type  (use string not symbol?) - why? why not?
 
     line = ""
-    line << "**#{trait.name}** #{MEWTATION_LEVEL[trait.kai]} "
+    line << "**#{trait.name}** #{trait.tier_roman} "
     line << "("
     line << trait.code
     line << ")"
@@ -175,7 +172,7 @@ Cattributes[:prestige].each do |c|
     buf << "\n"
     buf << date.strftime( '%b %-d, %Y')
 
-    day_count = (date.to_date.jd - genesisdate.jd)+1
+    day_count = (date.jd - genesisdate.jd)+1
     buf << " (#{day_count}d)"
     buf << "\n\n"
   end
@@ -196,7 +193,7 @@ Cattributes[:prestige].each do |c|
   buf << " (#{build_prestige_counter(c)})"      # add count(er)
   buf << ", "
 
-  time_window = build_time_window( c.recipe.time_start, c.recipe.time_end )
+  time_window = build_time_window( c.recipe )
   buf << "#{time_window}"
   buf << ", "
 
