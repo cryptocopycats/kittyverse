@@ -1,4 +1,4 @@
-# Using the CryptoKitties Unofficial (v0 and Official (v1) Public APIs
+# Using the CryptoKitties Unofficial (v0) and Official (v1) Public JSON HTTP (Web Service) APIs
 
 
 
