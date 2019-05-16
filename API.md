@@ -1,21 +1,21 @@
-# Using the CryptoKitties Unofficial (v0) and Official (v1) Public APIs
+# Using the CryptoKitties Unofficial (v0 and Official (v1) Public APIs
 
 
 
-## The Unofficial V0 Public API - No API Token Required
+## The "Unofficial" Public API (v0) - No API Token Required
 
-### Getting the Statistics for all Cattributes
+### Getting the Statistics for all Cattributes (incl. Purrstiges)
 
 
 ### Getting the Kitten #1, #2, ...
 
 
-## The Official V1 Public API - API Token Required - Apply Here
+## The Official Public API, Version 1 (v1) - API Token Required - Apply Here
 
 Note: The Official Public API requires an (authorization) token.
 Request to sign up for the KittyVerse program 
 at <https://docs.api.cryptokitties.co> 
-and if all works the CryptoKitties team will send over an API token via email. 
+and if all works out the CryptoKitties team will send you over an API token via email. 
 Good luck.
 
 
@@ -32,5 +32,11 @@ end
 or pass the token into the client:
 
 c = Kitties::V1::Client.new( token: "<your_token_here>" )
+
+
+### Getting the Statistics for all Cattributes (excl. Purrstiges)
+
+
+### Getting the Kitten #1, #2, ...
 
 
