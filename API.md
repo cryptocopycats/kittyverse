@@ -270,7 +270,7 @@ save( "kitties-gen_3-4", data)
 ```
 
 
-That is for now.
+That's it for now.
 Happy data wrangling and genome genetics bits & bytes slicing with ruby.
 
 
