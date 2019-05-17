@@ -281,7 +281,7 @@ save( "kitties-gen_3-4", data)
 
 
 That's it for now.
-Happy data wrangling and genome genetics bits & bytes slicing with ruby.
+Happy data wrangling and cat herding with ruby.
 
 
 
