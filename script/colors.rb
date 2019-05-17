@@ -8,6 +8,7 @@ require 'kittyverse'
 
 ## pp COLORS
 
+
 class Color
   attr_reader :hex, :r, :g, :b
   def initialize( hex )
@@ -25,6 +26,7 @@ end  ## class Color
 
 buf = ""
 buf += <<HTML
+<h1>CryptoKitties Colors</h1>
 <table cellpadding='8'>
   <tr>
     <th>Name</th>
@@ -44,9 +46,16 @@ COLORS.each do |name,hex|
     exit 1
   end
 
+  cat = Cattribute[ name ]
+  if cat.nil?
+    puts "no matching cattribute found for #{name}"
+    exit 1
+  end
+
   buf += <<HTML
   <tr style='height: 32px; color: #fff; text-shadow: 1px 1px 2px #000; background-color: #{c.hex}'>
-    <td>#{name}</td>
+    <td><span style='font-style: bold; font-size: 110%'>#{cat.name}</span>
+      <span style='font-size: 70%'>- #{cat.type.name}</span></td>
     <td>#{hex}</td>
     <td>#{'%3d%% %3d%% %3d%%' % [c.r*100/255,c.g*100/255,c.b*100/255]}</td>
   </tr>
@@ -58,7 +67,7 @@ buf << "</table>\n\n"
 
 ## puts buf
 
-File.open( "./COLORS.html", 'w:utf-8' ) do |f|
+File.open( "./build/COLORS.html", 'w:utf-8' ) do |f|
   f.write buf
 end
 

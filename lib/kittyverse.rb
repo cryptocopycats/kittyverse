@@ -3,6 +3,11 @@
 ## std libs
 require 'date'
 require 'json'
+require "pp"
+require "uri"
+require "net/http"
+require "net/https"
+
 
 
 ## 3rd party libs
@@ -16,6 +21,7 @@ require 'kittyverse/config/traits'
 require 'kittyverse/config/traits_timeline'
 require 'kittyverse/config/fancies'
 require 'kittyverse/config/purrstiges'
+require 'kittyverse/config/colors'
 
 
 require 'kittyverse/mewtations'
@@ -27,6 +33,10 @@ require 'kittyverse/recipes'
 require 'kittyverse/traits'
 require 'kittyverse/cattributes'
 require 'kittyverse/fancies'
+
+## api support
+require 'kittyverse/api/client'
+require 'kittyverse/api/versions'
 
 
 

@@ -33,7 +33,7 @@ def self.debug=(value)  configuration.debug = value; end
 
 
 module V0
-class Client : ::Kitties::Client
+class Client < ::Kitties::Client
   def initialize
     super( base_uri: "https://api.cryptokitties.co" )
   end
@@ -50,7 +50,7 @@ module V1
 ###
 ##  see https://docs.api.cryptokitties.co
 
-class Client : ::Kitties::Client
+class Client < ::Kitties::Client
   def initialize
     super( base_uri: "https://public.api.cryptokitties.co/v1",
            token:    Kitties.configuration.token )
@@ -74,26 +74,3 @@ def self.v0()  CLIENT_V0; end
 def self.v1()  CLIENT_V1; end
 
 end # module Kitties
-
-
-###
-c = Kitties::V0::Client.new
-data = c.get_cattributes
-data = c.get_kitty( 1 )
-
-## note: requires CryptoKitties API Token; set in ENV via KITTIES_TOKEN
-c = Kitties::V1::Client.new( token: '<your_api_token_here>')
-data = c.get_cattributes
-data = c.get_kitty( 1 )
-
-
-######
-## convenience shortcuts
-## Kitties.v0.get_cattributes
-## Kitties.v0.get_kitty( 1 )
-## Kitties.v0.get_kitty( 2 )
-##
-##  or
-##
-## Kitties.v1.get_cattributes
-## Kitties.v1.get_kitty( 1 )
