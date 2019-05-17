@@ -17,7 +17,7 @@ The "original" and unofficial version 0 (v0) service
 requires no sign-up or API token
 but is now rate limited (20 requests/hour)
 and the "eternal closed-beta" official version 1 (v1)
-service requires a sign-up to the Kittyverse Program / Purrgram 
+service requires a sign-up to the Kittyverse Program 
 (see [`docs.api.cryptokitties.co`](https://docs.api.cryptokitties.co)) to get your API token
 sent to your email inbox.
 
@@ -128,7 +128,7 @@ save( "kitty2", data )
 ## The Official Public API, Version 1 (v1) - API Token Required - Apply Here
 
 Note: The Official Public API requires a token.
-Sign up for the Kittyverse program / purrgram
+Sign up for the Kittyverse program
 at [`docs.api.cryptokitties.co`](https://docs.api.cryptokitties.co)
 to request an API token
 and if all works out the CryptoKitties team will send you over
