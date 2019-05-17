@@ -7,7 +7,7 @@ The "original" and unofficial version 0 (v0) service
 requires no sign-up or API token
 but is now rate limited (20 requests/hour)
 and the "eternal closed-beta" official version 1 (v1)
-service requires a sign-up to the Kittyverse Purrgram
+service requires a sign-up to the Kittyverse Program / Purrgram 
 (see [`docs.api.cryptokitties.co`](https://docs.api.cryptokitties.co)) to get your API token
 sent to your email inbox.
 
@@ -127,13 +127,13 @@ the API token via email to your inbox. Good luck.
 
 Using the kittyverse library you can:
 
-1) Add the token to your computing environment (ENV):
+(1) Add the token to your computing environment (ENV):
 
 ```
 SET KITTIES_TOKEN=<your_token_here>
 ```
 
-2) or configure the kittyverse library with a code block:
+(2) or configure the kittyverse library with a code block:
 
 ``` ruby
 Kitties.configure do |config|
@@ -141,7 +141,7 @@ Kitties.configure do |config|
 end
 ```
 
-3) or pass the token into the client:
+(3) or pass the token into the client:
 
 ``` ruby
 c = Kitties::V1::Client.new( token: "<your_token_here>" )
