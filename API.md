@@ -15,9 +15,9 @@ public HTTP (Web Service) APIs returning
 data in the structured JSON (JavaScript Object Notation) format.
 The "original" and unofficial version 0 (v0) service
 requires no sign-up or API token
-but is now rate limited (20 requests/hour)
+but is now rate limited (20 requests/minute)
 and the "eternal closed-beta" official version 1 (v1)
-service requires a sign-up to the Kittyverse Program 
+service requires a sign-up to the Kittyverse Program
 (see [`docs.api.cryptokitties.co`](https://docs.api.cryptokitties.co)) to get your API token
 sent to your email inbox.
 
@@ -78,6 +78,12 @@ save( "cattributes", data )
 
 
 
+Tip: See the chapter 3 in the
+"[Programming Crypto Collectibles Step-by-Step Book / Guide. Let's start with CryptoKitties & Copycats. Inside Unique Bits & Bytes on the Blockchain...](https://github.com/openblockchains/programming-cryptocollectibles/blob/master/03_cattributes.md)"
+for how to create your own up-to-date
+[Cattributes Rarity / Popularity Statistics / Cheatsheet](CATTRIBUTES.md) page, for example.
+
+
 ### Getting the Kitten #1, #2, #3, ...
 
 
@@ -122,6 +128,72 @@ data = c.get_kitty( 2 )     ## same as get( '/kitties/2' )
 save( "kitty2", data )
 ```
 
+
+### Getting All Kitties
+
+Use [`GET /kitties`](https://api.cryptokitties.co/kitties?limit=10) to get all kitties.
+Search query parameters include:
+
+- `limit`  = `1`-`100`
+- `offset` = _Integer_
+<!--
+- `generation` = _Integer_    ## check if working?
+-->
+
+``` ruby
+c.get_kitties( limit: 10  )
+## note: same as get( '/kitties?limit=10' )
+```
+
+### Getting User Kitties
+
+Use [`GET /kitties?owner_wallet_address=0x...`](https://api.cryptokitties.co/kitties?limit=10)
+with the wallet address to get all the user's kitties.
+Search query parameters include:
+
+- `owner_wallet_address` = _Ethereum Address_ (all lowercase a-z)
+- `limit` = `1`-`100`
+- `offset` = _Integer_
+
+``` ruby
+c.get_kitties( owner_wallet_address: '0xc5e38233cc0d7cff9340e6139367aba498ec9b18', limit: 10 )
+```
+
+
+### Getting User Info
+
+Use [`GET /user/<0x...>`] to get the user info by the wallet address
+(all lowercase a-z).
+
+``` ruby
+c.get_user( '0xc5e38233cc0d7cff9340e6139367aba498ec9b18' )
+```
+
+
+### Getting Auctions - Going, Going, Gone!
+
+Use [`GET /auctions`](https://api.cryptokitties.co/auctions)
+to get all auctions. Search query parameters include:
+
+- `type` = `sale` | `sire`
+- `status` = `open` | `closed`
+- `limit` = `1`-`100`
+- `offset` = _Integer_
+- `search` = _String_
+- `parents` = `true` | `false`
+<!--
+- `authenticated` = `true` | `false`    ## what for
+-->
+
+
+``` ruby
+c.get_auctions( limit: 10  )
+## note: same as get( '/auctions?limit=2' )
+c.get_auctions( type: 'sale', limit: 10  )
+## note: same as get( '/auctions?type=sale&limit=10' )
+c.get_auctions( type: 'sale', status: 'open', limit: 10 )  
+## note: same as get( '/auctions?type=sale&status=open&limit=10' )
+```
 
 
 
@@ -189,13 +261,6 @@ into a file:
 data = c.get_cattributes     ## same as get( '/cattributes' )
 save( "cattributes", data )
 ```
-
-
-Tip: See the chapter 3 in the
-"[Programming Crypto Collectibles Step-by-Step Book / Guide. Let's start with CryptoKitties & Copycats. Inside Unique Bits & Bytes on the Blockchain...](https://github.com/openblockchains/programming-cryptocollectibles/blob/master/03_cattributes.md)"
-for how to create your own up-to-date
-[Cattributes Rarity / Popularity Statistics / Cheatsheet](CATTRIBUTES.md) page, for example.
-
 
 
 ### Getting the Kitten #1, #2, #3, ...
@@ -280,7 +345,8 @@ service, use the generic `get` method. Example:
 data = c.get( '/cattributes/eyes/12' )
 save( "cattributes-eyes-12", data )
 
-data = c.get( '/kitties?gen=3-4' )
+data = c.get( '/kitties?gen=3-4' )    # or
+data = c.get( '/kitties', gen: '3-4')
 save( "kitties-gen_3-4", data)
 
 # ...
@@ -295,5 +361,3 @@ Happy data wrangling and cat herding with ruby.
 ## Questions? Comments?
 
 Post them on the [cryptokitties reddit](https://www.reddit.com/r/cryptokitties). Thanks.
-
-

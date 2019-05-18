@@ -30,6 +30,10 @@ def self.debug?()       configuration.debug; end
 def self.debug=(value)  configuration.debug = value; end
 
 
+## track last response
+def self.last_response()       @last_response; end
+def self.last_response=(value) @last_response = value; end
+
 
 
 module V0
@@ -40,6 +44,14 @@ class Client < ::Kitties::Client
 
   def get_cattributes()  get('/cattributes'); end
   def get_kitty( id )    get("/kitties/#{id}"); end   ## use get_kitty_by_id - why? why not?
+  alias_method :get_kitten, :get_kitty
+
+  def get_kitties( **params )  get( '/kitties', **params ); end
+  def get_auctions( **params ) get( '/auctions', **params ); end
+  def get_user( addr )  get( "/user/#{addr}" ); end
+
+  def get_network_status() get( '/network-status' ); end
+
 end # class Client
 end # module V0
 
@@ -58,6 +70,8 @@ class Client < ::Kitties::Client
 
   def get_cattributes()      get('/cattributes'); end
   def get_kitty( id )        get("/kitties/#{id}"); end  ## use get_kitty_by_id - why? why not?
+  alias_method :get_kitten, :get_kitty
+
   def get_colors_body()      get('/colors/body'); end
   def get_colors_eyes()      get('/colors/eyes'); end
   def get_colors_secondary() get('/colors/secondary'); end
