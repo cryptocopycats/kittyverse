@@ -141,13 +141,12 @@ Search query parameters include:
 -->
 
 ``` ruby
-c.get_kitties( limit: 10  )
-## note: same as get( '/kitties?limit=10' )
+c.get_kitties( limit: 10  )    ## note: same as get( '/kitties?limit=10' )
 ```
 
 ### Getting User Kitties
 
-Use [`GET /kitties?owner_wallet_address=0x...`](https://api.cryptokitties.co/kitties?limit=10)
+Use [`GET /kitties?owner_wallet_address=0x...`](https://api.cryptokitties.co/kitties?owner_wallet_address=0xc5e38233cc0d7cff9340e6139367aba498ec9b18&limit=10)
 with the wallet address to get all the user's kitties.
 Search query parameters include:
 
@@ -162,7 +161,7 @@ c.get_kitties( owner_wallet_address: '0xc5e38233cc0d7cff9340e6139367aba498ec9b18
 
 ### Getting User Info
 
-Use [`GET /user/<0x...>`] to get the user info by the wallet address
+Use [`GET /user/<0x...>`](https://api.cryptokitties.co/user/0xc5e38233cc0d7cff9340e6139367aba498ec9b18) to get the user info by the wallet address
 (all lowercase a-z).
 
 ``` ruby
