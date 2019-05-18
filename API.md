@@ -81,7 +81,7 @@ save( "cattributes", data )
 Tip: See the chapter 3 in the
 "[Programming Crypto Collectibles Step-by-Step Book / Guide. Let's start with CryptoKitties & Copycats. Inside Unique Bits & Bytes on the Blockchain...](https://github.com/openblockchains/programming-cryptocollectibles/blob/master/03_cattributes.md)"
 for how to create your own up-to-date
-[Cattributes Rarity / Popularity Statistics / Cheatsheet](CATTRIBUTES.md) page, for example.
+[Cattributes Rarity / Popularity Statistics / Cheatsheet](CATTRIBUTES.md) page.
 
 
 ### Getting the Kitten #1, #2, #3, ...
