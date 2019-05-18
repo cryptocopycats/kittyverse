@@ -141,7 +141,7 @@ Search query parameters include:
 -->
 
 ``` ruby
-c.get_kitties( limit: 10  )    ## note: same as get( '/kitties?limit=10' )
+c.get_kitties( limit: 10  )    ## same as get( '/kitties?limit=10' )
 ```
 
 ### Getting User Kitties
