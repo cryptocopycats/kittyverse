@@ -49,15 +49,15 @@ c.get_cattributes     ## same as get( '/cattributes' )
 resulting in:
 
 ``` json
-[{"description":"totesbasic","type":"pattern","gene":15,"total":"343048"},
- {"description":"thicccbrowz","type":"eyes","gene":7,"total":"253225"},
- {"description":"pouty","type":"mouth","gene":9,"total":"232226"},
- {"description":"granitegrey","type":"colortertiary","gene":4,"total":"228702"},
- {"description":"kittencream","type":"colortertiary","gene":6,"total":"225798"},
+[{"description":"totesbasic",  "type":"pattern",       "gene":15,   "total":"343048"},
+ {"description":"thicccbrowz", "type":"eyes",          "gene":7,    "total":"253225"},
+ {"description":"pouty",       "type":"mouth",         "gene":9,    "total":"232226"},
+ {"description":"granitegrey", "type":"colortertiary", "gene":4,    "total":"228702"},
+ {"description":"kittencream", "type":"colortertiary", "gene":6,    "total":"225798"},
  ...
- {"description":"hooked","type":"prestige","gene":null,"total":"165"},
- {"description":"landlubber","type":"prestige","gene":null,"total":"144"},
- {"description":"timbers","type":"prestige","gene":null,"total":"108"}]  
+ {"description":"hooked",      "type":"prestige",      "gene":null, "total":"165"},
+ {"description":"landlubber",  "type":"prestige",      "gene":null, "total":"144"},
+ {"description":"timbers",     "type":"prestige",      "gene":null, "total":"108"}]  
 ```
 
 Let's save the data in the JSON format pretty printed
@@ -91,21 +91,22 @@ c.get_kitty( 1 )     ## same as get( '/kitties/1' )
 resulting in:
 
 ``` json
-{ "id":1,
-  "name":"Genesis",
-  "generation":0,
-  "created_at":"2017-11-23T06:19:59.000Z",
-  "birthday":"2017-11-23T00:00:00.000Z",
-  "image_url":"https://img.cryptokitties.co/0x06012c8cf97bead5deae237070f9587f8e7a266d/1.png",
-  "image_url_cdn":"https://img.cn.cryptokitties.co/0x06012c8cf97bead5deae237070f9587f8e7a266d/1.png",
-  "color":"sizzurp",
-  "bio":"Greetings, human. I am Genesis...",
-  "is_fancy":true,
-  "is_exclusive":true,
-  "is_special_edition":false,
-  "fancy_type":"Genesis",
-  "language":"en",
-  "is_prestige":false,
+{ "id": 1,
+  "name": "Genesis",
+  "generation": 0,
+  "created_at": "2017-11-23T06:19:59.000Z",
+  "birthday": "2017-11-23T00:00:00.000Z",
+  "image_url": "https://img.cryptokitties.co/0x06012c8cf97bead5deae237070f9587f8e7a266d/1.png",
+  "image_url_cdn": "https://img.cn.cryptokitties.co/0x06012c8cf97bead5deae237070f9587f8e7a266d/1.png",
+  "color": "sizzurp",
+  "bio": "Greetings, human. I am Genesis...",
+  "is_fancy": true,
+  "is_exclusive": true,
+  "is_special_edition": false,
+  "fancy_type": "Genesis",
+  "fancy_ranking": 1,
+  "language": "en",
+  "is_prestige": false,
   ...
 }
 ```
@@ -143,7 +144,7 @@ Using the kittyverse library you can:
 SET KITTIES_TOKEN=<your_token_here>
 ```
 
-(2) or configure the kittyverse library with a code block:
+(2) Or configure the kittyverse library with a code block:
 
 ``` ruby
 Kitties.configure do |config|
@@ -151,7 +152,7 @@ Kitties.configure do |config|
 end
 ```
 
-(3) or pass the token into the client:
+(3) Or pass the token into the client:
 
 ``` ruby
 c = Kitties::V1::Client.new( token: "<your_token_here>" )
@@ -174,9 +175,9 @@ c.get_cattributes     ## same as get( '/cattributes' )
 resulting in:
 
 ``` json
-[{"description":"shadowgrey","type":"colorprimary","gene":0,"total":133927},
- {"description":"salmon","type":"colorprimary","gene":1,"total":90376},
- {"description":"greymatter","type":"colorprimary","gene":10,"total":196549},
+[{"description":"shadowgrey", "type":"colorprimary", "gene":0,  "total":133927},
+ {"description":"salmon",     "type":"colorprimary", "gene":1,  "total":90376},
+ {"description":"greymatter", "type":"colorprimary", "gene":10, "total":196549},
  ...
 ]
 ```
@@ -193,11 +194,11 @@ save( "cattributes", data )
 Tip: See the chapter 3 in the
 "[Programming Crypto Collectibles Step-by-Step Book / Guide. Let's start with CryptoKitties & Copycats. Inside Unique Bits & Bytes on the Blockchain...](https://github.com/openblockchains/programming-cryptocollectibles/blob/master/03_cattributes.md)"
 for how to create your own up-to-date
-[Cattributes Rarity / Popularity Statistics Page / Cheatsheet](CATTRIBUTES.md) page, for example.
+[Cattributes Rarity / Popularity Statistics / Cheatsheet](CATTRIBUTES.md) page, for example.
 
 
 
-### Getting the Kitten #1, #2, ...
+### Getting the Kitten #1, #2, #3, ...
 
 Use `GET /kitties/<id>`
 to get all the kitten's data by id.
@@ -209,22 +210,27 @@ c.get_kitty( 1 )     ## same as get( '/kitties/1' )
 resulting in:
 
 ``` json
-{ "id":1,
-  "name":"Genesis",
-  "generation":0,
-  "created_at":"2017-11-23T06:19:59.000Z",
-  "image_url":"https://img.cryptokitties.co/0x06012c8cf97bead5deae237070f9587f8e7a266d/1.png",
-  "image_url_cdn":"https://img.cn.cryptokitties.co/0x06012c8cf97bead5deae237070f9587f8e7a266d/1.png",
-  "color":"sizzurp",
-  "bio":"Greetings, human. I am Genesis...",
-  "is_fancy":true,
-  "is_exclusive":true,
-  "fancy_type":"Genesis",
-  "language":"en",
-  "is_prestige":false,
+{ "id": 1,
+  "name": "Genesis",
+  "generation": 0,
+  "created_at": "2017-11-23T06:19:59Z",
+  "image_url": "https://img.cryptokitties.co/0x06012c8cf97bead5deae237070f9587f8e7a266d/1.png",
+  "image_url_cdn": "https://img.cn.cryptokitties.co/0x06012c8cf97bead5deae237070f9587f8e7a266d/1.png",
+  "image_url_png": "https://img.cryptokitties.co/0x06012c8cf97bead5deae237070f9587f8e7a266d/1.png",
+  "image_path": "",
+  "color": "sizzurp",
+  "bio": "Greetings, human. I am #{name}...",
+  "is_fancy": true,
+  "is_exclusive": true,
+  "fancy_type": "Genesis",
+  "fancy_ranking": 1,
+  "language": "en",
+  "is_prestige": false,
   ...
 }
 ```
+
+Note: The new official service call does NOT (yet) include the `birthday`, `is_special_edition`  and other "newer" properties.
 
 <!--
 check if v1 includes:
@@ -248,9 +254,10 @@ save( "kitty2", data )
 ### Getting Colors for Body, Eyes, ...
 
 Use `GET /colors/body|eyes|secondary|tertiary`,
-to get a list of all hexadecimal r/g/b color codes
-for the body (Base Color), eyes (Eye Color), secondary (Highlight Color),
-tertiary (Accent Color) cattributes.
+to get a list of all hexadecimal r(ed)/g(gree)/b(lue) color codes
+for the body, eyes, secondary and
+tertiary color cattributes - known in the official kitties
+profile pages as base color, eye color, highlight color and accent color.
 
 
 ```ruby
