@@ -1,5 +1,14 @@
 # Notes
 
+## APIs
+
+**Unofficial**
+
+<https://cryptokitties.fandom.com/wiki/CryptoKitties_API_(Unofficial)>
+
+**Official**
+
+<https://docs.api.cryptokitties.co/>
 
 
 ## From CryptoKitties Newsletter
