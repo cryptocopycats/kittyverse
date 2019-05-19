@@ -4,7 +4,9 @@
 
 **Unofficial**
 
-<https://cryptokitties.fandom.com/wiki/CryptoKitties_API_(Unofficial)>
+- <https://cryptokitties.fandom.com/wiki/CryptoKitties_API_(Unofficial)>
+- <https://github.com/io4/cryptokitties> - unofficial javascript api wrapper
+
 
 **Official**
 
