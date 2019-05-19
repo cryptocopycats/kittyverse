@@ -10,10 +10,6 @@
 
 
 ##
-## todo/fix:
-##    use count:   for time-limited fancies  do NOT use limit!!!  change limit to count!!!
-
-##
 ## note:
 ##  for time limits for fancies use:
 ##     e.g. time: { end: '2018-12-07' }   # until dec/7
@@ -21,15 +17,166 @@
 ##  for overflows for limited edition use:
 ##     e.g. overflow: 1      #   888+1  (=889)
 
+SPECIAL_EDITIONS = {
+  'kitt-e': { name: 'KITT-E', date: '2019-05-10',
+              specialedition: {
+                limit: 500 },
+              desc: 'Dapper (Crypto Contract) Wallet Promotion Cat'
+            },
+  # Apr 10, 2019
+  # Sparkles Special Edition Cat is released.Special Edition Cat
+  sparkles: { name: 'Sparkles', date: '2019-04-10',
+              specialedition: {
+                limit: 100 },
+              desc: 'Freebie for CryptoKitties Community Events'
+            },
+  ##
+  ## date: '2019-01-10 ???  -- use for date "announced" or something - why? why not?
+  aeoncat: { name: 'Aeoncat',
+              specialedition: {
+                time: { start: '2019-01-17', end: '2019-01-28' },
+                limit: 380 },    ## Don't sleep - there's only 380 up for grabs!
+              desc: 'Goddess Aeona - Goddess of Nature - Gods Unchained Promotion'
+           },
+  ## 2018
+  ## December
+  catzy: { name: 'Catzy', date: '2018-12-31',
+           specialedition: {
+             limit: 10, ids: (1137653..1137662).to_a },
+           desc: 'Changpeng "CZ" Zhao - CEO of Binance - Top 10 Blockchain Influencer of the Year 2018 by CoinDesk'
+         },
+  purremyallaire: { name: 'Purremy Allaire', date: '2018-12-31',
+                    specialedition: {
+                      limit: 10, ids: (1137663..1137672).to_a },
+                    desc: 'Jeremy Allaire - Top 10 Blockchain Influencer of the Year 2018 by CoinDesk'
+                  },
+  lilbub:      { name: 'Lil Bub Ub Bub (BUB)', date: '2018-11-13',
+                 specialedition: {
+                   limit: 468 }
+               },
+}
 
-### todo/fix:
-##    split into EXCLUSIVES
-##       and into SPECIAL_EDITIONS   (SPECIALS?)  - why? why not?
+
+EXCLUSIVES = {
+  'dapp-e': { name: 'DAPP-E', date: '2019-05-10',
+              exclusive: {
+                limit: 50, ids: (1829..1878).to_a },
+              desc: 'Dapper (Crypto Contract) Wallet Promotion Cat'
+            },
+  papacatuanuku: { name: 'Papacatuanuku', date: '2019-03-31',
+                   exclusive: {
+                     limit: 1, ids: [1500000] },
+                   desc: 'Kitty #1500000'
+                 },
+  # Mar 26, 2019
+  # Sir Meowsalot Exclusive Cat is released. Exclusive Cat
+  sirmeowsalot: { name: 'Sir Meowsalot', date: '2019-03-26',
+                  exclusive: {
+                    limit: 21, ids: (201..221).to_a }
+                },
+
+  cyberberry: { name: 'Cyber Berry', date: '2019-03-02',
+                exclusive: {
+                  limit: 1, ids: [282] },
+                desc: "Winner of the NFTme Sweetstakes"
+              },
+
+  # Mar 1, 2019
+  # Hinecatone Exclusive Cat is discovered. Exclusive Cat
+  hinecatone: { name: 'Hinecatone', date: '2019-03-01',
+                exclusive: {
+                  limit: 15, ids: [1423547, 1433380, 1433486, 1440835, 1453366, 1456935, 1456973, 1459319, 1463197, 1466118, 1474082, 1484593, 1484982, 1492154, 1498885]}
+              },
+
+  # Feb 15, 2019
+  # Felono Exclusive Cat is discovered. Exclusive Cat
+  felono: { name: 'Felono', date: '2019-02-15',
+            exclusive: {
+              limit: 30, ids: [1394641, 1404595, 1406021, 1413065, 1414375, 1420553, 1421315, 1421864, 1424104 ,1425433, 1431823, 1435517, 1436333, 1449860, 1451482, 1455458, 1459320, 1462952, 1463069, 1476999, 1483225, 1487210, 1487551, 1489681, 1490345, 1491632, 1492206, 1492739, 1492817, 1498778]}
+          },
+  hypurrion: { name: 'Hypurrion', date: '2019-01-10',
+               exclusive: {
+                 limit: 1, ids: [269]},
+               desc: 'Hyperion - Mythic Titan of Light - Gods Unchained Promotion'
+             },
+  dracothemagnificent:  { name: 'Draco The Magnificent', date: '2018-11-27',
+                          exclusive: {
+                            limit: 12, ids:	(270..281).to_a }
+                        },
+  bugcatv2:             { name: 'Bug Cat V2', date: '2018-11-27',
+                          exclusive: {
+                            limit: 20, ids: (167..186).to_a },
+                          desc: 'Bug Bounty II (Offers Contract) Kitty'
+                        },
+  lilbubthemagicalspacecat: { name: 'Lil Bub Ub Bub (BUB) The Magical Space Cat', date: '2018-11-13',
+                              exclusive: {
+                                limit: 3, ids: [266,267,268]}
+                            },
+  vulcat:   { name: 'Vulcat', date: '2018-09-12',
+              exclusive: {
+                limit: 1, ids: [1000000] },
+              desc: '1 000 000th Kitty'
+            },
+  vulcant:        { name: 'Vulcant', date: '2018-08-31',
+                    exclusive: {
+                      limit: 20, ids: [932914,937360,938299,946526,948925,949058,950617,952280,952981,956374,956908,958570,964205,967234,983046,984451,990713,992861,995745,997469] }
+                  },
+  rabbidkitty:    { name: 'Rabbid Kitty', date: '2018-08-23',
+                    exclusive: {
+                       limit: 6, ids: (260..265).to_a },
+                    desc: 'Ubisoft Blockchain Heroes Hackathon'
+                  },
+ honu:           { name: 'Honu', date: '2018-07-20',
+                   exclusive: {
+                     limit: 1, ids: [251] },
+                   desc: 'Kitties for Good - Save Turtle Habitats'
+                 },
+ victoire:       { name: 'Victoire', date: '2018-07-18',
+                   exclusive: {
+                     limit: 1, ids: [402] },
+                   desc: 'France Football World Cup Champion'
+                 },
+  furlin:        { name: 'Furlin', date: '2018-06-26',
+                   exclusive: {
+                     limit: 52, ids: (115..126).to_a + (128..166).to_a }
+                 },
+  celestialcyberdimension: { name: 'Celestial Cyber Dimension', date: '2018-05-12',
+                             exclusive: {
+                               limit: 1, ids: [127] }
+                           },
+  goldendragoncat: { name: 'Golden Dragon Cat', name_cn: '帝龙喵', date: '2018-03-08',
+                     exclusive: {
+                       limit: 1, ids: [888] },
+                     desc: 'China Launch'
+                   }, ## todo: check date for china launch specials!!!
+  goldendogcat:    { name: 'Golden Dog Cat', name_cn: '旺财汪', date: '2018-03-08',
+                     exclusive: {
+                       limit: 11, ids: [1802,1803,1805,1806,1808,1809,1812,1816]+(1825..1828).to_a },
+                     desc: 'China Launch'
+                   },  ## todo: check date for china launch specials!!!
+
+  knightkitty:  { name: 'Knight Kitty',  date: '2018-03-01',
+                  exclusive: {
+                    limit: 11, ids: (104..114).to_a }
+                },
+  cathena:         { name: 'Cathena',  date: '2018-02-06',
+                    exclusive: {
+                      limit: 1, ids: [500000] },
+                    desc: '500 000th Kitty'
+                  },
+  genesis:      { name: 'Genesis', date: '2017-11-24',
+                  exclusive: {
+                    limit: 1, ids: [1] },
+                  desc: '1st Kitty'
+                },
+  bugcat:       { name: 'Bug Cat', date: '2017-11-23',
+                  exclusive: {
+                    limit: 3, ids: [101,102,103] },
+                  desc: 'Bug Bounty Kitty' }
+}
 
 
-
-FANCIES =
-{
+RECIPES = {
   'curdlin': { name: 'Curdlin',
                 recipe: {
                   time: { start: '2019-05-11', end: '2019-11-30' }, count: 4,
@@ -37,18 +184,7 @@ FANCIES =
                 desc: 'Cheeze Wizard Cat - Celebrating the Launch of the Cheeze Wizards on the Blockchain'
                 ## see https://www.cryptokitties.co/blog/post/things-are-getting-cheezy-in-cryptokitties
              },
-
-  'kitt-e': { name: 'KITT-E', date: '2019-05-10',
-              specialedition: {
-                limit: 500 },
-              desc: 'Dapper (Crypto Contract) Wallet Promotion Cat'
-            },
-  'dapp-e': { name: 'DAPP-E', date: '2019-05-10',
-              exclusive: {
-                limit: 50, ids: (1829..1878).to_a },
-              desc: 'Dapper (Crypto Contract) Wallet Promotion Cat'
-            },
-
+  ##
   # Apr 27, 2019
   # Krakitten Fancy Cat is discovered. Fancy Cat
   krakitten: { name: 'Krakitten',
@@ -67,20 +203,6 @@ FANCIES =
                 ## see https://www.cryptokitties.co/blog/post/pirate-cats-are-plundering-cryptokitties/
             },
 
-  # Apr 10, 2019
-  # Sparkles Special Edition Cat is released.Special Edition Cat
-  sparkles: { name: 'Sparkles', date: '2019-04-10',
-              specialedition: {
-                limit: 100 },
-              desc: 'Freebie for CryptoKitties Community Events'
-            },
-
-  papacatuanuku: { name: 'Papacatuanuku', date: '2019-03-31',
-                   exclusive: {
-                     limit: 1, ids: [1500000] },
-                   desc: 'Kitty #1500000'
-                 },
-
   # Mar 30, 2019
   # Glitter Fancy Cat is discovered. Fancy Cat
   glitter: { name: 'Glitter',
@@ -88,14 +210,6 @@ FANCIES =
                time: { start: '2019-03-30', end: '2019-11-30'},  count: 658,   ## note: ++count NOT FINAL!!!
                traits: ['rorschach', 'juju', 'unicorn', 'hyacinth'] }
            },
-
-
-  # Mar 26, 2019
-  # Sir Meowsalot Exclusive Cat is released. Exclusive Cat
-  sirmeowsalot: { name: 'Sir Meowsalot', date: '2019-03-26',
-                  exclusive: {
-                    limit: 21, ids: (201..221).to_a }
-                },
 
   # Mar 16, 2019
   # Clover Fancy Cat is discovered. Fancy Cat
@@ -114,20 +228,6 @@ FANCIES =
                    traits: ['cloudwhite', 'henna', 'pearl', 'firedup'] },
                  desc: "Ninja Fancy Cat"
                 },
-
-  cyberberry: { name: 'Cyber Berry', date: '2019-03-02',
-                exclusive: {
-                  limit: 1, ids: [282] },
-                desc: "Winner of the NFTme Sweetstakes"
-              },
-
-  # Mar 1, 2019
-  # Hinecatone Exclusive Cat is discovered. Exclusive Cat
-  hinecatone: { name: 'Hinecatone', date: '2019-03-01',
-                exclusive: {
-                  limit: 15, ids: [1423547, 1433380, 1433486, 1440835, 1453366, 1456935, 1456973, 1459319, 1463197, 1466118, 1474082, 1484593, 1484982, 1492154, 1498885]}
-              },
-
 
   # Feb 21, 2019
   # Ande Fancy Cat is discovered. Fancy Cat
@@ -150,13 +250,6 @@ FANCIES =
                time: { start: '2019-02-16', end: '2019-12-01'}, count: 1438, ## note: count NOT FINAL!!!
                traits: ['mekong', 'scarlet', 'spangled', 'wonky'] }
            },
-
-  # Feb 15, 2019
-  # Felono Exclusive Cat is discovered. Exclusive Cat
-  felono: { name: 'Felono', date: '2019-02-15',
-            exclusive: {
-              limit: 30, ids: [1394641, 1404595, 1406021, 1413065, 1414375, 1420553, 1421315, 1421864, 1424104 ,1425433, 1431823, 1435517, 1436333, 1449860, 1451482, 1455458, 1459320, 1462952, 1463069, 1476999, 1483225, 1487210, 1487551, 1489681, 1490345, 1491632, 1492206, 1492739, 1492817, 1498778]}
-          },
 
   # Feb 9, 2019
   # Miss Purrfect Fancy Cat is discovered.Fancy Cat
@@ -187,31 +280,7 @@ FANCIES =
                           traits: ['selkirk', 'koala', 'arcreactor', 'sully'] },
                         desc: 'Gods Unchained Promotion - Mystical Cat Talisman'
                       },
-  ## date: '2019-01-10 ???  -- use for date "announced" or something - why? why not?
-  aeoncat: { name: 'Aeoncat',
-              specialedition: {
-                time: { start: '2019-01-17', end: '2019-01-28' },
-                limit: 380 },    ## Don't sleep - there's only 380 up for grabs!
-              desc: 'Goddess Aeona - Goddess of Nature - Gods Unchained Promotion'
-           },
-  hypurrion: { name: 'Hypurrion', date: '2019-01-10',
-               exclusive: {
-                 limit: 1, ids: [269]},
-               desc: 'Hyperion - Mythic Titan of Light - Gods Unchained Promotion'
-             },
 
-  ## 2018
-  ## December
-  catzy: { name: 'Catzy', date: '2018-12-31',
-           specialedition: {
-             limit: 10, ids: (1137653..1137662).to_a },
-           desc: 'Changpeng "CZ" Zhao - CEO of Binance - Top 10 Blockchain Influencer of the Year 2018 by CoinDesk'
-         },
-  purremyallaire: { name: 'Purremy Allaire', date: '2018-12-31',
-                    specialedition: {
-                      limit: 10, ids: (1137663..1137672).to_a },
-                    desc: 'Jeremy Allaire - Top 10 Blockchain Influencer of the Year 2018 by CoinDesk'
-                  },
   genedough: { name: 'Gene Dough',
                recipe: {
                  time: { start: '2018-12-23', end: '2019-01-07' }, count: 1376,
@@ -230,15 +299,6 @@ FANCIES =
                             time: { start: '2018-11-30', end: '2018-12-07' }, count: 1115,
                             traits: ['toyger', 'martian', 'peppermint', 'dragonwings', 'SE03'] }
                         },
-  dracothemagnificent:  { name: 'Draco The Magnificent', date: '2018-11-27',
-                          exclusive: {
-                            limit: 12, ids:	(270..281).to_a }
-                        },
-  bugcatv2:             { name: 'Bug Cat V2', date: '2018-11-27',
-                          exclusive: {
-                            limit: 20, ids: (167..186).to_a },
-                          desc: 'Bug Bounty II (Offers Contract) Kitty'
-                        },
   dracojunior: { name: 'Draco Junior',
                  recipe: {
                    time: { start: '2018-11-26', end: '2018-12-07' }, count: 1398,
@@ -254,16 +314,6 @@ FANCIES =
                    limit: 303,
                    traits: ['lynx', 'martian', 'highsociety', 'emeraldgreen']}
                },
-  lilbub:      { name: 'Lil Bub Ub Bub (BUB)', date: '2018-11-13',
-                 specialedition: {
-                   limit: 468 }
-               },
-
-  lilbubthemagicalspacecat: { name: 'Lil Bub Ub Bub (BUB) The Magical Space Cat', date: '2018-11-13',
-                              exclusive: {
-                                limit: 3, ids: [266,267,268]}
-                            },
-
   ## October
   dukecat:       { name: 'Dukecat', date: '2018-10-18',
                    recipe: {
@@ -283,11 +333,6 @@ FANCIES =
                 limit: 1185,
                 traits: ['jaguar', 'universe', 'atlantis', 'littlefoot']}
             },
-  vulcat:   { name: 'Vulcat', date: '2018-09-12',
-              exclusive: {
-                limit: 1, ids: [1000000] },
-              desc: '1 000 000th Kitty'
-            },
   meowstro: { name: 'Meowstro', date: '2018-09-09',
               recipe: {
                 limit: 1698,
@@ -300,19 +345,10 @@ FANCIES =
             },
 
   ## August
-  vulcant:        { name: 'Vulcant', date: '2018-08-31',
-                    exclusive: {
-                      limit: 20, ids: [932914,937360,938299,946526,948925,949058,950617,952280,952981,956374,956908,958570,964205,967234,983046,984451,990713,992861,995745,997469] }
-                  },
   purrity:        { name: 'Purrity', date: '2018-08-23',
                     recipe: {
                       limit: 5984,
                       traits: ['selkirk', 'chronic', 'cloudwhite', 'cheeky'] }
-                  },
-  rabbidkitty:    { name: 'Rabbid Kitty', date: '2018-08-23',
-                    exclusive: {
-                       limit: 6, ids: (260..265).to_a },
-                    desc: 'Ubisoft Blockchain Heroes Hackathon'
                   },
   squiddlesworth: { name: 'Squiddlesworth', date: '2018-08-16',
                     recipe: {
@@ -331,16 +367,6 @@ FANCIES =
                     recipe: {
                       limit: 76,
                       traits: ['ragdoll', 'crazy', 'chocolate', 'mintmacaron', 'yokel', 'WE02']}
-                  },
-  honu:           { name: 'Honu', date: '2018-07-20',
-                    exclusive: {
-                      limit: 1, ids: [251] },
-                    desc: 'Kitties for Good - Save Turtle Habitats'
-                  },
-  victoire:       { name: 'Victoire', date: '2018-07-18',
-                    exclusive: {
-                      limit: 1, ids: [402] },
-                    desc: 'France Football World Cup Champion'
                   },
   lulu:           { name: 'Lulu', date: '2018-07-13',
                     recipe: {
@@ -373,10 +399,6 @@ FANCIES =
                      limit: 1867,
                      traits: ['buzzed', 'nachocheez', 'sandalwood', 'belch']}
                 },
-  furlin:        { name: 'Furlin', date: '2018-06-26',
-                   exclusive: {
-                     limit: 52, ids: (115..126).to_a + (128..166).to_a }
-                 },
   kittypride:    { name: 'Kitty Pride', date: '2018-06-21',
                    recipe: {
                      limit: 1316,
@@ -409,10 +431,6 @@ FANCIES =
                            limit: 250,
                            traits: ['persian','spock','raisedbrow','violet','tongue'] }
                        },
-  celestialcyberdimension: { name: 'Celestial Cyber Dimension', date: '2018-05-12',
-                             exclusive: {
-                               limit: 1, ids: [127] }
-                           },
   swish:               { name: 'Swish', date: '2018-05-08',
                          recipe: {
                            limit: 2880,
@@ -449,16 +467,6 @@ FANCIES =
                        limit: 888,
                        traits: ['harbourfog','calicool','swampgreen','sapphire','beard']}
                     },  ## todo: check date for china launch specials!!!
-  goldendragoncat: { name: 'Golden Dragon Cat', name_cn: '帝龙喵', date: '2018-03-08',
-                     exclusive: {
-                       limit: 1, ids: [888] },
-                     desc: 'China Launch'
-                   }, ## todo: check date for china launch specials!!!
-  goldendogcat:    { name: 'Golden Dog Cat', name_cn: '旺财汪', date: '2018-03-08',
-                     exclusive: {
-                       limit: 11, ids: [1802,1803,1805,1806,1808,1809,1812,1816]+(1825..1828).to_a },
-                     desc: 'China Launch'
-                   },  ## todo: check date for china launch specials!!!
   liondance:    { name: 'Lion Dance', name_cn: '咚咚锵', date: '2018-03-07',
                   recipe: {
                     limit: 888, overflow: 1,  ## use count 889 ?? - why? why not?
@@ -469,10 +477,6 @@ FANCIES =
                     limit: 88,
                     traits: ['tigerpunk','periwinkle','barkbrown','sweetmeloncakes','yokel']},
                   desc: 'Year of the Dog (Greater China)'
-                },
-  knightkitty:  { name: 'Knight Kitty',  date: '2018-03-01',
-                  exclusive: {
-                    limit: 11, ids: (104..114).to_a }
                 },
 
   ## February
@@ -498,11 +502,6 @@ FANCIES =
                        limit: 500,
                        traits: ['birman','orangesoda','hotrod','grim'] },
                      desc: 'Earn.com - Golden Kitty Award (Product Hunt)'
-                   },
-  cathena:         { name: 'Cathena',  date: '2018-02-06',
-                     exclusive: {
-                       limit: 1, ids: [500000] },
-                     desc: '500 000th Kitty'
                    },
 
   ## January
@@ -557,18 +556,14 @@ FANCIES =
                     limit: 10_000,
                     traits: ['cymric','tongue']}
                 },
-  genesis:      { name: 'Genesis', date: '2017-11-24',
-                  exclusive: {
-                    limit: 1, ids: [1] },
-                  desc: '1st Kitty'
-                },
   shipcat:      { name: 'Ship Cat', date: '2017-11-23',
                   recipe: {
                     limit: 2000,
                     traits: ['sphynx','orangesoda','luckystripe','crazy']}
-                },
-  bugcat:       { name: 'Bug Cat', date: '2017-11-23',
-                  exclusive: {
-                    limit: 3, ids: [101,102,103] },
-                  desc: 'Bug Bounty Kitty' }
+                }
 }
+
+
+FANCIES = {}.merge( RECIPES )
+            .merge( EXCLUSIVES )
+            .merge( SPECIAL_EDITIONS )

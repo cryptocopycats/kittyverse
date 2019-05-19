@@ -3,15 +3,7 @@
 ###########################################
 ## Purrstige Traits  / Cattributes
 
-
-## note: totesbasic has three traits / genes
-TOTESBASIC = ['Totesbasic 1', 'Totesbasic 2', 'Totesbasic 3']    ## was: ['PA14', 'PA15', 'PA23']
-ANY_TOTESBASIC = ALL_TOTESBASIC = TOTESBASIC
-
-
-
-PRESTIGES = PURRSTIGES =
-{
+PURRSTIGES_ROBOKITTY = {
 ###
 # May 1, 2019
 #  7 Robokitty Purrstiges
@@ -49,8 +41,11 @@ squelch: { name: 'Squelch',
            recipe: {
              time: { start: '2019-05-01', end: '2019-08-31' },
              traits: ['ragdoll', 'WE05', TOTESBASIC, 'PU24'] }
-            },
+            }
+}
 
+
+PURRSTIGES_PIRATE = {
 ##
 # Apr 13, 2019
 #  7 Pirate Purrstiges
@@ -95,20 +90,14 @@ maraud: { name: 'Maraud',
           recipe: {
             time: { start: '2019-04-13', end: '2019-05-10' }, count: 620,
             traits: ['WE10', 'EN01', 'PU26'] }
-        },
+        }
+}
 
-##
-# Mar 15, 2019
-# Oohshiny trait is discovered. Purrstige
-oohshiny: { name: 'Oohshiny',
-            recipe: {
-              time: { start: '2019-03-15', end: '2019-03-28'}, count: 2484,
-              traits: ['roadtogold', 'PU27'] }
-          },
 
+PURRSTIGES_ALPACAT = {
 ##
 # Feb 21, 2019
-#  7 Alpacat purrstiges
+#  7 Alpacat "hairstyle" purrstiges
 # Dreamcloud trait is discovered. Purrstige
 dreamcloud: { name: 'Dreamcloud',
               recipe: {
@@ -150,7 +139,31 @@ inaband: { name: 'Inaband',
            recipe: {
              time: { start: '2019-02-22', end: '2019-03-25' }, count: 1048,
              traits: ['munchkin', 'WE10', 'PU26'] }
-        },
+        }
+}
+
+
+###############
+##  todo:
+##   - use PURRSTIGES_XMAS?! and other themes too - why? why not?
+
+## thatsawrap: { date: '2018-10-21' },    ## prestige
+## duckduckcat: { date: '2018-10-19' },   ## prestige
+
+## prune: { date: '2018-09-19' },     ## prestige
+## furball: { date: '2018-09-19' },   ## prestige
+
+
+PRESTIGES = PURRSTIGES =
+{
+##
+# Mar 15, 2019
+# Oohshiny trait is discovered. Purrstige
+oohshiny: { name: 'Oohshiny',
+            recipe: {
+              time: { start: '2019-03-15', end: '2019-03-28'}, count: 2484,
+              traits: ['roadtogold', 'PU27'] }
+          },
 
 ## 2018
 ## December
@@ -197,4 +210,6 @@ inaband: { name: 'Inaband',
                 time: { start: '2018-09-19', end: '2018-09-30' }, count: 998,
                 traits: ['norwegianforest', TOTESBASIC, 'PU26'] }
             }
-}
+}.merge( PURRSTIGES_ROBOKITTY )
+ .merge( PURRSTIGES_PIRATE )
+ .merge( PURRSTIGES_ALPACAT )

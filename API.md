@@ -179,8 +179,11 @@ to get all auctions. Search query parameters include:
 - `limit` = `1`-`100`
 - `offset` = _Integer_
 - `search` = _String_
-- `parents` = `true` | `false`
+- `orderBy` = `current_price` | ?
+- `orderDirection` = `asc` | `desc`   <!-- check if desc is an option? -->
+
 <!--
+- `parents` = `true` | `false`          ## what for? working?
 - `authenticated` = `true` | `false`    ## what for
 -->
 
@@ -345,8 +348,8 @@ data = c.get( '/cattributes/eyes/12' )
 save( "cattributes-eyes-12", data )
 
 data = c.get( '/kitties?gen=3-4' )    # or
-data = c.get( '/kitties', gen: '3-4')
-save( "kitties-gen_3-4", data)
+data = c.get( '/kitties', gen: '3-4' )
+save( "kitties-gen_3-4", data )
 
 # ...
 ```

@@ -81,10 +81,11 @@ end # class Client
 end  # module V1
 
 
-CLIENT_V0 = V0::Client.new
-CLIENT_V1 = V1::Client.new
 
-def self.v0()  CLIENT_V0; end
-def self.v1()  CLIENT_V1; end
+## CLIENT_V0 = V0::Client.new
+## CLIENT_V1 = V1::Client.new
+##
+## def self.v0()  CLIENT_V0; end
+## def self.v1()  CLIENT_V1; end
 
 end # module Kitties

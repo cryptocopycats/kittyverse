@@ -1,7 +1,7 @@
 # encoding: utf-8
 
-COLORS = {
- ## 31 colors body
+## 31 colors body
+COLORS_BODY = {
  meowgarine:      "#fcfc95",
  cornflower:      "#7592fc",
  icicle:          "#c5e2ff",
@@ -32,8 +32,11 @@ COLORS = {
  redvelvet:       "#f77272",
  verdigris:       "#73ffc3",
  onyx:            "#42414c",
- martian:         "#a4ff6f",
- ## 31 colors eyes
+ martian:         "#a4ff6f"
+}
+
+## 31 colors eyes
+COLORS_EYES = {
  olive:           "#729100",
  pinefresh:       "#177a25",
  oasis:           "#ccffef",
@@ -64,8 +67,11 @@ COLORS = {
  palejade:        "#c3d8cf",
  eclipse:         "#484c5b",
  babypuke:        "#bcba5e",
- autumnmoon:      "#ffe8bb",
- ## 31 colors secondary
+ autumnmoon:      "#ffe8bb"
+}
+
+## 31 colors secondary
+COLORS_SECONDARY = {
  cyborg:          "#959cae",
  ooze:            "#daea31",
  peppermint:      "#00a86b",
@@ -96,8 +102,11 @@ COLORS = {
  universe:        "#494981",
  royalblue:       "#5b6ee8",
  mertail:         "#36f2bc",
- pearl:           "#fff8fa",
- ## 31 colors tertiary
+ pearl:           "#fff8fa"
+}
+
+## 31 colors tertiary
+COLORS_TERTIARY = {
  hanauma:         "#7accb5",
  belleblue:       "#afd0f7",
  peach:           "#f9cfad",
@@ -130,3 +139,8 @@ COLORS = {
  kalahari:        "#ffcf8a",
  atlantis:        "#2a7f96"
 }
+
+COLORS = {}.merge( COLORS_BODY )
+           .merge( COLORS_EYES )
+           .merge( COLORS_SECONDARY )
+           .merge( COLORS_TERTIARY )

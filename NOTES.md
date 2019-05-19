@@ -1,5 +1,17 @@
 # Notes
 
+## Todos
+
+- fix - sort Fancies and Purrstiges by date (with split no longer auto-sorted by date!!!)
+
+- add themes hash
+  - pirate (pirate month)
+  - alpacat
+  - xmas
+  - etc.  - why? why not?
+
+
+
 ## APIs
 
 **Unofficial**
@@ -54,4 +66,3 @@ There are 7 Alapacat Purrstige hairstyles
 First Edition Purrstige hairstyles rocked by some swanky Alpacat Kitties
 CryptoKitties hairstyles is closing on March 25th, 2019 at 11:59 PM PST,
 so breed them fast before they’re gone furrever!
-

@@ -9,20 +9,31 @@
 require 'kittyverse'
 
 
+
 def save( name, data )
   File.open( "./dl/#{name}.json", 'w:utf-8' ) do |f|
     f.write JSON.pretty_generate( data )
   end
 end
 
+def save_headers( name, headers )
+  File.open( "./dl/#{name}.headers.txt", 'w:utf-8' ) do |f|
+    f.write headers.pretty_inspect
+  end
+end
+
+
 ## Kitties.debug=true
 
 
 c = Kitties::V0::Client.new
 
+today = Date.today.strftime( '%Y-%m-%d')   ## e.g. 2019-05-19
+
 
 data = c.get_cattributes    ## same as get( '/cattributes' )
-save( "v0.cattributes", data )
+save( "v0/cattributes-#{today}", data )
+save_headers( "v0/cattributes-#{today}", Kitties.last_response.headers )
 
 pp Kitties.last_response
 pp Kitties.last_response.headers
@@ -30,7 +41,8 @@ pp Kitties.last_response.ratelimit_reset
 
 
 data = c.get_kitty( 1 )     ## same as get( '/kitties/1' )
-save( "v0.kitty-1", data )
+save( "v0/kitty-1-#{today}", data )
+save_headers( "v0/kitty-1-#{today}", Kitties.last_response.headers )
 data = c.get_kitten( 2 )
 
 pp Kitties.last_response.headers

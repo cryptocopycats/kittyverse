@@ -78,10 +78,12 @@ def initialize( base_uri:, token: nil )
   @base_request_uri  = uri.request_uri    ## e.g. save /v1 etc.
   ## puts "base_request_uri: >#{@base_request_uri}<"
 
-  @token = token
+  @request_headers = if token
+                      { "x-api-token" => token  }
+                     else
+                      {}
+                     end
 end # method initialize
-
-
 
 def get( service, **params )
 
@@ -99,13 +101,9 @@ def get( service, **params )
                    "#{@base_request_uri}#{service}"  ## e.g. add /v1 etc.
                 end
 
-  request_headers = if @token
-             { "x-api-token" => @token }
-            else
-             {}
-            end
+  pp @request_headers
 
-  req = Net::HTTP::Get.new( request_uri, request_headers )
+  req = Net::HTTP::Get.new( request_uri, @request_headers )
 
   res = @http.request(req)
 

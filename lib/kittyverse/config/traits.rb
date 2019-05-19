@@ -415,13 +415,25 @@ ALT_TRAIT_NAMES =
   'totesbasic_14'   => 'totesbasic 1',
   'totesbasic_15'   => 'totesbasic 2',
   'totesbasic_23'   => 'totesbasic 3',
+  'totesbasic 14'   => 'totesbasic 1',
+  'totesbasic 15'   => 'totesbasic 2',
+  'totesbasic 23'   => 'totesbasic 3',
+
   'totesbasic (f)'  => 'totesbasic 1',
   'totesbasic (g)'  => 'totesbasic 2',
   'totesbasic (p)'  => 'totesbasic 3',
+  'totesbasic f'    => 'totesbasic 1',
+  'totesbasic g'    => 'totesbasic 2',
+  'totesbasic p'    => 'totesbasic 3',
   'totesbasic_f'    => 'totesbasic 1',
   'totesbasic_g'    => 'totesbasic 2',
   'totesbasic_p'    => 'totesbasic 3',
+
   'totesbasic_1'    => 'totesbasic 1',
   'totesbasic_2'    => 'totesbasic 2',
   'totesbasic_3'    => 'totesbasic 3',
 }
+
+## note: totesbasic has three traits / genes
+TOTESBASIC = ['Totesbasic 1', 'Totesbasic 2', 'Totesbasic 3']    ## was: ['PA14', 'PA15', 'PA23']
+ANY_TOTESBASIC = ALL_TOTESBASIC = TOTESBASIC

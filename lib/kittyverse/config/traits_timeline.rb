@@ -38,9 +38,6 @@ TRAITS_TIMELINE =
   gemini:       { date: '2018-10-23' },
   kaleidoscope: { date: '2018-10-23' },
 
-  ## thatsawrap: { date: '2018-10-21' },    ## todo: move prestige to fancies!!!
-  ## duckduckcat: { date: '2018-10-19' },   ## todo: move prestige to fancies!!!
-
   siberian: { date: '2018-10-17' },
   lynx: { date: '2018-10-17' },
   toyger:  { date: '2018-10-17' },
@@ -63,9 +60,6 @@ TRAITS_TIMELINE =
   mallowflower: { date: '2018-09-21' },
   hanauma: { date: '2018-09-21' },
   summerbonnet: { date: '2018-09-21' },
-
-  ## prune: { date: '2018-09-19' },     ## todo: move prestige to fancies!!!
-  ## furball: { date: '2018-09-19' },   ## todo: move prestige to fancies!!!
 
   firedup: { date: '2018-09-06' },
   hacker: { date: '2018-09-06' },
