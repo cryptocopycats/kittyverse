@@ -38,6 +38,9 @@ require 'kittyverse/fancies'
 require 'kittyverse/api/client'
 require 'kittyverse/api/versions'
 
+## genes / genome
+require 'kittyverse/gene'
+require 'kittyverse/genome'
 
 
 # say hello
