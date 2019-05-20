@@ -136,7 +136,7 @@ class GenomeTables
 ##     ***    - two same pairs of traits
 ##     **     - one pair of same traits
 
-      buf << "|Gene  |Binary   |Kai  |Code | Trait    |   |\n"
+      buf << "|Gene  |Binary   |Kai  |Code | Name     |   |\n"
       buf << "|------|---------|-----|-----|----------|---|\n"
       buf << "| #{pos} | #{slice.d.binary} | #{slice.d.kai} | #{slice.d.code} |**#{fmt_trait(slice.d)}** | d |\n"; pos+=1
       buf << "| #{pos} | #{slice.r1.binary} | #{slice.r1.kai} | #{slice.r1.code} |#{fmt_trait(slice.r1)} | r1 |\n"; pos+=1
