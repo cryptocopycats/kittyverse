@@ -15,7 +15,8 @@ class Slice   ## Gene::Slice (nested class)
   # r1 (1st order recessive gene)
   # r2 (2nd order recessive gene)
   # r3 (3rd order recessive gene)
-
+  alias_method :d0, :d   # allow "classic" alias for d too
+  
   ## compat: add alias for ("new/modern") p, h1, h2, h3
   ##    p(rimary), h(idden) 1, h(idden) 2, h(idden) 3
   alias_method :p,  :d
@@ -32,6 +33,13 @@ class Slice   ## Gene::Slice (nested class)
     @r3   = @type[r3]
   end
 
+  ## todo/fix: allow/add access array-style too (use 0,1,2,3 for index)
+  ## def [](index)
+  ##
+  
+  ## add is purebreed? or pure?
+  ##   why? why not?
+  
   def to_kai
     @r3.kai + @r2.kai + @r1.kai + @d.kai
   end   ## return a string in kai/base32 notation
