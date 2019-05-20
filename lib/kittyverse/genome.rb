@@ -2,7 +2,6 @@
 
 
 class Genome
-  attr_reader :genes   ## hash of (sliced) genes (key is gene trait type)
 
   def initialize( arg )
     if arg.is_a? Integer   ## use Integer (Fixnum+Bignum??) - why? why not?
@@ -15,7 +14,7 @@ class Genome
     ## puts "Genome.initialize #{kai}"
 
     @kai   = kai    ## note: store/save kai without any spaces ("compact" format)
-    @genes = build_genes( kai )
+    @genes = build_genes( kai )  ## hash of (sliced) genes (key is gene trait type)
   end
 
 
