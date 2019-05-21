@@ -205,7 +205,8 @@ Use the `Genome` helper class to
 decipher the genes and lookup traits, mewtation tiers / levels,
 recessive / hidden genes and more.
 
-Let's build a gene reader. Pass in the "magic" 256-bit integer number from the blockchain
+Let's build a gene reader. Pass in the "magic" 256-bit integer number for kitty #1001 
+from the blockchain
 and get all 48 genes deciphered in 12x4 slices / blocks:
 
 ``` ruby
@@ -319,7 +320,71 @@ Tip: See the chapter 2 in the
 for how to create your own gene reader from scratch.
 
 
+More ways to slice and dice the genome / genes:
 
+``` ruby
+genome[0].class          #=> Trait
+genome[0].name           #=> "Ragamuffin"
+genome[0].code           #=> "FU14"
+
+genome[5].class          #=> Trait
+genome[5].name           #=> "Luckystripe"
+genome[5].code           #=> "PA09"
+
+genome[40].class         #=> Trait
+genome[40].name          #=> nil
+genome[40].code          #=> "SE04"
+
+genome.body.class        #=> Gene::Slice
+genome.body.type.name    #=> "Fur"
+genome.body.type.code    #=> "FU"
+# -or-
+genome[:body].class      #=> Gene::Slice 
+genome[:body].type.name  #=> "Fur" 
+genome[:body].type.code  #=> "FU"
+# -or-
+genome.fu.class          #=> Gene::Slice 
+genome.fu.type.name      #=> "Fur" 
+genome.fu.type.code      #=> "FU"
+# -or-
+genome[:FU].class        #=> Gene::Slice
+genome[:FU].type.name    #=> "Fur" 
+genome[:FU].type.code    #=> "FU"
+
+genome.body.d.class      #=> Trait 
+genome.body.d.name       #=> "Ragamuffin"
+genome.body.d.code       #=> "FU14"
+# -or-
+genome[:body].d.class    #=> Trait 
+genome[:body].d.name     #=> "Ragamuffin"
+genome[:body].d.code     #=> "FU14"
+# -or-
+genome.body[0].class     #=> Trait
+genome.body[0].name      #=> "Ragamuffin"
+genome.body[0].code      #=> "FU14"
+# -or-
+genome[:body][0].class   #=> Trait
+genome[:body][0].name    #=> "Ragamuffin"
+genome[:body][0].code    #=> "FU14"
+# -or-
+genome.fu.d.class        #=> Trait
+genome.fu.d.name         #=> "Ragamuffin"
+genome.fu.d.code         #=> "FU14"
+# -or-
+genome.fu[0].class       #=> Trait
+genome.fu[0].name        #=> "Ragamuffin" 
+genome.fu[0].code        #=> "FU14"
+
+genome.fu.r1.class       #=> Trait
+genome.fu.r1.name        #=> "Ragamuffin"
+genome.fu.r1.code        #=> "FU14"
+# -or-
+genome.body[1].class     #=> Trait
+genome.body[1].name      #=> "Ragamuffin"
+genome.body[1].code      #=> "FU14"
+```
+
+and so on and so forth.
 
 
 ## Real World Usage
