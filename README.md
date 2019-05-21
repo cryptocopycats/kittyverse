@@ -199,6 +199,129 @@ end
 ```
 
 
+### Genome
+
+Use the `Genome` helper class to
+decipher the genes and lookup traits, mewtation tiers / levels,
+recessive / hidden genes and more.
+
+Let's build a gene reader. Pass in the "magic" 256-bit integer number from the blockchain
+and get all 48 genes deciphered in 12x4 slices / blocks:
+
+``` ruby
+# kitty 1001
+genome = Genome.new( 512955438081049600613224346938352058409509756310147795204209859701881294 )
+
+genome.kai
+#=> "aaaa 7885 22f2 agff 1661 7755 e979 2441 6667 7664 a9aa cfff"
+
+genome.codes
+#=> "09-09-09-09 06-07-07-04 01-01-14-01 09-15-14-14 00-05-05-00 06-06-04-04 
+#    13-08-06-08 01-03-03-00 05-05-05-06 06-05-05-03 09-08-09-09 11-14-14-14"
+
+genome.binary
+#=> "01001-01001-01001-01001 00110-00111-00111-00100 00001-00001-01110-00001 
+#    01001-01111-01110-01110 00000-00101-00101-00000 00110-00110-00100-00100 
+#    01101-01000-00110-01000 00001-00011-00011-00000 00101-00101-00101-00110 
+#    00110-00101-00101-00011 01001-01000-01001-01001 01011-01110-01110-01110" 
+
+genome.each_with_index do |slice,i|
+     offset = i*4
+     puts "#{slice.type.name} (#{slice.type.code}) - Genes #{slice.type.genes}:"
+     puts "#{'%2d' % (0+offset)} | #{slice.d.name || '∅'} (#{slice.d.code})"
+     puts "#{'%2d' % (1+offset)} | #{slice.r1.name || '∅'} (#{slice.r1.code})"
+     puts "#{'%2d' % (2+offset)} | #{slice.r2.name || '∅'} (#{slice.r2.code})"
+     puts "#{'%2d' % (3+offset)} | #{slice.r3.name || '∅'} (#{slice.r3.code})"
+     puts
+  end
+```
+
+
+resulting in:
+
+```
+Fur (FU) - Genes 0-3:
+ 0 | Ragamuffin (FU14)
+ 1 | Ragamuffin (FU14)
+ 2 | Ragamuffin (FU14)
+ 3 | Himalayan (FU11)
+
+Pattern (PA) - Genes 4-7:
+ 4 | Luckystripe (PA09)
+ 5 | Luckystripe (PA09)
+ 6 | Calicool (PA08)
+ 7 | Luckystripe (PA09)
+
+Eye Color (EC) - Genes 8-11:
+ 8 | Mintgreen (EC03)
+ 9 | Sizzurp (EC05)
+10 | Sizzurp (EC05)
+11 | Chestnut (EC06)
+
+Eye Shape (ES) - Genes 12-15:
+12 | Crazy (ES06)
+13 | Simple (ES05)
+14 | Simple (ES05)
+15 | Simple (ES05)
+
+Base Color (BC) - Genes 16-19:
+16 | Shadowgrey (BC00)
+17 | Orangesoda (BC03)
+18 | Orangesoda (BC03)
+19 | Salmon (BC01)
+
+Highlight Color (HC) - Genes 20-23:
+20 | Swampgreen (HC08)
+21 | Royalpurple (HC06)
+22 | Swampgreen (HC08)
+23 | Lemonade (HC13)
+
+Accent Color (AC) - Genes 24-27:
+24 | Granitegrey (AC04)
+25 | Granitegrey (AC04)
+26 | Kittencream (AC06)
+27 | Kittencream (AC06)
+
+Wild Element (WE) - Genes 28-31:
+28 | ∅ (WE00)
+29 | ∅ (WE05)
+30 | ∅ (WE05)
+31 | ∅ (WE00)
+
+Mouth (MO) - Genes 32-35:
+32 | Happygokitty (MO14)
+33 | Happygokitty (MO14)
+34 | Soserious (MO15)
+35 | Pouty (MO09)
+
+Environment (EN) - Genes 36-39:
+36 | ∅ (EN01)
+37 | ∅ (EN14)
+38 | ∅ (EN01)
+39 | ∅ (EN01)
+
+Secret Y Gene (SE) - Genes 40-43:
+40 | ∅ (SE04)
+41 | ∅ (SE07)
+42 | ∅ (SE07)
+43 | ∅ (SE06)
+
+Purrstige (PU) - Genes 44-47:
+44 | ∅ (PU09)
+45 | ∅ (PU09)
+46 | ∅ (PU09)
+47 | ∅ (PU09)
+```
+
+
+Tip: See the chapter 2 in the
+"[Programming Crypto Collectibles Step-by-Step Book / Guide. Let's start with CryptoKitties & Copycats. Inside Unique Bits & Bytes on the Blockchain...](https://github.com/openblockchains/programming-cryptocollectibles/blob/master/02_genereader.md)"
+for how to create your own gene reader from scratch.
+
+
+
+
+
 ## Real World Usage
 
 ### Reference Pages / Cheat Sheets
