@@ -3,14 +3,14 @@
 Genes (256-Bit Integer Number):
 - Base 10 (Decimal): 512955438081049600613224346938352058409509756310147795204209859701881294
 - Base 2 (Binary): 01001-01001-01001-01001 00110-00111-00111-00100 00001-00001-01110-00001 01001-01111-01110-01110 00000-00101-00101-00000 00110-00110-00100-00100 01101-01000-00110-01000 00001-00011-00011-00000 00101-00101-00101-00110 00110-00101-00101-00011 01001-01000-01001-01001 01011-01110-01110-01110
-- Base 2⁵ = 32  
+- Base 2⁵ = 32
   - (Kai):   aaaa 7885 22f2 agff 1661 7755 e979 2441 6667 7664 a9aa cfff
   - (Codes): 09-09-09-09 06-07-07-04 01-01-14-01 09-15-14-14 00-05-05-00 06-06-04-04 13-08-06-08 01-03-03-00 05-05-05-06 06-05-05-03 09-08-09-09 11-14-14-14
 
 
 Fur (FU) - Genes 0-3
 
-|Gene  |Binary   |Kai  |Code | Name    |   |
+|Gene  |Binary   |Kai  |Code | Name     |   |
 |------|---------|-----|-----|----------|---|
 | 0 | 01110 | f | FU14 |**Ragamuffin** | d |
 | 1 | 01110 | f | FU14 |Ragamuffin | r1 |
@@ -21,7 +21,7 @@ d = dominant, r1 = 1st order recessive, r2 = 2nd order recessive, r3 = 3rd order
 
 Pattern (PA) - Genes 4-7
 
-|Gene  |Binary   |Kai  |Code | Name    |   |
+|Gene  |Binary   |Kai  |Code | Name     |   |
 |------|---------|-----|-----|----------|---|
 | 4 | 01001 | a | PA09 |**Luckystripe** | d |
 | 5 | 01001 | a | PA09 |Luckystripe | r1 |
@@ -30,7 +30,7 @@ Pattern (PA) - Genes 4-7
 
 Eye Color (EC) - Genes 8-11
 
-|Gene  |Binary   |Kai  |Code | Name    |   |
+|Gene  |Binary   |Kai  |Code | Name     |   |
 |------|---------|-----|-----|----------|---|
 | 8 | 00011 | 4 | EC03 |**Mintgreen** | d |
 | 9 | 00101 | 6 | EC05 |Sizzurp | r1 |
@@ -39,7 +39,7 @@ Eye Color (EC) - Genes 8-11
 
 Eye Shape (ES) - Genes 12-15
 
-|Gene  |Binary   |Kai  |Code | Name    |   |
+|Gene  |Binary   |Kai  |Code | Name     |   |
 |------|---------|-----|-----|----------|---|
 | 12 | 00110 | 7 | ES06 |**Crazy** | d |
 | 13 | 00101 | 6 | ES05 |Simple | r1 |
@@ -48,7 +48,7 @@ Eye Shape (ES) - Genes 12-15
 
 Base Color (BC) - Genes 16-19
 
-|Gene  |Binary   |Kai  |Code | Name    |   |
+|Gene  |Binary   |Kai  |Code | Name     |   |
 |------|---------|-----|-----|----------|---|
 | 16 | 00000 | 1 | BC00 |**Shadowgrey** | d |
 | 17 | 00011 | 4 | BC03 |Orangesoda | r1 |
@@ -57,7 +57,7 @@ Base Color (BC) - Genes 16-19
 
 Highlight Color (HC) - Genes 20-23
 
-|Gene  |Binary   |Kai  |Code | Name    |   |
+|Gene  |Binary   |Kai  |Code | Name     |   |
 |------|---------|-----|-----|----------|---|
 | 20 | 01000 | 9 | HC08 |**Swampgreen** | d |
 | 21 | 00110 | 7 | HC06 |Royalpurple | r1 |
@@ -66,7 +66,7 @@ Highlight Color (HC) - Genes 20-23
 
 Accent Color (AC) - Genes 24-27
 
-|Gene  |Binary   |Kai  |Code | Name    |   |
+|Gene  |Binary   |Kai  |Code | Name     |   |
 |------|---------|-----|-----|----------|---|
 | 24 | 00100 | 5 | AC04 |**Granitegrey** | d |
 | 25 | 00100 | 5 | AC04 |Granitegrey | r1 |
@@ -75,7 +75,7 @@ Accent Color (AC) - Genes 24-27
 
 Wild Element (WE) - Genes 28-31
 
-|Gene  |Binary   |Kai  |Code | Name    |   |
+|Gene  |Binary   |Kai  |Code | Name     |   |
 |------|---------|-----|-----|----------|---|
 | 28 | 00000 | 1 | WE00 |**∅** | d |
 | 29 | 00101 | 6 | WE05 |∅ | r1 |
@@ -84,7 +84,7 @@ Wild Element (WE) - Genes 28-31
 
 Mouth (MO) - Genes 32-35
 
-|Gene  |Binary   |Kai  |Code | Name    |   |
+|Gene  |Binary   |Kai  |Code | Name     |   |
 |------|---------|-----|-----|----------|---|
 | 32 | 01110 | f | MO14 |**Happygokitty** | d |
 | 33 | 01110 | f | MO14 |Happygokitty | r1 |
@@ -93,7 +93,7 @@ Mouth (MO) - Genes 32-35
 
 Environment (EN) - Genes 36-39
 
-|Gene  |Binary   |Kai  |Code | Name    |   |
+|Gene  |Binary   |Kai  |Code | Name     |   |
 |------|---------|-----|-----|----------|---|
 | 36 | 00001 | 2 | EN01 |**∅** | d |
 | 37 | 01110 | f | EN14 |∅ | r1 |
@@ -102,7 +102,7 @@ Environment (EN) - Genes 36-39
 
 Secret Y Gene (SE) - Genes 40-43
 
-|Gene  |Binary   |Kai  |Code | Name    |   |
+|Gene  |Binary   |Kai  |Code | Name     |   |
 |------|---------|-----|-----|----------|---|
 | 40 | 00100 | 5 | SE04 |**∅** | d |
 | 41 | 00111 | 8 | SE07 |∅ | r1 |
@@ -111,7 +111,7 @@ Secret Y Gene (SE) - Genes 40-43
 
 Purrstige (PU) - Genes 44-47
 
-|Gene  |Binary   |Kai  |Code | Name    |   |
+|Gene  |Binary   |Kai  |Code | Name     |   |
 |------|---------|-----|-----|----------|---|
 | 44 | 01001 | a | PU09 |**∅** | d |
 | 45 | 01001 | a | PU09 |∅ | r1 |

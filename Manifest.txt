@@ -9,6 +9,8 @@ lib/kittyverse/api/versions.rb
 lib/kittyverse/cattributes.rb
 lib/kittyverse/config/colors.rb
 lib/kittyverse/config/fancies.rb
+lib/kittyverse/gene.rb
+lib/kittyverse/genome.rb
 lib/kittyverse/config/purrstiges.rb
 lib/kittyverse/config/traits.rb
 lib/kittyverse/config/traits_timeline.rb
