@@ -6,10 +6,19 @@
 see <https://updates.cryptokitties.co>
 
 
-## Purrstige Cattributes (29)
+## Purrstige Cattributes (30)
 
 _Special traits for a limited time only bred through a recipe._
 
+[**Werekitty**](#werekitty) (438)
+[**Oohshiny**](#oohshiny) (2484)
+[**Reindeer**](#reindeer) (854)
+[**Holidaycheer**](#holidaycheer) (759)
+[**Lit**](#lit) (1006)
+[**Thatsawrap**](#thatsawrap) (615)
+[**Duckduckcat**](#duckduckcat) (1249)
+[**Prune**](#prune) (921)
+[**Furball**](#furball) (998)
 [**Bionic**](#bionic) (![](https://cryptocopycats.github.io/media/icons/18x18/unlocked.png)?/Till: Aug 31 2019)
 [**Fileshare**](#fileshare) (![](https://cryptocopycats.github.io/media/icons/18x18/unlocked.png)?/Till: Aug 31 2019)
 [**Pawsfree**](#pawsfree) (![](https://cryptocopycats.github.io/media/icons/18x18/unlocked.png)?/Till: Aug 31 2019)
@@ -24,7 +33,6 @@ _Special traits for a limited time only bred through a recipe._
 [**Purrbados**](#purrbados) (1344)
 [**Timbers**](#timbers) (472)
 [**Maraud**](#maraud) (620)
-[**Oohshiny**](#oohshiny) (2484)
 [**Dreamcloud**](#dreamcloud) (1246)
 [**Alpunka**](#alpunka) (926)
 [**Cindylou**](#cindylou) (905)
@@ -32,16 +40,120 @@ _Special traits for a limited time only bred through a recipe._
 [**Beatlesque**](#beatlesque) (783)
 [**Huacool**](#huacool) (837)
 [**Inaband**](#inaband) (1048)
-[**Reindeer**](#reindeer) (854)
-[**Holidaycheer**](#holidaycheer) (759)
-[**Lit**](#lit) (1006)
-[**Thatsawrap**](#thatsawrap) (615)
-[**Duckduckcat**](#duckduckcat) (1249)
-[**Prune**](#prune) (921)
-[**Furball**](#furball) (998)
 
 
 
+
+
+
+
+## 2019
+
+### June
+
+Jun 28, 2019 (583d)
+
+
+<a name="werekitty">
+
+[**Werekitty**](https://www.cryptokitties.co/search?include=sale,sire,other&search=werekitty)  (438), Jun 28 - Jul 27 2019 (30d),  **4** traits:
+- **Moonrise** IIII (PA30) - Pattern
+- **Littlefoot** I (WE16) - Wild Element
+- **PU24** II  - Purrstige
+- **EN00**  , **EN01**  , **EN02**  , **EN03**  , **EN04**  , **EN05**  , **EN06**  , **EN07**  , **EN08**  , **EN09**  , **EN10**  , **EN11**  , **EN12**  , **EN13**  , **EN14**  , **EN15**   - Environment
+
+
+
+### March
+
+Mar 15, 2019 (478d)
+
+
+<a name="oohshiny">
+
+[**Oohshiny**](https://www.cryptokitties.co/search?include=sale,sire,other&search=oohshiny)  (2484), Mar 15 - Mar 28 2019 (14d),  **2** traits:
+- **Roadtogold** II (EN26) - Environment
+- **PU27** II  - Purrstige
+
+
+
+
+## 2018
+
+### December
+
+Dec 14, 2018 (387d)
+
+
+<a name="reindeer">
+
+[**Reindeer**](https://www.cryptokitties.co/search?include=sale,sire,other&search=reindeer)  (854), Dec 14 2018 - Jan 7 2019 (25d),  **2** traits:
+- **Elk** I (WE17) - Wild Element
+- **PU24** II , **PU25** II , **PU26** II , **PU27** II  - Purrstige
+
+
+
+<a name="holidaycheer">
+
+[**Holidaycheer**](https://www.cryptokitties.co/search?include=sale,sire,other&search=holidaycheer)  (759), Dec 14 2018 - Jan 7 2019 (25d),  **2** traits:
+- **Elk** I (WE17) - Wild Element
+- **PU28** III , **PU29** III  - Purrstige
+
+
+
+<a name="lit">
+
+[**Lit**](https://www.cryptokitties.co/search?include=sale,sire,other&search=lit)  (1006), Dec 14 2018 - Jan 7 2019 (25d),  **2** traits:
+- **Elk** I (WE17) - Wild Element
+- **PU30** IIII  - Purrstige
+
+
+
+### October
+
+Oct 20, 2018 (332d)
+
+
+<a name="thatsawrap">
+
+[**Thatsawrap**](https://www.cryptokitties.co/search?include=sale,sire,other&search=thatsawrap)  (615), Oct 20 - Nov 6 2018 (18d),  **3** traits:
+- **Bobtail**  (FU05) - Fur
+- **WE00**   - Wild Element
+- **PU28** III  - Purrstige
+
+
+
+<a name="duckduckcat">
+
+[**Duckduckcat**](https://www.cryptokitties.co/search?include=sale,sire,other&search=duckduckcat)  (1249), Oct 20 - Nov 15 2018 (27d),  **2** traits:
+- **Neckbeard** II (MO26) - Mouth
+- **PU24** II , **PU25** II , **PU26** II  - Purrstige
+
+
+
+### September
+
+Sep 18, 2018 (300d)
+
+
+<a name="prune">
+
+[**Prune**](https://www.cryptokitties.co/search?include=sale,sire,other&search=prune)  (921), Sep 18 - Sep 30 2018 (13d),  **3** traits:
+- **Norwegianforest** I (FU16) - Fur
+- **Totesbasic 1**  (PA14), **Totesbasic 2**  (PA15), **Totesbasic 3** I (PA23) - Pattern
+- **PU25** II  - Purrstige
+
+
+
+Sep 19, 2018 (301d)
+
+
+<a name="furball">
+
+[**Furball**](https://www.cryptokitties.co/search?include=sale,sire,other&search=furball)  (998), Sep 19 - Sep 30 2018 (12d),  **3** traits:
+- **Norwegianforest** I (FU16) - Fur
+- **Totesbasic 1**  (PA14), **Totesbasic 2**  (PA15), **Totesbasic 3** I (PA23) - Pattern
+- **PU26** II  - Purrstige
 
 
 
@@ -186,19 +298,6 @@ Apr 13, 2019 (507d)
 
 
 
-### March
-
-Mar 15, 2019 (478d)
-
-
-<a name="oohshiny">
-
-[**Oohshiny**](https://www.cryptokitties.co/search?include=sale,sire,other&search=oohshiny)  (2484), Mar 15 - Mar 28 2019 (14d),  **2** traits:
-- **Roadtogold** II (EN26) - Environment
-- **PU27** II  - Purrstige
-
-
-
 ### February
 
 Feb 22, 2019 (457d)
@@ -263,86 +362,6 @@ Feb 22, 2019 (457d)
 [**Inaband**](https://www.cryptokitties.co/search?include=sale,sire,other&search=inaband)  (1048), Feb 22 - Mar 25 2019 (32d),  **3** traits:
 - **Munchkin**  (FU12) - Fur
 - **WE10**   - Wild Element
-- **PU26** II  - Purrstige
-
-
-
-
-## 2018
-
-### December
-
-Dec 14, 2018 (387d)
-
-
-<a name="reindeer">
-
-[**Reindeer**](https://www.cryptokitties.co/search?include=sale,sire,other&search=reindeer)  (854), Dec 14 2018 - Jan 7 2019 (25d),  **2** traits:
-- **Elk** I (WE17) - Wild Element
-- **PU24** II , **PU25** II , **PU26** II , **PU27** II  - Purrstige
-
-
-
-<a name="holidaycheer">
-
-[**Holidaycheer**](https://www.cryptokitties.co/search?include=sale,sire,other&search=holidaycheer)  (759), Dec 14 2018 - Jan 7 2019 (25d),  **2** traits:
-- **Elk** I (WE17) - Wild Element
-- **PU28** III , **PU29** III  - Purrstige
-
-
-
-<a name="lit">
-
-[**Lit**](https://www.cryptokitties.co/search?include=sale,sire,other&search=lit)  (1006), Dec 14 2018 - Jan 7 2019 (25d),  **2** traits:
-- **Elk** I (WE17) - Wild Element
-- **PU30** IIII  - Purrstige
-
-
-
-### October
-
-Oct 20, 2018 (332d)
-
-
-<a name="thatsawrap">
-
-[**Thatsawrap**](https://www.cryptokitties.co/search?include=sale,sire,other&search=thatsawrap)  (615), Oct 20 - Nov 6 2018 (18d),  **3** traits:
-- **Bobtail**  (FU05) - Fur
-- **WE00**   - Wild Element
-- **PU28** III  - Purrstige
-
-
-
-<a name="duckduckcat">
-
-[**Duckduckcat**](https://www.cryptokitties.co/search?include=sale,sire,other&search=duckduckcat)  (1249), Oct 20 - Nov 15 2018 (27d),  **2** traits:
-- **Neckbeard** II (MO26) - Mouth
-- **PU24** II , **PU25** II , **PU26** II  - Purrstige
-
-
-
-### September
-
-Sep 18, 2018 (300d)
-
-
-<a name="prune">
-
-[**Prune**](https://www.cryptokitties.co/search?include=sale,sire,other&search=prune)  (921), Sep 18 - Sep 30 2018 (13d),  **3** traits:
-- **Norwegianforest** I (FU16) - Fur
-- **Totesbasic 1**  (PA14), **Totesbasic 2**  (PA15), **Totesbasic 3** I (PA23) - Pattern
-- **PU25** II  - Purrstige
-
-
-
-Sep 19, 2018 (301d)
-
-
-<a name="furball">
-
-[**Furball**](https://www.cryptokitties.co/search?include=sale,sire,other&search=furball)  (998), Sep 19 - Sep 30 2018 (12d),  **3** traits:
-- **Norwegianforest** I (FU16) - Fur
-- **Totesbasic 1**  (PA14), **Totesbasic 2**  (PA15), **Totesbasic 3** I (PA23) - Pattern
 - **PU26** II  - Purrstige
 
 

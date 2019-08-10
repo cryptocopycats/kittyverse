@@ -36,6 +36,22 @@ def test_bugcat_v2
   end
 end
 
+def test_djmeowlody
+  [ Fancy[ 'DJ Meowlody' ],
+    Fancy[ :djmeowlody ]
+  ].each do |fancy|
+    assert_equal 'DJ Meowlody', fancy.name
+    assert_equal :djmeowlody,   fancy.key
+    assert                      fancy.exclusive? == false
+    assert                      fancy.specialedition? == false
+    assert                      fancy.special_edition? == false
+
+    assert                      fancy.time?
+    assert                      fancy.recipe?
+    assert                      fancy.recipe.time?
+    assert 4,                   fancy.recipe.traits.size  # ['happygokitty', 'ragdoll', 'tigerpunk', 'oceanid']
+  end
+end
 
 def test_curdlin
   fancy = Fancy[ 'Curdlin' ]

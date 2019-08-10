@@ -151,26 +151,29 @@ EXCLUSIVES = {
                              exclusive: {
                                limit: 1, ids: [127] }
                            },
-  
+
+=begin
  ## May 7, 2018
  ## old retired (failed) exclusive with Warriors' Steph Curry (NBA Superstar) Basketball Celebrity Promotion
-  
+
 '#30furry': { name: '#30 Furry', date: '2018-05-07',  ## todo/fix: url-escape name '#30furry' for picture
               exclusive: {
                 limit: 1, ids: [330] },
               desc: 'Steph Curry (NBA Superstar) Basketball Celebrity Promotion Cat'
             },
- cheffurry: {  name: 'Chef Furry', date: '2018-05-07', 
+ cheffurry: {  name: 'Chef Furry', date: '2018-05-07',
                exclusive: {
                  limit: 1, ids: [130] },
                desc: 'Steph Curry (NBA Superstar) Basketball Celebrity Promotion Cat'
              },
-  stephfurthree: { name: 'Steph Fur Three',  date: '2018-05-07', 
+  stephfurthree: { name: 'Steph Fur Three',  date: '2018-05-07',
                    exclusive: {
                      limit: 1, ids: [230] },
                    desc: 'Steph Curry (NBA Superstar) Basketball Celebrity Promotion Cat'
                  },
- 
+=end
+
+
   goldendragoncat: { name: 'Golden Dragon Cat', name_cn: '帝龙喵', date: '2018-03-08',
                      exclusive: {
                        limit: 1, ids: [888] },
@@ -205,7 +208,7 @@ EXCLUSIVES = {
 
 RECIPES = {
   # Aug 3, 2019 - DJ Meowlody Fancy Cat is discovered
-  djmeowlody: { name: 'DJ Meowlody'
+  djmeowlody: { name: 'DJ Meowlody',
                 recipe: {
                    time: { start: '2019-08-03', end: '2019-11-30' }, count: 155,
                    traits: ['happygokitty', 'ragdoll', 'tigerpunk', 'oceanid'] },
@@ -252,7 +255,7 @@ RECIPES = {
                 time: { start: '2019-05-25', end: '2019-05-31' }, count: 861,
                 traits: ['onyx', 'henna', 'wolfgrey', 'sully', 'candyshoppe' ] },
               desc: 'Ninja Fancy Cat' },
-  
+
   # May 11, 2019 - Curdlin Fancy Cat is discovered
   curdlin: { name: 'Curdlin',
                 recipe: {
@@ -261,7 +264,7 @@ RECIPES = {
                 desc: 'Cheeze Wizard Cat - Celebrating the Launch of the Cheeze Wizards on the Blockchain'
                 ## see https://www.cryptokitties.co/blog/post/things-are-getting-cheezy-in-cryptokitties
              },
- 
+
   # Apr 27, 2019 - Krakitten Fancy Cat is discovered
   krakitten: { name: 'Krakitten',
                recipe: {
