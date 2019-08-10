@@ -7,6 +7,13 @@
 #
 #  or see
 #      https://blog.kotobaza.co/timeline/
+#
+#  or see
+#      https://kittyhelper.co/price-floor/exclusive/
+#      https://kittyhelper.co/price-floor/specialedition/
+#      https://kittyhelper.co/price-floor/fancy/
+
+
 
 
 ##
@@ -177,24 +184,72 @@ EXCLUSIVES = {
 
 
 RECIPES = {
-  'curdlin': { name: 'Curdlin',
+  # Aug 3, 2019 - DJ Meowlody Fancy Cat is discovered
+  djmeowlody: { name: 'DJ Meowlody'
+                recipe: {
+                   time: { start: '2019-08-03', end: '2019-11-30' }, count: 155,
+                   traits: ['happygokitty', 'ragdoll', 'tigerpunk', 'oceanid'] },
+              },
+
+  # Jul 22, 2019 - Poison Orchid Fancy Cat is discovered
+  poisonorchid: { name: 'Poison Orchid', date: '2019-07-22',
+                  recipe: {
+                    limit: 499,
+                    traits: ['burmilla', 'henna', 'drama', 'onyx', 'wolfgrey', 'dreamboat', 'SE29'] },
+                  desc: 'Ninja Fancy Cat' },
+
+  # Jul 18, 2019 - Catyrax Fancy Cat is discovered
+  catyrax: { name: 'Catyrax', date: '2019-07-18',
+             recipe: {
+                limit: 500,
+                traits: ['lykoi', 'henna', 'bornwithit', 'onyx', 'wolfgrey', 'fallspice', 'SE28'] },
+             desc: 'Fish-Flinging Ninja Fancy Cat' },
+
+  # Jul 6, 2019 - Catamari Fancy Cat is discovered
+  catamari: { name: 'Catamari',
+              recipe: {
+                time: { start: '2019-07-06', end: '2019-07-19' }, count: 378,
+                traits: ['moonrise', 'cobalt', 'ducky', 'salty'] },
+              desc: 'Monster Fancy Cat' },
+
+  # Jun 22, 2019 - Magmeow Fancy Cat is discovered
+  magmeow: { name: 'Magmeow',
+             recipe: {
+               time: { start: '2019-06-23', end: '2019-06-26' }, count: 736,
+               traits: ['liger', 'moonrise', 'redvelvet', 'dragontail' ] },
+              desc: 'Multi-Limbed Magma Monster Fancy Cat' },
+
+  # Jun 8, 2019 - Kitijira Fancy Cat is discovered
+  kitijira: { name: 'Kitijira',
+              recipe: {
+                time: { start: '2019-06-08', end: '2019-06-21' }, count: 645,
+                traits: ['mainecoon', 'moonrise', 'atlantis', 'universe', 'dragontail'] },
+              desc: 'City-Smashing Lizard Monster Fancy Cat' },
+
+  # May 25, 2019 - The Whisper Fancy Cat is discovered
+  whisper:  { name: 'Whisper',
+              recipe: {
+                time: { start: '2019-05-25', end: '2019-05-31' }, count: 861,
+                traits: ['onyx', 'henna', 'wolfgrey', 'sully', 'candyshoppe' ] },
+              desc: 'Ninja Fancy Cat' },
+  
+  # May 11, 2019 - Curdlin Fancy Cat is discovered
+  curdlin: { name: 'Curdlin',
                 recipe: {
                   time: { start: '2019-05-11', end: '2019-11-30' }, count: 4,
                   traits: ['nachocheez', 'saycheese', 'missmuffett', 'dippedcone']},
                 desc: 'Cheeze Wizard Cat - Celebrating the Launch of the Cheeze Wizards on the Blockchain'
                 ## see https://www.cryptokitties.co/blog/post/things-are-getting-cheezy-in-cryptokitties
              },
-  ##
-  # Apr 27, 2019
-  # Krakitten Fancy Cat is discovered. Fancy Cat
+ 
+  # Apr 27, 2019 - Krakitten Fancy Cat is discovered
   krakitten: { name: 'Krakitten',
                recipe: {
                  time: { start: '2019-04-27', end: '2019-05-06' }, count: 1221,
                  traits: ['cobalt', 'ducky', 'salty', 'splat']},
                  ## desc: 'Beware the Krakitten in the briny deep.'
              },
-  # Apr 13, 2019
-  # Furbeard Fancy Cat is discovered. Fancy Cat
+  # Apr 13, 2019 - Furbeard Fancy Cat is discovered
   furbeard: { name: 'Furbeard',
               recipe: {
                 time: { start: '2019-04-13', end: '2019-04-26'}, count: 3733,
