@@ -151,6 +151,26 @@ EXCLUSIVES = {
                              exclusive: {
                                limit: 1, ids: [127] }
                            },
+  
+ ## May 7, 2018
+ ## old retired (failed) exclusive with Warriors' Steph Curry (NBA Superstar) Basketball Celebrity Promotion
+  
+'#30furry': { name: '#30 Furry', date: '2018-05-07',  ## todo/fix: url-escape name '#30furry' for picture
+              exclusive: {
+                limit: 1, ids: [330] },
+              desc: 'Steph Curry (NBA Superstar) Basketball Celebrity Promotion Cat'
+            },
+ cheffurry: {  name: 'Chef Furry', date: '2018-05-07', 
+               exclusive: {
+                 limit: 1, ids: [130] },
+               desc: 'Steph Curry (NBA Superstar) Basketball Celebrity Promotion Cat'
+             },
+  stephfurthree: { name: 'StephFurThree',  date: '2018-05-07', 
+                   exclusive: {
+                     limit: 1, ids: [230] },
+                   desc: 'Steph Curry (NBA Superstar) Basketball Celebrity Promotion Cat'
+                 },
+ 
   goldendragoncat: { name: 'Golden Dragon Cat', name_cn: '帝龙喵', date: '2018-03-08',
                      exclusive: {
                        limit: 1, ids: [888] },
