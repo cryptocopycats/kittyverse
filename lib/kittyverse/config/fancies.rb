@@ -165,7 +165,7 @@ EXCLUSIVES = {
                  limit: 1, ids: [130] },
                desc: 'Steph Curry (NBA Superstar) Basketball Celebrity Promotion Cat'
              },
-  stephfurthree: { name: 'StephFurThree',  date: '2018-05-07', 
+  stephfurthree: { name: 'Steph Fur Three',  date: '2018-05-07', 
                    exclusive: {
                      limit: 1, ids: [230] },
                    desc: 'Steph Curry (NBA Superstar) Basketball Celebrity Promotion Cat'
