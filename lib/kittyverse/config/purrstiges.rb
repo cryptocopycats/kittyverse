@@ -156,6 +156,16 @@ inaband: { name: 'Inaband',
 
 PRESTIGES = PURRSTIGES =
 {
+
+# Jun 28, 2019 -  Werekitty trait is discovered. Purrstige
+werekitty: { name: 'Werekitty',
+             recipe: {
+               time: { start: '2019-06-28', end: '2019-07-27' }, count: 438,
+               traits: ['moonrise', 'littlefoot', 'PU24',
+                        ['EN00','EN01','EN02','EN03','EN04','EN05','EN06','EN07','EN08','EN09','EN10','EN11','EN12','EN13','EN14','EN15']] },  #  Any non-visible Env (EN00-EN15)
+               desc: 'Monster Month Purrstige Trait'
+            },
+                    
 ##
 # Mar 15, 2019
 # Oohshiny trait is discovered. Purrstige
