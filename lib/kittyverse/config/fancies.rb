@@ -59,7 +59,7 @@ SPECIAL_EDITIONS = {
                   },
   lilbub:      { name: 'Lil Bub Ub Bub (BUB)', date: '2018-11-13',
                  specialedition: {
-                   limit: 468 }
+                   limit: 500 }
                },
 }
 
@@ -113,7 +113,7 @@ EXCLUSIVES = {
   bugcatv2:             { name: 'Bug Cat V2', date: '2018-11-27',
                           exclusive: {
                             limit: 20, ids: (167..186).to_a },
-                          desc: 'Bug Bounty II (Offers Contract) Kitty'
+                          desc: 'Bug Bounty II (Offers Contract etc) Kitty'
                         },
   lilbubthemagicalspacecat: { name: 'Lil Bub Ub Bub (BUB) The Magical Space Cat', date: '2018-11-13',
                               exclusive: {
