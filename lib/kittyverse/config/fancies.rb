@@ -207,6 +207,57 @@ EXCLUSIVES = {
 
 
 RECIPES = {
+ 
+ 
+pepito: { name: 'Pepito',
+          recipe: {
+             time: { start: '2020-01-01', end: '2020-01-07' }, count: 443,
+             traits: ['ragdoll', 'simple', 'meowgarine', 'junglebook'] },
+        },
+
+
+chitten: { name: 'Chitten',   ## todo/check: was time-limited?
+          recipe: {
+             time: { start: '2019-12-21', end: '?' }, count: 829,
+             traits: ['burmilla', 'calicool', 'hotcocoa', 'tongue'] },
+        },
+
+puuurot: { name: 'Puuurot',   ## todo/check: was time-limited?
+          recipe: {
+             time: { start: '2019-12-07', end: '?' }, count: 650,
+             traits: ['chantilly', 'firstblush', 'skyblue', 'tinybox'] },
+        },
+
+shoopadoop: { name: 'Shoopadoop',   ## todo/check: was time-limited?
+          recipe: {
+             time: { start: '2019-11-23', end: '?' }, count: 1269,
+             traits: ['martian', 'wyrm', 'SE03'] },
+        },
+
+bartholomeow: { name: 'Bartholomeow', date: '2019-11-12',  # Page's Warriors series
+                recipe: {
+                  limit: 10_000, count: 1269,
+                },   ## add shiny-enabled?  see https://www.cryptokitties.co/blog/post/ooooooh-shiny
+                traits: ['burmilla', 'thunderstruck', 'salmon', 'flamingo', 'rosequartz', 'wasntme'] },
+        },
+
+gwendolion: { name: 'Gwendolion', date: '2019-11-10',   # Page's Warriors series - starter fancy
+                recipe: {
+                  limit: 50_000, count: 297,
+                },
+                traits: ['burmilla', 'salmon', 'icy'] },
+        },
+
+catseye: { name: 'Catseye', date: '2019-11-09',
+                recipe: {
+                  limit: 30_000, count: 196,
+                },
+                traits: ['burmilla', 'rascal', 'salmon', 'flamingo'] },
+        },
+  
+  
+  ### to be continued
+  
   # Aug 3, 2019 - DJ Meowlody Fancy Cat is discovered
   djmeowlody: { name: 'DJ Meowlody',
                 recipe: {
