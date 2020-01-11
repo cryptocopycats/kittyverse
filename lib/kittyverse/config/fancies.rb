@@ -222,7 +222,7 @@ chitten: { name: 'Chitten',   ## todo/check: was time-limited?
              traits: ['burmilla', 'calicool', 'hotcocoa', 'tongue'] },
         },
 
-puuurot: { name: 'Puuurot',   ## todo/check: was time-limited?
+puuurrot: { name: 'Puuurrot',   ## todo/check: was time-limited?
           recipe: {
              time: { start: '2019-12-07', end: '?' }, count: 650,
              traits: ['chantilly', 'firstblush', 'skyblue', 'tinybox'] },
@@ -284,7 +284,7 @@ jack: { name: 'Jack',   ## todo/check: was time-limited?
         },
 
 # Sep 14, 2019 - Pawderick the Lancer Fancy Cat is discovered
-pawderick: { name: 'Pawderick',  date: '2019-09-14',  ## todo/check: was time-limited too?
+pawderick: { name: 'Pawderick the Lancer',  date: '2019-09-14',  ## todo/check: was time-limited too?
           recipe: {
              limit: 50_000, count: 665,
              traits: ['ganado', 'rosequartz', 'wasntme'] },
@@ -298,7 +298,7 @@ robin: { name: 'Robin',   ## todo/check: was time-limited?
         },
 
 # Aug 17, 2019 - Kitty Formerly Known as Prince Fancy Cat is discovered
-kittyformerlyknownasprince: { name: 'KittyFormerlyKnownAsPrince',   ## todo/check: was time-limited?
+kittyformerlyknownasprince: { name: 'Kitty Formerly Known As Prince',   ## todo/check: was time-limited?
           recipe: {
              time: { start: '2019-08-17', end: '?' }, count: 503,
              traits: ['leopard', 'tendertears', 'royalblue', 'pouty'] },
