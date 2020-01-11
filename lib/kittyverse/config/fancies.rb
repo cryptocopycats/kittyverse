@@ -254,10 +254,56 @@ catseye: { name: 'Catseye', date: '2019-11-09',
                 },
                 traits: ['burmilla', 'rascal', 'salmon', 'flamingo'] },
         },
-  
-  
-  ### to be continued
-  
+
+# Oct 26, 2019 - Skeletonne Fancy Cat is discovered
+skeletonne: { name: 'Skeletonne',   ## todo/check: was time-limited?
+          recipe: {
+             time: { start: '2019-10-26', end: '?' }, count: 752,
+             traits: ['sphynx', 'scorpius', 'dreamboat', 'satiated'] },
+        },
+
+# Oct 12, 2019 - Furmione Fancy Cat is discovered
+furmione: { name: 'Furmione',   ## todo/check: was time-limited?
+          recipe: {
+             time: { start: '2019-10-12', end: '?' }, count: 832,
+             traits: ['spangled', 'firstblush', ['poisonberry', 'mallowflower']] },
+        },
+
+# Sep 20, 2019 - Purrzival Fancy Cat is discovered
+purrzival: { name: 'Purrzival',  date: '2019-09-20',  ## todo/check: was time-limited too?
+          recipe: {
+             limit: 30_000, count: 316,
+             traits: ['thunderstruck', 'rosequartz', 'peach', 'wasntme'] },
+        },
+
+# Sep 28, 2019 - Jack Fancy Cat is discovered
+jack: { name: 'Jack',   ## todo/check: was time-limited?
+          recipe: {
+             time: { start: '2019-09-28', end: '?' }, count: 721,
+             traits: ['savannah', 'shadowgrey', 'granitegrey', 'jacked'] },
+        },
+
+# Sep 14, 2019 - Pawderick the Lancer Fancy Cat is discovered
+pawderick: { name: 'Pawderick',  date: '2019-09-14',  ## todo/check: was time-limited too?
+          recipe: {
+             limit: 50_000, count: 665,
+             traits: ['ganado', 'rosequartz', 'wasntme'] },
+        },
+
+# Aug 31, 2019 - Robin Fancy Cat is discovered
+robin: { name: 'Robin',   ## todo/check: was time-limited?
+          recipe: {
+             time: { start: '2019-08-31', end: '?' }, count: 1837,
+             traits: ['stunned', 'meowgarine', 'kittencream', 'fetherbrain'] },
+        },
+
+# Aug 17, 2019 - Kitty Formerly Known as Prince Fancy Cat is discovered
+kittyformerlyknownasprince: { name: 'KittyFormerlyKnownAsPrince',   ## todo/check: was time-limited?
+          recipe: {
+             time: { start: '2019-08-17', end: '?' }, count: 503,
+             traits: ['leopard', 'tendertears', 'royalblue', 'pouty'] },
+        },
+ 
   # Aug 3, 2019 - DJ Meowlody Fancy Cat is discovered
   djmeowlody: { name: 'DJ Meowlody',
                 recipe: {
