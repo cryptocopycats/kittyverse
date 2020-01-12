@@ -112,7 +112,7 @@ class Cattribute
               traits:     h[:recipe][:traits],      ## todo/fix: turn strings into trait objs!!!!
               limit:      h[:recipe][:limit],
               time_start: h[:recipe][:time] && h[:recipe][:time][:start] ? Date.strptime( h[:recipe][:time][:start], '%Y-%m-%d' ) : nil,
-              time_end:   h[:recipe][:time] && h[:recipe][:time][:end]   ? Date.strptime( h[:recipe][:time][:end],   '%Y-%m-%d' ) : nil )
+              time_end:   h[:recipe][:time] && h[:recipe][:time][:end] && h[:recipe][:time][:end] != '?'  ? Date.strptime( h[:recipe][:time][:end],   '%Y-%m-%d' ) : nil )
 
     cattribute = Cattribute.new(
                      key:    key,

@@ -237,23 +237,20 @@ shoopadoop: { name: 'Shoopadoop',   ## todo/check: was time-limited?
 bartholomeow: { name: 'Bartholomeow', date: '2019-11-12',  # Page's Warriors series
                 recipe: {
                   limit: 10_000, count: 1269,
-                },   ## add shiny-enabled?  see https://www.cryptokitties.co/blog/post/ooooooh-shiny
-                traits: ['burmilla', 'thunderstruck', 'salmon', 'flamingo', 'rosequartz', 'wasntme'] },
-        },
+                  traits: ['burmilla', 'thunderstruck', 'salmon', 'flamingo', 'rosequartz', 'wasntme'] },
+              },   ## add shiny-enabled?  see https://www.cryptokitties.co/blog/post/ooooooh-shiny
 
 gwendolion: { name: 'Gwendolion', date: '2019-11-10',   # Page's Warriors series - starter fancy
                 recipe: {
                   limit: 50_000, count: 297,
-                },
-                traits: ['burmilla', 'salmon', 'icy'] },
-        },
+                  traits: ['burmilla', 'salmon', 'icy'] },
+            },
 
 catseye: { name: 'Catseye', date: '2019-11-09',
                 recipe: {
                   limit: 30_000, count: 196,
-                },
-                traits: ['burmilla', 'rascal', 'salmon', 'flamingo'] },
-        },
+                  traits: ['burmilla', 'rascal', 'salmon', 'flamingo'] },
+         },
 
 # Oct 26, 2019 - Skeletonne Fancy Cat is discovered
 skeletonne: { name: 'Skeletonne',   ## todo/check: was time-limited?
@@ -270,7 +267,7 @@ furmione: { name: 'Furmione',   ## todo/check: was time-limited?
         },
 
 # Sep 20, 2019 - Purrzival Fancy Cat is discovered
-purrzival: { name: 'Purrzival',  date: '2019-09-20',  ## todo/check: was time-limited too?
+purrzival: { name: 'Purrzival the Paladin',  date: '2019-09-20',  ## todo/check: was time-limited too?
           recipe: {
              limit: 30_000, count: 316,
              traits: ['thunderstruck', 'rosequartz', 'peach', 'wasntme'] },

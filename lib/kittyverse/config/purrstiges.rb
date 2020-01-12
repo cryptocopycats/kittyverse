@@ -157,6 +157,88 @@ inaband: { name: 'Inaband',
 PRESTIGES = PURRSTIGES =
 {
 
+# 01.01.20	New Purrstige	Confetibox	
+confetibox: { name: 'Confetibox', 
+              recipe: {
+                time: { start: '2020-01-01', end: '2020-01-15' }, count: 411,
+                traits: [] },
+            },          
+# 12.12.19	New Purrstige	Driver
+driver:     { name: 'Driver', 
+              recipe: {
+                time: { start: '2019-12-12', end: '?' }, count: 257,
+                traits: [] },
+            },
+# 01.12.19	New Purrstige	Celebration	
+celebration: { name: 'Celebration', 
+               recipe: {
+                time: { start: '2019-12-01', end: '?' }, count: 172,
+                traits: [] },
+             },
+# 01.12.19	New Purrstige	Grandfinale
+grandfinale: { name: 'Grandfinale',
+               recipe: {
+                 time: { start: '2019-12-01', end: '?' }, count: 139,
+                 traits: [] },
+             },
+# 07.11.19	New Purrstige	Purrior	
+purrior:  { name: 'Purrior', 
+            recipe: {
+              time: { start: '2019-11-07', end: '?' }, count: 120,
+              traits: [] },
+          },
+# 06.11.19	New Purrstige	Centurion
+centurion: { name: 'Centurion',
+             recipe: {
+               time: { start: '2019-11-06', end: '?' }, count: 144,
+               traits: [] },
+           },	
+# 03.11.19	New Purrstige	Explorer
+explorer: { name: 'Explorer',
+            recipe: {
+              time: { start: '2019-11-03', end: '?' }, count: 162,
+              traits: [] },
+          },	
+# 02.11.19	New Purrstige	Guard	
+guard: { name: 'Guard',
+         recipe: {
+           time: { start: '2019-11-02', end: '?' }, count: 220,
+           traits: [] },
+       },
+# 02.11.19	New Purrstige	Dominator
+dominator: { name: 'Dominator',
+             recipe: {
+               time: { start: '2019-11-02', end: '?' }, count: 141,
+               traits: [] },
+           },	
+# 01.11.19	New Purrstige	Velite
+velite: { name: 'Velite', 
+          recipe: {
+            time: { start: '2019-11-01', end: '?' }, count: 273,
+            traits: [] },
+        },	
+# 01.11.19	New Purrstige	Scout
+scout: { name: 'Scout', 
+         recipe: {
+          time: { start: '2019-11-01', end: '?' }, count: 140,
+          traits: [] },
+       },	
+
+# Nov 1, 2019 - Brassard trait is discovered. Purrstige
+brassard: { name: 'Brassard', 
+            recipe: {
+              time: { start: '2019-11-01', end: '?' }, count: 793,
+              traits: [] },
+          },        	
+
+# Nov 1, 2019 - Aegis trait is discovered.  Purrstige 
+aegis: { name: 'Aegis',
+         recipe: {
+           time: { start: '2019-11-01', end: '?' }, count: 617,
+           traits: [] },
+       },
+
+
 # Jun 28, 2019 -  Werekitty trait is discovered. Purrstige
 werekitty: { name: 'Werekitty',
              recipe: {

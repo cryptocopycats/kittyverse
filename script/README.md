@@ -19,5 +19,10 @@ Change the input filename and than run:
 
 to get an updated copy in `datasets/cattributes.csv`.
 
+Step 3: Generate a new up-to-date CATTRIBUTES.md page
+
+Run:
+
+    $ ruby -I ./lib script/cattributes.rb
 
 

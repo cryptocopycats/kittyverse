@@ -174,7 +174,7 @@ class Fancy
                           variants:   h[:recipe][:variants],    ## todo/fix: turn variant hash into variant ??? - why? why not?
                           limit:      h[:recipe][:limit],
                           time_start: h[:recipe][:time] && h[:recipe][:time][:start] ? Date.strptime( h[:recipe][:time][:start], '%Y-%m-%d' ) : nil,
-                          time_end:   h[:recipe][:time] && h[:recipe][:time][:end]   ? Date.strptime( h[:recipe][:time][:end],   '%Y-%m-%d' ) : nil )
+                          time_end:   h[:recipe][:time] && h[:recipe][:time][:end] && h[:recipe][:time][:end] != '?' ? Date.strptime( h[:recipe][:time][:end],   '%Y-%m-%d' ) : nil )
 
                 ## note: support overflow "shortcut" - overflow+limit => count
                 count = if h[:recipe][:overflow]
