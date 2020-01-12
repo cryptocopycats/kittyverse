@@ -19,6 +19,8 @@ require 'kittyverse/version'    # note: let version always go first
 
 require 'kittyverse/config/traits'
 require 'kittyverse/config/traits_timeline'
+require 'kittyverse/config/exclusives'
+require 'kittyverse/config/special_editions'
 require 'kittyverse/config/fancies'
 require 'kittyverse/config/purrstiges'
 require 'kittyverse/config/colors'
