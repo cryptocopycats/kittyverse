@@ -6,7 +6,10 @@
 require 'json'
 require 'pp'
 
-txt = File.read( './dl/cattributes-2020-01-12.json' )
+# path = './dl/cattributes-2020-01-12.json'
+path = './dl/cattributes-2021-01-30.json'
+txt = File.open( path, 'r:utf-8' ) { |f| f.read }
+
 
 data = JSON.parse( txt )
 ## pp data
@@ -30,10 +33,10 @@ pp recs
 
 csv = ""
 
-csv << ("%-6s, %-15s, %-14s" % ['Total', 'Description', 'Type'])
+csv << ("%-6s, %-15s, %s" % ['Total', 'Description', 'Type'])
 csv << "\n"
 recs.each_with_index do |rec,i|
-  csv << ("%6s, %-15s, %-14s" % rec)
+  csv << ("%6s, %-15s, %s" % rec)
   csv << "\n"
   ## break if i > 5
 end
