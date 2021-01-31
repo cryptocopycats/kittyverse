@@ -1,5 +1,3 @@
-# encoding: utf-8
-
 ####
 # use:
 #  $ ruby -I ./lib script/purrstiges.rb
@@ -12,6 +10,8 @@ require 'kittyverse'
 
 buf = ""
 buf += <<TXT
+[2021](#2021) •
+[2020](#2020) •
 [2019](#2019) •
 [2018](#2018)
 
@@ -26,15 +26,19 @@ TXT
 
 def build_time_window( o )
   buf = ""
-  if o.time_start.year == o.time_end.year
-    buf << o.time_start.strftime( '%b %-d')
-  else   # include year
-    buf << o.time_start.strftime( '%b %-d %Y')
+
+  if o.time_start && o.time_end   ## note: make sure start & end date present!!!
+    if o.time_start.year == o.time_end.year
+      buf << o.time_start.strftime( '%b %-d')
+    else   # include year
+      buf << o.time_start.strftime( '%b %-d %Y')
+    end
+
+    buf << " - "
+    buf << o.time_end.strftime( '%b %-d %Y')
+    buf << " (#{o.time_days}d)"
   end
 
-  buf << " - "
-  buf << o.time_end.strftime( '%b %-d %Y')
-  buf << " (#{o.time_days}d)"
   buf
 end
 
@@ -42,7 +46,7 @@ end
 def build_prestige_counter( prestige, show_time: false )
   buf = ""
 
-  if prestige.recipe.time_end >= Date.today
+  if prestige.recipe.time_end && prestige.recipe.time_end >= Date.today
     buf << "![](#{media_icon_url(:unlocked)})"
     if prestige.count     # add count if present/known
       buf << "#{prestige.count}+"
@@ -147,7 +151,15 @@ genesisdate = Date.new( 2017, 11, 23)   ## 2017-11-23
 ## buf << "## Purrstige Cattributes"
 buf << "\n\n"
 
-Cattributes[:prestige].each do |c|
+prestiges = []
+Cattributes[:prestige].each { |c| prestiges << c }
+## note: sort by recipe date if present?
+
+prestiges = prestiges.sort do |l,r|
+                              r.recipe.time_start <=> l.recipe.time_start
+                           end
+
+prestiges.each do |c|
   key =  c.key
   date = c.recipe.time_start
 
