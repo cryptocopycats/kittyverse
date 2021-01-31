@@ -1,7 +1,86 @@
-# encoding: utf-8
+###
+##  Special Editions - Crypto Kitties
+##    see https://www.cryptokitties.co/catalogue/special-edition-cats
+##
+##  These cool Kitties have limited edition art
+##   and are never obtainable through breeding
 
 
 SPECIAL_EDITIONS = {
+
+  frostymcwhiskers: { name: 'Frosty McWhiskers', date: '2020-12-14',
+                      specialedition: {
+                         limit: 104 },
+                    },
+
+  fannie:   { name: 'Fannie', date: '2020-12-14',  ## first/lowest id:  #1_992_009
+              specialedition: {
+                 limit: 58 },
+            },
+
+  algie:    { name: 'Algie', date: '2020-10-29',  ## first/lowest id: #1_137_676 !!  - todo/check - first birthdate?
+              specialedition: {
+                 limit: 179 },
+            },
+
+  eddie:    { name: 'Eddie', date: '2020-09-03',  # first/lowest id: #1_967_278
+              specialedition: {
+                 limit: 110 },
+            },
+
+  marty:    { name: 'Marty', date: '2020-09-01',
+              specialedition: {
+                  limit: 188 },
+              desc: 'Collaboration with Muse',
+            },
+
+  pandora: { name: 'Pandora', date: '2020-07-31',
+             specialedition: {
+               limit: 50 },
+             desc: 'CryptoKitty Box Support',
+          },
+
+ holli:    { name: 'Holli', date: '2020-07-03',   # first/lowest id: #1_949_215
+              specialedition: {
+                 limit: 59 },
+           },
+
+ kikuyu:    { name: 'Kikuyu', date: '2020-06-13',
+              specialedition: {
+                  limit: 263 },
+              desc: 'For Hunter+Zelig+Bodhi',
+            },
+
+ flowtron:   { name: 'Flowtron', date: '2020-05-21',
+               specialedition: {
+                  limit: 303 },
+               desc: 'Exchange on Flow Fancy Set',
+             },
+
+ catterina:  { name: 'Catterina', date: '2020-05-13',
+               specialedition: {
+                   limit: 100 },
+               desc: 'Momo Wang',
+             },
+
+ negabillie: { name: 'Nega Billie', date: '2020-04-27',
+               specialedition: {
+                  limit: 68 },
+             },
+
+ ##############
+ # 2019
+ carl:  { name: 'Carl', date: '2019-08-20',   # first/lowest id: #1_680_709
+           specialedition: {
+              limit: 40 },
+        },
+
+  alice: { name: 'Alice', date: '2019-08-23',  # first/lowest id: #1_681_913
+           specialedition: {
+             limit: 88 },
+         },
+
+
   'kitt-e': { name: 'KITT-E', date: '2019-05-10',
               specialedition: {
                 limit: 500 },
@@ -13,7 +92,7 @@ SPECIAL_EDITIONS = {
                 limit: 100 },
               desc: 'Freebie for CryptoKitties Community Events'
             },
-  ##
+
   ## date: '2019-01-10 ???  -- use for date "announced" or something - why? why not?
   aeoncat: { name: 'Aeoncat',
               specialedition: {
@@ -21,6 +100,8 @@ SPECIAL_EDITIONS = {
                 limit: 380 },    ## Don't sleep - there's only 380 up for grabs!
               desc: 'Goddess Aeona - Goddess of Nature - Gods Unchained Promotion'
            },
+
+  #############################
   ## 2018
   ## December
   catzy: { name: 'Catzy', date: '2018-12-31',

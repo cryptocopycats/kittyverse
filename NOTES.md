@@ -1,5 +1,16 @@
 # Notes
 
+
+## 2021 - New Links
+
+- <https://trello.com/b/MVwdMAn7/ck-on-flow-build-in-public>
+  CryptoKittes on Flow (Blockchain) - Build in Public
+
+- <>
+  - <https://breederboard.com/fancies>  - Last Fancy from 10 Nov, 2019 - No Updates in 2020?
+
+
+
 ## Todos
 
 - fix - sort Fancies and Purrstiges by date (with split no longer auto-sorted by date!!!)
@@ -26,6 +37,9 @@
 
 
 ## From CryptoKitties Newsletter
+
+
+
 
 Curdlin    until Nov 30th 2019
 
