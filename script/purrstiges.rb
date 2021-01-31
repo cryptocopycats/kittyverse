@@ -3,8 +3,17 @@
 #  $ ruby -I ./lib script/purrstiges.rb
 
 
-
 require 'kittyverse'
+
+
+prestiges = []
+Cattributes[:prestige].each { |c| prestiges << c }
+## note: sort by recipe date if present?
+
+PRESTIGES_BY_DATE = prestiges.sort do |l,r|
+                      r.recipe.time_start <=> l.recipe.time_start
+                    end
+
 
 
 
@@ -76,7 +85,7 @@ end
 
 def build_prestiges
   buf = ""
-  Cattributes[:prestige].each do |c|
+  PRESTIGES_BY_DATE.each do |c|
     buf << build_prestige( c )
     buf << "\n"
   end
@@ -86,7 +95,7 @@ end
 
 
 
-buf << "## Purrstige Cattributes (#{Cattributes[:prestige].size})"
+buf << "## Purrstige Cattributes (#{PRESTIGES_BY_DATE.size})"
 buf << "\n\n"
 buf << "_Special traits for a limited time only bred through a recipe._"
 buf << "\n\n"
@@ -151,15 +160,8 @@ genesisdate = Date.new( 2017, 11, 23)   ## 2017-11-23
 ## buf << "## Purrstige Cattributes"
 buf << "\n\n"
 
-prestiges = []
-Cattributes[:prestige].each { |c| prestiges << c }
-## note: sort by recipe date if present?
 
-prestiges = prestiges.sort do |l,r|
-                              r.recipe.time_start <=> l.recipe.time_start
-                           end
-
-prestiges.each do |c|
+PRESTIGES_BY_DATE.each do |c|
   key =  c.key
   date = c.recipe.time_start
 
