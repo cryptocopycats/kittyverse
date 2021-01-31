@@ -1,8 +1,46 @@
-# encoding: utf-8
 
 
 EXCLUSIVES = {
-    'dapp-e': { name: 'DAPP-E', date: '2019-05-10',
+
+ ##  11.07.20  - New Exclusive - Pepito
+   'pepitothemascot': { name: 'Pepito The Mascot', date: '2020-11-07',
+                          exclusive: {
+                            limit: 20, ids: (231..250).to_a },
+                      },
+
+ ##  21.05.20  - New Exclusive - MegaFlowtron
+    'megaflowtron': { name: 'Mega Flowtron', date: '2020-05-21',
+                         exclusive: {
+                             limit: 1, ids: [303] },
+                    },
+
+ ##  15.05.20  - New Exclusive - Koshkat   - 222
+    'koshkat': { name: 'Koshkat', date: '2020-05-15',
+                      exclusive: {
+                         limit: 1, ids: [222] },
+               },
+
+ ##  01.02.20  - New Exclusive - Gale
+ ##    celebrating the way to 2 000 000 million
+ ##    check if limit goes up (on jan/31 it is 33)
+    'gale':   { name: 'Gale', date: '2020-02-01',
+                   exclusive: {
+                     limit: 33, ids: [
+                       1995387, 1995323, 1990934, 1987022,
+                       1986452, 1984873, 1984313, 1980813,
+                       1979910, 1976399, 1973254, 1971383,
+                       1970499, 1968361, 1961950, 1960448,
+                       1957257, 1956528, 1952165, 1946384,
+                       1932696, 1923247, 1909523, 1906470,
+                       1895691, 1895007, 1893341, 1887536,
+                       1861789, 1859088, 1836698, 1825688,
+                       1825574 ] },
+              },
+
+  #####
+  # 2019
+
+   'dapp-e': { name: 'DAPP-E', date: '2019-05-10',
                 exclusive: {
                   limit: 50, ids: (1829..1878).to_a },
                 desc: 'Dapper (Crypto Contract) Wallet Promotion Cat'
@@ -18,20 +56,20 @@ EXCLUSIVES = {
                     exclusive: {
                       limit: 21, ids: (201..221).to_a }
                   },
-  
+
     cyberberry: { name: 'Cyber Berry', date: '2019-03-02',
                   exclusive: {
                     limit: 1, ids: [282] },
                   desc: "Winner of the NFTme Sweetstakes"
                 },
-  
+
     # Mar 1, 2019
     # Hinecatone Exclusive Cat is discovered. Exclusive Cat
     hinecatone: { name: 'Hinecatone', date: '2019-03-01',
                   exclusive: {
                     limit: 15, ids: [1423547, 1433380, 1433486, 1440835, 1453366, 1456935, 1456973, 1459319, 1463197, 1466118, 1474082, 1484593, 1484982, 1492154, 1498885]}
                 },
-  
+
     # Feb 15, 2019
     # Felono Exclusive Cat is discovered. Exclusive Cat
     felono: { name: 'Felono', date: '2019-02-15',
@@ -88,11 +126,11 @@ EXCLUSIVES = {
                                exclusive: {
                                  limit: 1, ids: [127] }
                              },
-  
+
 =begin
    ## May 7, 2018
    ## old retired (failed) exclusive with Warriors' Steph Curry (NBA Superstar) Basketball Celebrity Promotion
-  
+
   '#30furry': { name: '#30 Furry', date: '2018-05-07',  ## todo/fix: url-escape name '#30furry' for picture
                 exclusive: {
                   limit: 1, ids: [330] },
@@ -109,8 +147,8 @@ EXCLUSIVES = {
                      desc: 'Steph Curry (NBA Superstar) Basketball Celebrity Promotion Cat'
                    },
 =end
-  
-  
+
+
     goldendragoncat: { name: 'Golden Dragon Cat', name_cn: '帝龙喵', date: '2018-03-08',
                        exclusive: {
                          limit: 1, ids: [888] },
@@ -121,7 +159,7 @@ EXCLUSIVES = {
                          limit: 11, ids: [1802,1803,1805,1806,1808,1809,1812,1816]+(1825..1828).to_a },
                        desc: 'China Launch'
                      },  ## todo: check date for china launch specials!!!
-  
+
     knightkitty:  { name: 'Knight Kitty',  date: '2018-03-01',
                     exclusive: {
                       limit: 11, ids: (104..114).to_a }
@@ -141,5 +179,4 @@ EXCLUSIVES = {
                       limit: 3, ids: [101,102,103] },
                     desc: 'Bug Bounty Kitty' }
   }
-  
-  
+
