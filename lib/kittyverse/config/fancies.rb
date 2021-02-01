@@ -1,6 +1,9 @@
-# encoding: utf-8
-
 ###
+#   Fancy Cats
+#     see https://www.cryptokitties.co/catalogue/fancy-cats
+#    These limited-edition Kitties boast special art.
+#    They can only be bred through a unique genetic recipe until the cap is reached
+#
 #
 #  for latest updates on new fancies/exclusives see:
 #      https://updates.cryptokitties.co   (official latest updates/timeline)
@@ -24,7 +27,114 @@
 
 
 RECIPES = {
-  
+
+######################
+# 2021
+
+#  16.01.21 - New fancy - Ellie
+#    An Elephantastic Fancy!
+#   The first of our next Fancy Family has been released into the wild...
+#     Shiny-enabled Fancy, Ellie!
+ellie: { name: 'Ellie', date: '2021-01-16',   ## 1st in Elephant series
+                recipe: {
+                  limit: 2500, count: 2,
+                  traits: [ 'shadowgrey', 'flaming', 'littlefoot', 'walrus'] },
+       },
+
+#################
+# 2020
+#  19.12.20 - New fancy - Dave    -- Winter Series
+dave: { name: 'Dave',   ## todo/check: was time-limited?
+          recipe: {
+             time: { start: '2020-12-19', end: '?' }, count: 239,
+             traits: ['norwegianforest', 'icy', 'frozen'] },
+      },
+#  19.12.20 - New fancy - Holly   -- Winter Series
+holly: { name: 'Holly',   ## todo/check: was time-limited?
+          recipe: {
+             time: { start: '2020-12-19', end: '?' }, count: 261,
+             traits: ['chartreux', 'wingtips', 'icy'] },
+      },
+#  06.12.20 - New fancy - CatFrost    -- Winter Series
+#  The breeding window for the shiny-enabled Cat Frost ends at 9:50am PT on 12/19
+catfrost: { name: 'Cat Frost',   ## todo/check: was time-limited?
+          recipe: {
+             time: { start: '2020-12-06', end: '2020-12-19' }, count: 288,
+             traits: ['splat', 'wiley', 'icicle', 'icy'] },
+      },
+
+#  21.11.20 - New fancy - Abby
+abby: { name: 'Abby',   ## todo/check: was time-limited?
+          recipe: {
+             time: { start: '2020-11-21', end: '?' }, count: 299,
+             traits: ['ragamuffin', 'swarley', 'dune'] },
+      },
+#  08.11.20 - New fancy - Dart
+dart: { name: 'Dart',   ## todo/check: was time-limited?
+          recipe: {
+             time: { start: '2020-11-08', end: '?' }, count: 370,
+             traits: ['camo', 'oldlace', 'coffee', 'dune'] },
+      },
+
+#  31.09.20 - New fancy - Boris
+boris: { name: 'Boris',   ## todo/check: was time-limited?
+          recipe: {
+             time: { start: '2020-09-31', end: '?' }, count: 667,
+             traits: ['savannah', 'safetywest', 'jacked'] },
+      },
+
+#  29.08.20 - New fancy - Mibbles
+mibbles: { name: 'Mibbles',   ## todo/check: was time-limited?
+          recipe: {
+             time: { start: '2020-08-29', end: '?' }, count: 1301,
+             traits: ['kurilian', 'impish'] },
+      },
+#  08.08.20 - New fancy - Reeves   - Wild West Series?
+reeves: { name: 'Reeves',   ## todo/check: was time-limited?
+          recipe: {
+             time: { start: '2020-08-08', end: '?' }, count: 198,
+             traits: ['rascal', 'swarley', 'daemonwings', 'dune'] },
+      },
+#  25.07.20 - New fancy - Pickett   - Wild West Series?
+pickett: { name: 'Pickett',   ## todo/check: was time-limited?
+          recipe: {
+             time: { start: '2020-07-25', end: '?' }, count: 224,
+             traits: ['swarley', 'lavender', 'dune'] },
+      },
+
+
+
+#  16.07.20 - New fancy - Joan
+#  11.07.20 - New fancy - Starchild
+
+#  04.07.20 - New fancy - Travis
+#  04.07.20 - New fancy - Steel
+#  20.06.20 - New fancy - Pawvril
+#  20.06.20 - New fancy - Janis
+
+#  06.06.20 - New fancy - Kunst
+#  23.05.20 - New fancy - Kitiovanni
+
+#  09.05.20 - New fancy - Hunter
+
+#  25.04.20 - New fancy - Vince
+#  18.04.20 - New fancy - Zelig
+#  11.04.20 - New fancy - Billie
+#  28.03.20 - New fancy - Bodhi
+#  21.03.20 - New fancy - Cindi
+#  17.03.20 - New fancy - Potricia
+#  07.03.20 - New fancy - Cai
+#  20.02.20 - New fancy - MissMatheson
+#  15.02.20 - New fancy - Felis
+#  08.02.20 - New fancy - Meuwn
+
+#  01.02.20 - New fancy - LilPurrfect
+#  18.01.20 - New fancy - Mars
+#  11.11.20 - New fancy - Cosmocat
+
+
+
+
 pepito: { name: 'Pepito',
           recipe: {
              time: { start: '2020-01-01', end: '2020-01-07' }, count: 443,
@@ -116,7 +226,7 @@ kittyformerlyknownasprince: { name: 'Kitty Formerly Known As Prince',   ## todo/
              time: { start: '2019-08-17', end: '?' }, count: 503,
              traits: ['leopard', 'tendertears', 'royalblue', 'pouty'] },
         },
- 
+
   # Aug 3, 2019 - DJ Meowlody Fancy Cat is discovered
   djmeowlody: { name: 'DJ Meowlody',
                 recipe: {

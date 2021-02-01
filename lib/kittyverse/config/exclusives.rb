@@ -2,7 +2,14 @@
 
 EXCLUSIVES = {
 
- ##  11.07.20  - New Exclusive - Pepito
+ #  11.07.20  - New Exclusive - Pepito
+ # The Morse Meows Shelter is saving kitties from Strasburg, Virginia
+ #  by taking them off the streets and getting them ready
+ # to find their furrever homes! Community cool cat and ultra-high generation collector,
+ #   Club 1000, sounded the Kitty alarm to support this shelter in need.
+ #
+ # Our newest Exclusive, Pepito, the Mascot, is intended to be distributed
+ #  in support of social causes and we've given Morse Meows one for auction!
    'pepitothemascot': { name: 'Pepito The Mascot', date: '2020-11-07',
                           exclusive: {
                             limit: 20, ids: (231..250).to_a },
@@ -23,6 +30,14 @@ EXCLUSIVES = {
  ##  01.02.20  - New Exclusive - Gale
  ##    celebrating the way to 2 000 000 million
  ##    check if limit goes up (on jan/31 it is 33)
+ ##
+ ## A total of 36 Exclusive Gale Kitties will be discovered
+ ##  through random breeding in the Race to the 2,000,000th Kitty.
+ ##
+ ##  Each of these 36 Exclusive Kitties will be born, at random,
+ ##  until we reach 2,000,000. And these super-rare Exclusives
+ ##  can be born from any parents, from any generation.
+ ##  But beware this is a ID-limited window.
     'gale':   { name: 'Gale', date: '2020-02-01',
                    exclusive: {
                      limit: 33, ids: [

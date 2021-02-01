@@ -13,10 +13,23 @@ SPECIAL_EDITIONS = {
                          limit: 104 },
                     },
 
+  ###
+  #  The redemption window to claim to your very own Fannie Special Edition Kitty
+  #   will be closing this Saturday. For each Fannie, you'll need to submit
+  #  a unique trio of Wild West Kitties (one Pickett, one Reeves and one Dart)
+  #  to our Kitty Bounty Wallet  along with a valid submission form
+  #  before the deadline on 12/5/2020 at 11:59pm PT
   fannie:   { name: 'Fannie', date: '2020-12-14',  ## first/lowest id:  #1_992_009
               specialedition: {
                  limit: 58 },
             },
+
+  # With transactions getting stuck and costs to gift Kitties soaring through the roofs,
+  # we've decided to extend the window to redeem your Katz band members
+  # for Special Edition Mascots.
+  # The new redemption window ends on September 1st, 11:59pm PT.
+  ## Gas prices have slowed down redemption but there are currently
+  ## 20 Algies and 30 Eddies earmarked for distribution.
 
   algie:    { name: 'Algie', date: '2020-10-29',  ## first/lowest id: #1_137_676 !!  - todo/check - first birthdate?
               specialedition: {

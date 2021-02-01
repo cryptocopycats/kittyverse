@@ -29,6 +29,20 @@ WE00_WE15 = ['WE00', 'WE01', 'WE02', 'WE03',
 
 
 PURRSTIGES_HACKATAO = {
+# This weekend a set of Hackatao Purrstige traits are making
+# their way into CryptoKitties.
+# The "HaCKittieZ" will be breedable for a limited time from October 24th - 31st.
+#
+#  Hackatao are decentralized artists widely known for
+# their beautiful illustrations and collected among cool cats in the community.
+#
+#  HaCKittieZ is our collaboration with renowned artist Hackatao and Async Art
+#  to give you incredible ways to personalize your CryptoKitties
+#  and push the boundaries of programmable art.
+#  A set of Purrstige traits designed by Hackatao will be breedable for a limited time.
+#  The HaCKittieZ traits can be mixed and matched to personalize
+#  your Kitties and create exciting permutations!
+
 #  24.10.20 - New Purrstige - Meowfoolest
 meowfoolest:  { name: 'Meowfoolest',
                 recipe: {
