@@ -373,6 +373,17 @@ Jan 16, 2021 (1151d)
 
 Dec 19, 2020 (1123d)
 
+<a name="holly">
+
+- [**Holly**](https://www.cryptokitties.co/search?include=sale,sire,other&search=fancy:holly) (261+) Fancy Cat discovered. #Fancy Cat
+  - **3** traits:
+    - **Chartreux**  (FU10) - Fur
+    - **Wingtips** II (ES25) - Eye Shape
+    - **Icy**  (AC03) - Accent Color
+
+![Holly](https://cryptocopycats.github.io/media/kitties/100x100/fancy-holly.png "Holly")
+
+
 <a name="dave">
 
 - [**Dave**](https://www.cryptokitties.co/search?include=sale,sire,other&search=fancy:dave) (239+) Fancy Cat discovered. #Fancy Cat
@@ -384,15 +395,20 @@ Dec 19, 2020 (1123d)
 ![Dave](https://cryptocopycats.github.io/media/kitties/100x100/fancy-dave.png "Dave")
 
 
-<a name="holly">
+Dec 14, 2020 (1118d)
 
-- [**Holly**](https://www.cryptokitties.co/search?include=sale,sire,other&search=fancy:holly) (261+) Fancy Cat discovered. #Fancy Cat
-  - **3** traits:
-    - **Chartreux**  (FU10) - Fur
-    - **Wingtips** II (ES25) - Eye Shape
-    - **Icy**  (AC03) - Accent Color
+<a name="frostymcwhiskers">
 
-![Holly](https://cryptocopycats.github.io/media/kitties/100x100/fancy-holly.png "Holly")
+- Special Edition [**Frosty McWhiskers**](https://www.cryptokitties.co/search?include=sale,sire,other&search=specialedition:frostymcwhiskers) (104) Fancy Cat released. #Fancy Cat #Special Edition
+
+![Frosty McWhiskers](https://cryptocopycats.github.io/media/kitties/100x100/fancy-frostymcwhiskers.png "Frosty McWhiskers")
+
+
+<a name="fannie">
+
+- Special Edition [**Fannie**](https://www.cryptokitties.co/search?include=sale,sire,other&search=specialedition:fannie) (58) Fancy Cat released. #Fancy Cat #Special Edition
+
+![Fannie](https://cryptocopycats.github.io/media/kitties/100x100/fancy-fannie.png "Fannie")
 
 
 Dec 6, 2020 (1110d)
@@ -438,6 +454,26 @@ Nov 8, 2020 (1082d)
 ![Dart](https://cryptocopycats.github.io/media/kitties/100x100/fancy-dart.png "Dart")
 
 
+Nov 7, 2020 (1081d)
+
+<a name="pepitothemascot">
+
+- Exclusive [**Pepito The Mascot**](https://www.cryptokitties.co/search?include=sale,sire,other&search=exclusive:pepitothemascot) (20 - [#231](https://www.cryptokitties.co/kitty/231), [#232](https://www.cryptokitties.co/kitty/232), [#233](https://www.cryptokitties.co/kitty/233), [#234](https://www.cryptokitties.co/kitty/234), [#235](https://www.cryptokitties.co/kitty/235), [#236](https://www.cryptokitties.co/kitty/236), [#237](https://www.cryptokitties.co/kitty/237), [#238](https://www.cryptokitties.co/kitty/238), [#239](https://www.cryptokitties.co/kitty/239), [#240](https://www.cryptokitties.co/kitty/240), [#241](https://www.cryptokitties.co/kitty/241), [#242](https://www.cryptokitties.co/kitty/242), [#243](https://www.cryptokitties.co/kitty/243), [#244](https://www.cryptokitties.co/kitty/244), [#245](https://www.cryptokitties.co/kitty/245), [#246](https://www.cryptokitties.co/kitty/246), [#247](https://www.cryptokitties.co/kitty/247), [#248](https://www.cryptokitties.co/kitty/248), [#249](https://www.cryptokitties.co/kitty/249), [#250](https://www.cryptokitties.co/kitty/250)) Fancy Cat released. #Fancy Cat #Exclusive
+
+![Pepito The Mascot](https://cryptocopycats.github.io/media/kitties/100x100/fancy-pepitothemascot.png "Pepito The Mascot")
+
+
+### October
+
+Oct 29, 2020 (1072d)
+
+<a name="algie">
+
+- Special Edition [**Algie**](https://www.cryptokitties.co/search?include=sale,sire,other&search=specialedition:algie) (179) Fancy Cat released. #Fancy Cat #Special Edition
+
+![Algie](https://cryptocopycats.github.io/media/kitties/100x100/fancy-algie.png "Algie")
+
+
 ### September
 
 Sep 30, 2020 (1043d)
@@ -451,6 +487,24 @@ Sep 30, 2020 (1043d)
     - **Jacked** II (EN27) - Environment
 
 ![Boris](https://cryptocopycats.github.io/media/kitties/100x100/fancy-boris.png "Boris")
+
+
+Sep 3, 2020 (1016d)
+
+<a name="eddie">
+
+- Special Edition [**Eddie**](https://www.cryptokitties.co/search?include=sale,sire,other&search=specialedition:eddie) (110) Fancy Cat released. #Fancy Cat #Special Edition
+
+![Eddie](https://cryptocopycats.github.io/media/kitties/100x100/fancy-eddie.png "Eddie")
+
+
+Sep 1, 2020 (1014d)
+
+<a name="marty">
+
+- Special Edition [**Marty**](https://www.cryptokitties.co/search?include=sale,sire,other&search=specialedition:marty) (188) Fancy Cat released -- Collaboration with Muse. #Fancy Cat #Special Edition
+
+![Marty](https://cryptocopycats.github.io/media/kitties/100x100/fancy-marty.png "Marty")
 
 
 ### August
@@ -482,6 +536,15 @@ Aug 8, 2020 (990d)
 
 
 ### July
+
+Jul 31, 2020 (982d)
+
+<a name="pandora">
+
+- Special Edition [**Pandora**](https://www.cryptokitties.co/search?include=sale,sire,other&search=specialedition:pandora) (50) Fancy Cat released -- CryptoKitty Box Support. #Fancy Cat #Special Edition
+
+![Pandora](https://cryptocopycats.github.io/media/kitties/100x100/fancy-pandora.png "Pandora")
+
 
 Jul 25, 2020 (976d)
 
@@ -552,9 +615,29 @@ Jul 4, 2020 (955d)
 ![Steel](https://cryptocopycats.github.io/media/kitties/100x100/fancy-steel.png "Steel")
 
 
+Jul 3, 2020 (954d)
+
+<a name="holli">
+
+- Special Edition [**Holli**](https://www.cryptokitties.co/search?include=sale,sire,other&search=specialedition:holli) (59) Fancy Cat released. #Fancy Cat #Special Edition
+
+![Holli](https://cryptocopycats.github.io/media/kitties/100x100/fancy-holli.png "Holli")
+
+
 ### June
 
 Jun 20, 2020 (941d)
+
+<a name="janis">
+
+- [**Janis**](https://www.cryptokitties.co/search?include=sale,sire,other&search=fancy:janis) (929+) Fancy Cat discovered. #Fancy Cat
+  - **3** traits:
+    - **Glacier** I (BC21) - Base Color
+    - **Springcrocus**  (HC01) - Highlight Color
+    - **Prism** III (EN29) - Environment
+
+![Janis](https://cryptocopycats.github.io/media/kitties/100x100/fancy-janis.png "Janis")
+
 
 <a name="pawvril">
 
@@ -567,15 +650,13 @@ Jun 20, 2020 (941d)
 ![Pawvril](https://cryptocopycats.github.io/media/kitties/100x100/fancy-pawvril.png "Pawvril")
 
 
-<a name="janis">
+Jun 13, 2020 (934d)
 
-- [**Janis**](https://www.cryptokitties.co/search?include=sale,sire,other&search=fancy:janis) (929+) Fancy Cat discovered. #Fancy Cat
-  - **3** traits:
-    - **Glacier** I (BC21) - Base Color
-    - **Springcrocus**  (HC01) - Highlight Color
-    - **Prism** III (EN29) - Environment
+<a name="kikuyu">
 
-![Janis](https://cryptocopycats.github.io/media/kitties/100x100/fancy-janis.png "Janis")
+- Special Edition [**Kikuyu**](https://www.cryptokitties.co/search?include=sale,sire,other&search=specialedition:kikuyu) (263) Fancy Cat released -- For Hunter+Zelig+Bodhi. #Fancy Cat #Special Edition
+
+![Kikuyu](https://cryptocopycats.github.io/media/kitties/100x100/fancy-kikuyu.png "Kikuyu")
 
 
 Jun 6, 2020 (927d)
@@ -608,6 +689,40 @@ May 23, 2020 (913d)
 ![Kitiovanni](https://cryptocopycats.github.io/media/kitties/100x100/fancy-kitiovanni.png "Kitiovanni")
 
 
+May 21, 2020 (911d)
+
+<a name="flowtron">
+
+- Special Edition [**Flowtron**](https://www.cryptokitties.co/search?include=sale,sire,other&search=specialedition:flowtron) (303) Fancy Cat released -- Exchange on Flow Fancy Set. #Fancy Cat #Special Edition
+
+![Flowtron](https://cryptocopycats.github.io/media/kitties/100x100/fancy-flowtron.png "Flowtron")
+
+
+<a name="megaflowtron">
+
+- Exclusive [**Mega Flowtron**](https://www.cryptokitties.co/search?include=sale,sire,other&search=exclusive:megaflowtron) (1 - [#303](https://www.cryptokitties.co/kitty/303)) Fancy Cat released. #Fancy Cat #Exclusive
+
+![Mega Flowtron](https://cryptocopycats.github.io/media/kitties/100x100/fancy-megaflowtron.png "Mega Flowtron")
+
+
+May 15, 2020 (905d)
+
+<a name="koshkat">
+
+- Exclusive [**Koshkat**](https://www.cryptokitties.co/search?include=sale,sire,other&search=exclusive:koshkat) (1 - [#222](https://www.cryptokitties.co/kitty/222)) Fancy Cat released. #Fancy Cat #Exclusive
+
+![Koshkat](https://cryptocopycats.github.io/media/kitties/100x100/fancy-koshkat.png "Koshkat")
+
+
+May 13, 2020 (903d)
+
+<a name="catterina">
+
+- Special Edition [**Catterina**](https://www.cryptokitties.co/search?include=sale,sire,other&search=specialedition:catterina) (100) Fancy Cat released -- Momo Wang. #Fancy Cat #Special Edition
+
+![Catterina](https://cryptocopycats.github.io/media/kitties/100x100/fancy-catterina.png "Catterina")
+
+
 May 9, 2020 (899d)
 
 <a name="hunter">
@@ -623,6 +738,15 @@ May 9, 2020 (899d)
 
 
 ### April
+
+Apr 27, 2020 (887d)
+
+<a name="negabillie">
+
+- Special Edition [**Nega Billie**](https://www.cryptokitties.co/search?include=sale,sire,other&search=specialedition:negabillie) (68) Fancy Cat released. #Fancy Cat #Special Edition
+
+![Nega Billie](https://cryptocopycats.github.io/media/kitties/100x100/fancy-negabillie.png "Nega Billie")
+
 
 Apr 25, 2020 (885d)
 
@@ -779,6 +903,13 @@ Feb 1, 2020 (801d)
     - **Flapflap** I (WE22) - Wild Element
 
 ![Lil Purrfect](https://cryptocopycats.github.io/media/kitties/100x100/fancy-lilpurrfect.png "Lil Purrfect")
+
+
+<a name="gale">
+
+- Exclusive [**Gale**](https://www.cryptokitties.co/search?include=sale,sire,other&search=exclusive:gale) (33 - [#1995387](https://www.cryptokitties.co/kitty/1995387), [#1995323](https://www.cryptokitties.co/kitty/1995323), [#1990934](https://www.cryptokitties.co/kitty/1990934), [#1987022](https://www.cryptokitties.co/kitty/1987022), [#1986452](https://www.cryptokitties.co/kitty/1986452), [#1984873](https://www.cryptokitties.co/kitty/1984873), [#1984313](https://www.cryptokitties.co/kitty/1984313), [#1980813](https://www.cryptokitties.co/kitty/1980813), [#1979910](https://www.cryptokitties.co/kitty/1979910), [#1976399](https://www.cryptokitties.co/kitty/1976399), [#1973254](https://www.cryptokitties.co/kitty/1973254), [#1971383](https://www.cryptokitties.co/kitty/1971383), [#1970499](https://www.cryptokitties.co/kitty/1970499), [#1968361](https://www.cryptokitties.co/kitty/1968361), [#1961950](https://www.cryptokitties.co/kitty/1961950), [#1960448](https://www.cryptokitties.co/kitty/1960448), [#1957257](https://www.cryptokitties.co/kitty/1957257), [#1956528](https://www.cryptokitties.co/kitty/1956528), [#1952165](https://www.cryptokitties.co/kitty/1952165), [#1946384](https://www.cryptokitties.co/kitty/1946384), [#1932696](https://www.cryptokitties.co/kitty/1932696), [#1923247](https://www.cryptokitties.co/kitty/1923247), [#1909523](https://www.cryptokitties.co/kitty/1909523), [#1906470](https://www.cryptokitties.co/kitty/1906470), [#1895691](https://www.cryptokitties.co/kitty/1895691), [#1895007](https://www.cryptokitties.co/kitty/1895007), [#1893341](https://www.cryptokitties.co/kitty/1893341), [#1887536](https://www.cryptokitties.co/kitty/1887536), [#1861789](https://www.cryptokitties.co/kitty/1861789), [#1859088](https://www.cryptokitties.co/kitty/1859088), [#1836698](https://www.cryptokitties.co/kitty/1836698), [#1825688](https://www.cryptokitties.co/kitty/1825688), [#1825574](https://www.cryptokitties.co/kitty/1825574)) Fancy Cat released. #Fancy Cat #Exclusive
+
+![Gale](https://cryptocopycats.github.io/media/kitties/100x100/fancy-gale.png "Gale")
 
 
 ### January
@@ -947,20 +1078,6 @@ Oct 12, 2019 (689d)
 
 ### September
 
-Sep 20, 2019 (667d)
-
-<a name="purrzival">
-
-- [**Purrzival the Paladin**](https://www.cryptokitties.co/search?include=sale,sire,other&search=fancy:purrzival) (![](https://cryptocopycats.github.io/media/icons/18x18/unlocked.png)316+/30000) Fancy Cat discovered. #Fancy Cat
-  - **4** traits:
-    - **Thunderstruck** I (PA17) - Pattern
-    - **Rosequartz** I (HC19) - Highlight Color
-    - **Peach**  (AC02) - Accent Color
-    - **Wasntme**  (MO01) - Mouth
-
-![Purrzival the Paladin](https://cryptocopycats.github.io/media/kitties/100x100/fancy-purrzival.png "Purrzival the Paladin")
-
-
 Sep 28, 2019 (675d)
 
 <a name="jack">
@@ -973,6 +1090,20 @@ Sep 28, 2019 (675d)
     - **Jacked** II (EN27) - Environment
 
 ![Jack](https://cryptocopycats.github.io/media/kitties/100x100/fancy-jack.png "Jack")
+
+
+Sep 20, 2019 (667d)
+
+<a name="purrzival">
+
+- [**Purrzival the Paladin**](https://www.cryptokitties.co/search?include=sale,sire,other&search=fancy:purrzival) (![](https://cryptocopycats.github.io/media/icons/18x18/unlocked.png)316+/30000) Fancy Cat discovered. #Fancy Cat
+  - **4** traits:
+    - **Thunderstruck** I (PA17) - Pattern
+    - **Rosequartz** I (HC19) - Highlight Color
+    - **Peach**  (AC02) - Accent Color
+    - **Wasntme**  (MO01) - Mouth
+
+![Purrzival the Paladin](https://cryptocopycats.github.io/media/kitties/100x100/fancy-purrzival.png "Purrzival the Paladin")
 
 
 Sep 14, 2019 (661d)
@@ -1002,6 +1133,24 @@ Aug 31, 2019 (647d)
     - **Featherbrain** I (WE21) - Wild Element
 
 ![Robin](https://cryptocopycats.github.io/media/kitties/100x100/fancy-robin.png "Robin")
+
+
+Aug 23, 2019 (639d)
+
+<a name="alice">
+
+- Special Edition [**Alice**](https://www.cryptokitties.co/search?include=sale,sire,other&search=specialedition:alice) (88) Fancy Cat released. #Fancy Cat #Special Edition
+
+![Alice](https://cryptocopycats.github.io/media/kitties/100x100/fancy-alice.png "Alice")
+
+
+Aug 20, 2019 (636d)
+
+<a name="carl">
+
+- Special Edition [**Carl**](https://www.cryptokitties.co/search?include=sale,sire,other&search=specialedition:carl) (40) Fancy Cat released. #Fancy Cat #Special Edition
+
+![Carl](https://cryptocopycats.github.io/media/kitties/100x100/fancy-carl.png "Carl")
 
 
 Aug 17, 2019 (633d)
@@ -1144,6 +1293,22 @@ May 11, 2019 (535d)
 ![Curdlin](https://cryptocopycats.github.io/media/kitties/100x100/fancy-curdlin.png "Curdlin")
 
 
+May 10, 2019 (534d)
+
+<a name="kitt-e">
+
+- Special Edition [**KITT-E**](https://www.cryptokitties.co/search?include=sale,sire,other&search=specialedition:kitt-e) (500) Fancy Cat released -- Dapper (Crypto Contract) Wallet Promotion Cat. #Fancy Cat #Special Edition
+
+![KITT-E](https://cryptocopycats.github.io/media/kitties/100x100/fancy-kitt-e.png "KITT-E")
+
+
+<a name="dapp-e">
+
+- Exclusive [**DAPP-E**](https://www.cryptokitties.co/search?include=sale,sire,other&search=exclusive:dapp-e) (50 - [#1829](https://www.cryptokitties.co/kitty/1829), [#1830](https://www.cryptokitties.co/kitty/1830), [#1831](https://www.cryptokitties.co/kitty/1831), [#1832](https://www.cryptokitties.co/kitty/1832), [#1833](https://www.cryptokitties.co/kitty/1833), [#1834](https://www.cryptokitties.co/kitty/1834), [#1835](https://www.cryptokitties.co/kitty/1835), [#1836](https://www.cryptokitties.co/kitty/1836), [#1837](https://www.cryptokitties.co/kitty/1837), [#1838](https://www.cryptokitties.co/kitty/1838), [#1839](https://www.cryptokitties.co/kitty/1839), [#1840](https://www.cryptokitties.co/kitty/1840), [#1841](https://www.cryptokitties.co/kitty/1841), [#1842](https://www.cryptokitties.co/kitty/1842), [#1843](https://www.cryptokitties.co/kitty/1843), [#1844](https://www.cryptokitties.co/kitty/1844), [#1845](https://www.cryptokitties.co/kitty/1845), [#1846](https://www.cryptokitties.co/kitty/1846), [#1847](https://www.cryptokitties.co/kitty/1847), [#1848](https://www.cryptokitties.co/kitty/1848), [#1849](https://www.cryptokitties.co/kitty/1849), [#1850](https://www.cryptokitties.co/kitty/1850), [#1851](https://www.cryptokitties.co/kitty/1851), [#1852](https://www.cryptokitties.co/kitty/1852), [#1853](https://www.cryptokitties.co/kitty/1853), [#1854](https://www.cryptokitties.co/kitty/1854), [#1855](https://www.cryptokitties.co/kitty/1855), [#1856](https://www.cryptokitties.co/kitty/1856), [#1857](https://www.cryptokitties.co/kitty/1857), [#1858](https://www.cryptokitties.co/kitty/1858), [#1859](https://www.cryptokitties.co/kitty/1859), [#1860](https://www.cryptokitties.co/kitty/1860), [#1861](https://www.cryptokitties.co/kitty/1861), [#1862](https://www.cryptokitties.co/kitty/1862), [#1863](https://www.cryptokitties.co/kitty/1863), [#1864](https://www.cryptokitties.co/kitty/1864), [#1865](https://www.cryptokitties.co/kitty/1865), [#1866](https://www.cryptokitties.co/kitty/1866), [#1867](https://www.cryptokitties.co/kitty/1867), [#1868](https://www.cryptokitties.co/kitty/1868), [#1869](https://www.cryptokitties.co/kitty/1869), [#1870](https://www.cryptokitties.co/kitty/1870), [#1871](https://www.cryptokitties.co/kitty/1871), [#1872](https://www.cryptokitties.co/kitty/1872), [#1873](https://www.cryptokitties.co/kitty/1873), [#1874](https://www.cryptokitties.co/kitty/1874), [#1875](https://www.cryptokitties.co/kitty/1875), [#1876](https://www.cryptokitties.co/kitty/1876), [#1877](https://www.cryptokitties.co/kitty/1877), [#1878](https://www.cryptokitties.co/kitty/1878)) Fancy Cat released -- Dapper (Crypto Contract) Wallet Promotion Cat. #Fancy Cat #Exclusive
+
+![DAPP-E](https://cryptocopycats.github.io/media/kitties/100x100/fancy-dapp-e.png "DAPP-E")
+
+
 ### April
 
 Apr 27, 2019 (521d)
@@ -1173,7 +1338,25 @@ Apr 13, 2019 (507d)
 ![Furbeard](https://cryptocopycats.github.io/media/kitties/100x100/fancy-furbeard.png "Furbeard")
 
 
+Apr 10, 2019 (504d)
+
+<a name="sparkles">
+
+- Special Edition [**Sparkles**](https://www.cryptokitties.co/search?include=sale,sire,other&search=specialedition:sparkles) (100) Fancy Cat released -- Freebie for CryptoKitties Community Events. #Fancy Cat #Special Edition
+
+![Sparkles](https://cryptocopycats.github.io/media/kitties/100x100/fancy-sparkles.png "Sparkles")
+
+
 ### March
+
+Mar 31, 2019 (494d)
+
+<a name="papacatuanuku">
+
+- Exclusive [**Papacatuanuku**](https://www.cryptokitties.co/search?include=sale,sire,other&search=exclusive:papacatuanuku) (1 - [#1500000](https://www.cryptokitties.co/kitty/1500000)) Fancy Cat released -- Kitty #1500000. #Fancy Cat #Exclusive
+
+![Papacatuanuku](https://cryptocopycats.github.io/media/kitties/100x100/fancy-papacatuanuku.png "Papacatuanuku")
+
 
 Mar 30, 2019 (493d)
 
@@ -1187,6 +1370,15 @@ Mar 30, 2019 (493d)
     - **Hyacinth** II (BC26) - Base Color
 
 ![Glitter](https://cryptocopycats.github.io/media/kitties/100x100/fancy-glitter.png "Glitter")
+
+
+Mar 26, 2019 (489d)
+
+<a name="sirmeowsalot">
+
+- Exclusive [**Sir Meowsalot**](https://www.cryptokitties.co/search?include=sale,sire,other&search=exclusive:sirmeowsalot) (21 - [#201](https://www.cryptokitties.co/kitty/201), [#202](https://www.cryptokitties.co/kitty/202), [#203](https://www.cryptokitties.co/kitty/203), [#204](https://www.cryptokitties.co/kitty/204), [#205](https://www.cryptokitties.co/kitty/205), [#206](https://www.cryptokitties.co/kitty/206), [#207](https://www.cryptokitties.co/kitty/207), [#208](https://www.cryptokitties.co/kitty/208), [#209](https://www.cryptokitties.co/kitty/209), [#210](https://www.cryptokitties.co/kitty/210), [#211](https://www.cryptokitties.co/kitty/211), [#212](https://www.cryptokitties.co/kitty/212), [#213](https://www.cryptokitties.co/kitty/213), [#214](https://www.cryptokitties.co/kitty/214), [#215](https://www.cryptokitties.co/kitty/215), [#216](https://www.cryptokitties.co/kitty/216), [#217](https://www.cryptokitties.co/kitty/217), [#218](https://www.cryptokitties.co/kitty/218), [#219](https://www.cryptokitties.co/kitty/219), [#220](https://www.cryptokitties.co/kitty/220), [#221](https://www.cryptokitties.co/kitty/221)) Fancy Cat released. #Fancy Cat #Exclusive
+
+![Sir Meowsalot](https://cryptocopycats.github.io/media/kitties/100x100/fancy-sirmeowsalot.png "Sir Meowsalot")
 
 
 Mar 16, 2019 (479d)
@@ -1215,6 +1407,22 @@ Mar 2, 2019 (465d)
     - **Firedup** II (ES26) - Eye Shape
 
 ![Glasswalker](https://cryptocopycats.github.io/media/kitties/100x100/fancy-glasswalker.png "Glasswalker")
+
+
+<a name="cyberberry">
+
+- Exclusive [**Cyber Berry**](https://www.cryptokitties.co/search?include=sale,sire,other&search=exclusive:cyberberry) (1 - [#282](https://www.cryptokitties.co/kitty/282)) Fancy Cat released -- Winner of the NFTme Sweetstakes. #Fancy Cat #Exclusive
+
+![Cyber Berry](https://cryptocopycats.github.io/media/kitties/100x100/fancy-cyberberry.png "Cyber Berry")
+
+
+Mar 1, 2019 (464d)
+
+<a name="hinecatone">
+
+- Exclusive [**Hinecatone**](https://www.cryptokitties.co/search?include=sale,sire,other&search=exclusive:hinecatone) (15 - [#1423547](https://www.cryptokitties.co/kitty/1423547), [#1433380](https://www.cryptokitties.co/kitty/1433380), [#1433486](https://www.cryptokitties.co/kitty/1433486), [#1440835](https://www.cryptokitties.co/kitty/1440835), [#1453366](https://www.cryptokitties.co/kitty/1453366), [#1456935](https://www.cryptokitties.co/kitty/1456935), [#1456973](https://www.cryptokitties.co/kitty/1456973), [#1459319](https://www.cryptokitties.co/kitty/1459319), [#1463197](https://www.cryptokitties.co/kitty/1463197), [#1466118](https://www.cryptokitties.co/kitty/1466118), [#1474082](https://www.cryptokitties.co/kitty/1474082), [#1484593](https://www.cryptokitties.co/kitty/1484593), [#1484982](https://www.cryptokitties.co/kitty/1484982), [#1492154](https://www.cryptokitties.co/kitty/1492154), [#1498885](https://www.cryptokitties.co/kitty/1498885)) Fancy Cat released. #Fancy Cat #Exclusive
+
+![Hinecatone](https://cryptocopycats.github.io/media/kitties/100x100/fancy-hinecatone.png "Hinecatone")
 
 
 ### February
@@ -1262,6 +1470,15 @@ Feb 16, 2019 (451d)
 ![Pizzazz](https://cryptocopycats.github.io/media/kitties/100x100/fancy-pizzazz.png "Pizzazz")
 
 
+Feb 15, 2019 (450d)
+
+<a name="felono">
+
+- Exclusive [**Felono**](https://www.cryptokitties.co/search?include=sale,sire,other&search=exclusive:felono) (30 - [#1394641](https://www.cryptokitties.co/kitty/1394641), [#1404595](https://www.cryptokitties.co/kitty/1404595), [#1406021](https://www.cryptokitties.co/kitty/1406021), [#1413065](https://www.cryptokitties.co/kitty/1413065), [#1414375](https://www.cryptokitties.co/kitty/1414375), [#1420553](https://www.cryptokitties.co/kitty/1420553), [#1421315](https://www.cryptokitties.co/kitty/1421315), [#1421864](https://www.cryptokitties.co/kitty/1421864), [#1424104](https://www.cryptokitties.co/kitty/1424104), [#1425433](https://www.cryptokitties.co/kitty/1425433), [#1431823](https://www.cryptokitties.co/kitty/1431823), [#1435517](https://www.cryptokitties.co/kitty/1435517), [#1436333](https://www.cryptokitties.co/kitty/1436333), [#1449860](https://www.cryptokitties.co/kitty/1449860), [#1451482](https://www.cryptokitties.co/kitty/1451482), [#1455458](https://www.cryptokitties.co/kitty/1455458), [#1459320](https://www.cryptokitties.co/kitty/1459320), [#1462952](https://www.cryptokitties.co/kitty/1462952), [#1463069](https://www.cryptokitties.co/kitty/1463069), [#1476999](https://www.cryptokitties.co/kitty/1476999), [#1483225](https://www.cryptokitties.co/kitty/1483225), [#1487210](https://www.cryptokitties.co/kitty/1487210), [#1487551](https://www.cryptokitties.co/kitty/1487551), [#1489681](https://www.cryptokitties.co/kitty/1489681), [#1490345](https://www.cryptokitties.co/kitty/1490345), [#1491632](https://www.cryptokitties.co/kitty/1491632), [#1492206](https://www.cryptokitties.co/kitty/1492206), [#1492739](https://www.cryptokitties.co/kitty/1492739), [#1492817](https://www.cryptokitties.co/kitty/1492817), [#1498778](https://www.cryptokitties.co/kitty/1498778)) Fancy Cat released. #Fancy Cat #Exclusive
+
+![Felono](https://cryptocopycats.github.io/media/kitties/100x100/fancy-felono.png "Felono")
+
+
 Feb 9, 2019 (444d)
 
 <a name="misspurrfect">
@@ -1293,7 +1510,24 @@ Jan 26, 2019 (430d)
 ![Squib](https://cryptocopycats.github.io/media/kitties/100x100/fancy-squib.png "Squib")
 
 
+Jan 17, 2019 (421d)
+
+<a name="aeoncat">
+
+- Special Edition [**Aeoncat**](https://www.cryptokitties.co/search?include=sale,sire,other&search=specialedition:aeoncat) (380) Fancy Cat released -- Goddess Aeona - Goddess of Nature - Gods Unchained Promotion. #Fancy Cat #Special Edition
+  - Jan 17 - Jan 28 2019 (12d)
+
+![Aeoncat](https://cryptocopycats.github.io/media/kitties/100x100/fancy-aeoncat.png "Aeoncat")
+
+
 Jan 10, 2019 (414d)
+
+<a name="hypurrion">
+
+- Exclusive [**Hypurrion**](https://www.cryptokitties.co/search?include=sale,sire,other&search=exclusive:hypurrion) (1 - [#269](https://www.cryptokitties.co/kitty/269)) Fancy Cat released -- Hyperion - Mythic Titan of Light - Gods Unchained Promotion. #Fancy Cat #Exclusive
+
+![Hypurrion](https://cryptocopycats.github.io/media/kitties/100x100/fancy-hypurrion.png "Hypurrion")
+
 
 <a name="tallythepurrocious">
 
@@ -1311,6 +1545,22 @@ Jan 10, 2019 (414d)
 ## 2018
 
 ### December
+
+Dec 31, 2018 (404d)
+
+<a name="catzy">
+
+- Special Edition [**Catzy**](https://www.cryptokitties.co/search?include=sale,sire,other&search=specialedition:catzy) (10) Fancy Cat released -- Changpeng "CZ" Zhao - CEO of Binance - Top 10 Blockchain Influencer of the Year 2018 by CoinDesk. #Fancy Cat #Special Edition
+
+![Catzy](https://cryptocopycats.github.io/media/kitties/100x100/fancy-catzy.png "Catzy")
+
+
+<a name="purremyallaire">
+
+- Special Edition [**Purremy Allaire**](https://www.cryptokitties.co/search?include=sale,sire,other&search=specialedition:purremyallaire) (10) Fancy Cat released -- Jeremy Allaire - Top 10 Blockchain Influencer of the Year 2018 by CoinDesk. #Fancy Cat #Special Edition
+
+![Purremy Allaire](https://cryptocopycats.github.io/media/kitties/100x100/fancy-purremyallaire.png "Purremy Allaire")
+
 
 Dec 23, 2018 (396d)
 
@@ -1355,6 +1605,22 @@ Nov 30, 2018 (373d)
 ![Draco](https://cryptocopycats.github.io/media/kitties/100x100/fancy-draco.png "Draco")
 
 
+Nov 27, 2018 (370d)
+
+<a name="dracothemagnificent">
+
+- Exclusive [**Draco The Magnificent**](https://www.cryptokitties.co/search?include=sale,sire,other&search=exclusive:dracothemagnificent) (12 - [#270](https://www.cryptokitties.co/kitty/270), [#271](https://www.cryptokitties.co/kitty/271), [#272](https://www.cryptokitties.co/kitty/272), [#273](https://www.cryptokitties.co/kitty/273), [#274](https://www.cryptokitties.co/kitty/274), [#275](https://www.cryptokitties.co/kitty/275), [#276](https://www.cryptokitties.co/kitty/276), [#277](https://www.cryptokitties.co/kitty/277), [#278](https://www.cryptokitties.co/kitty/278), [#279](https://www.cryptokitties.co/kitty/279), [#280](https://www.cryptokitties.co/kitty/280), [#281](https://www.cryptokitties.co/kitty/281)) Fancy Cat released. #Fancy Cat #Exclusive
+
+![Draco The Magnificent](https://cryptocopycats.github.io/media/kitties/100x100/fancy-dracothemagnificent.png "Draco The Magnificent")
+
+
+<a name="bugcatv2">
+
+- Exclusive [**Bug Cat V2**](https://www.cryptokitties.co/search?include=sale,sire,other&search=exclusive:bugcatv2) (20 - [#167](https://www.cryptokitties.co/kitty/167), [#168](https://www.cryptokitties.co/kitty/168), [#169](https://www.cryptokitties.co/kitty/169), [#170](https://www.cryptokitties.co/kitty/170), [#171](https://www.cryptokitties.co/kitty/171), [#172](https://www.cryptokitties.co/kitty/172), [#173](https://www.cryptokitties.co/kitty/173), [#174](https://www.cryptokitties.co/kitty/174), [#175](https://www.cryptokitties.co/kitty/175), [#176](https://www.cryptokitties.co/kitty/176), [#177](https://www.cryptokitties.co/kitty/177), [#178](https://www.cryptokitties.co/kitty/178), [#179](https://www.cryptokitties.co/kitty/179), [#180](https://www.cryptokitties.co/kitty/180), [#181](https://www.cryptokitties.co/kitty/181), [#182](https://www.cryptokitties.co/kitty/182), [#183](https://www.cryptokitties.co/kitty/183), [#184](https://www.cryptokitties.co/kitty/184), [#185](https://www.cryptokitties.co/kitty/185), [#186](https://www.cryptokitties.co/kitty/186)) Fancy Cat released -- Bug Bounty II (Offers Contract etc) Kitty. #Fancy Cat #Exclusive
+
+![Bug Cat V2](https://cryptocopycats.github.io/media/kitties/100x100/fancy-bugcatv2.png "Bug Cat V2")
+
+
 Nov 26, 2018 (369d)
 
 <a name="dracojunior">
@@ -1394,6 +1660,22 @@ Nov 14, 2018 (357d)
     - **Emeraldgreen**  (AC07) - Accent Color
 
 ![Pickles](https://cryptocopycats.github.io/media/kitties/100x100/fancy-pickles.png "Pickles")
+
+
+Nov 13, 2018 (356d)
+
+<a name="lilbubthemagicalspacecat">
+
+- Exclusive [**Lil Bub Ub Bub (BUB) The Magical Space Cat**](https://www.cryptokitties.co/search?include=sale,sire,other&search=exclusive:lilbubthemagicalspacecat) (3 - [#266](https://www.cryptokitties.co/kitty/266), [#267](https://www.cryptokitties.co/kitty/267), [#268](https://www.cryptokitties.co/kitty/268)) Fancy Cat released. #Fancy Cat #Exclusive
+
+![Lil Bub Ub Bub (BUB) The Magical Space Cat](https://cryptocopycats.github.io/media/kitties/100x100/fancy-lilbubthemagicalspacecat.png "Lil Bub Ub Bub (BUB) The Magical Space Cat")
+
+
+<a name="lilbub">
+
+- Special Edition [**Lil Bub Ub Bub (BUB)**](https://www.cryptokitties.co/search?include=sale,sire,other&search=specialedition:lilbub) (500) Fancy Cat released. #Fancy Cat #Special Edition
+
+![Lil Bub Ub Bub (BUB)](https://cryptocopycats.github.io/media/kitties/100x100/fancy-lilbub.png "Lil Bub Ub Bub (BUB)")
 
 
 ### October
@@ -1442,6 +1724,15 @@ Sep 22, 2018 (304d)
 ![Pawzilla](https://cryptocopycats.github.io/media/kitties/100x100/fancy-pawzilla.png "Pawzilla")
 
 
+Sep 12, 2018 (294d)
+
+<a name="vulcat">
+
+- Exclusive [**Vulcat**](https://www.cryptokitties.co/search?include=sale,sire,other&search=exclusive:vulcat) (1 - [#1000000](https://www.cryptokitties.co/kitty/1000000)) Fancy Cat released -- 1 000 000th Kitty. #Fancy Cat #Exclusive
+
+![Vulcat](https://cryptocopycats.github.io/media/kitties/100x100/fancy-vulcat.png "Vulcat")
+
+
 Sep 9, 2018 (291d)
 
 <a name="meowstro">
@@ -1471,7 +1762,23 @@ Sep 7, 2018 (289d)
 
 ### August
 
+Aug 31, 2018 (282d)
+
+<a name="vulcant">
+
+- Exclusive [**Vulcant**](https://www.cryptokitties.co/search?include=sale,sire,other&search=exclusive:vulcant) (20 - [#932914](https://www.cryptokitties.co/kitty/932914), [#937360](https://www.cryptokitties.co/kitty/937360), [#938299](https://www.cryptokitties.co/kitty/938299), [#946526](https://www.cryptokitties.co/kitty/946526), [#948925](https://www.cryptokitties.co/kitty/948925), [#949058](https://www.cryptokitties.co/kitty/949058), [#950617](https://www.cryptokitties.co/kitty/950617), [#952280](https://www.cryptokitties.co/kitty/952280), [#952981](https://www.cryptokitties.co/kitty/952981), [#956374](https://www.cryptokitties.co/kitty/956374), [#956908](https://www.cryptokitties.co/kitty/956908), [#958570](https://www.cryptokitties.co/kitty/958570), [#964205](https://www.cryptokitties.co/kitty/964205), [#967234](https://www.cryptokitties.co/kitty/967234), [#983046](https://www.cryptokitties.co/kitty/983046), [#984451](https://www.cryptokitties.co/kitty/984451), [#990713](https://www.cryptokitties.co/kitty/990713), [#992861](https://www.cryptokitties.co/kitty/992861), [#995745](https://www.cryptokitties.co/kitty/995745), [#997469](https://www.cryptokitties.co/kitty/997469)) Fancy Cat released. #Fancy Cat #Exclusive
+
+![Vulcant](https://cryptocopycats.github.io/media/kitties/100x100/fancy-vulcant.png "Vulcant")
+
+
 Aug 23, 2018 (274d)
+
+<a name="rabbidkitty">
+
+- Exclusive [**Rabbid Kitty**](https://www.cryptokitties.co/search?include=sale,sire,other&search=exclusive:rabbidkitty) (6 - [#260](https://www.cryptokitties.co/kitty/260), [#261](https://www.cryptokitties.co/kitty/261), [#262](https://www.cryptokitties.co/kitty/262), [#263](https://www.cryptokitties.co/kitty/263), [#264](https://www.cryptokitties.co/kitty/264), [#265](https://www.cryptokitties.co/kitty/265)) Fancy Cat released -- Ubisoft Blockchain Heroes Hackathon. #Fancy Cat #Exclusive
+
+![Rabbid Kitty](https://cryptocopycats.github.io/media/kitties/100x100/fancy-rabbidkitty.png "Rabbid Kitty")
+
 
 <a name="purrity">
 
@@ -1529,6 +1836,24 @@ Jul 25, 2018 (245d)
     - **WE02**   - Wild Element
 
 ![Catbury](https://cryptocopycats.github.io/media/kitties/100x100/fancy-catbury.png "Catbury")
+
+
+Jul 20, 2018 (240d)
+
+<a name="honu">
+
+- Exclusive [**Honu**](https://www.cryptokitties.co/search?include=sale,sire,other&search=exclusive:honu) (1 - [#251](https://www.cryptokitties.co/kitty/251)) Fancy Cat released -- Kitties for Good - Save Turtle Habitats. #Fancy Cat #Exclusive
+
+![Honu](https://cryptocopycats.github.io/media/kitties/100x100/fancy-honu.png "Honu")
+
+
+Jul 18, 2018 (238d)
+
+<a name="victoire">
+
+- Exclusive [**Victoire**](https://www.cryptokitties.co/search?include=sale,sire,other&search=exclusive:victoire) (1 - [#402](https://www.cryptokitties.co/kitty/402)) Fancy Cat released -- France Football World Cup Champion. #Fancy Cat #Exclusive
+
+![Victoire](https://cryptocopycats.github.io/media/kitties/100x100/fancy-victoire.png "Victoire")
 
 
 Jul 13, 2018 (233d)
@@ -1596,6 +1921,15 @@ Jun 28, 2018 (218d)
     - **Belch**  (MO06) - Mouth
 
 ![Raspoutine](https://cryptocopycats.github.io/media/kitties/100x100/fancy-raspoutine.png "Raspoutine")
+
+
+Jun 26, 2018 (216d)
+
+<a name="furlin">
+
+- Exclusive [**Furlin**](https://www.cryptokitties.co/search?include=sale,sire,other&search=exclusive:furlin) (52 - [#115](https://www.cryptokitties.co/kitty/115), [#116](https://www.cryptokitties.co/kitty/116), [#117](https://www.cryptokitties.co/kitty/117), [#118](https://www.cryptokitties.co/kitty/118), [#119](https://www.cryptokitties.co/kitty/119), [#120](https://www.cryptokitties.co/kitty/120), [#121](https://www.cryptokitties.co/kitty/121), [#122](https://www.cryptokitties.co/kitty/122), [#123](https://www.cryptokitties.co/kitty/123), [#124](https://www.cryptokitties.co/kitty/124), [#125](https://www.cryptokitties.co/kitty/125), [#126](https://www.cryptokitties.co/kitty/126), [#128](https://www.cryptokitties.co/kitty/128), [#129](https://www.cryptokitties.co/kitty/129), [#130](https://www.cryptokitties.co/kitty/130), [#131](https://www.cryptokitties.co/kitty/131), [#132](https://www.cryptokitties.co/kitty/132), [#133](https://www.cryptokitties.co/kitty/133), [#134](https://www.cryptokitties.co/kitty/134), [#135](https://www.cryptokitties.co/kitty/135), [#136](https://www.cryptokitties.co/kitty/136), [#137](https://www.cryptokitties.co/kitty/137), [#138](https://www.cryptokitties.co/kitty/138), [#139](https://www.cryptokitties.co/kitty/139), [#140](https://www.cryptokitties.co/kitty/140), [#141](https://www.cryptokitties.co/kitty/141), [#142](https://www.cryptokitties.co/kitty/142), [#143](https://www.cryptokitties.co/kitty/143), [#144](https://www.cryptokitties.co/kitty/144), [#145](https://www.cryptokitties.co/kitty/145), [#146](https://www.cryptokitties.co/kitty/146), [#147](https://www.cryptokitties.co/kitty/147), [#148](https://www.cryptokitties.co/kitty/148), [#149](https://www.cryptokitties.co/kitty/149), [#150](https://www.cryptokitties.co/kitty/150), [#151](https://www.cryptokitties.co/kitty/151), [#152](https://www.cryptokitties.co/kitty/152), [#153](https://www.cryptokitties.co/kitty/153), [#154](https://www.cryptokitties.co/kitty/154), [#155](https://www.cryptokitties.co/kitty/155), [#156](https://www.cryptokitties.co/kitty/156), [#157](https://www.cryptokitties.co/kitty/157), [#158](https://www.cryptokitties.co/kitty/158), [#159](https://www.cryptokitties.co/kitty/159), [#160](https://www.cryptokitties.co/kitty/160), [#161](https://www.cryptokitties.co/kitty/161), [#162](https://www.cryptokitties.co/kitty/162), [#163](https://www.cryptokitties.co/kitty/163), [#164](https://www.cryptokitties.co/kitty/164), [#165](https://www.cryptokitties.co/kitty/165), [#166](https://www.cryptokitties.co/kitty/166)) Fancy Cat released. #Fancy Cat #Exclusive
+
+![Furlin](https://cryptocopycats.github.io/media/kitties/100x100/fancy-furlin.png "Furlin")
 
 
 Jun 21, 2018 (211d)
@@ -1682,6 +2016,15 @@ May 16, 2018 (175d)
 ![Doc Purr](https://cryptocopycats.github.io/media/kitties/100x100/fancy-docpurr.png "Doc Purr")
 
 
+May 12, 2018 (171d)
+
+<a name="celestialcyberdimension">
+
+- Exclusive [**Celestial Cyber Dimension**](https://www.cryptokitties.co/search?include=sale,sire,other&search=exclusive:celestialcyberdimension) (1 - [#127](https://www.cryptokitties.co/kitty/127)) Fancy Cat released. #Fancy Cat #Exclusive
+
+![Celestial Cyber Dimension](https://cryptocopycats.github.io/media/kitties/100x100/fancy-celestialcyberdimension.png "Celestial Cyber Dimension")
+
+
 May 8, 2018 (167d)
 
 <a name="swish">
@@ -1748,16 +2091,11 @@ Mar 16, 2018 (114d)
 
 Mar 8, 2018 (106d)
 
-<a name="pussforprogress">
+<a name="goldendogcat">
 
-- [**Puss For Progress**](https://www.cryptokitties.co/search?include=sale,sire,other&search=fancy:pussforprogress) (1920) Fancy Cat discovered -- Women's Day. #Fancy Cat
-  - **4** traits:
-    - **Himalayan**  (FU11) - Fur
-    - **Peach**  (AC02) - Accent Color
-    - **Safetyvest** I (HC17) - Highlight Color
-    - **Gerbil**  (MO03) - Mouth
+- Exclusive [**Golden Dog Cat (旺财汪)**](https://www.cryptokitties.co/search?include=sale,sire,other&search=exclusive:旺财汪) (11 - [#1802](https://www.cryptokitties.co/kitty/1802), [#1803](https://www.cryptokitties.co/kitty/1803), [#1805](https://www.cryptokitties.co/kitty/1805), [#1806](https://www.cryptokitties.co/kitty/1806), [#1808](https://www.cryptokitties.co/kitty/1808), [#1809](https://www.cryptokitties.co/kitty/1809), [#1812](https://www.cryptokitties.co/kitty/1812), [#1816](https://www.cryptokitties.co/kitty/1816), [#1825](https://www.cryptokitties.co/kitty/1825), [#1826](https://www.cryptokitties.co/kitty/1826), [#1827](https://www.cryptokitties.co/kitty/1827), [#1828](https://www.cryptokitties.co/kitty/1828)) Fancy Cat released -- China Launch. #Fancy Cat #Exclusive
 
-![Puss For Progress](https://cryptocopycats.github.io/media/kitties/100x100/fancy-pussforprogress.png "Puss For Progress")
+![Golden Dog Cat (旺财汪)](https://cryptocopycats.github.io/media/kitties/100x100/fancy-goldendogcat.png "Golden Dog Cat (旺财汪)")
 
 
 <a name="fortunecat">
@@ -1771,6 +2109,25 @@ Mar 8, 2018 (106d)
     - **Beard**  (MO08) - Mouth
 
 ![Fortune Cat (红包喵)](https://cryptocopycats.github.io/media/kitties/100x100/fancy-fortunecat.png "Fortune Cat (红包喵)")
+
+
+<a name="pussforprogress">
+
+- [**Puss For Progress**](https://www.cryptokitties.co/search?include=sale,sire,other&search=fancy:pussforprogress) (1920) Fancy Cat discovered -- Women's Day. #Fancy Cat
+  - **4** traits:
+    - **Himalayan**  (FU11) - Fur
+    - **Peach**  (AC02) - Accent Color
+    - **Safetyvest** I (HC17) - Highlight Color
+    - **Gerbil**  (MO03) - Mouth
+
+![Puss For Progress](https://cryptocopycats.github.io/media/kitties/100x100/fancy-pussforprogress.png "Puss For Progress")
+
+
+<a name="goldendragoncat">
+
+- Exclusive [**Golden Dragon Cat (帝龙喵)**](https://www.cryptokitties.co/search?include=sale,sire,other&search=exclusive:帝龙喵) (1 - [#888](https://www.cryptokitties.co/kitty/888)) Fancy Cat released -- China Launch. #Fancy Cat #Exclusive
+
+![Golden Dragon Cat (帝龙喵)](https://cryptocopycats.github.io/media/kitties/100x100/fancy-goldendragoncat.png "Golden Dragon Cat (帝龙喵)")
 
 
 Mar 7, 2018 (105d)
@@ -1800,6 +2157,15 @@ Mar 2, 2018 (100d)
     - **Yokel** II (MO24) - Mouth
 
 ![Dog Cat (汪星爷)](https://cryptocopycats.github.io/media/kitties/100x100/fancy-dogcat.png "Dog Cat (汪星爷)")
+
+
+Mar 1, 2018 (99d)
+
+<a name="knightkitty">
+
+- Exclusive [**Knight Kitty**](https://www.cryptokitties.co/search?include=sale,sire,other&search=exclusive:knightkitty) (11 - [#104](https://www.cryptokitties.co/kitty/104), [#105](https://www.cryptokitties.co/kitty/105), [#106](https://www.cryptokitties.co/kitty/106), [#107](https://www.cryptokitties.co/kitty/107), [#108](https://www.cryptokitties.co/kitty/108), [#109](https://www.cryptokitties.co/kitty/109), [#110](https://www.cryptokitties.co/kitty/110), [#111](https://www.cryptokitties.co/kitty/111), [#112](https://www.cryptokitties.co/kitty/112), [#113](https://www.cryptokitties.co/kitty/113), [#114](https://www.cryptokitties.co/kitty/114)) Fancy Cat released. #Fancy Cat #Exclusive
+
+![Knight Kitty](https://cryptocopycats.github.io/media/kitties/100x100/fancy-knightkitty.png "Knight Kitty")
 
 
 ### February
@@ -1858,6 +2224,15 @@ Feb 13, 2018 (83d)
     - **Grim**  (MO11) - Mouth
 
 ![Earnie](https://cryptocopycats.github.io/media/kitties/100x100/fancy-earnie.png "Earnie")
+
+
+Feb 6, 2018 (76d)
+
+<a name="cathena">
+
+- Exclusive [**Cathena**](https://www.cryptokitties.co/search?include=sale,sire,other&search=exclusive:cathena) (1 - [#500000](https://www.cryptokitties.co/kitty/500000)) Fancy Cat released -- 500 000th Kitty. #Fancy Cat #Exclusive
+
+![Cathena](https://cryptocopycats.github.io/media/kitties/100x100/fancy-cathena.png "Cathena")
 
 
 ### January
@@ -1979,283 +2354,6 @@ Nov 29, 2017 (7d)
 ![Du Cat](https://cryptocopycats.github.io/media/kitties/100x100/fancy-ducat.png "Du Cat")
 
 
-Nov 23, 2017 (1d)
-
-<a name="shipcat">
-
-- [**Ship Cat**](https://www.cryptokitties.co/search?include=sale,sire,other&search=fancy:shipcat) (2000) Fancy Cat discovered. #Fancy Cat
-  - **4** traits:
-    - **Sphynx**  (FU13) - Fur
-    - **Orangesoda**  (BC03) - Base Color
-    - **Luckystripe**  (PA09) - Pattern
-    - **Crazy**  (ES06) - Eye Shape
-
-![Ship Cat](https://cryptocopycats.github.io/media/kitties/100x100/fancy-shipcat.png "Ship Cat")
-
-
-
-## 2020
-
-Nov 7, 2020 (1081d)
-
-<a name="pepitothemascot">
-
-- Exclusive [**Pepito The Mascot**](https://www.cryptokitties.co/search?include=sale,sire,other&search=exclusive:pepitothemascot) (20 - [#231](https://www.cryptokitties.co/kitty/231), [#232](https://www.cryptokitties.co/kitty/232), [#233](https://www.cryptokitties.co/kitty/233), [#234](https://www.cryptokitties.co/kitty/234), [#235](https://www.cryptokitties.co/kitty/235), [#236](https://www.cryptokitties.co/kitty/236), [#237](https://www.cryptokitties.co/kitty/237), [#238](https://www.cryptokitties.co/kitty/238), [#239](https://www.cryptokitties.co/kitty/239), [#240](https://www.cryptokitties.co/kitty/240), [#241](https://www.cryptokitties.co/kitty/241), [#242](https://www.cryptokitties.co/kitty/242), [#243](https://www.cryptokitties.co/kitty/243), [#244](https://www.cryptokitties.co/kitty/244), [#245](https://www.cryptokitties.co/kitty/245), [#246](https://www.cryptokitties.co/kitty/246), [#247](https://www.cryptokitties.co/kitty/247), [#248](https://www.cryptokitties.co/kitty/248), [#249](https://www.cryptokitties.co/kitty/249), [#250](https://www.cryptokitties.co/kitty/250)) Fancy Cat released. #Fancy Cat #Exclusive
-
-![Pepito The Mascot](https://cryptocopycats.github.io/media/kitties/100x100/fancy-pepitothemascot.png "Pepito The Mascot")
-
-
-### May
-
-May 21, 2020 (911d)
-
-<a name="megaflowtron">
-
-- Exclusive [**Mega Flowtron**](https://www.cryptokitties.co/search?include=sale,sire,other&search=exclusive:megaflowtron) (1 - [#303](https://www.cryptokitties.co/kitty/303)) Fancy Cat released. #Fancy Cat #Exclusive
-
-![Mega Flowtron](https://cryptocopycats.github.io/media/kitties/100x100/fancy-megaflowtron.png "Mega Flowtron")
-
-
-May 15, 2020 (905d)
-
-<a name="koshkat">
-
-- Exclusive [**Koshkat**](https://www.cryptokitties.co/search?include=sale,sire,other&search=exclusive:koshkat) (1 - [#222](https://www.cryptokitties.co/kitty/222)) Fancy Cat released. #Fancy Cat #Exclusive
-
-![Koshkat](https://cryptocopycats.github.io/media/kitties/100x100/fancy-koshkat.png "Koshkat")
-
-
-### February
-
-Feb 1, 2020 (801d)
-
-<a name="gale">
-
-- Exclusive [**Gale**](https://www.cryptokitties.co/search?include=sale,sire,other&search=exclusive:gale) (33 - [#1995387](https://www.cryptokitties.co/kitty/1995387), [#1995323](https://www.cryptokitties.co/kitty/1995323), [#1990934](https://www.cryptokitties.co/kitty/1990934), [#1987022](https://www.cryptokitties.co/kitty/1987022), [#1986452](https://www.cryptokitties.co/kitty/1986452), [#1984873](https://www.cryptokitties.co/kitty/1984873), [#1984313](https://www.cryptokitties.co/kitty/1984313), [#1980813](https://www.cryptokitties.co/kitty/1980813), [#1979910](https://www.cryptokitties.co/kitty/1979910), [#1976399](https://www.cryptokitties.co/kitty/1976399), [#1973254](https://www.cryptokitties.co/kitty/1973254), [#1971383](https://www.cryptokitties.co/kitty/1971383), [#1970499](https://www.cryptokitties.co/kitty/1970499), [#1968361](https://www.cryptokitties.co/kitty/1968361), [#1961950](https://www.cryptokitties.co/kitty/1961950), [#1960448](https://www.cryptokitties.co/kitty/1960448), [#1957257](https://www.cryptokitties.co/kitty/1957257), [#1956528](https://www.cryptokitties.co/kitty/1956528), [#1952165](https://www.cryptokitties.co/kitty/1952165), [#1946384](https://www.cryptokitties.co/kitty/1946384), [#1932696](https://www.cryptokitties.co/kitty/1932696), [#1923247](https://www.cryptokitties.co/kitty/1923247), [#1909523](https://www.cryptokitties.co/kitty/1909523), [#1906470](https://www.cryptokitties.co/kitty/1906470), [#1895691](https://www.cryptokitties.co/kitty/1895691), [#1895007](https://www.cryptokitties.co/kitty/1895007), [#1893341](https://www.cryptokitties.co/kitty/1893341), [#1887536](https://www.cryptokitties.co/kitty/1887536), [#1861789](https://www.cryptokitties.co/kitty/1861789), [#1859088](https://www.cryptokitties.co/kitty/1859088), [#1836698](https://www.cryptokitties.co/kitty/1836698), [#1825688](https://www.cryptokitties.co/kitty/1825688), [#1825574](https://www.cryptokitties.co/kitty/1825574)) Fancy Cat released. #Fancy Cat #Exclusive
-
-![Gale](https://cryptocopycats.github.io/media/kitties/100x100/fancy-gale.png "Gale")
-
-
-
-## 2019
-
-### May
-
-May 10, 2019 (534d)
-
-<a name="dapp-e">
-
-- Exclusive [**DAPP-E**](https://www.cryptokitties.co/search?include=sale,sire,other&search=exclusive:dapp-e) (50 - [#1829](https://www.cryptokitties.co/kitty/1829), [#1830](https://www.cryptokitties.co/kitty/1830), [#1831](https://www.cryptokitties.co/kitty/1831), [#1832](https://www.cryptokitties.co/kitty/1832), [#1833](https://www.cryptokitties.co/kitty/1833), [#1834](https://www.cryptokitties.co/kitty/1834), [#1835](https://www.cryptokitties.co/kitty/1835), [#1836](https://www.cryptokitties.co/kitty/1836), [#1837](https://www.cryptokitties.co/kitty/1837), [#1838](https://www.cryptokitties.co/kitty/1838), [#1839](https://www.cryptokitties.co/kitty/1839), [#1840](https://www.cryptokitties.co/kitty/1840), [#1841](https://www.cryptokitties.co/kitty/1841), [#1842](https://www.cryptokitties.co/kitty/1842), [#1843](https://www.cryptokitties.co/kitty/1843), [#1844](https://www.cryptokitties.co/kitty/1844), [#1845](https://www.cryptokitties.co/kitty/1845), [#1846](https://www.cryptokitties.co/kitty/1846), [#1847](https://www.cryptokitties.co/kitty/1847), [#1848](https://www.cryptokitties.co/kitty/1848), [#1849](https://www.cryptokitties.co/kitty/1849), [#1850](https://www.cryptokitties.co/kitty/1850), [#1851](https://www.cryptokitties.co/kitty/1851), [#1852](https://www.cryptokitties.co/kitty/1852), [#1853](https://www.cryptokitties.co/kitty/1853), [#1854](https://www.cryptokitties.co/kitty/1854), [#1855](https://www.cryptokitties.co/kitty/1855), [#1856](https://www.cryptokitties.co/kitty/1856), [#1857](https://www.cryptokitties.co/kitty/1857), [#1858](https://www.cryptokitties.co/kitty/1858), [#1859](https://www.cryptokitties.co/kitty/1859), [#1860](https://www.cryptokitties.co/kitty/1860), [#1861](https://www.cryptokitties.co/kitty/1861), [#1862](https://www.cryptokitties.co/kitty/1862), [#1863](https://www.cryptokitties.co/kitty/1863), [#1864](https://www.cryptokitties.co/kitty/1864), [#1865](https://www.cryptokitties.co/kitty/1865), [#1866](https://www.cryptokitties.co/kitty/1866), [#1867](https://www.cryptokitties.co/kitty/1867), [#1868](https://www.cryptokitties.co/kitty/1868), [#1869](https://www.cryptokitties.co/kitty/1869), [#1870](https://www.cryptokitties.co/kitty/1870), [#1871](https://www.cryptokitties.co/kitty/1871), [#1872](https://www.cryptokitties.co/kitty/1872), [#1873](https://www.cryptokitties.co/kitty/1873), [#1874](https://www.cryptokitties.co/kitty/1874), [#1875](https://www.cryptokitties.co/kitty/1875), [#1876](https://www.cryptokitties.co/kitty/1876), [#1877](https://www.cryptokitties.co/kitty/1877), [#1878](https://www.cryptokitties.co/kitty/1878)) Fancy Cat released -- Dapper (Crypto Contract) Wallet Promotion Cat. #Fancy Cat #Exclusive
-
-![DAPP-E](https://cryptocopycats.github.io/media/kitties/100x100/fancy-dapp-e.png "DAPP-E")
-
-
-### March
-
-Mar 31, 2019 (494d)
-
-<a name="papacatuanuku">
-
-- Exclusive [**Papacatuanuku**](https://www.cryptokitties.co/search?include=sale,sire,other&search=exclusive:papacatuanuku) (1 - [#1500000](https://www.cryptokitties.co/kitty/1500000)) Fancy Cat released -- Kitty #1500000. #Fancy Cat #Exclusive
-
-![Papacatuanuku](https://cryptocopycats.github.io/media/kitties/100x100/fancy-papacatuanuku.png "Papacatuanuku")
-
-
-Mar 26, 2019 (489d)
-
-<a name="sirmeowsalot">
-
-- Exclusive [**Sir Meowsalot**](https://www.cryptokitties.co/search?include=sale,sire,other&search=exclusive:sirmeowsalot) (21 - [#201](https://www.cryptokitties.co/kitty/201), [#202](https://www.cryptokitties.co/kitty/202), [#203](https://www.cryptokitties.co/kitty/203), [#204](https://www.cryptokitties.co/kitty/204), [#205](https://www.cryptokitties.co/kitty/205), [#206](https://www.cryptokitties.co/kitty/206), [#207](https://www.cryptokitties.co/kitty/207), [#208](https://www.cryptokitties.co/kitty/208), [#209](https://www.cryptokitties.co/kitty/209), [#210](https://www.cryptokitties.co/kitty/210), [#211](https://www.cryptokitties.co/kitty/211), [#212](https://www.cryptokitties.co/kitty/212), [#213](https://www.cryptokitties.co/kitty/213), [#214](https://www.cryptokitties.co/kitty/214), [#215](https://www.cryptokitties.co/kitty/215), [#216](https://www.cryptokitties.co/kitty/216), [#217](https://www.cryptokitties.co/kitty/217), [#218](https://www.cryptokitties.co/kitty/218), [#219](https://www.cryptokitties.co/kitty/219), [#220](https://www.cryptokitties.co/kitty/220), [#221](https://www.cryptokitties.co/kitty/221)) Fancy Cat released. #Fancy Cat #Exclusive
-
-![Sir Meowsalot](https://cryptocopycats.github.io/media/kitties/100x100/fancy-sirmeowsalot.png "Sir Meowsalot")
-
-
-Mar 2, 2019 (465d)
-
-<a name="cyberberry">
-
-- Exclusive [**Cyber Berry**](https://www.cryptokitties.co/search?include=sale,sire,other&search=exclusive:cyberberry) (1 - [#282](https://www.cryptokitties.co/kitty/282)) Fancy Cat released -- Winner of the NFTme Sweetstakes. #Fancy Cat #Exclusive
-
-![Cyber Berry](https://cryptocopycats.github.io/media/kitties/100x100/fancy-cyberberry.png "Cyber Berry")
-
-
-Mar 1, 2019 (464d)
-
-<a name="hinecatone">
-
-- Exclusive [**Hinecatone**](https://www.cryptokitties.co/search?include=sale,sire,other&search=exclusive:hinecatone) (15 - [#1423547](https://www.cryptokitties.co/kitty/1423547), [#1433380](https://www.cryptokitties.co/kitty/1433380), [#1433486](https://www.cryptokitties.co/kitty/1433486), [#1440835](https://www.cryptokitties.co/kitty/1440835), [#1453366](https://www.cryptokitties.co/kitty/1453366), [#1456935](https://www.cryptokitties.co/kitty/1456935), [#1456973](https://www.cryptokitties.co/kitty/1456973), [#1459319](https://www.cryptokitties.co/kitty/1459319), [#1463197](https://www.cryptokitties.co/kitty/1463197), [#1466118](https://www.cryptokitties.co/kitty/1466118), [#1474082](https://www.cryptokitties.co/kitty/1474082), [#1484593](https://www.cryptokitties.co/kitty/1484593), [#1484982](https://www.cryptokitties.co/kitty/1484982), [#1492154](https://www.cryptokitties.co/kitty/1492154), [#1498885](https://www.cryptokitties.co/kitty/1498885)) Fancy Cat released. #Fancy Cat #Exclusive
-
-![Hinecatone](https://cryptocopycats.github.io/media/kitties/100x100/fancy-hinecatone.png "Hinecatone")
-
-
-### February
-
-Feb 15, 2019 (450d)
-
-<a name="felono">
-
-- Exclusive [**Felono**](https://www.cryptokitties.co/search?include=sale,sire,other&search=exclusive:felono) (30 - [#1394641](https://www.cryptokitties.co/kitty/1394641), [#1404595](https://www.cryptokitties.co/kitty/1404595), [#1406021](https://www.cryptokitties.co/kitty/1406021), [#1413065](https://www.cryptokitties.co/kitty/1413065), [#1414375](https://www.cryptokitties.co/kitty/1414375), [#1420553](https://www.cryptokitties.co/kitty/1420553), [#1421315](https://www.cryptokitties.co/kitty/1421315), [#1421864](https://www.cryptokitties.co/kitty/1421864), [#1424104](https://www.cryptokitties.co/kitty/1424104), [#1425433](https://www.cryptokitties.co/kitty/1425433), [#1431823](https://www.cryptokitties.co/kitty/1431823), [#1435517](https://www.cryptokitties.co/kitty/1435517), [#1436333](https://www.cryptokitties.co/kitty/1436333), [#1449860](https://www.cryptokitties.co/kitty/1449860), [#1451482](https://www.cryptokitties.co/kitty/1451482), [#1455458](https://www.cryptokitties.co/kitty/1455458), [#1459320](https://www.cryptokitties.co/kitty/1459320), [#1462952](https://www.cryptokitties.co/kitty/1462952), [#1463069](https://www.cryptokitties.co/kitty/1463069), [#1476999](https://www.cryptokitties.co/kitty/1476999), [#1483225](https://www.cryptokitties.co/kitty/1483225), [#1487210](https://www.cryptokitties.co/kitty/1487210), [#1487551](https://www.cryptokitties.co/kitty/1487551), [#1489681](https://www.cryptokitties.co/kitty/1489681), [#1490345](https://www.cryptokitties.co/kitty/1490345), [#1491632](https://www.cryptokitties.co/kitty/1491632), [#1492206](https://www.cryptokitties.co/kitty/1492206), [#1492739](https://www.cryptokitties.co/kitty/1492739), [#1492817](https://www.cryptokitties.co/kitty/1492817), [#1498778](https://www.cryptokitties.co/kitty/1498778)) Fancy Cat released. #Fancy Cat #Exclusive
-
-![Felono](https://cryptocopycats.github.io/media/kitties/100x100/fancy-felono.png "Felono")
-
-
-### January
-
-Jan 10, 2019 (414d)
-
-<a name="hypurrion">
-
-- Exclusive [**Hypurrion**](https://www.cryptokitties.co/search?include=sale,sire,other&search=exclusive:hypurrion) (1 - [#269](https://www.cryptokitties.co/kitty/269)) Fancy Cat released -- Hyperion - Mythic Titan of Light - Gods Unchained Promotion. #Fancy Cat #Exclusive
-
-![Hypurrion](https://cryptocopycats.github.io/media/kitties/100x100/fancy-hypurrion.png "Hypurrion")
-
-
-
-## 2018
-
-### November
-
-Nov 27, 2018 (370d)
-
-<a name="dracothemagnificent">
-
-- Exclusive [**Draco The Magnificent**](https://www.cryptokitties.co/search?include=sale,sire,other&search=exclusive:dracothemagnificent) (12 - [#270](https://www.cryptokitties.co/kitty/270), [#271](https://www.cryptokitties.co/kitty/271), [#272](https://www.cryptokitties.co/kitty/272), [#273](https://www.cryptokitties.co/kitty/273), [#274](https://www.cryptokitties.co/kitty/274), [#275](https://www.cryptokitties.co/kitty/275), [#276](https://www.cryptokitties.co/kitty/276), [#277](https://www.cryptokitties.co/kitty/277), [#278](https://www.cryptokitties.co/kitty/278), [#279](https://www.cryptokitties.co/kitty/279), [#280](https://www.cryptokitties.co/kitty/280), [#281](https://www.cryptokitties.co/kitty/281)) Fancy Cat released. #Fancy Cat #Exclusive
-
-![Draco The Magnificent](https://cryptocopycats.github.io/media/kitties/100x100/fancy-dracothemagnificent.png "Draco The Magnificent")
-
-
-<a name="bugcatv2">
-
-- Exclusive [**Bug Cat V2**](https://www.cryptokitties.co/search?include=sale,sire,other&search=exclusive:bugcatv2) (20 - [#167](https://www.cryptokitties.co/kitty/167), [#168](https://www.cryptokitties.co/kitty/168), [#169](https://www.cryptokitties.co/kitty/169), [#170](https://www.cryptokitties.co/kitty/170), [#171](https://www.cryptokitties.co/kitty/171), [#172](https://www.cryptokitties.co/kitty/172), [#173](https://www.cryptokitties.co/kitty/173), [#174](https://www.cryptokitties.co/kitty/174), [#175](https://www.cryptokitties.co/kitty/175), [#176](https://www.cryptokitties.co/kitty/176), [#177](https://www.cryptokitties.co/kitty/177), [#178](https://www.cryptokitties.co/kitty/178), [#179](https://www.cryptokitties.co/kitty/179), [#180](https://www.cryptokitties.co/kitty/180), [#181](https://www.cryptokitties.co/kitty/181), [#182](https://www.cryptokitties.co/kitty/182), [#183](https://www.cryptokitties.co/kitty/183), [#184](https://www.cryptokitties.co/kitty/184), [#185](https://www.cryptokitties.co/kitty/185), [#186](https://www.cryptokitties.co/kitty/186)) Fancy Cat released -- Bug Bounty II (Offers Contract etc) Kitty. #Fancy Cat #Exclusive
-
-![Bug Cat V2](https://cryptocopycats.github.io/media/kitties/100x100/fancy-bugcatv2.png "Bug Cat V2")
-
-
-Nov 13, 2018 (356d)
-
-<a name="lilbubthemagicalspacecat">
-
-- Exclusive [**Lil Bub Ub Bub (BUB) The Magical Space Cat**](https://www.cryptokitties.co/search?include=sale,sire,other&search=exclusive:lilbubthemagicalspacecat) (3 - [#266](https://www.cryptokitties.co/kitty/266), [#267](https://www.cryptokitties.co/kitty/267), [#268](https://www.cryptokitties.co/kitty/268)) Fancy Cat released. #Fancy Cat #Exclusive
-
-![Lil Bub Ub Bub (BUB) The Magical Space Cat](https://cryptocopycats.github.io/media/kitties/100x100/fancy-lilbubthemagicalspacecat.png "Lil Bub Ub Bub (BUB) The Magical Space Cat")
-
-
-### September
-
-Sep 12, 2018 (294d)
-
-<a name="vulcat">
-
-- Exclusive [**Vulcat**](https://www.cryptokitties.co/search?include=sale,sire,other&search=exclusive:vulcat) (1 - [#1000000](https://www.cryptokitties.co/kitty/1000000)) Fancy Cat released -- 1 000 000th Kitty. #Fancy Cat #Exclusive
-
-![Vulcat](https://cryptocopycats.github.io/media/kitties/100x100/fancy-vulcat.png "Vulcat")
-
-
-### August
-
-Aug 31, 2018 (282d)
-
-<a name="vulcant">
-
-- Exclusive [**Vulcant**](https://www.cryptokitties.co/search?include=sale,sire,other&search=exclusive:vulcant) (20 - [#932914](https://www.cryptokitties.co/kitty/932914), [#937360](https://www.cryptokitties.co/kitty/937360), [#938299](https://www.cryptokitties.co/kitty/938299), [#946526](https://www.cryptokitties.co/kitty/946526), [#948925](https://www.cryptokitties.co/kitty/948925), [#949058](https://www.cryptokitties.co/kitty/949058), [#950617](https://www.cryptokitties.co/kitty/950617), [#952280](https://www.cryptokitties.co/kitty/952280), [#952981](https://www.cryptokitties.co/kitty/952981), [#956374](https://www.cryptokitties.co/kitty/956374), [#956908](https://www.cryptokitties.co/kitty/956908), [#958570](https://www.cryptokitties.co/kitty/958570), [#964205](https://www.cryptokitties.co/kitty/964205), [#967234](https://www.cryptokitties.co/kitty/967234), [#983046](https://www.cryptokitties.co/kitty/983046), [#984451](https://www.cryptokitties.co/kitty/984451), [#990713](https://www.cryptokitties.co/kitty/990713), [#992861](https://www.cryptokitties.co/kitty/992861), [#995745](https://www.cryptokitties.co/kitty/995745), [#997469](https://www.cryptokitties.co/kitty/997469)) Fancy Cat released. #Fancy Cat #Exclusive
-
-![Vulcant](https://cryptocopycats.github.io/media/kitties/100x100/fancy-vulcant.png "Vulcant")
-
-
-Aug 23, 2018 (274d)
-
-<a name="rabbidkitty">
-
-- Exclusive [**Rabbid Kitty**](https://www.cryptokitties.co/search?include=sale,sire,other&search=exclusive:rabbidkitty) (6 - [#260](https://www.cryptokitties.co/kitty/260), [#261](https://www.cryptokitties.co/kitty/261), [#262](https://www.cryptokitties.co/kitty/262), [#263](https://www.cryptokitties.co/kitty/263), [#264](https://www.cryptokitties.co/kitty/264), [#265](https://www.cryptokitties.co/kitty/265)) Fancy Cat released -- Ubisoft Blockchain Heroes Hackathon. #Fancy Cat #Exclusive
-
-![Rabbid Kitty](https://cryptocopycats.github.io/media/kitties/100x100/fancy-rabbidkitty.png "Rabbid Kitty")
-
-
-### July
-
-Jul 20, 2018 (240d)
-
-<a name="honu">
-
-- Exclusive [**Honu**](https://www.cryptokitties.co/search?include=sale,sire,other&search=exclusive:honu) (1 - [#251](https://www.cryptokitties.co/kitty/251)) Fancy Cat released -- Kitties for Good - Save Turtle Habitats. #Fancy Cat #Exclusive
-
-![Honu](https://cryptocopycats.github.io/media/kitties/100x100/fancy-honu.png "Honu")
-
-
-Jul 18, 2018 (238d)
-
-<a name="victoire">
-
-- Exclusive [**Victoire**](https://www.cryptokitties.co/search?include=sale,sire,other&search=exclusive:victoire) (1 - [#402](https://www.cryptokitties.co/kitty/402)) Fancy Cat released -- France Football World Cup Champion. #Fancy Cat #Exclusive
-
-![Victoire](https://cryptocopycats.github.io/media/kitties/100x100/fancy-victoire.png "Victoire")
-
-
-### June
-
-Jun 26, 2018 (216d)
-
-<a name="furlin">
-
-- Exclusive [**Furlin**](https://www.cryptokitties.co/search?include=sale,sire,other&search=exclusive:furlin) (52 - [#115](https://www.cryptokitties.co/kitty/115), [#116](https://www.cryptokitties.co/kitty/116), [#117](https://www.cryptokitties.co/kitty/117), [#118](https://www.cryptokitties.co/kitty/118), [#119](https://www.cryptokitties.co/kitty/119), [#120](https://www.cryptokitties.co/kitty/120), [#121](https://www.cryptokitties.co/kitty/121), [#122](https://www.cryptokitties.co/kitty/122), [#123](https://www.cryptokitties.co/kitty/123), [#124](https://www.cryptokitties.co/kitty/124), [#125](https://www.cryptokitties.co/kitty/125), [#126](https://www.cryptokitties.co/kitty/126), [#128](https://www.cryptokitties.co/kitty/128), [#129](https://www.cryptokitties.co/kitty/129), [#130](https://www.cryptokitties.co/kitty/130), [#131](https://www.cryptokitties.co/kitty/131), [#132](https://www.cryptokitties.co/kitty/132), [#133](https://www.cryptokitties.co/kitty/133), [#134](https://www.cryptokitties.co/kitty/134), [#135](https://www.cryptokitties.co/kitty/135), [#136](https://www.cryptokitties.co/kitty/136), [#137](https://www.cryptokitties.co/kitty/137), [#138](https://www.cryptokitties.co/kitty/138), [#139](https://www.cryptokitties.co/kitty/139), [#140](https://www.cryptokitties.co/kitty/140), [#141](https://www.cryptokitties.co/kitty/141), [#142](https://www.cryptokitties.co/kitty/142), [#143](https://www.cryptokitties.co/kitty/143), [#144](https://www.cryptokitties.co/kitty/144), [#145](https://www.cryptokitties.co/kitty/145), [#146](https://www.cryptokitties.co/kitty/146), [#147](https://www.cryptokitties.co/kitty/147), [#148](https://www.cryptokitties.co/kitty/148), [#149](https://www.cryptokitties.co/kitty/149), [#150](https://www.cryptokitties.co/kitty/150), [#151](https://www.cryptokitties.co/kitty/151), [#152](https://www.cryptokitties.co/kitty/152), [#153](https://www.cryptokitties.co/kitty/153), [#154](https://www.cryptokitties.co/kitty/154), [#155](https://www.cryptokitties.co/kitty/155), [#156](https://www.cryptokitties.co/kitty/156), [#157](https://www.cryptokitties.co/kitty/157), [#158](https://www.cryptokitties.co/kitty/158), [#159](https://www.cryptokitties.co/kitty/159), [#160](https://www.cryptokitties.co/kitty/160), [#161](https://www.cryptokitties.co/kitty/161), [#162](https://www.cryptokitties.co/kitty/162), [#163](https://www.cryptokitties.co/kitty/163), [#164](https://www.cryptokitties.co/kitty/164), [#165](https://www.cryptokitties.co/kitty/165), [#166](https://www.cryptokitties.co/kitty/166)) Fancy Cat released. #Fancy Cat #Exclusive
-
-![Furlin](https://cryptocopycats.github.io/media/kitties/100x100/fancy-furlin.png "Furlin")
-
-
-### May
-
-May 12, 2018 (171d)
-
-<a name="celestialcyberdimension">
-
-- Exclusive [**Celestial Cyber Dimension**](https://www.cryptokitties.co/search?include=sale,sire,other&search=exclusive:celestialcyberdimension) (1 - [#127](https://www.cryptokitties.co/kitty/127)) Fancy Cat released. #Fancy Cat #Exclusive
-
-![Celestial Cyber Dimension](https://cryptocopycats.github.io/media/kitties/100x100/fancy-celestialcyberdimension.png "Celestial Cyber Dimension")
-
-
-### March
-
-Mar 8, 2018 (106d)
-
-<a name="goldendragoncat">
-
-- Exclusive [**Golden Dragon Cat (帝龙喵)**](https://www.cryptokitties.co/search?include=sale,sire,other&search=exclusive:帝龙喵) (1 - [#888](https://www.cryptokitties.co/kitty/888)) Fancy Cat released -- China Launch. #Fancy Cat #Exclusive
-
-![Golden Dragon Cat (帝龙喵)](https://cryptocopycats.github.io/media/kitties/100x100/fancy-goldendragoncat.png "Golden Dragon Cat (帝龙喵)")
-
-
-<a name="goldendogcat">
-
-- Exclusive [**Golden Dog Cat (旺财汪)**](https://www.cryptokitties.co/search?include=sale,sire,other&search=exclusive:旺财汪) (11 - [#1802](https://www.cryptokitties.co/kitty/1802), [#1803](https://www.cryptokitties.co/kitty/1803), [#1805](https://www.cryptokitties.co/kitty/1805), [#1806](https://www.cryptokitties.co/kitty/1806), [#1808](https://www.cryptokitties.co/kitty/1808), [#1809](https://www.cryptokitties.co/kitty/1809), [#1812](https://www.cryptokitties.co/kitty/1812), [#1816](https://www.cryptokitties.co/kitty/1816), [#1825](https://www.cryptokitties.co/kitty/1825), [#1826](https://www.cryptokitties.co/kitty/1826), [#1827](https://www.cryptokitties.co/kitty/1827), [#1828](https://www.cryptokitties.co/kitty/1828)) Fancy Cat released -- China Launch. #Fancy Cat #Exclusive
-
-![Golden Dog Cat (旺财汪)](https://cryptocopycats.github.io/media/kitties/100x100/fancy-goldendogcat.png "Golden Dog Cat (旺财汪)")
-
-
-Mar 1, 2018 (99d)
-
-<a name="knightkitty">
-
-- Exclusive [**Knight Kitty**](https://www.cryptokitties.co/search?include=sale,sire,other&search=exclusive:knightkitty) (11 - [#104](https://www.cryptokitties.co/kitty/104), [#105](https://www.cryptokitties.co/kitty/105), [#106](https://www.cryptokitties.co/kitty/106), [#107](https://www.cryptokitties.co/kitty/107), [#108](https://www.cryptokitties.co/kitty/108), [#109](https://www.cryptokitties.co/kitty/109), [#110](https://www.cryptokitties.co/kitty/110), [#111](https://www.cryptokitties.co/kitty/111), [#112](https://www.cryptokitties.co/kitty/112), [#113](https://www.cryptokitties.co/kitty/113), [#114](https://www.cryptokitties.co/kitty/114)) Fancy Cat released. #Fancy Cat #Exclusive
-
-![Knight Kitty](https://cryptocopycats.github.io/media/kitties/100x100/fancy-knightkitty.png "Knight Kitty")
-
-
-### February
-
-Feb 6, 2018 (76d)
-
-<a name="cathena">
-
-- Exclusive [**Cathena**](https://www.cryptokitties.co/search?include=sale,sire,other&search=exclusive:cathena) (1 - [#500000](https://www.cryptokitties.co/kitty/500000)) Fancy Cat released -- 500 000th Kitty. #Fancy Cat #Exclusive
-
-![Cathena](https://cryptocopycats.github.io/media/kitties/100x100/fancy-cathena.png "Cathena")
-
-
-
-## 2017
-
-### November
-
 Nov 24, 2017 (2d)
 
 <a name="genesis">
@@ -2274,205 +2372,14 @@ Nov 23, 2017 (1d)
 ![Bug Cat](https://cryptocopycats.github.io/media/kitties/100x100/fancy-bugcat.png "Bug Cat")
 
 
-
-## 2020
-
-### December
-
-Dec 14, 2020 (1118d)
-
-<a name="frostymcwhiskers">
-
-- Special Edition [**Frosty McWhiskers**](https://www.cryptokitties.co/search?include=sale,sire,other&search=specialedition:frostymcwhiskers) (104) Fancy Cat released. #Fancy Cat #Special Edition
-
-![Frosty McWhiskers](https://cryptocopycats.github.io/media/kitties/100x100/fancy-frostymcwhiskers.png "Frosty McWhiskers")
-
-
-<a name="fannie">
-
-- Special Edition [**Fannie**](https://www.cryptokitties.co/search?include=sale,sire,other&search=specialedition:fannie) (58) Fancy Cat released. #Fancy Cat #Special Edition
-
-![Fannie](https://cryptocopycats.github.io/media/kitties/100x100/fancy-fannie.png "Fannie")
-
-
-### October
-
-Oct 29, 2020 (1072d)
-
-<a name="algie">
-
-- Special Edition [**Algie**](https://www.cryptokitties.co/search?include=sale,sire,other&search=specialedition:algie) (179) Fancy Cat released. #Fancy Cat #Special Edition
-
-![Algie](https://cryptocopycats.github.io/media/kitties/100x100/fancy-algie.png "Algie")
-
-
-### September
-
-Sep 3, 2020 (1016d)
-
-<a name="eddie">
-
-- Special Edition [**Eddie**](https://www.cryptokitties.co/search?include=sale,sire,other&search=specialedition:eddie) (110) Fancy Cat released. #Fancy Cat #Special Edition
-
-![Eddie](https://cryptocopycats.github.io/media/kitties/100x100/fancy-eddie.png "Eddie")
-
-
-Sep 1, 2020 (1014d)
-
-<a name="marty">
-
-- Special Edition [**Marty**](https://www.cryptokitties.co/search?include=sale,sire,other&search=specialedition:marty) (188) Fancy Cat released -- Collaboration with Muse. #Fancy Cat #Special Edition
-
-![Marty](https://cryptocopycats.github.io/media/kitties/100x100/fancy-marty.png "Marty")
-
-
-### July
-
-Jul 31, 2020 (982d)
-
-<a name="pandora">
-
-- Special Edition [**Pandora**](https://www.cryptokitties.co/search?include=sale,sire,other&search=specialedition:pandora) (50) Fancy Cat released -- CryptoKitty Box Support. #Fancy Cat #Special Edition
-
-![Pandora](https://cryptocopycats.github.io/media/kitties/100x100/fancy-pandora.png "Pandora")
-
-
-Jul 3, 2020 (954d)
-
-<a name="holli">
-
-- Special Edition [**Holli**](https://www.cryptokitties.co/search?include=sale,sire,other&search=specialedition:holli) (59) Fancy Cat released. #Fancy Cat #Special Edition
-
-![Holli](https://cryptocopycats.github.io/media/kitties/100x100/fancy-holli.png "Holli")
-
-
-### June
-
-Jun 13, 2020 (934d)
-
-<a name="kikuyu">
-
-- Special Edition [**Kikuyu**](https://www.cryptokitties.co/search?include=sale,sire,other&search=specialedition:kikuyu) (263) Fancy Cat released -- For Hunter+Zelig+Bodhi. #Fancy Cat #Special Edition
-
-![Kikuyu](https://cryptocopycats.github.io/media/kitties/100x100/fancy-kikuyu.png "Kikuyu")
-
-
-### May
-
-May 21, 2020 (911d)
-
-<a name="flowtron">
-
-- Special Edition [**Flowtron**](https://www.cryptokitties.co/search?include=sale,sire,other&search=specialedition:flowtron) (303) Fancy Cat released -- Exchange on Flow Fancy Set. #Fancy Cat #Special Edition
-
-![Flowtron](https://cryptocopycats.github.io/media/kitties/100x100/fancy-flowtron.png "Flowtron")
-
-
-May 13, 2020 (903d)
-
-<a name="catterina">
-
-- Special Edition [**Catterina**](https://www.cryptokitties.co/search?include=sale,sire,other&search=specialedition:catterina) (100) Fancy Cat released -- Momo Wang. #Fancy Cat #Special Edition
-
-![Catterina](https://cryptocopycats.github.io/media/kitties/100x100/fancy-catterina.png "Catterina")
-
-
-### April
-
-Apr 27, 2020 (887d)
-
-<a name="negabillie">
-
-- Special Edition [**Nega Billie**](https://www.cryptokitties.co/search?include=sale,sire,other&search=specialedition:negabillie) (68) Fancy Cat released. #Fancy Cat #Special Edition
-
-![Nega Billie](https://cryptocopycats.github.io/media/kitties/100x100/fancy-negabillie.png "Nega Billie")
-
-
-
-## 2019
-
-### August
-
-Aug 20, 2019 (636d)
-
-<a name="carl">
-
-- Special Edition [**Carl**](https://www.cryptokitties.co/search?include=sale,sire,other&search=specialedition:carl) (40) Fancy Cat released. #Fancy Cat #Special Edition
-
-![Carl](https://cryptocopycats.github.io/media/kitties/100x100/fancy-carl.png "Carl")
-
-
-Aug 23, 2019 (639d)
-
-<a name="alice">
-
-- Special Edition [**Alice**](https://www.cryptokitties.co/search?include=sale,sire,other&search=specialedition:alice) (88) Fancy Cat released. #Fancy Cat #Special Edition
-
-![Alice](https://cryptocopycats.github.io/media/kitties/100x100/fancy-alice.png "Alice")
-
-
-### May
-
-May 10, 2019 (534d)
-
-<a name="kitt-e">
-
-- Special Edition [**KITT-E**](https://www.cryptokitties.co/search?include=sale,sire,other&search=specialedition:kitt-e) (500) Fancy Cat released -- Dapper (Crypto Contract) Wallet Promotion Cat. #Fancy Cat #Special Edition
-
-![KITT-E](https://cryptocopycats.github.io/media/kitties/100x100/fancy-kitt-e.png "KITT-E")
-
-
-### April
-
-Apr 10, 2019 (504d)
-
-<a name="sparkles">
-
-- Special Edition [**Sparkles**](https://www.cryptokitties.co/search?include=sale,sire,other&search=specialedition:sparkles) (100) Fancy Cat released -- Freebie for CryptoKitties Community Events. #Fancy Cat #Special Edition
-
-![Sparkles](https://cryptocopycats.github.io/media/kitties/100x100/fancy-sparkles.png "Sparkles")
-
-
-### January
-
-Jan 17, 2019 (421d)
-
-<a name="aeoncat">
-
-- Special Edition [**Aeoncat**](https://www.cryptokitties.co/search?include=sale,sire,other&search=specialedition:aeoncat) (380) Fancy Cat released -- Goddess Aeona - Goddess of Nature - Gods Unchained Promotion. #Fancy Cat #Special Edition
-  - Jan 17 - Jan 28 2019 (12d)
-
-![Aeoncat](https://cryptocopycats.github.io/media/kitties/100x100/fancy-aeoncat.png "Aeoncat")
-
-
-
-## 2018
-
-### December
-
-Dec 31, 2018 (404d)
-
-<a name="catzy">
-
-- Special Edition [**Catzy**](https://www.cryptokitties.co/search?include=sale,sire,other&search=specialedition:catzy) (10) Fancy Cat released -- Changpeng "CZ" Zhao - CEO of Binance - Top 10 Blockchain Influencer of the Year 2018 by CoinDesk. #Fancy Cat #Special Edition
-
-![Catzy](https://cryptocopycats.github.io/media/kitties/100x100/fancy-catzy.png "Catzy")
-
-
-<a name="purremyallaire">
-
-- Special Edition [**Purremy Allaire**](https://www.cryptokitties.co/search?include=sale,sire,other&search=specialedition:purremyallaire) (10) Fancy Cat released -- Jeremy Allaire - Top 10 Blockchain Influencer of the Year 2018 by CoinDesk. #Fancy Cat #Special Edition
-
-![Purremy Allaire](https://cryptocopycats.github.io/media/kitties/100x100/fancy-purremyallaire.png "Purremy Allaire")
-
-
-### November
-
-Nov 13, 2018 (356d)
-
-<a name="lilbub">
-
-- Special Edition [**Lil Bub Ub Bub (BUB)**](https://www.cryptokitties.co/search?include=sale,sire,other&search=specialedition:lilbub) (500) Fancy Cat released. #Fancy Cat #Special Edition
-
-![Lil Bub Ub Bub (BUB)](https://cryptocopycats.github.io/media/kitties/100x100/fancy-lilbub.png "Lil Bub Ub Bub (BUB)")
+<a name="shipcat">
+
+- [**Ship Cat**](https://www.cryptokitties.co/search?include=sale,sire,other&search=fancy:shipcat) (2000) Fancy Cat discovered. #Fancy Cat
+  - **4** traits:
+    - **Sphynx**  (FU13) - Fur
+    - **Orangesoda**  (BC03) - Base Color
+    - **Luckystripe**  (PA09) - Pattern
+    - **Crazy**  (ES06) - Eye Shape
+
+![Ship Cat](https://cryptocopycats.github.io/media/kitties/100x100/fancy-shipcat.png "Ship Cat")
 

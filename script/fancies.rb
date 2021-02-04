@@ -192,6 +192,9 @@ def build_traits( key_or_keys )
 end
 
 
+
+
+
 special_editions = Fancy.special_editions
 exclusives       = Fancy.exclusives
 fancies          = Fancy.fancies
@@ -231,7 +234,19 @@ genesisdate = Date.new( 2017, 11, 23)   ## 2017-11-23
 
 
 
-Fancy.each do |fancy|
+###
+# sort fancies by date - latest first / reverse chronological order
+fancies = []
+Fancy.each { |fancy| fancies << fancy }
+## note: sort by recipe date if present?
+
+FANCY_BY_DATE = fancies.sort do |l,r|
+                  r.date <=> l.date
+                end
+
+
+
+FANCY_BY_DATE.each do |fancy|
 
   key  = fancy.key
   date = fancy.date
