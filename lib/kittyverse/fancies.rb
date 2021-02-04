@@ -141,6 +141,9 @@ class Fancy
   ## auto-fill fancies
   FANCIES.each do |key,h|
 
+    puts "fancy:"
+    pp h
+
     name    = h[:name]
     name_cn = h[:name_cn]   # add chinese name if present
 

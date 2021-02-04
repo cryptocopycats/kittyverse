@@ -1,5 +1,3 @@
-# encoding: utf-8
-
 ####
 # use:
 #  $ ruby -I ./lib script/fancies.rb
@@ -11,6 +9,8 @@ require 'kittyverse'
 
 buf = ""
 buf += <<TXT
+[2021](#2021) •
+[2020](#2020) •
 [2019](#2019) •
 [2018](#2018) •
 [2017](#2017)
@@ -56,6 +56,14 @@ def build_fancy_counter( fancy, show_time: false )
         end
       else
         buf << "#{fancy.count ? fancy.count : '?'}"     # add count if present/known
+      end
+    elsif fancy.recipe &&
+          fancy.recipe.time_start &&   ## time window BUT unknown end date
+          fancy.recipe.time_end.nil?
+      if fancy.count     # add count if present/known
+        buf << "#{fancy.count}+"
+      else
+        buf << "?"
       end
     else  ## assume limit
       if fancy.count && fancy.count < fancy.limit
@@ -142,6 +150,10 @@ def build_trait( key )
   puts "lookup trait >#{key}<"
   trait = Trait[ key ]
   ## pp trait
+  if trait.nil?
+    puts "!! ERROR: cannot find trait with key: >#{key}<"
+    exit 1
+  end
 
   if key =~ /[A-Z]{2}[0-9]{2}/   # if code e.g. WE20 - keep as is
      line = "**#{key}** #{trait.tier_roman} "

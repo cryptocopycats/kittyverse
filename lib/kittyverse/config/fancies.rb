@@ -38,7 +38,7 @@ RECIPES = {
 ellie: { name: 'Ellie', date: '2021-01-16',   ## 1st in Elephant series
                 recipe: {
                   limit: 2500, count: 2,
-                  traits: [ 'shadowgrey', 'flaming', 'littlefoot', 'walrus'] },
+                  traits: [ 'shadowgrey', 'flamingo', 'littlefoot', 'walrus'] },
        },
 
 #################
@@ -76,11 +76,11 @@ dart: { name: 'Dart',   ## todo/check: was time-limited?
              traits: ['camo', 'oldlace', 'coffee', 'dune'] },
       },
 
-#  31.09.20 - New fancy - Boris
+#  30.09.20 - New fancy - Boris
 boris: { name: 'Boris',   ## todo/check: was time-limited?
           recipe: {
-             time: { start: '2020-09-31', end: '?' }, count: 667,
-             traits: ['savannah', 'safetywest', 'jacked'] },
+             time: { start: '2020-09-30', end: '?' }, count: 667,
+             traits: ['savannah', 'safetyvest', 'jacked'] },
       },
 
 #  29.08.20 - New fancy - Mibbles
@@ -191,7 +191,7 @@ bodhi: { name: 'Bodhi',   ## todo/check: was time-limited?
 cindi: { name: 'Cindi',   ## todo/check: was time-limited?
           recipe: {
              time: { start: '2020-03-21', end: '?' }, count: 897,
-             traits: ['pixiebob', 'dragonfruit', 'prairierose', 'missmuffet'] },
+             traits: ['pixiebob', 'dragonfruit', 'prairierose', 'missmuffett'] },
         },
 #  17.03.20 - New fancy - Potricia
 potricia: { name: 'Potricia',   ## todo/check: was time-limited?
@@ -236,7 +236,7 @@ lilpurrfect: { name: 'Lil Purrfect',   ## todo/check: was time-limited?
 mars: { name: 'Mars',   ## todo/check: was time-limited?
                recipe: {
              time: { start: '2020-01-18', end: '?' }, count: 987,
-             traits: ['hacker', 'prairose', 'delite', 'finalfrontier'] },
+             traits: ['hacker', 'prairierose', 'delite', 'finalfrontier'] },
         },
 
 #  11.01.20 - New fancy - Cosmocat
@@ -329,7 +329,7 @@ pawderick: { name: 'Pawderick the Lancer',  date: '2019-09-14',  ## todo/check: 
 robin: { name: 'Robin',   ## todo/check: was time-limited?
           recipe: {
              time: { start: '2019-08-31', end: '?' }, count: 1837,
-             traits: ['stunned', 'meowgarine', 'kittencream', 'fetherbrain'] },
+             traits: ['stunned', 'meowgarine', 'kittencream', 'featherbrain'] },
         },
 
 # Aug 17, 2019 - Kitty Formerly Known as Prince Fancy Cat is discovered
