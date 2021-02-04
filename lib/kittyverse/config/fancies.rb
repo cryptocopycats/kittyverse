@@ -103,36 +103,148 @@ pickett: { name: 'Pickett',   ## todo/check: was time-limited?
       },
 
 
-
 #  16.07.20 - New fancy - Joan
+joan: { name: 'Joan',   ## todo/check: was time-limited?
+          recipe: {
+             time: { start: '2020-07-16', end: '?' }, count: 338,
+             traits: ['lykoi', 'drama', 'glacier', 'springcrocus', 'prism'] },
+      },
 #  11.07.20 - New fancy - Starchild
+starchild: { name: 'Starchild',   ## todo/check: was time-limited?
+          recipe: {
+             time: { start: '2020-07-11', end: '?' }, count: 367,
+             traits: ['razzledazzle', 'drama', 'glacier', 'wolfgrey', 'prism'] },
+      },
 
 #  04.07.20 - New fancy - Travis
+travis: { name: 'Travis',   ## todo/check: was time-limited?
+          recipe: {
+             time: { start: '2020-07-04', end: '?' }, count: 300,
+             traits: ['firedup', 'wolfgrey', 'glacier', 'prism'] },
+      },
 #  04.07.20 - New fancy - Steel
+steel: { name: 'Steel',   ## todo/check: was time-limited?
+          recipe: {
+             time: { start: '2020-07-04', end: '?' }, count: 436,
+             traits: ['lykoi', 'hintomint', 'springcrocus', 'prism'] },
+      },
+
 #  20.06.20 - New fancy - Pawvril
+pawvril: { name: 'Pawvril',   ## todo/check: was time-limited?
+          recipe: {
+             time: { start: '2020-06-20', end: '?' }, count: 700,
+             traits: ['glacier', 'springcrocus', 'drama'] },
+      },
 #  20.06.20 - New fancy - Janis
+janis: { name: 'Janis',   ## todo/check: was time-limited?
+          recipe: {
+             time: { start: '2020-06-20', end: '?' }, count: 929,
+             traits: ['glacier', 'springcrocus', 'prism'] },
+      },
 
 #  06.06.20 - New fancy - Kunst
+kunst: { name: 'Kunst',   ## todo/check: was time-limited?
+          recipe: {
+             time: { start: '2020-06-06', end: '?' }, count: 1001,
+             traits: ['mainecoon', 'candyshoppe', 'royalblue'] },
+      },
 #  23.05.20 - New fancy - Kitiovanni
+kitiovanni: { name: 'Kitiovanni',   ## todo/check: was time-limited?
+          recipe: {
+             time: { start: '2020-05-23', end: '?' }, count: 735,
+             traits: ['manx', 'candyshoppe', 'firstblush', 'springcrocus', 'wyrm'] },
+      },
 
 #  09.05.20 - New fancy - Hunter
+hunter: { name: 'Hunter',   ## todo/check: was time-limited?
+          recipe: {
+             time: { start: '2020-05-09', end: '?' }, count: 1140,
+             traits: ['avatar', 'chameleon', 'tongue', 'dragontail'] },
+      },
 
 #  25.04.20 - New fancy - Vince
+vince: { name: 'Vince',   ## todo/check: was time-limited?
+          recipe: {
+             time: { start: '2020-04-25', end: '?' }, count: 1424,
+             traits: ['pixiebob', 'bananacream', 'daffodil', 'ooze'] },
+      },
 #  18.04.20 - New fancy - Zelig
+zelig: { name: 'Zelig',   ## todo/check: was time-limited?
+          recipe: {
+             time: { start: '2020-04-18', end: '?' }, count: 505,
+             traits: ['avatar', 'glacier', 'chameleon', 'happygokitty'] },
+      },
 #  11.04.20 - New fancy - Billie
+billie: { name: 'Billie',   ## todo/check: was time-limited?
+          recipe: {
+             time: { start: '2020-04-11', end: '?' }, count: 1261,
+             traits: ['pixiebob', 'cornflower', 'cerulian', 'mintmacaron'] },
+        },
+
 #  28.03.20 - New fancy - Bodhi
+bodhi: { name: 'Bodhi',   ## todo/check: was time-limited?
+          recipe: {
+             time: { start: '2020-03-28', end: '?' }, count: 616,
+             traits: ['avatar', 'chameleon', 'mertail', 'majestic'] },
+        },
 #  21.03.20 - New fancy - Cindi
+cindi: { name: 'Cindi',   ## todo/check: was time-limited?
+          recipe: {
+             time: { start: '2020-03-21', end: '?' }, count: 897,
+             traits: ['pixiebob', 'dragonfruit', 'prairierose', 'missmuffet'] },
+        },
 #  17.03.20 - New fancy - Potricia
+potricia: { name: 'Potricia',   ## todo/check: was time-limited?
+          recipe: {
+             time: { start: '2020-03-17', end: '?' }, count: 665,
+             traits: ['onyx', 'gold', 'mertail', 'roadtogold'] },
+        },
 #  07.03.20 - New fancy - Cai
+cai: { name: 'Cai',   ## todo/check: was time-limited?
+          recipe: {
+             time: { start: '2020-03-07', end: '?' }, count: 526,
+             traits: ['pixiebob', 'shamrock', 'mertail', 'hanauma'] },
+        },
 #  20.02.20 - New fancy - MissMatheson
+missmatheson: { name: 'Miss Matheson',   ## todo/check: was time-limited?
+               recipe: {
+             time: { start: '2020-02-20', end: '?' }, count: 375,
+             traits: ['liger','icicle','hacker','kittencream'] },
+        },
+
 #  15.02.20 - New fancy - Felis
+felis: { name: 'Felis',   ## todo/check: was time-limited?
+               recipe: {
+             time: { start: '2020-02-15', end: '?' }, count: 1264,
+             traits: ['mekong','moonrise','buzzed','finalfrontier'] },
+        },
 #  08.02.20 - New fancy - Meuwn
+meuwn: { name: 'Meuwn',   ## todo/check: was time-limited?
+               recipe: {
+             time: { start: '2020-02-08', end: '?' }, count: 509,
+             traits: ['razzledazzle', 'cloudwhite', 'springcrocus', 'finalfrontier'] },
+        },
 
 #  01.02.20 - New fancy - LilPurrfect
+lilpurrfect: { name: 'Lil Purrfect',   ## todo/check: was time-limited?
+               recipe: {
+             time: { start: '2020-02-01', end: '?' }, count: 662,
+             traits: ['allyouneed', 'garnet', 'flapflap'] },
+        },
+
 #  18.01.20 - New fancy - Mars
-#  11.11.20 - New fancy - Cosmocat
+mars: { name: 'Mars',   ## todo/check: was time-limited?
+               recipe: {
+             time: { start: '2020-01-18', end: '?' }, count: 987,
+             traits: ['hacker', 'prairose', 'delite', 'finalfrontier'] },
+        },
 
-
+#  11.01.20 - New fancy - Cosmocat
+cosmocat: { name: 'Cosmocat',   ## todo/check: was time-limited?
+               recipe: {
+             time: { start: '2020-01-11', end: '?' }, count: 688,
+             traits: ['leopard', 'universe', 'topoftheworld', 'finalfrontier'] },
+        },
 
 
 pepito: { name: 'Pepito',
