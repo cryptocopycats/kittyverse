@@ -36,16 +36,16 @@ A gene code consists of the two letter abbreviation of the gene's associated tra
 and the two digit integer representation of the 5-bit chunk that makes up the gene in the dna sequence  (e.g. WE05). 
 See the gene page to understanding how to read these genes. 
 
-## Hidden gene 
+## Hidden / recessive gene 
 Any gene that does not actively cause the expression of a Cattribute in a Kitty. 
-This could be because it is in a hidden slot, because the gene does not map to a Cattribute,
+This could be because it is in a hidden / recessive slot, because the gene does not map to a Cattribute,
 or because the Kitty is Fancy or Exclusive and thus expresses no Cattributes. 
-Currently, most Kitties have 40 hidden genes. There are three hidden gene slots for every trait category,
-and these are designated as H1 (hidden), H2 (moderately hidden), and H3 (deeply hidden). 
-The more deeply hidden a gene is, the less likely it is to pass down to the primary gene slot in any offspring.
+Currently, most Kitties have 40 hidden / recessive genes. There are three hidden / recessive gene slots for every trait category,
+and these are designated as H1 / H2 / H3  or R1 / R2 / R3. 
+The more deeply hidden / recessive a gene is, the less likely it is to pass down to the primary gene slot in any offspring.
 
-## Primary genes
-Genes which are in the primary gene slot in the DNA sequence for a given trait category. 
+## Primary / dominant genes
+Genes which are in the primary / dominant gene slot in the DNA sequence for a given trait category. 
 
 ## Special gene
 There is one remaining gene, INT32, which we call a special gene because there is no way to mutate into this gene 
