@@ -1,0 +1,30 @@
+require 'hoe'
+require './lib/kittypedia/version.rb'
+
+Hoe.spec 'kittypedia' do
+
+  self.version = Kittypedia::VERSION
+
+  self.summary = "kittypedia - (auto-)generate and update pages on cattributes, traits, fancies (normal, exclusive, special editions) and more"
+  self.description = summary
+
+  self.urls    = { home: 'https://github.com/cryptocopycats/kittyverse' }
+
+  self.author  = 'Gerald Bauer'
+  self.email   = 'wwwmake@googlegroups.com'
+
+  # switch extension to .markdown for gihub formatting
+  self.readme_file  = 'README.md'
+  self.history_file = 'CHANGELOG.md'
+
+  self.extra_deps = [
+    ['kittyverse', '>= 1.0.1']
+  ]
+
+  self.licenses = ['Public Domain']
+
+  self.spec_extras = {
+    required_ruby_version: '>= 2.2.2'
+  }
+
+end

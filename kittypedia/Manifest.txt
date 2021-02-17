@@ -1,0 +1,9 @@
+CHANGELOG.md
+Manifest.txt
+README.md
+Rakefile
+lib/kittypedia.rb
+lib/kittypedia/genome_tables.rb
+lib/kittypedia/links.rb
+lib/kittypedia/pages/genes.rb
+lib/kittypedia/version.rb

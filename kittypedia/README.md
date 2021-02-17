@@ -1,6 +1,6 @@
 # Kittypedia
 
-kittyverse - (auto-)generate and update pages on cattributes, traits, fancies (normal, exclusive, special editions) and more
+kittypedia - (auto-)generate and update pages on cattributes, traits, fancies (normal, exclusive, special editions) and more
 
 * home  :: [github.com/cryptocopycats/kittyverse](https://github.com/cryptocopycats/kittyverse)
 * bugs  :: [github.com/cryptocopycats/kittyverse/issues](https://github.com/cryptocopycats/kittyverse/issues)
