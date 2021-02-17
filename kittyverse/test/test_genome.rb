@@ -1,4 +1,5 @@
 
+=begin
 pp genome[0].class
 pp genome[0].name
 pp genome[0].code
@@ -59,4 +60,6 @@ pp genome.fu[0].code
 pp genome[:body][0].class
 pp genome[:body][0].name
 pp genome[:body][0].code
+=end
+
 

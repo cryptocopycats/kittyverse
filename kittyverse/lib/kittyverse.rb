@@ -4,8 +4,6 @@ require 'date'
 require 'time'
 require 'json'
 require 'uri'
-require 'net/http'
-require 'net/https'
 require 'fileutils'
 
 
@@ -42,4 +40,4 @@ require 'kittyverse/genome'
 
 
 # say hello
-puts Kittyverse.banner    if defined?($RUBYCOCO_DEBUG) && $RUBYCOCO_DEBUG
+puts Kittyverse.banner
