@@ -1,0 +1,10 @@
+CHANGELOG.md
+Manifest.txt
+README.md
+Rakefile
+lib/kittyverse-api.rb
+lib/kittyverse/api.rb
+lib/kittyverse/api/client.rb
+lib/kittyverse/api/service_v0.rb
+lib/kittyverse/api/service_v1.rb
+lib/kittyverse/api/version.rb

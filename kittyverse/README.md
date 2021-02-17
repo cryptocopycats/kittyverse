@@ -1,7 +1,7 @@
 # Kittyverse
 
 
-kittyverse library - helper classes for cattributes, trait types, traits, genes, genomes and more for cryptokitties and copycats
+kittyverse - helper classes for cattributes, trait types, traits, genes, genomes and more for cryptokitties and copycats
 
 * home  :: [github.com/cryptocopycats/kittyverse](https://github.com/cryptocopycats/kittyverse)
 * bugs  :: [github.com/cryptocopycats/kittyverse/issues](https://github.com/cryptocopycats/kittyverse/issues)

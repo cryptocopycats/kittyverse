@@ -8,7 +8,7 @@ Hoe.spec 'kittyverse' do
   self.summary = "kittyverse - helper classes for cattributes, trait types, traits, genes, genomes and more for cryptokitties and copycats"
   self.description = summary
 
-  self.urls    = ['https://github.com/cryptocopycats/kittyverse']
+  self.urls    = { home: 'https://github.com/cryptocopycats/kittyverse' }
 
   self.author  = 'Gerald Bauer'
   self.email   = 'wwwmake@googlegroups.com'
