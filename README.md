@@ -12,6 +12,7 @@
 
 - [**kittyverse**](kittyverse) - helper classes for cattributes, trait types, traits, genes, genomes and more for cryptokitties and copycats
 - [kittyverse-api](kittyverse-api) - (lite) cryptokitties (http json) api / client
+- [kittypedia](kittypedia) - (auto-)generate and update pages on cattributes, traits, fancies (normal, exclusive, special editions) and more
 
 
 

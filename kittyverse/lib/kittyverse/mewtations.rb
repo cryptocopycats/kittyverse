@@ -1,5 +1,3 @@
-# encoding: utf-8
-
 ##################################
 #  Tier 0 (Base)           (1-g)
 #  Tier 1 (Mewtation I)    (h-p)

@@ -14,9 +14,7 @@ lib/kittyverse/config/traits_timeline.rb
 lib/kittyverse/fancies.rb
 lib/kittyverse/gene.rb
 lib/kittyverse/genome.rb
-lib/kittyverse/links.rb
 lib/kittyverse/mewtations.rb
-lib/kittyverse/pages/genes.rb
 lib/kittyverse/recipes.rb
 lib/kittyverse/traits.rb
 lib/kittyverse/version.rb

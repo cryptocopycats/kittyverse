@@ -1,11 +1,3 @@
-# encoding: utf-8
-
-
-
-class Cattributes
-  ## add cattributes (traits) type lookup to Cattribute itself - why? why not?
-  def self.[]( key )  TraitType.find_by_key( key ).cattributes; end
-end
 
 
 class Cattribute

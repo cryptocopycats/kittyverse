@@ -22,11 +22,7 @@ require 'kittyverse/config/fancies'
 require 'kittyverse/config/purrstiges'
 require 'kittyverse/config/colors'
 
-
 require 'kittyverse/mewtations'
-require 'kittyverse/links'
-
-require 'kittyverse/pages/genes'
 
 require 'kittyverse/recipes'
 require 'kittyverse/traits'

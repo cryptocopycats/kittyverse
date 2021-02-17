@@ -390,22 +390,6 @@ and so on and so forth.
 
 ## Real World Usage
 
-### Reference Pages / Cheat Sheets @ Kittypedia
-
-Auto-generated reference pages / cheat sheets
-in the [Kittypedia - The Free CryptoKitties Encyclopedia](https://github.com/cryptocopycats/kittypedia) include:
-
-- [Cattributes Rarity / Popularity Statistics](https://github.com/cryptocopycats/kittypedia/blob/master/CATTRIBUTES.md)
-- [Genome / Genes Cheat Sheet](https://github.com/cryptocopycats/kittypedia/blob/master/GENES.md) - Fur (FU) ·  Pattern (PA) ·  Eye Color (EC) ·  Eye Shape (ES) ·  Base Color (BC) ·  Highlight Color (HC) ·  Accent Color (AC) ·  Wild Element (WE) ·  Mouth (MO) ·  Environment (EN) ·  Secret Y Gene (SE) ·  Purrstige (PU)
-- [Traits Cheat Sheet (with Codes, Mewtation Levels / Tiers, Search Links and More)](https://github.com/cryptocopycats/kittypedia/blob/master/TRAITS.md)
-- [Fancy / Exclusive / Special Edition Cats - Timeline](https://github.com/cryptocopycats/kittypedia/blob/master/TIMELINE-FANCIES.md)
-- [Purrstige Trait Recipes / Formulas - Timeline](https://github.com/cryptocopycats/kittypedia/blob/master/TIMELINE-PURRSTIGES.md)
-- and others
-
-
-
-
-### More
 
 See the [copycats command line tool (and core library)](https://github.com/cryptocopycats/copycats) - crypto cats / kitties collectibles unchained - buy! sell! hodl! sire! - play for free - runs off the blockchain - no ether / gas required
 

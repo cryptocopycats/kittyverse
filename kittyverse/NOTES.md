@@ -1,5 +1,13 @@
 # Notes
 
+## Todos
+
+- [ ]  remove Traits - why? why not?
+  - always use TraitType or Trait for lookup; do NOT mix-up
+- [ ]  add to_s( format ), to_s_formatted( foramt ) to genome and others
+  - remove/replace kai, codes, binary with to_s( :kai ), to_s( :code ), to_s( :binary)
+
+
 
 ## 2021 - New Links
 
@@ -17,24 +25,24 @@
 
 There can only ever be 50,000 Gen 0 Kitties — we set that rule at the start of CryptoKitties, and thanks to blockchain technology, we can never change it — and as of November 2018, the Kitty Clock, the account we used to release a new Gen 0 every 15 minutes, has closed (again, according to the plan we set out when we launched the game).
 
-Over that year the Kitty Clock produced 34,928 Gen 0 Kitties, and, 
-as of December 2018, we've minted an additional 3,087 Gen 0 Kitties on top of that. 
+Over that year the Kitty Clock produced 34,928 Gen 0 Kitties, and,
+as of December 2018, we've minted an additional 3,087 Gen 0 Kitties on top of that.
 We're holding the remaining Gen 0 Kitties (about 12,000 at the time of writing) to release for special events and campaigns.
 Higher-generation Kitties can be created through breeding, but new Gen 0 cats cannot.
 
 **Exclusive & Special Edition Cats**
 
-Exclusive Kitties are a special type of cat that cannot be created through breeding. 
-They are usually dropped into the game on special occasions by the developers 
-(who have reserved 5,000 kitties for purposes like this). 
+Exclusive Kitties are a special type of cat that cannot be created through breeding.
+They are usually dropped into the game on special occasions by the developers
+(who have reserved 5,000 kitties for purposes like this).
 
-Special Edition Kitties are cats with special artwork that are released for sale for in a limited quantity. They're similar to Exclusive Cats in that they have unique art, but where only a handful of each Exclusive Cat gets created, Special Edition Kitties are released in larger numbers. While Special Edition Kitties have genetic traits and can be used to breed new regular cats, another version of the Special Edition Kitty itself cannot be bred, only bought.   -- check if special editions part of the 5,000 kitties reserved pool?  
+Special Edition Kitties are cats with special artwork that are released for sale for in a limited quantity. They're similar to Exclusive Cats in that they have unique art, but where only a handful of each Exclusive Cat gets created, Special Edition Kitties are released in larger numbers. While Special Edition Kitties have genetic traits and can be used to breed new regular cats, another version of the Special Edition Kitty itself cannot be bred, only bought.   -- check if special editions part of the 5,000 kitties reserved pool?
 
 **Founder Cats / Jaguars**
 
-There were a hundred Founder Cats that started the game. There was Kitty #1, which was Genesis, 
-and then there were 99 jaguars (#2 – #100). These are the only Gen 0 jaguars in existence, 
-so all jaguar cats have a direct ancestral link to these founder cats. 
+There were a hundred Founder Cats that started the game. There was Kitty #1, which was Genesis,
+and then there were 99 jaguars (#2 – #100). These are the only Gen 0 jaguars in existence,
+so all jaguar cats have a direct ancestral link to these founder cats.
 
 
 
