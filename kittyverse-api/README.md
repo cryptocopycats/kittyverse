@@ -1,3 +1,7 @@
+
+
+
+
 ![DAPP-E](https://cryptocopycats.github.io/media/kitties/100x100/fancy-dapp-e.png "DAPP-E")
 ![Draco The Magnificent](https://cryptocopycats.github.io/media/kitties/100x100/fancy-dracothemagnificent.png "Draco The Magnificent")
 ![Bug Cat V2](https://cryptocopycats.github.io/media/kitties/100x100/fancy-bugcatv2.png "Bug Cat V2")
@@ -57,7 +61,7 @@ resulting in:
  ...
  {"description":"hooked",      "type":"prestige",      "gene":null, "total":"165"},
  {"description":"landlubber",  "type":"prestige",      "gene":null, "total":"144"},
- {"description":"timbers",     "type":"prestige",      "gene":null, "total":"108"}]  
+ {"description":"timbers",     "type":"prestige",      "gene":null, "total":"108"}]
 ```
 
 Let's save the data in the JSON format pretty printed
@@ -193,7 +197,7 @@ c.get_auctions( limit: 10  )
 ## note: same as get( '/auctions?limit=2' )
 c.get_auctions( type: 'sale', limit: 10  )
 ## note: same as get( '/auctions?type=sale&limit=10' )
-c.get_auctions( type: 'sale', status: 'open', limit: 10 )  
+c.get_auctions( type: 'sale', status: 'open', limit: 10 )
 ## note: same as get( '/auctions?type=sale&status=open&limit=10' )
 ```
 
@@ -358,6 +362,15 @@ save( "kitties-gen_3-4", data )
 That's it for now.
 Happy data wrangling and cat herding with ruby.
 
+
+
+
+## License
+
+![](https://publicdomainworks.github.io/buttons/zero88x31.png)
+
+The `kittyverse` scripts are dedicated to the public domain.
+Use it as you please with no restrictions whatsoever.
 
 
 ## Questions? Comments?
