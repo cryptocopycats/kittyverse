@@ -1,18 +1,17 @@
+# Kittyverse API
+
+kittyverse-api - web client (helpers) for using the CryptoKitties unofficial (v0) and official (v1) public (HTTP JSON) APIs
+
+
+* home  :: [github.com/cryptocopycats/kittyverse](https://github.com/cryptocopycats/kittyverse)
+* bugs  :: [github.com/cryptocopycats/kittyverse/issues](https://github.com/cryptocopycats/kittyverse/issues)
+* gem   :: [rubygems.org/gems/kittyverse-api](https://rubygems.org/gems/kittyverse-api)
+* rdoc  :: [rubydoc.info/gems/kittyverse-api](http://rubydoc.info/gems/kittyverse-api)
 
 
 
 
-![DAPP-E](https://cryptocopycats.github.io/media/kitties/100x100/fancy-dapp-e.png "DAPP-E")
-![Draco The Magnificent](https://cryptocopycats.github.io/media/kitties/100x100/fancy-dracothemagnificent.png "Draco The Magnificent")
-![Bug Cat V2](https://cryptocopycats.github.io/media/kitties/100x100/fancy-bugcatv2.png "Bug Cat V2")
-![Rabbid Kitty](https://cryptocopycats.github.io/media/kitties/100x100/fancy-rabbidkitty.png "Rabbid Kitty")
-![Celestial Cyber Dimension](https://cryptocopycats.github.io/media/kitties/100x100/fancy-celestialcyberdimension.png "Celestial Cyber Dimension")
-![Golden Dragon Cat (帝龙喵)](https://cryptocopycats.github.io/media/kitties/100x100/fancy-goldendragoncat.png "Golden Dragon Cat (帝龙喵)")
-![Genesis](https://cryptocopycats.github.io/media/kitties/100x100/fancy-genesis.png "Genesis")
-![Bug Cat](https://cryptocopycats.github.io/media/kitties/100x100/fancy-bugcat.png "Bug Cat")
-
-
-# Using the CryptoKitties Unofficial (v0) and Official (v1) Public APIs
+## Usage
 
 CryptoKitties offers two
 public HTTP (Web Service) APIs returning
@@ -28,7 +27,7 @@ sent to your email inbox.
 
 
 
-## The "Unofficial" Public API (v0) - No API Token Required
+### The "Unofficial" Public API (v0) - No API Token Required
 
 Let's start with the "classic" public HTTP (Web Service) JSON API.
 Note: Because this API is "unofficial" you will NOT find
@@ -37,14 +36,14 @@ and everything might change at anytime without notice.
 
 
 
-### Getting the Statistics for All Cattributes (incl. Purrstiges)
+#### Getting the Statistics for All Cattributes (incl. Purrstiges)
 
 Use [`GET /cattributes`](https://api.cryptokitties.co/cattributes)
 to get a list of all cattributes (including purrstiges)
 with trait types and running totals.
 
 ``` ruby
-require "kittyverse"
+require "kittyverse/api"
 
 c = Kitties::V0::Client.new
 c.get_cattributes     ## same as get( '/cattributes' )
@@ -69,7 +68,7 @@ into a file:
 
 ``` ruby
 def save( name, data )
-  File.open( "./dl/#{name}.json", 'w' ) do |f|
+  File.open( "./dl/#{name}.json", 'w:utf-8' ) do |f|
     f.write JSON.pretty_generate( data )
   end
 end
@@ -78,7 +77,7 @@ data = c.get_cattributes     ## same as get( '/cattributes' )
 save( "cattributes", data )
 ```
 
-(Source: [`script/fetch.rb`](https://github.com/cryptocopycats/kittyverse/blob/master/script/fetch.rb))
+(Source: [`script/fetch_v0.rb`](https://github.com/cryptocopycats/kittyverse/blob/master/kittyverse-api/script/fetch_v0.rb))
 
 
 
@@ -88,7 +87,7 @@ for how to create your own up-to-date
 [Cattributes Rarity / Popularity Statistics / Cheatsheet](CATTRIBUTES.md) page.
 
 
-### Getting the Kitten #1, #2, #3, ...
+#### Getting the Kitten #1, #2, #3, ...
 
 
 Use [`GET /kitties/<id>`](https://api.cryptokitties.co/kitties/1)
@@ -133,7 +132,7 @@ save( "kitty2", data )
 ```
 
 
-### Getting All Kitties
+#### Getting All Kitties
 
 Use [`GET /kitties`](https://api.cryptokitties.co/kitties?limit=10) to get all kitties.
 Search query parameters include:
@@ -148,7 +147,8 @@ Search query parameters include:
 c.get_kitties( limit: 10  )    ## same as get( '/kitties?limit=10' )
 ```
 
-### Getting User Kitties
+
+#### Getting User Kitties
 
 Use [`GET /kitties?owner_wallet_address=<0x...>`](https://api.cryptokitties.co/kitties?owner_wallet_address=0xc5e38233cc0d7cff9340e6139367aba498ec9b18&limit=10)
 with the wallet address to get all the user's kitties.
@@ -163,7 +163,7 @@ c.get_kitties( owner_wallet_address: '0xc5e38233cc0d7cff9340e6139367aba498ec9b18
 ```
 
 
-### Getting User Info
+#### Getting User Info
 
 Use [`GET /user/<0x...>`](https://api.cryptokitties.co/user/0xc5e38233cc0d7cff9340e6139367aba498ec9b18) to get the user info by the wallet address
 (all lowercase a-z).
@@ -173,7 +173,7 @@ c.get_user( '0xc5e38233cc0d7cff9340e6139367aba498ec9b18' )
 ```
 
 
-### Getting Auctions - Going, Going, Gone!
+#### Getting Auctions - Going, Going, Gone!
 
 Use [`GET /auctions`](https://api.cryptokitties.co/auctions)
 to get all auctions. Search query parameters include:
@@ -203,8 +203,7 @@ c.get_auctions( type: 'sale', status: 'open', limit: 10 )
 
 
 
-
-## The Official Public API, Version 1 (v1) - API Token Required - Apply Here
+### The Official Public API, Version 1 (v1) - API Token Required - Apply Here
 
 Note: The Official Public API requires a token.
 Sign up for the Kittyverse program
@@ -238,7 +237,7 @@ c = Kitties::V1::Client.new( token: "<your_token_here>" )
 
 
 
-### Getting the Statistics for all Cattributes (excl. Purrstiges)
+#### Getting the Statistics for all Cattributes (excl. Purrstiges)
 
 Use `GET /cattributes`
 to get a list of all cattributes
@@ -269,7 +268,7 @@ save( "cattributes", data )
 ```
 
 
-### Getting the Kitten #1, #2, #3, ...
+#### Getting the Kitten #1, #2, #3, ...
 
 Use `GET /kitties/<id>`
 to get all the kitten's data by id.
@@ -322,7 +321,7 @@ save( "kitty2", data )
 ```
 
 
-### Getting Colors for Body, Eyes, ...
+#### Getting Colors for Body, Eyes, ...
 
 Use `GET /colors/body|eyes|secondary|tertiary`,
 to get a list of all hexadecimal r(ed)/g(gree)/b(lue) color codes
@@ -342,7 +341,7 @@ data = c.get_colors_tertiary   ## same as get( '/colors/tertiary' )
 save( "colors-tertiary", data )
 ```
 
-### Getting Everything Else
+#### Getting Everything Else
 
 If there's no pre-made convenience wrapper in the kittyverse library (yet) for the
 service, use the generic `get` method. Example:

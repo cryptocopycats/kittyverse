@@ -1,9 +1,8 @@
-# encoding: utf-8
-
 ## std libs
-require 'date'
-require 'json'
 require 'pp'
+require 'date'
+require 'time'
+require 'json'
 require 'uri'
 require 'net/http'
 require 'net/https'
@@ -36,9 +35,6 @@ require 'kittyverse/traits'
 require 'kittyverse/cattributes'
 require 'kittyverse/fancies'
 
-## api support
-require 'kittyverse/api/client'
-require 'kittyverse/api/versions'
 
 ## genes / genome
 require 'kittyverse/gene'
