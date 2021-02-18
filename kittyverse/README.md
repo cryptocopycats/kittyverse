@@ -13,6 +13,18 @@ kittyverse - helper classes for cattributes, trait types, traits, genes, genomes
 
 ### Traits
 
+
+Aside - New to CryptoKitties? What are Traits?
+
+See the [Traits Cheat Sheet (with Codes, Mewtation Levels / Tiers, Search Links and More) ](https://github.com/cryptocopycats/kittypedia/blob/master/TRAITS.md) 
+
+A kitty has traits in 12 types / categories (e.g. fur (`FU`), pattern (`PA`), eye color (`EC`), eye shape (`ES`), base color (`BC`), etc.)
+and most traits have unique names (e.g. savannah, selkirk, chantilly, etc.).
+If no name is assigned than you can use the base32 "kai" character (e.g. `1`, `2`, ..., `u`, `v`, `w` ) 
+or the code (e.g. `FU00`, `FU01`, ..., `FU31`, etc.).
+
+
+
 Use the `Traits` helper class to lookup trait types (e.g. fur, pattern, eye color, eye shape, base color, etc.) and traits (e.g. savannah, selkirk, chantilly, etc.):
 
 ``` ruby
