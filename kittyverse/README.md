@@ -159,7 +159,7 @@ p c.recipe         #=> {time: {start: "2019-05-01", end: "2019-08-31"},
 
 Aside - What are Fancies?
 
-Fancies are fancy cats that incl. "normies" that you can breed with a trait recipe
+Fancies are fancy cats with special artwork that incl. "normies" that you can breed with a trait recipe
 or exclusive or special editions that get "minted" and are not breedable.
 See the [Fancies Timeline @ Kittypedia](https://github.com/cryptocopycats/kittypedia/blob/master/TIMELINE-FANCIES.md) for a list of all cats with special artwork.
 
