@@ -14,14 +14,13 @@ kittyverse - helper classes for cattributes, trait types, traits, genes, genomes
 ### Traits
 
 
-Aside - New to CryptoKitties? What are Traits?
-
-See the [Traits Cheat Sheet (with Codes, Mewtation Levels / Tiers, Search Links and More) ](https://github.com/cryptocopycats/kittypedia/blob/master/TRAITS.md) 
+Aside - What are Traits? New to CryptoKitties?
 
 A kitty has traits in 12 types / categories (e.g. fur (`FU`), pattern (`PA`), eye color (`EC`), eye shape (`ES`), base color (`BC`), etc.)
 and most traits have unique names (e.g. savannah, selkirk, chantilly, etc.).
 If no name is assigned than you can use the base32 "kai" character (e.g. `1`, `2`, ..., `u`, `v`, `w` ) 
 or the code (e.g. `FU00`, `FU01`, ..., `FU31`, etc.).
+See the [Traits Cheat Sheet (with Codes, Mewtation Levels / Tiers, Search Links and More) @ Kittypedia](https://github.com/cryptocopycats/kittypedia/blob/master/TRAITS.md) for all traits by type / category.
 
 
 
@@ -111,6 +110,13 @@ tt = TraitType.find_by( code: 'FU' )
 
 ### Cattributes
 
+Aside - What are Cattributes?
+
+Cattributes - short for - cat attributes are the visual attributes of a cat / kitty. 
+See [Cattributes Rarity / Popularity Statistics @ Kittypedia](https://github.com/cryptocopycats/kittypedia/blob/master/CATTRIBUTES.md) for a list of all cattributes by trait type / category 
+and rarity and popularity. 
+
+
 Use the `Cattribute` helper class to lookup cattributes incl. purrstige cattributes with timed trait recipes / forumlas:
 
 ``` ruby
@@ -150,6 +156,14 @@ p c.recipe         #=> {time: {start: "2019-05-01", end: "2019-08-31"},
 ```
 
 ### Fancies
+
+Aside - What are Fancies?
+
+Fancies are fancy cats that incl. "normies" that you can breed with a trait recipe
+or exclusive or special editions that get "minted" and are not breedable.
+See the [Fancies Timeline @ Kittypedia](https://github.com/cryptocopycats/kittypedia/blob/master/TIMELINE-FANCIES.md) for a list of all cats with special artwork.
+
+
 
 Use the `Fancy` helper class to lookup fancy or exclusive or special edition cats  incl. timed trait recipes / forumlas, counts, limits, ids and more:
 
