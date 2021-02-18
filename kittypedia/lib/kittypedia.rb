@@ -7,10 +7,13 @@ require 'kittyverse'
 require 'kittypedia/version'    # note: let version always go first
 
 require 'kittypedia/links'
-require 'kittyverse/genome_tables'
+require 'kittypedia/genome_tables'
 require 'kittypedia/pages/genes'
+require 'kittypedia/pages/traits'
 
-
+require 'kittypedia/pages/timeline_fancies'
+require 'kittypedia/pages/timeline_purrstiges'
+require 'kittypedia/pages/timeline_traits'
 
 
 

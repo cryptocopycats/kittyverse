@@ -35,5 +35,6 @@ build/
 .rvmrc
 
 
-### skip downloads
+### skip downloads (dl) and output (o) dirs
 /dl/
+/o/

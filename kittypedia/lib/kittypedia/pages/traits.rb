@@ -1,14 +1,5 @@
-# encoding: utf-8
 
-####
-# use:
-#  $ ruby -I ./lib script/traits.rb
-
-
-require 'kittyverse'
-
-
-class TraitsReport
+class TraitsPage
 
 
 def build_part( offset, length )
@@ -110,12 +101,9 @@ end ## method build
 
 
   def save( path )
-    File.open( path, "w" ) do |f|
+    File.open( path, "w:utf-8" ) do |f|
       f.write build
     end
   end
 
-end # class TraitsReport
-
-report = TraitsReport.new
-report.save( "./TRAITS.md" )
+end # class TraitsPage

@@ -6,4 +6,8 @@ lib/kittypedia.rb
 lib/kittypedia/genome_tables.rb
 lib/kittypedia/links.rb
 lib/kittypedia/pages/genes.rb
+lib/kittypedia/pages/timeline_fancies.rb
+lib/kittypedia/pages/timeline_purrstiges.rb
+lib/kittypedia/pages/timeline_traits.rb
+lib/kittypedia/pages/traits.rb
 lib/kittypedia/version.rb

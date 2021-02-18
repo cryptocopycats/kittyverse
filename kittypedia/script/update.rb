@@ -1,5 +1,3 @@
-# encoding: utf-8
-
 ####
 #  "all-in-one" update script
 #
@@ -7,14 +5,32 @@
 #    $ ruby -I ./lib script/update.rb
 
 
-require 'copycats'
+require 'kittypedia'
 
 
-##  see script/genes.rb
-report = GenesReport.new
-report.save( "./GENES.md" )
+page = GenesPage.new
+page.save( "./o/GENES.md" )
 
 
-## see script/traits.rb
-report = TraitsReport.new
-report.save( "./TRAITS.md" 
+page = TraitsPage.new
+page.save( "./o/TRAITS.md" )
+
+
+page = TimelineFanciesPage.new
+File.open( "./o/TIMELINE-FANCIES.md", 'w:utf-8' ) do |f|
+  f.write page.build
+end
+
+page = TimelinePurrstigesPage.new
+File.open( "./o/TIMELINE-PURRSTIGES.md", 'w:utf-8' ) do |f|
+  f.write page.build
+end
+
+page = TimelineTraitsPage.new
+File.open( "./o/TIMELINE-TRAITS.md", "w:utf-8" ) do |f|
+  f.write page.build
+end
+
+
+
+puts "Done."

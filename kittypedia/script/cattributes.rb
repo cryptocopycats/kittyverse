@@ -107,6 +107,6 @@ end
 
 puts buf
 
-File.open( "./CATTRIBUTES.md", "w:utf-8" ) do |f|
+File.open( "./o/CATTRIBUTES.md", "w:utf-8" ) do |f|
   f.write buf
 end
