@@ -8,6 +8,44 @@
   - remove/replace kai, codes, binary with to_s( :kai ), to_s( :code ), to_s( :binary)
 
 
+## Shiny (fancy) cats?
+
+- [ ] add shiny fancies  - special variant for a fancy - why? why not?
+  - see <https://www.cryptokitties.co/search?include=sale,sire,other&search=fancy:%20type:shinyfancy>
+  - see <https://kittyhelper.co/price-floor/shinyfancy/>
+
+
+- Cindi 	1
+- Billie 	2
+- Boris 	1
+- Catseye 	1
+- Chitten 	1
+- Dart 		1
+- Felis 	1
+- LilPurrfect 	1
+- Meuwn 	1
+- Pawvril 	1
+- Shoopadoop 	1
+- Starchild     1
+- Travis        1
+- Zelig         1
+- Furmione 	2
+- Mars	 	2
+- Pepito 	2
+- Potricia 	2
+- Steel 	2
+- Cai	 	4
+- Hunter 	3
+- MissMatheson 	3
+- Pawderick 	3
+- Puuurrot 	3
+- Vince 	4
+- Bartholomeow 	4
+- Bodhi 	4
+- Joan  	4
+
+
+
 
 ## 2021 - New Links
 

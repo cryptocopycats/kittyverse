@@ -2,7 +2,7 @@
 #  "all-in-one" update script
 #
 #  use:
-#    $ ruby -I ./lib script/update.rb
+#    $ ruby -I ./lib -I ../kittyverse/lib script/update.rb
 
 
 require 'kittypedia'

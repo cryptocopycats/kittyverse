@@ -47,13 +47,28 @@ ellie: { name: 'Ellie', date: '2021-01-16',   ## 1st in Elephant series
 dave: { name: 'Dave',   ## todo/check: was time-limited?
           recipe: {
              time: { start: '2020-12-19', end: '?' }, count: 239,
-             traits: ['norwegianforest', 'icy', 'frozen'] },
+             traits: ['norwegianforest', 'icy', 'frozen'],
+        ## todo/fix: add missing variants!!!!
+        variants: {
+          mintyfresh:   { name: 'Minty Fresh',   count: 192 },
+          wintergreen:  { name: 'Winter Green',  count: 26 },
+          berryfestive: { name: 'Berry Festive', count: 21 },
+          ## ????
+        }},
       },
 #  19.12.20 - New fancy - Holly   -- Winter Series
 holly: { name: 'Holly',   ## todo/check: was time-limited?
           recipe: {
              time: { start: '2020-12-19', end: '?' }, count: 261,
-             traits: ['chartreux', 'wingtips', 'icy'] },
+             traits: ['chartreux', 'wingtips', 'icy'],
+            ## todo/fix: add variants!!!!
+            variants: {
+              eggnoglatte:     { name: 'Eggnog Latte',   count: 144 },
+              mintmocha:        { name: 'Mint Mocha',     count: 82 },
+              hotcocoapuff:     { name: 'Hot Cocoa Puff',  count: 16 },
+              gingerbreadlatte: { name: 'Gingerbread Latte', count: 19 },
+              ## ????
+            }},
       },
 #  06.12.20 - New fancy - CatFrost    -- Winter Series
 #  The breeding window for the shiny-enabled Cat Frost ends at 9:50am PT on 12/19

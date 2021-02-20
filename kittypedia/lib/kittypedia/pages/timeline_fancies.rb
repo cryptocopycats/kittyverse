@@ -187,10 +187,15 @@ FANCY_BY_DATE.each do |fancy|
 
     if fancy.recipe.variants
         fancy.recipe.variants.each do |variant_key,variant_h|
-          buf << "      - **#{variant_h[:name]}** (#{variant_h[:count]}), **#{variant_h[:traits].size}** trait:\n"
-          variant_h[:traits].each do |trait_keys|
-            buf << "        - "
-            buf << build_traits( trait_keys )
+          buf << "      - **#{variant_h[:name]}** (#{variant_h[:count]})"
+          if variant_h[:traits]
+            buf << ", **#{variant_h[:traits].size}** trait:\n"
+            variant_h[:traits].each do |trait_keys|
+              buf << "        - "
+              buf << build_traits( trait_keys )
+              buf << "\n"
+            end
+          else    ## note: allow variants without traits
             buf << "\n"
           end
         end
@@ -304,7 +309,7 @@ def build_fancy_media( fancy )
   buf = ""
   if fancy.recipe && fancy.recipe.variants
     fancy.recipe.variants.each do |variant_key,variant_h|
-      name = "#{fancy.name} #{variant_h[:name]}"
+      name = "#{fancy.name} (#{variant_h[:name]})"
 
       buf << %Q{![#{name}](#{media_fancy_pic_url( fancy.key, variant_key )} "#{name}")}
       buf << "\n"
