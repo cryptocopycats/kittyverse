@@ -1,6 +1,6 @@
 ####
 # use:
-#  $ ruby -I ./lib script/json.rb
+#  $ ruby -I ./lib -I ../kittyverse/lib script/json.rb
 
 
 require 'kittyverse'
@@ -17,11 +17,8 @@ end
 #  f.write JSON.pretty_generate( TRAITS_TIMELINE )
 # end
 
-File.open( "#{BUILD_DIR}/fancies.json", 'w:utf-8' ) do |f|
-  f.write JSON.pretty_generate( FANCIES )
-end
 
-## todo: add split off (in new hash) fancies, exclusive & special edition fancies
+## note: split off (in new hash) fancies, exclusive & special edition fancies
 #    - fancies.json (old all - now only "normal" with recipes trait breeding formula)
 #        -> RECIPES
 #    - exclusives.json
@@ -29,7 +26,22 @@ end
 #    - special-editions.json
 #        -> SPECIAL_EDITIONS
 
+File.open( "#{BUILD_DIR}/fancies.json", 'w:utf-8' ) do |f|
+  f.write JSON.pretty_generate( FANCIES )
+end
+
+File.open( "#{BUILD_DIR}/exclusives.json", 'w:utf-8' ) do |f|
+  f.write JSON.pretty_generate( EXCLUSIVES )
+end
+
+File.open( "#{BUILD_DIR}/special-editions.json", 'w:utf-8' ) do |f|
+  f.write JSON.pretty_generate( SPECIAL_EDITIONS )
+end
+
+
 
 File.open( "#{BUILD_DIR}/purrstiges.json", 'w:utf-8' ) do |f|
   f.write JSON.pretty_generate( PURRSTIGES )
 end
+
+puts "bye"
