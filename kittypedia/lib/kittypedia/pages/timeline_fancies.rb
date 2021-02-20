@@ -56,7 +56,7 @@ def build
   buf << "\n\n"
   buf << build_fancies( fancies )
   buf << "\n\n"
-  buf << build_fancies_media( fancies )
+  buf << build_fancies_media( fancies, show_variants: false )  ## note: only show first variant in serries
   buf << "\n\n"
 
 ##################
@@ -305,7 +305,7 @@ def build_fancies( fancies )
 end
 
 
-def build_fancy_media( fancy )
+def build_fancy_media( fancy, show_variants: true )
   buf = ""
   if fancy.recipe && fancy.recipe.variants
     fancy.recipe.variants.each do |variant_key,variant_h|
@@ -313,6 +313,9 @@ def build_fancy_media( fancy )
 
       buf << %Q{![#{name}](#{media_fancy_pic_url( fancy.key, variant_key )} "#{name}")}
       buf << "\n"
+
+      ## note: only display first variant (in the series) if show_variants is set to false
+      break if show_variants == false
     end
   else
     name = "#{fancy.name}"
@@ -324,10 +327,10 @@ def build_fancy_media( fancy )
   buf
 end
 
-def build_fancies_media( fancies )
+def build_fancies_media( fancies, show_variants: true )
   buf = ""
   fancies.each do |fancy|
-    buf << build_fancy_media( fancy )
+    buf << build_fancy_media( fancy, show_variants: show_variants )
   end
   buf
 end
