@@ -22,14 +22,6 @@ end
 Kitties.debug=true
 
 
-c = Kitties::V0::Client.new
-data = c.get_cattributes    ## same as get( '/cattributes' )
-save( "v0/cattributes", data )
-
-data = c.get_kitty( 1 )     ## same as get( '/kitties/1' )
-save( "v0/kitty-1", data )
-
-
 ## note: requires CryptoKitties API Token; set in ENV via KITTIES_TOKEN
 c = Kitties::V1::Client.new
 data = c.get_cattributes  ## same as get( '/cattributes' )

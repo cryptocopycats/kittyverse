@@ -1,12 +1,6 @@
-## std libs
-require 'pp'
-require 'date'
-require 'time'
-require 'json'
-require 'uri'
-require 'net/http'
-require 'net/https'
-require 'fileutils'
+## 3rd party
+require 'webget'
+
 
 
 ## our own code
