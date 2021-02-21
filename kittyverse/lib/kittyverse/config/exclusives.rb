@@ -134,6 +134,8 @@ EXCLUSIVES = {
                      desc: 'France Football World Cup Champion'
                    },
     furlin:        { name: 'Furlin', date: '2018-06-26',
+                       ### todo/fix:
+                       ##  id 130 return 404 NOT FOUND!!!
                      exclusive: {
                        limit: 52, ids: (115..126).to_a + (128..166).to_a }
                    },
