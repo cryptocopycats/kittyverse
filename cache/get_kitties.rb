@@ -8,7 +8,6 @@ require_relative 'helper'
 
 
 
-save_kitty( 1 )
 
 ids = [
  130_809,
@@ -56,7 +55,10 @@ ids = [
 
 ids = [1802,1803,1805,1806,1808,1809,1812,1816]+(1825..1828).to_a
 
-ids.each do |id|
+
+ids = (10_000..100_003).to_a
+ids.each_with_index do |id,i|
+  puts "==> kitty no. #{id} [#{i+1}/#{ids.size}]..."
   save_kitty( id )
 end
 

@@ -28,9 +28,14 @@ def categorize
 
 
      new_out_dir = nil
-     basename    = nil
 
-     kitty_type = data['kitty_type']
+     basename = String.new( '' )
+     basename << ('%06d@%d' % [data['id'],data['generation']])
+
+
+     kitty_type    = data['kitty_type']
+     prestige_type = data['prestige_type']
+
      if kitty_type
 
       fancy_type = nil
@@ -56,23 +61,44 @@ def categorize
       end
 
 
-      basename = String.new( '' )
-
       fancy_ranking = data['fancy_ranking']
       if fancy_ranking
-        basename << "#{fancy_ranking}"
+        basename << "_(#{fancy_ranking}"
 
         variation_ranking = data['variation_ranking']
         if variation_ranking
-          basename << "_#{variation_ranking}"
+          basename << "-#{variation_ranking}"
         end
-
-        basename << "-"
+        basename << ")"
       end
-      basename << "#{data['id']}"
+    elsif prestige_type
+      prestige_type = prestige_type.downcase
+      new_out_dir = "#{out_dir}/prestige/#{prestige_type}"
+
+      prestige_ranking = data['prestige_ranking']
+      if prestige_ranking
+        basename << "_(#{prestige_ranking})"
+      end
     else
       new_out_dir = "#{out_dir}/normal"
-      basename    = "#{data['id']}"
+
+      ## file by blocks fo 100_000
+      ##   e.g. 1-99_999
+      ##        100_000-199_999
+      ##        200_000-299_999
+      id = data['id']
+      block = id / 100_000
+
+      if block == 0  ## special case (starting with 1 NOT 0)
+        new_out_dir << "/1-99999"
+      else
+        new_out_dir << "/#{100_000*block}-#{100_000*block+99_999}"
+      end
+
+      ## and by blocks of 100 subblock of 1000
+      ##   e.g. 000/001/002)
+      subblock = id / 1000
+      new_out_dir << ('/%03d' %  subblock )
     end
 
 

@@ -168,6 +168,9 @@ end
 
 
 
+
+Webget.sleep = 1   ## set delay / sleep to 1 sec(ond)
+
 Kitties.debug=true
 
 CLIENT = Kitties::V0::Client.new
@@ -175,6 +178,7 @@ CLIENT = Kitties::V0::Client.new
 
 KNOWN_404_NOT_FOUND = [
   130,   ## retired Chef Furry exclusive (id NOT reused?)
+  187,
   888,
 ]
 
@@ -187,17 +191,19 @@ def save_kitty( id )
   end
 
 
-  ## out_dir = "./dl"
-  out_dir = "../../cache.kitties.json"
 
-  ## check if exists - if yes, skipp
-  path = "#{out_dir}/#{id}.json"
-  if File.exist?( path )
+  cache_dir = "#{Webcache.root}/api.cryptokitties.co/kitties"
+  ## check if exists - if yes, skip
+  if File.exist?( "#{cache_dir}/#{id}.json" )
     puts "[#{id}]"
   else
     data =  CLIENT.get_kitty( id )     ## same as get( '/kitties/1' )
     data = convert_kitty( data )
 
+    ## out_dir = "./dl"
+    out_dir = "../../cache.kitties.json"
+
+    path = "#{out_dir}/#{id}.json"
     File.open( path, 'w:utf-8' ) do |f|
       f.write JSON.pretty_generate( data )
     end
