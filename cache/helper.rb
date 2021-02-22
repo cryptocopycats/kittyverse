@@ -169,7 +169,7 @@ end
 
 
 
-Webget.sleep = 1   ## set delay / sleep to 1 sec(ond)
+Webget.config.sleep = 1   ## set delay / sleep to 1 sec(ond)
 
 Kitties.debug=true
 
