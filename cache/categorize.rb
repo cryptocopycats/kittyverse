@@ -17,7 +17,8 @@ def categorize
   ## out_dir = "./dl"
   out_dir = "../../cache.kitties.json"
 
-  datafiles = Dir.glob( "#{out_dir}/**/*.json" )
+  ## datafiles = Dir.glob( "#{out_dir}/**/*.json" )
+  datafiles = Dir.glob( "#{out_dir}/*.json" )  ## to speed-up check only "top-level" datafiles
   puts "   #{datafiles.size} datafile(s)"
 
   datafiles.each_with_index do |datafile,i|

@@ -177,14 +177,43 @@ CLIENT = Kitties::V0::Client.new
 
 
 KNOWN_404_NOT_FOUND = [
-  130,   ## retired Chef Furry exclusive (id NOT reused?)
-  187,
-  888,
-]
+  130,        ## retired Chef Furry exclusive (id NOT reused?)
+  (187..200).to_a,
+  (223..230).to_a,
+  (252..259).to_a,
+  (283..302).to_a,
+  (304..385).to_a,
+  (387..395).to_a,
+  (397..401).to_a,
+  (403..500).to_a,
+  (530..531).to_a,
+  (533..542).to_a,
+  544,
+  (546..555).to_a,
+  (557..569).to_a,
+  (571..582).to_a,
+  (584..1000).to_a,
+  (1021..1029).to_a,
+  1150,
+  (1503..1801).to_a,
+  (1813..1815).to_a,
+  (1817..1824).to_a,
+  (1879..2000).to_a,
+  2092,
+  (2785..3000).to_a
+].flatten
+
+
+
+def get_kitty( id )
+  request_uri = "https://api.cryptokitties.co/kitties/#{id}"
+  res = Webget.call( request_uri )
+  res
+end
+
 
 
 def save_kitty( id )
-
   if KNOWN_404_NOT_FOUND.include?( id )
     puts "!! WARN - known 404 kitty not found page; skipping request"
     return
@@ -197,15 +226,24 @@ def save_kitty( id )
   if File.exist?( "#{cache_dir}/#{id}.json" )
     puts "[#{id}]"
   else
-    data =  CLIENT.get_kitty( id )     ## same as get( '/kitties/1' )
-    data = convert_kitty( data )
+    res = get_kitty( id )
 
-    ## out_dir = "./dl"
-    out_dir = "../../cache.kitties.json"
+    if res.status.ok?
+      data = res.json
+      data = convert_kitty( data )
 
-    path = "#{out_dir}/#{id}.json"
-    File.open( path, 'w:utf-8' ) do |f|
-      f.write JSON.pretty_generate( data )
+      ## out_dir = "./dl"
+      out_dir = "../../cache.kitties.json"
+
+      path = "#{out_dir}/#{id}.json"
+      File.open( path, 'w:utf-8' ) do |f|
+        f.write JSON.pretty_generate( data )
+      end
+    else
+      puts "!! ERROR: HTTP #{res.status.code} #{res.status.message}:"
+      File.open( "./dl/log.txt", 'a:utf-8' ) do |f|
+        f.write "#{id} kitty - !! HTTP ERROR - #{res.status.code} #{res.status.message}\n"
+      end
     end
   end
 end

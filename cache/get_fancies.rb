@@ -17,6 +17,4 @@ EXCLUSIVES.each do |_,rec|
 end
 
 
-
-
 puts "bye"

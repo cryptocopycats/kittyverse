@@ -55,8 +55,8 @@ ids = [
 
 ids = [1802,1803,1805,1806,1808,1809,1812,1816]+(1825..1828).to_a
 
-
-ids = (10_000..100_003).to_a
+## ids = (6_526..10_000).to_a
+ids = (22_900..100_003).to_a
 ids.each_with_index do |id,i|
   puts "==> kitty no. #{id} [#{i+1}/#{ids.size}]..."
   save_kitty( id )
