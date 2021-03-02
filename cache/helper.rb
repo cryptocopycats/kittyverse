@@ -207,7 +207,13 @@ KNOWN_404_NOT_FOUND = [
 
 def get_kitty( id )
   request_uri = "https://api.cryptokitties.co/kitties/#{id}"
-  res = Webget.call( request_uri )
+  ## res = Webget.call( request_uri )
+
+  ## note: do NOT cache any longer for now - why? why not?
+  puts "sleep 0.5 secs..."
+  sleep( 0.5 ) # half a second
+
+  res = Webclient.get( request_uri )
   res
 end
 
@@ -220,24 +226,42 @@ def save_kitty( id )
   end
 
 
-
+=begin
   cache_dir = "#{Webcache.root}/api.cryptokitties.co/kitties"
   ## check if exists - if yes, skip
   if File.exist?( "#{cache_dir}/#{id}.json" )
     puts "[#{id}]"
-  else
-    res = get_kitty( id )
+    return
+  end
+=end
+
+   res = get_kitty( id )
 
     if res.status.ok?
       data = res.json
-      data = convert_kitty( data )
 
-      ## out_dir = "./dl"
-      out_dir = "../../cache.kitties.json"
+      ## base check that we got a kitty
+      unless data['id'] == id
+        puts "!! ERROR: unknow respone shape; expected kitty #{id}:"
+        pp data
+        exit 1
+      end
 
-      path = "#{out_dir}/#{id}.json"
-      File.open( path, 'w:utf-8' ) do |f|
-        f.write JSON.pretty_generate( data )
+      ### note: skip normies for now
+      ##   only save
+      ##   exclusive, fancy, prestige, etc.
+
+      if data['kitty_type'] || data['prestige_type']
+
+        data = convert_kitty( data )
+
+        ## out_dir = "./dl"
+        out_dir = "../../cache.kitties.json"
+
+        path = "#{out_dir}/#{id}.json"
+        File.open( path, 'w:utf-8' ) do |f|
+          f.write JSON.pretty_generate( data )
+        end
       end
     else
       puts "!! ERROR: HTTP #{res.status.code} #{res.status.message}:"
@@ -245,8 +269,5 @@ def save_kitty( id )
         f.write "#{id} kitty - !! HTTP ERROR - #{res.status.code} #{res.status.message}\n"
       end
     end
-  end
 end
-
-
 

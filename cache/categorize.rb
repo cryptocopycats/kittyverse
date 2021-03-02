@@ -106,11 +106,18 @@ def categorize
     new_path = "#{new_out_dir}/#{basename}.json"
 
       ## note: only move if new file (lets you rerun)
-      unless File.exist?( new_path )
-        FileUtils.mkdir_p( new_out_dir )  ## make sure path exits
-        puts "  move to >#{new_path}<"
-        File.rename( datafile, new_path )
+      if File.exist?( new_path )
+         puts "!! WARN - already exits >#{new_path}<:"
+         pp datafile
+
+         ## move to trash
+         File.rename( new_path, "#{out_dir}/trash/#{File.basename( new_path )}" )
       end
+
+      FileUtils.mkdir_p( new_out_dir )  ## make sure path exits
+      puts "  move to >#{new_path}<"
+      File.rename( datafile, new_path )
+
   end
 end
 
