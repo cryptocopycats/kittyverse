@@ -1,0 +1,30 @@
+require 'hoe'
+require './lib/kittyverse/graphql/version.rb'
+
+Hoe.spec 'kittyverse-graphql' do
+
+  self.version = KittyverseGraphqlClient::VERSION
+
+  self.summary = "kittyverse-graphql - (lite) web client (helpers) for using CryptoKitties (HTTP JSON) GraphQL APIs"
+  self.description = summary
+
+  self.urls    = { home: 'https://github.com/cryptocopycats/kittyverse' }
+
+  self.author  = 'Gerald Bauer'
+  self.email   = 'wwwmake@googlegroups.com'
+
+  # switch extension to .markdown for gihub formatting
+  self.readme_file  = 'README.md'
+  self.history_file = 'CHANGELOG.md'
+
+  self.extra_deps = [
+    ['webclient'],
+  ]
+
+  self.licenses = ['Public Domain']
+
+  self.spec_extras = {
+    required_ruby_version: '>= 2.3'
+  }
+
+end
