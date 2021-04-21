@@ -241,4 +241,4 @@ Use it as you please with no restrictions whatsoever.
 ## Questions? Comments?
 
 
-Post them on the [cryptokitties reddit](https://www.reddit.com/r/cryptokitties). Thanks.
+Post them on the [CryptoKittiesDev reddit](https://old.reddit.com/r/CryptoKittiesDev). Thanks.
